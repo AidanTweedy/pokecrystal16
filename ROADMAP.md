@@ -10,7 +10,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Hoenn Pokemon species
 - [ ] Later generation evolutions (Magnezone, Togekiss, etc.)
 - [ ] Dewford Town addition
-- [ ] Running shoes
+- [x] Running shoes
 - [ ] Physical/Special split
 - [ ] Revisit Pokemon stats
 - [ ] Revisit Pokemon learnsets
