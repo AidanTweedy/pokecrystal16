@@ -107,4 +107,7 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
+; new 
+	dba Music_Steven
+	dba Music_DewfordTown
 	assert_table_length NUM_MUSIC_SONGS
