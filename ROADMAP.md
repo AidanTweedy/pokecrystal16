@@ -19,21 +19,22 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Story modifications (more compelling Rocket arc, Rival, etc.)
 - [ ] Moves from later generations
 - [ ] Titlescreen/Credits
-- [ ] Pokemon abilities (incl. Ability Capsule)
-- [ ] Pokemon natures 
 - [ ] Rare Candy method
-- [ ] View IVs 
+- [x] View DVs 
+- [x] Fourth stat screen
 - [ ] Move reminder/forgetter (easier access)
 - [ ] New TMs
 - [ ] Berry store
 - [ ] Larger bag
+- [ ] Unlimited TM usage
 
 ## Stretch Goals
 
 - [ ] Battle backgrounds
+- [ ] Pokemon abilities (incl. Ability Capsule)
+- [ ] Pokemon natures 
 
 ## Uncertain/Undecided
 
 - [ ] Level caps
 - [ ] Change starters
-- [ ] Unlimited TM usage

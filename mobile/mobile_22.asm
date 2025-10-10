@@ -2728,7 +2728,7 @@ MenuData_0x8a1a2:
 	db 3 ; items
 	db "ひらく@"
 	db "すてる@"
-	db "もどる@"
+	db "も♥る@"
 
 Function8a1b0:
 	hlcoord 0, 12
@@ -2753,7 +2753,7 @@ Strings_8a1cc:
 	next "あんしょうばんごう<WO>けします"
 	db   "@"
 
-	db   "まえ<NO>がめん<NI>もどります"
+	db   "まえ<NO>がめん<NI>も♥ります"
 	db   "@"
 
 Function8a20d:
@@ -3064,7 +3064,7 @@ Function8a453:
 	ret
 
 String_8a476:
-	db   "まえ<NO>がめん<NI>もどります@"
+	db   "まえ<NO>がめん<NI>も♥ります@"
 
 Strings_8a483:
 	db   "おともだち<NO>めいしは"

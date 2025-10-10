@@ -5793,7 +5793,7 @@ MenuHeader_11ae38:
 	db 0 ; default option
 
 String_11ae40:
-	db   "どちらでも"
+	db   "♥ちらでも"
 	next "♂オス"
 	next "♀メス"
 	db   "@"

@@ -1,8 +1,9 @@
-	const_def 1
-	const PINK_PAGE  ; 1
-	const GREEN_PAGE ; 2
-	const BLUE_PAGE  ; 3
-DEF NUM_STAT_PAGES EQU const_value - 1
+	const_def
+	const PINK_PAGE  ; 0
+	const GREEN_PAGE ; 1
+	const BLUE_PAGE  ; 2
+	const ORANGE_PAGE; 3
+DEF NUM_STAT_PAGES EQU const_value
 
 DEF STAT_PAGE_MASK EQU %00000011
 	const_def 4
@@ -66,12 +67,7 @@ StatsScreenInit_gotaddress:
 StatsScreenMain:
 	xor a
 	ld [wJumptableIndex], a
-	ld [wStatsScreenFlags], a
-
-	ld a, [wStatsScreenFlags]
-	and ~STAT_PAGE_MASK
-	or PINK_PAGE ; first_page
-	ld [wStatsScreenFlags], a
+	ld [wStatsScreenFlags], a ; PINK PAGE
 
 .loop
 	ld a, [wJumptableIndex]
@@ -87,12 +83,7 @@ StatsScreenMain:
 StatsScreenMobile:
 	xor a
 	ld [wJumptableIndex], a
-	ld [wStatsScreenFlags], a
-
-	ld a, [wStatsScreenFlags]
-	and ~STAT_PAGE_MASK
-	or PINK_PAGE ; first_page
-	ld [wStatsScreenFlags], a
+	ld [wStatsScreenFlags], a ; PINK PAGE
 
 .loop
 	farcall Mobile_SetOverworldDelay
@@ -356,20 +347,22 @@ StatsScreen_JoypadAction:
 
 .a_button
 	ld a, c
-	cp BLUE_PAGE ; last page
+	cp ORANGE_PAGE ; last page
 	jr z, .b_button
 .d_right
 	inc c
-	ld a, BLUE_PAGE ; last page
+	ld a, ORANGE_PAGE ; last page
 	cp c
 	jr nc, .set_page
 	ld c, PINK_PAGE ; first page
 	jr .set_page
 
 .d_left
+	ld a, c
 	dec c
+	and a ; cp PINK_PAGE ; first page
 	jr nz, .set_page
-	ld c, BLUE_PAGE ; last page
+	ld c, ORANGE_PAGE ; last page
 	jr .set_page
 
 .prev_storage
@@ -508,7 +501,7 @@ StatsScreen_PlaceHorizontalDivider:
 	ret
 
 StatsScreen_PlacePageSwitchArrows:
-	hlcoord 12, 6
+	hlcoord 10, 6
 	ld [hl], "◀"
 	hlcoord 19, 6
 	ld [hl], "▶"
@@ -564,7 +557,6 @@ StatsScreen_LoadGFX:
 .PageTilemap:
 	ld a, [wStatsScreenFlags]
 	maskbits NUM_STAT_PAGES
-	dec a
 	ld hl, .Jumptable
 	rst JumpTable
 	ret
@@ -575,6 +567,7 @@ StatsScreen_LoadGFX:
 	dw LoadPinkPage
 	dw LoadGreenPage
 	dw LoadBluePage
+	dw LoadOrangePage
 	assert_table_length NUM_STAT_PAGES
 
 LoadPinkPage:
@@ -765,6 +758,7 @@ LoadGreenPage:
 	db "MOVE@"
 
 LoadBluePage:
+	call StatsScreen_PrintHappiness
 	call .PlaceOTInfo
 	hlcoord 10, 8
 	ld de, SCREEN_WIDTH
@@ -819,6 +813,271 @@ LoadBluePage:
 	dw wBufferMonOT ; unused
 	dw wBufferMonOT ; unused
 	dw wBufferMonOT
+
+StatsScreen_PrintHappiness:
+	hlcoord 1, 15
+	ld [hl], $34 ; TODO make heart
+
+	hlcoord 3, 15
+	lb bc, 1, 3
+	ld de, wTempMonHappiness
+	call PrintNum
+	ld de, .outofMaxLoveString
+	hlcoord 4, 16
+	call PlaceString
+	ret
+.outofMaxLoveString:
+	db "/255@"
+
+LoadOrangePage:
+	call StatsScreen_PrintDVs
+	call .placeCaughtLocation
+	ld de, MetAtMapString
+	hlcoord 1, 12
+	call PlaceString
+	call .placeCaughtLevel
+	ld de, HiddenPowerTypeString
+	hlcoord 1, 17
+	call PlaceString
+
+	ld hl, wTempMonDVs
+	; Type:
+
+	; Def & 3
+	ld a, [hl]
+	and %0011
+	ld b, a
+
+	; + (Atk & 3) << 2
+	ld a, [hl]
+	and %0011 << 4
+	swap a
+	add a
+	add a
+	or b
+
+	; Skip Normal
+	inc a
+
+	; Skip Bird
+	cp BIRD
+	jr c, .done
+	inc a
+
+	; Skip unused types
+	cp UNUSED_TYPES
+	jr c, .done
+	add UNUSED_TYPES_END - UNUSED_TYPES
+
+.done
+    ld [wNamedObjectIndex], a
+	farcall GetTypeName
+	ld de, wStringBuffer1
+	hlcoord 8, 17
+	call PlaceString
+	ret
+
+.placeCaughtLocation
+	ld a, [wTempMonCaughtLocation]
+	and CAUGHT_LOCATION_MASK
+	jr z, .unknown_location
+	cp LANDMARK_EVENT
+	jr z, .unknown_location
+	cp LANDMARK_GIFT
+	jr z, .unknown_location
+	ld e, a
+	farcall GetLandmarkName
+	ld de, wStringBuffer1
+	hlcoord 2, 13
+	call PlaceString
+	ld a, [wTempMonCaughtTime]
+	and CAUGHT_TIME_MASK
+	ret z ; no time
+	rlca
+	rlca
+	dec a
+	ld hl, .times
+	call GetNthString
+	ld d, h
+	ld e, l
+	call CopyName1
+	ld de, wStringBuffer2
+	hlcoord 2, 14
+	call PlaceString
+	ret
+
+.unknown_location:
+	ld de, MetUnknownMapString
+	hlcoord 2, 13
+	call PlaceString
+	ret
+
+.times
+	db "MORN@"
+	db "DAY@"
+	db "NITE@"
+
+.placeCaughtLevel
+	; caught level
+	; Limited to between 1 and 63 since it's a 6-bit quantity.
+	ld a, [wTempMonCaughtLevel]
+	and CAUGHT_LEVEL_MASK
+	jr z, .unknown_level
+	cp CAUGHT_EGG_LEVEL ; egg marker value
+	jr nz, .print
+	ld a, EGG_LEVEL ; egg hatch level
+
+.print
+	ld [wTextDecimalByte], a
+	hlcoord 3, 15
+	ld de, wTextDecimalByte
+	lb bc, PRINTNUM_LEFTALIGN | 1, 3
+	call PrintNum
+	hlcoord 2, 15
+	ld [hl], "<LV>"
+	ret
+
+.unknown_level
+	ld de, MetUnknownLevelString
+	hlcoord 2, 15
+	call PlaceString
+	ret
+
+MetAtMapString:
+	db "MET AT:@"
+
+MetUnknownMapString:
+	db "UNKNOWN@"
+ 
+MetUnknownLevelString:
+	db "???@"
+
+StatsScreen_PrintDVs:
+	hlcoord 1, 9
+	ld de, .DVstring3
+	call PlaceString
+	hlcoord 1, 10
+	ld de, .DVstring4
+	call PlaceString
+	; hlcoord 1, 14
+	; ld de, .DVstring3
+	; call PlaceString
+
+	; we're using wPokedexStatus because why not, nobody using it atm lol
+	; ATK DV
+	ld a, [wTempMonDVs] ; only get the first byte of the word
+	and %11110000 ; most significant nybble of first byte in word-sized wTempMonDVs
+	swap a ; so we can print it properly
+	ld [wPokedexStatus], a
+	ld c, 0
+	; calc HP stat contribution
+	and 1 ; a still has the ATK DV
+	jr z, .atk_not_odd
+	ld a, 0
+	add 8
+	ld b, 0
+	ld c, a
+	;
+.atk_not_odd
+	push bc
+	ld de, wPokedexStatus
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
+	hlcoord 5, 10
+	call PrintNum
+
+	db "  @"
+
+	; DEF DV
+	ld a, [wTempMonDVs] ; only get the first byte of the word
+	and %00001111 ; least significant nybble, don't need to swap the bits of the byte
+	ld [wPokedexStatus], a ;DEF
+	; calc HP stat contribution
+	pop bc
+	and 1 ; a still has the DEF DV
+	jr z, .def_not_odd
+	ld a, c
+	add 4
+	ld b, 0
+	ld c, a
+	;
+.def_not_odd
+	push bc
+	ld de, wPokedexStatus
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
+	hlcoord 9, 10
+	call PrintNum
+
+	; SPE DV
+	ld a, [wTempMonDVs + 1] ; second byte of word
+	and %11110000 ; most significant nybble of 2nd byte in word-sized wTempMonDVs
+	swap a ; so we can print it properly
+	ld [wPokedexStatus], a ;SPEED
+	; calc HP stat contribution
+	pop bc
+	and 1 ; a still has the SPEED DV
+	jr z, .speed_not_odd
+	ld a, c
+	add 2
+	ld b, 0
+	ld c, a
+	;
+.speed_not_odd
+	push bc
+	ld de, wPokedexStatus
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
+	hlcoord 17, 10 ; 1, 5, 9, 13
+	call PrintNum
+
+	; SPC DV
+	ld a, [wTempMonDVs + 1] ; second byte of word
+	and %00001111 ; least significant nybble, don't need to swap the bits of the byte
+	ld [wPokedexStatus], a ;SPC
+	; calc HP stat contribution
+	pop bc
+	and 1 ; a still has the DEF DV
+	jr z, .spc_not_odd
+	ld a, c
+	add 1
+	ld b, 0
+	ld c, a
+	;
+.spc_not_odd
+	push bc
+	ld de, wPokedexStatus
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
+	hlcoord 13, 10
+	call PrintNum
+	; hlcoord 18, 15 ; 1, 4, 7, 10, 13 
+	; call PrintNum
+
+	; HP
+	; HP DV is determined by the last bit of each of these four DVs
+	; odd Attack DV adds 8, Defense adds 4, Speed adds 2, and Special adds 1
+	;For example, a Lugia with the DVs 5 Atk, 15 Def, 13 Spe, and 13 Spc will have:
+	; 5 Attack = Odd, HP += 8
+	; 15 Defense = Odd, HP += 4
+	; 13 Speed = Odd, HP += 2
+	; 13 Special = Odd, HP += 1
+	;resulting in an HP stat of 15
+	; THANKS SMOGON
+	; going to "and 1" each final value and push a counter to stack to preserve it
+	pop bc
+	ld a, c
+	ld [wPokedexStatus], a
+	ld de, wPokedexStatus
+	lb bc, PRINTNUM_LEADINGZEROS | 1, 2 ; bytes, digits
+	hlcoord 1, 10 ; 1, 4, 7, 10, 13 
+	call PrintNum
+
+	ret
+
+.DVstring3:
+ 	db "HP ATK DEF SPC SPE @"
+.DVstring4:
+ 	db "                   @"
+
+HiddenPowerTypeString:
+	db "POWER:@"
 
 IDNoString:
 	db "<ID>№.@"
@@ -1113,6 +1372,9 @@ StatsScreen_AnimateEgg:
 	ret
 
 StatsScreen_LoadPageIndicators:
+	hlcoord 11, 5
+	ld a, $36 ; " " " "
+	call .load_square
 	hlcoord 13, 5
 	ld a, $36 ; first of 4 small square tiles
 	call .load_square
@@ -1123,13 +1385,19 @@ StatsScreen_LoadPageIndicators:
 	ld a, $36 ; " " " "
 	call .load_square
 	ld a, c
+	cp PINK_PAGE
+	hlcoord 11, 5
+	jr z, .load_highlighted_square
 	cp GREEN_PAGE
+	hlcoord 13, 5
+	jr z, .load_highlighted_square
+	cp BLUE_PAGE
+	hlcoord 15, 5
+	jr z, .load_highlighted_square
+	; must be ORANGE_PAGE
+	hlcoord 17, 5
+.load_highlighted_square
 	ld a, $3a ; first of 4 large square tiles
-	hlcoord 13, 5 ; PINK_PAGE (< GREEN_PAGE)
-	jr c, .load_square
-	hlcoord 15, 5 ; GREEN_PAGE (= GREEN_PAGE)
-	jr z, .load_square
-	hlcoord 17, 5 ; BLUE_PAGE (> GREEN_PAGE)
 .load_square
 	push bc
 	ld [hli], a

@@ -15,8 +15,10 @@ The following keeps track of specific credits for assets and features.
 
 - `pokecrystal` Community
 - Official Pret Discord
+- [Pokemon Crystal Legacy](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy)
 
 ---
 
 ## Tutorials
 - [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
+- [Add a Fourth Stats Page](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)

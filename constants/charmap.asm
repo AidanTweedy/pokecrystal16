@@ -261,7 +261,7 @@
 	charmap "ぢ", $31
 	charmap "づ", $32
 	charmap "で", $33
-	charmap "ど", $34
+	charmap "♥",  $34
 
 	charmap "ば", $3a
 	charmap "び", $3b
