@@ -26,7 +26,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] New TMs
 - [ ] Berry store
 - [ ] Larger bag
-- [ ] Unlimited TM usage
+- [x] Unlimited TM usage
 
 ## Stretch Goals
 
