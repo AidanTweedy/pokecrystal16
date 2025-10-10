@@ -670,7 +670,7 @@ Function4ad68:
 String_4ad88:
 	db   "つよさをみる"
 	next "つかえるわざ"
-	next "もどる@"
+	next "も♥る@"
 
 String_4ad9a:
 	db   "さんかする@"
@@ -680,7 +680,7 @@ String_4ada0:
 
 String_4ada7:
 	db   "つよさをみる"
-	next "もどる@" ; BACK
+	next "も♥る@" ; BACK
 
 Function4adb2:
 	ld hl, wd002

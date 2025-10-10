@@ -4945,7 +4945,7 @@ MobileErrorCode_101_002_Text:
 ; Please try again from the beginning (of the process).
 	db   "つうしんが　うまく"
 	next "できませんでした"
-	next "もういちど　はじめから"
+	next "もういち♥　はじめから"
 	next "やりなおしてください"
 	db   "@"
 
@@ -4994,7 +4994,7 @@ MobileErrorCode_101_000_Text:
 	db   "つうしんの　じょうきょうが"
 	next "よくないか　かけるあいてが"
 	next "まちがっています"
-	next "もういちど　かくにんをして"
+	next "もういち♥　かくにんをして"
 	next "でんわを　かけなおして　ください"
 	db   "@"
 

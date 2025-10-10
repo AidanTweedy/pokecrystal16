@@ -638,7 +638,7 @@ Hiroshima: db "ひろしまけん@" ; Hiroshima
 Fukui:     db "ふくいけん@"   ; Fukui
 Fukuoka:   db "ふくおかけん@" ; Fukuoka
 Fukushima: db "ふくしまけん@" ; Fukushima
-Hokkaido:  db "ほっかいどう@" ; Hokkaido
+Hokkaido:  db "ほっかい♥う@" ; Hokkaido
 Mie:       db "みえけん@"     ; Mie
 Miyagi:    db "みやぎけん@"   ; Miyagi
 Miyazaki:  db "みやざきけん@" ; Miyazaki

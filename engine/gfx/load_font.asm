@@ -136,9 +136,13 @@ StatsScreen_LoadFont:
 	ld hl, vTiles2 tile $55
 	lb bc, BANK(ExpBarGFX), 8
 	call Get2bppViaHDMA
+	ld de, FontBattleExtra + 17 tiles ; Starting at the 18th Tile of the FontBattleExtra PNG
+	ld hl, vTiles2 tile $71 ; loading that 18th Tile into Tile $71
+	lb bc, BANK(FontBattleExtra), 4 ; 4 Tiles, left arrow, ID + No. Tiles
+	call Get2bppViaHDMA
 LoadStatsScreenPageTilesGFX:
 	ld de, StatsScreenPageTilesGFX
 	ld hl, vTiles2 tile $31
-	lb bc, BANK(StatsScreenPageTilesGFX), 17
+	lb bc, BANK(StatsScreenPageTilesGFX), 19
 	call Get2bppViaHDMA
 	ret

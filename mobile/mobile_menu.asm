@@ -104,7 +104,7 @@ MobileString1:
 	next "あいさつ"
 	next "プロフィール"
 	next "せ<TTE>い"
-	next "もどる"
+	next "も♥る"
 	db   "@"
 
 MobileStrings2:
@@ -122,7 +122,7 @@ String_0x49fe9:
 	db  "モバイルセンター<NI>せつぞくするとき"
 	next "ひつような　こと<WO>きめます@"
 ; string 4
-	db   "まえ<NO>がめん　<NI>もどります"
+	db   "まえ<NO>がめん　<NI>も♥ります"
 	next "@"
 
 MobileMenu_InitMenuBuffers:
@@ -327,7 +327,7 @@ asm_4a19d:
 String_4a1ef:
 	db   "モバイルセンター<WO>えらぶ"
 	next "ログインパスワード<WO>いれる"
-	next "もどる@"
+	next "も♥る@"
 
 Function4a20e:
 	ld a, $1
@@ -361,7 +361,7 @@ Strings_4a23d:
 	db   "モバイルセンター<NI>せつぞくするとき"
 	next "つかうパスワード<WO>ほぞんできます@"
 
-	db   "まえ<NO>がめん　<NI>もどります@"
+	db   "まえ<NO>がめん　<NI>も♥ります@"
 
 	db   "@"
 
@@ -449,7 +449,7 @@ MenuHeader_0x4a346: ; unreferenced
 String_4a34b:
 	db   "いれなおす"
 	next "けす"
-	next "もどる@"
+	next "も♥る@"
 
 DeleteSavedLoginPasswordText:
 	text_far _DeleteSavedLoginPasswordText
@@ -759,7 +759,7 @@ String_4a5da:
 String_4a5e6:
 	db "たいせん　<NI>まけたとき@"
 String_4a5f2:
-	db "もどる@"
+	db "も♥る@"
 
 Strings_4a5f6:
 	db "めいし　や　ニュース　<NI>のせる@"
@@ -770,7 +770,7 @@ Strings_4a5f6:
 	db "あいて<NI>みえる　あいさつです@"
 	db "モバイル　たいせんで　まけたとき@"
 	db "あいて<NI>みえる　あいさつです@"
-	db "まえ<NO>がめん　<NI>もどります@"
+	db "まえ<NO>がめん　<NI>も♥ります@"
 	db "@"
 
 Function4a680:
