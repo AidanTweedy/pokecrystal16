@@ -23,3 +23,4 @@ The following keeps track of specific credits for assets and features.
 - [Running Shoes](https://github.com/pret/pokecrystal/wiki/Running-Shoes)
 - [Add a Fourth Stats Page](https://github.com/pret/pokecrystal/wiki/Add-a-fourth-stats-page)
 - [Infinitely reusable TMs](https://github.com/pret/pokecrystal/wiki/Infinitely-reusable-TMs)
+- [Physical-Special split](https://github.com/pret/pokecrystal/wiki/Physical-Special-split)
