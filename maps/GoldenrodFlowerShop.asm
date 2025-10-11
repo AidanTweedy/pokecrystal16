@@ -1,6 +1,7 @@
 	object_const_def
 	const GOLDENRODFLOWERSHOP_TEACHER
 	const GOLDENRODFLOWERSHOP_FLORIA
+	const GOLDENRODFLOWERSHOP_CLERK
 
 GoldenrodFlowerShop_MapScripts:
 	def_scene_scripts
@@ -70,6 +71,13 @@ FlowerShopFloriaScript:
 .FoughtSudowoodo:
 	writetext GoldenrodFlowerShopFloriaItReallyWasAMonText
 	waitbutton
+	closetext
+	end
+
+GoldenrodFlowerShopClerkScript:
+	faceplayer
+	opentext
+	pokemart MARTTYPE_BERRY, MART_GOLDENROD_BERRY
 	closetext
 	end
 
@@ -168,3 +176,4 @@ GoldenrodFlowerShop_MapEvents:
 	def_object_events
 	object_event  2,  4, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FlowerShopTeacherScript, -1
 	object_event  5,  6, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FlowerShopFloriaScript, EVENT_FLORIA_AT_FLOWER_SHOP
+	object_event  4,  1, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodFlowerShopClerkScript, -1

@@ -11,6 +11,7 @@ Marts:
 	dw MartGoldenrod3F
 	dw MartGoldenrod4F
 	dw MartGoldenrod5F
+	dw MartGoldenrodBerry
 	dw MartOlivine
 	dw MartEcruteak
 	dw MartMahogany1
@@ -135,6 +136,16 @@ MartGoldenrod5F:
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
+	db -1 ; end
+
+MartGoldenrodBerry:
+	db 6 ; # items
+	db BERRY
+	db PSNCUREBERRY
+	db PRZCUREBERRY
+	db MINT_BERRY
+	db ICE_BERRY
+	db BITTER_BERRY
 	db -1 ; end
 
 MartOlivine:
