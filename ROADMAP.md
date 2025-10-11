@@ -11,7 +11,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Later generation evolutions (Magnezone, Togekiss, etc.)
 - [ ] Dewford Town addition
 - [x] Running shoes
-- [ ] Physical/Special split
+- [x] Physical/Special split
 - [ ] Revisit Pokemon stats
 - [ ] Revisit Pokemon learnsets
 - [ ] Revisit wild encounters
