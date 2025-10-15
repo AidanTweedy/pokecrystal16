@@ -603,7 +603,7 @@ _PharmacyComeAgainText::
 	done
 
 BerryShop_IntroText::
-	text "Hi!"
+	text "Hiya!"
 
 	para "I found some"
 	line "BERRIES outside."
