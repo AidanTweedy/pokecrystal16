@@ -602,6 +602,45 @@ _PharmacyComeAgainText::
 	line "See you around."
 	done
 
+BerryShop_IntroText::
+	text "Hiya!"
+
+	para "I found some"
+	line "BERRIES outside."
+
+	para "Would you like"
+	line "to buy some?"
+	done
+
+BerryShop_ComeAgainText::
+	text "See ya later!"
+	done
+
+BerryShop_HowManyText::
+	text "How many do"
+	line "you want?"
+	done
+
+BerryShop_CostsThisMuchText::
+	text "That will be"
+	line "¥@"
+	text_decimal hMoneyTemp, 3, 6
+	text "."
+	done
+
+BerryShop_InsufficientFundsText::
+	text "That's not enough!"
+	done
+
+BerryShop_BagFullText::
+	text "Uh oh, you don't"
+	line "have space!"
+	done
+
+BerryShop_HereYouGoText::
+	text "Here you go!"
+	done
+
 _NothingToSellText::
 	text "You don't have"
 	line "anything to sell."

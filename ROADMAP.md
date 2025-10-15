@@ -24,7 +24,8 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Fourth stat screen
 - [ ] Move reminder/forgetter (easier access)
 - [ ] New TMs
-- [ ] Berry store
+- [x] Berry store
+- [x] Berry slot
 - [ ] Larger bag
 - [x] Unlimited TM usage
 
