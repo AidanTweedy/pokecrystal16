@@ -25,6 +25,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Move reminder/forgetter (easier access)
 - [ ] New TMs
 - [x] Berry store
+- [x] Berry slot
 - [ ] Larger bag
 - [x] Unlimited TM usage
 
