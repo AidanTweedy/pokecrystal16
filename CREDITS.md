@@ -26,3 +26,4 @@ The following keeps track of specific credits for assets and features.
 - [Physical-Special split](https://github.com/pret/pokecrystal/wiki/Physical-Special-split)
 - [Add a new Mart](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
 - [Add a new Pack pocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
+- [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
