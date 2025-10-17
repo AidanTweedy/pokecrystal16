@@ -28,6 +28,15 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Berry slot
 - [ ] Larger bag
 - [x] Unlimited TM usage
+- [ ] Overworld weather
+- [x] Short low-health beep
+- [x] "Max" text speed
+- [x] Automatic repels
+- [x] Fast Pokemon Center healing
+- [x] Remove Pokemon fleeing
+- [x] Fix trainer card leader heads
+- [ ] Field moves/Revisit HM usage
+- [x] Increase shiny odds to 1/4096
 
 ## Stretch Goals
 

@@ -12,10 +12,10 @@ CheckShininess:
 	ld l, c
 	ld h, b
 
-; Attack
-	ld a, [hl]
-	and SHINY_ATK_MASK << 4
-	jr z, .not_shiny
+; Attack - remove attack check to double shiny odds
+;	ld a, [hl]
+;	and SHINY_ATK_MASK << 4
+;	jr z, .not_shiny
 
 ; Defense
 	ld a, [hli]
