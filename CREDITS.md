@@ -27,3 +27,4 @@ The following keeps track of specific credits for assets and features.
 - [Add a new Mart](https://github.com/pret/pokecrystal/wiki/Add-a-new-Mart)
 - [Add a new Pack pocket](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pack-pocket)
 - [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
+- [Short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
