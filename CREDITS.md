@@ -29,3 +29,4 @@ The following keeps track of specific credits for assets and features.
 - [Automatically reuse Repel](https://github.com/pret/pokecrystal/wiki/Automatically-reuse-Repel)
 - [Short beeping noise for low HP](https://github.com/pret/pokecrystal/wiki/Short-beeping-noise-for-low-HP)
 - [Show the tops of leaders heads on the trainer card](https://github.com/pret/pokecrystal/wiki/Show-the-tops-of-leaders-heads-on-the-trainer-card)
+- [Add a new text scrolling speed](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed) 
