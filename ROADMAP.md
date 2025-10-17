@@ -29,6 +29,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Larger bag
 - [x] Unlimited TM usage
 - [ ] Overworld weather
+- [x] Weather icon
 - [x] Short low-health beep
 - [x] "Max" text speed
 - [x] Automatic repels
