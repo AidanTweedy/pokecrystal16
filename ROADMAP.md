@@ -38,6 +38,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Fix trainer card leader heads
 - [ ] Field moves/Revisit HM usage
 - [x] Increase shiny odds to 1/4096
+- [x] Dynamic battle palette
 
 ## Stretch Goals
 

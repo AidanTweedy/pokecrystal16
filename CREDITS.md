@@ -8,6 +8,7 @@ The following keeps track of specific credits for assets and features.
 - dannye - crystal-tracker
 - Tom Wang - Chris Running Sprite
 - Seasick - Kris Running Sprite
+- FIQ - Dynamic Battle Palette System
 
 ---
 
