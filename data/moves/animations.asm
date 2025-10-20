@@ -505,6 +505,7 @@ BattleAnim_Slp:
 	anim_ret
 
 BattleAnim_Brn:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop
 	anim_sound 0, 0, SFX_BURN
@@ -525,6 +526,8 @@ BattleAnim_Psn:
 	anim_ret
 
 BattleAnim_Sap:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_LIME
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $6, $0
 	anim_1gfx BATTLE_ANIM_GFX_CHARGE
 	anim_sound 6, 3, SFX_WATER_GUN
 	anim_obj BATTLE_ANIM_OBJ_ABSORB, 128, 48, $2
@@ -538,6 +541,7 @@ BattleAnim_Sap:
 	anim_ret
 
 BattleAnim_Frz:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
 	anim_1gfx BATTLE_ANIM_GFX_ICE
 	anim_obj BATTLE_ANIM_OBJ_FROZEN, 44, 110, $0
 	anim_sound 0, 0, SFX_SHINE
@@ -857,6 +861,7 @@ BattleAnim_SuperFang:
 	anim_ret
 
 BattleAnim_Ember:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EMBER
 	anim_obj BATTLE_ANIM_OBJ_EMBER, 64, 96, $12
@@ -885,6 +890,7 @@ BattleAnim_FirePunch:
 	anim_ret
 
 BattleAnim_FireSpin:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop
 	anim_sound 6, 2, SFX_EMBER
@@ -904,6 +910,7 @@ BattleAnim_FireSpin:
 	anim_ret
 
 BattleAnim_DragonRage:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_DRAGON_RAGE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop
 	anim_sound 6, 2, SFX_EMBER
@@ -914,6 +921,7 @@ BattleAnim_DragonRage:
 	anim_ret
 
 BattleAnim_Flamethrower:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EMBER
 	anim_obj BATTLE_ANIM_OBJ_FLAMETHROWER, 64, 92, $3
@@ -940,6 +948,7 @@ BattleAnim_Flamethrower:
 	anim_ret
 
 BattleAnim_FireBlast:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop1
 	anim_sound 6, 2, SFX_EMBER
@@ -981,6 +990,7 @@ BattleAnim_IcePunch:
 	anim_ret
 
 BattleAnim_IceBeam:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
 	anim_1gfx BATTLE_ANIM_GFX_ICE
 .loop
 	anim_sound 6, 2, SFX_SHINE
@@ -1001,6 +1011,7 @@ BattleAnim_IceBeam:
 	anim_ret
 
 BattleAnim_Blizzard:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
 	anim_1gfx BATTLE_ANIM_GFX_ICE
 .loop
 	anim_sound 6, 2, SFX_SHINE
@@ -1024,6 +1035,7 @@ BattleAnim_Blizzard:
 	anim_ret
 
 BattleAnim_Bubble:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
 	anim_sound 32, 2, SFX_WATER_GUN
 	anim_obj BATTLE_ANIM_OBJ_BUBBLE, 64, 92, $c1
@@ -1038,6 +1050,7 @@ BattleAnim_Bubble:
 	anim_ret
 
 BattleAnim_Bubblebeam:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
 .loop
 	anim_sound 16, 2, SFX_BUBBLEBEAM
@@ -1063,6 +1076,7 @@ BattleAnim_Bubblebeam:
 	anim_ret
 
 BattleAnim_WaterGun:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
 	anim_bgeffect BATTLE_BG_EFFECT_START_WATER, $0, BG_EFFECT_TARGET, $0
 	anim_1gfx BATTLE_ANIM_GFX_WATER
 	anim_call BattleAnim_UserObj_2Row
@@ -1085,6 +1099,7 @@ BattleAnim_WaterGun:
 	anim_ret
 
 BattleAnim_HydroPump:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
 	anim_bgeffect BATTLE_BG_EFFECT_START_WATER, $0, BG_EFFECT_TARGET, $0
 	anim_1gfx BATTLE_ANIM_GFX_WATER
 	anim_call BattleAnim_UserObj_2Row
@@ -1122,6 +1137,7 @@ BattleAnim_HydroPump:
 	anim_ret
 
 BattleAnim_Surf:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_WATER
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
 	anim_bgeffect BATTLE_BG_EFFECT_SURF, $0, $0, $0
 	anim_obj BATTLE_ANIM_OBJ_SURF, 88, 104, $8
@@ -1227,6 +1243,7 @@ BattleAnim_Solarbeam:
 	anim_ret
 
 .FireSolarBeam
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_LIME
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_call BattleAnimSub_Beam
@@ -1385,6 +1402,7 @@ BattleAnim_Explosion:
 	anim_ret
 
 BattleAnim_Acid:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
 	anim_1gfx BATTLE_ANIM_GFX_POISON
 	anim_call BattleAnimSub_Acid
 	anim_wait 64
@@ -1452,7 +1470,11 @@ BattleAnim_Sing:
 	anim_ret
 
 BattleAnim_Poisonpowder:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_PURPLE
+	anim_jump BattleAnim_StunSpore
 BattleAnim_SleepPowder:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_GREEN
+	anim_jump BattleAnim_StunSpore
 BattleAnim_Spore:
 BattleAnim_StunSpore:
 	anim_1gfx BATTLE_ANIM_GFX_POWDER
@@ -1486,6 +1508,7 @@ BattleAnim_HyperBeam:
 	anim_ret
 
 BattleAnim_AuroraBeam:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_AURORA
 	anim_1gfx BATTLE_ANIM_GFX_BEAM
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
@@ -1638,6 +1661,8 @@ BattleAnim_Recover:
 	anim_ret
 
 BattleAnim_Absorb:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_LIME
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $6, $0
 	anim_1gfx BATTLE_ANIM_GFX_CHARGE
 	anim_obj BATTLE_ANIM_OBJ_ABSORB_CENTER, 44, 88, $0
 .loop
@@ -1655,6 +1680,8 @@ BattleAnim_Absorb:
 	anim_ret
 
 BattleAnim_MegaDrain:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_LIME
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $6, $0
 	anim_1gfx BATTLE_ANIM_GFX_CHARGE
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect BATTLE_BG_EFFECT_FADE_MONS_TO_BLACK_REPEATING, $0, BG_EFFECT_TARGET, $10
@@ -1685,6 +1712,7 @@ BattleAnim_MegaDrain:
 	anim_ret
 
 BattleAnim_EggBomb:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_2gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_EXPLOSION
 	anim_sound 0, 0, SFX_SWITCH_POKEMON
 	anim_obj BATTLE_ANIM_OBJ_EGG, 44, 104, $1
@@ -2283,6 +2311,7 @@ BattleAnim_HornDrill:
 	anim_ret
 
 BattleAnim_PoisonSting:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_PURPLE
 	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
 	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 64, 92, $14
 	anim_wait 16
@@ -2292,6 +2321,7 @@ BattleAnim_PoisonSting:
 	anim_ret
 
 BattleAnim_Twineedle:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
 	anim_2gfx BATTLE_ANIM_GFX_HORN, BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POISON_STING
 	anim_obj BATTLE_ANIM_OBJ_NEEDLE, 64, 92, $14
@@ -2355,6 +2385,7 @@ BattleAnim_Transform:
 	anim_ret
 
 BattleAnim_PetalDance:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_PINK
 	anim_sound 0, 0, SFX_MENU
 	anim_2gfx BATTLE_ANIM_GFX_FLOWER, BATTLE_ANIM_GFX_HIT
 .loop
@@ -2369,6 +2400,7 @@ BattleAnim_PetalDance:
 	anim_ret
 
 BattleAnim_Barrage:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_2gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_EXPLOSION
 	anim_sound 6, 2, SFX_THROW_BALL
 	anim_obj BATTLE_ANIM_OBJ_SLUDGE_BOMB, 64, 92, $10
@@ -2436,6 +2468,8 @@ BattleAnim_Swift:
 	anim_ret
 
 BattleAnim_Crabhammer:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_WATER
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
 	anim_wait 48
@@ -2638,11 +2672,15 @@ BattleAnim_Lick:
 
 BattleAnim_TriAttack:
 	anim_3gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_ICE, BATTLE_ANIM_GFX_LIGHTNING
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_FIRE
 	anim_call BattleAnimSub_Fire
 	anim_wait 16
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_ICE
 	anim_call BattleAnimSub_Ice
 	anim_wait 16
 	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $4
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_YELLOW
 	anim_sound 0, 1, SFX_THUNDER
 	anim_obj BATTLE_ANIM_OBJ_THUNDER_RIGHT, 152, 68, $0
 	anim_wait 16
@@ -2675,6 +2713,7 @@ BattleAnim_Psybeam:
 	anim_ret
 
 BattleAnim_DreamEater:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_PINK
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
 	anim_bgp $1b
 	anim_obp0 $27
@@ -2685,6 +2724,8 @@ BattleAnim_DreamEater:
 	anim_ret
 
 BattleAnim_LeechLife:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ACID
 	anim_1gfx BATTLE_ANIM_GFX_BUBBLE
 	anim_sound 6, 3, SFX_WATER_GUN
 	anim_call BattleAnimSub_Drain
@@ -2945,6 +2986,8 @@ BattleAnim_Barrier:
 	anim_ret
 
 BattleAnim_Waterfall:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_WATER
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_2Row
 	anim_bgeffect BATTLE_BG_EFFECT_BODY_SLAM, $0, BG_EFFECT_USER, $0
@@ -2982,12 +3025,14 @@ BattleAnim_PsychicM:
 	anim_ret
 
 BattleAnim_Sludge:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
 	anim_1gfx BATTLE_ANIM_GFX_POISON
 	anim_call BattleAnimSub_Sludge
 	anim_wait 56
 	anim_ret
 
 BattleAnim_Toxic:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
 	anim_1gfx BATTLE_ANIM_GFX_POISON
 	anim_bgeffect BATTLE_BG_EFFECT_BLACK_HUES, $0, $8, $0
 	anim_call BattleAnimSub_Acid
@@ -3192,6 +3237,8 @@ BattleAnim_Nightmare:
 	anim_ret
 
 BattleAnim_FlameWheel:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop
 	anim_sound 0, 0, SFX_EMBER
@@ -3364,6 +3411,7 @@ BattleAnim_Spite:
 	anim_ret
 
 BattleAnim_PowderSnow:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_SNOW
 	anim_1gfx BATTLE_ANIM_GFX_ICE
 .loop
 	anim_sound 6, 2, SFX_SHINE
@@ -3494,6 +3542,7 @@ BattleAnim_BellyDrum:
 	anim_ret
 
 BattleAnim_SludgeBomb:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PURPLE
 	anim_2gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_POISON
 	anim_bgeffect BATTLE_BG_EFFECT_BLACK_HUES, $0, $8, $0
 	anim_sound 6, 2, SFX_SLUDGE_BOMB
@@ -3600,6 +3649,8 @@ BattleAnim_PerishSong:
 	anim_ret
 
 BattleAnim_IcyWind:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_ICE
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_ICE
 	anim_1gfx BATTLE_ANIM_GFX_SPEED
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
@@ -3695,6 +3746,8 @@ BattleAnim_Sandstorm:
 	anim_ret
 
 BattleAnim_GigaDrain:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_LIME
+	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $6, $0
 	anim_2gfx BATTLE_ANIM_GFX_BUBBLE, BATTLE_ANIM_GFX_CHARGE
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect BATTLE_BG_EFFECT_FADE_MONS_TO_BLACK_REPEATING, $0, BG_EFFECT_TARGET, $10
@@ -4028,6 +4081,7 @@ BattleAnim_PainSplit:
 	anim_ret
 
 BattleAnim_SacredFire:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 	anim_bgeffect BATTLE_BG_EFFECT_ALTERNATE_HUES, $0, $2, $0
@@ -4093,6 +4147,7 @@ BattleAnim_Megahorn:
 	anim_ret
 
 BattleAnim_Dragonbreath:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_DRAGONBREATH
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 	anim_sound 6, 2, SFX_EMBER
 .loop
@@ -4173,6 +4228,7 @@ BattleAnim_RapidSpin:
 	anim_ret
 
 BattleAnim_SweetScent:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_PINK
 	anim_2gfx BATTLE_ANIM_GFX_FLOWER, BATTLE_ANIM_GFX_MISC
 	anim_sound 0, 0, SFX_SWEET_SCENT
 	anim_obj BATTLE_ANIM_OBJ_FLOWER, 64, 96, $2
@@ -4348,6 +4404,8 @@ BattleAnim_HiddenPower:
 	anim_ret
 
 BattleAnim_CrossChop:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_GRAY
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_FIRE
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
 	anim_obj BATTLE_ANIM_OBJ_CROSS_CHOP1, 152, 40, $0
@@ -4430,6 +4488,7 @@ BattleAnim_SunnyDay:
 
 BattleAnim_MirrorCoat:
 	anim_2gfx BATTLE_ANIM_GFX_REFLECT, BATTLE_ANIM_GFX_SPEED
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_PINK
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
 .loop
 	anim_sound 0, 0, SFX_SHINE
@@ -4508,6 +4567,7 @@ BattleAnim_Ancientpower:
 	anim_ret
 
 BattleAnim_ShadowBall:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_SHADOW_BALL
 	anim_2gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_SMOKE
 	anim_bgp $1b
 	anim_sound 6, 2, SFX_SLUDGE_BOMB
@@ -4561,6 +4621,7 @@ BattleAnim_RockSmash:
 	anim_ret
 
 BattleAnim_Whirlpool:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_BUBBLE
 	anim_1gfx BATTLE_ANIM_GFX_WIND
 	anim_bgeffect BATTLE_BG_EFFECT_WHIRLPOOL, $0, $0, $0
 	anim_sound 0, 1, SFX_SURF
@@ -4646,6 +4707,7 @@ BattleAnimSub_Beam:
 	anim_ret
 
 BattleAnimSub_Explosion1:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_sound 0, 0, SFX_EGG_BOMB
 	anim_obj BATTLE_ANIM_OBJ_EXPLOSION1, 24, 64, $0
 	anim_wait 5
@@ -4663,6 +4725,7 @@ BattleAnimSub_Explosion1:
 	anim_ret
 
 BattleAnimSub_Explosion2:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_sound 0, 1, SFX_EGG_BOMB
 	anim_obj BATTLE_ANIM_OBJ_EXPLOSION1, 148, 32, $0
 	anim_wait 5
@@ -4686,6 +4749,7 @@ BattleAnimSub_Sound:
 	anim_ret
 
 BattleAnimSub_Fire:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
 	anim_sound 0, 1, SFX_EMBER
 .loop
 	anim_obj BATTLE_ANIM_OBJ_BURNED, 136, 56, $10
@@ -4695,6 +4759,7 @@ BattleAnimSub_Fire:
 	anim_ret
 
 BattleAnimSub_Ice:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
 	anim_sound 0, 1, SFX_SHINE
 	anim_obj BATTLE_ANIM_OBJ_ICE, 128, 42, $0
 	anim_wait 6
