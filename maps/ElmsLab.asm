@@ -5,6 +5,7 @@
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
 	const ELMSLAB_OFFICER
+	const ELMSLAB_AIDE_CANDY
 
 ElmsLab_MapScripts:
 	def_scene_scripts
@@ -541,6 +542,33 @@ AideScript_ExplainBalls:
 
 AideScript_AfterTheft:
 	writetext AideText_AfterTheft
+	waitbutton
+	closetext
+	end
+
+ElmsCandyAideScript:
+	faceplayer
+	opentext
+	checkevent EVENT_GOT_EVERCANDY_FROM_ELMS_AIDE
+	iftrue HaveCandy
+	writetext AideText_AskCandy
+	yesorno
+	iffalse NoCandy
+	verbosegiveitem EVER_CANDY
+	setevent EVENT_GOT_EVERCANDY_FROM_ELMS_AIDE
+	writetext AideText_HaveCandy
+	waitbutton
+	closetext
+	end
+
+HaveCandy:
+	writetext AideText_HaveCandy
+	waitbutton
+	closetext
+	end
+
+NoCandy:
+	writetext AideText_NoCandy
 	waitbutton
 	closetext
 	end
@@ -1269,6 +1297,28 @@ AideText_ExplainBalls:
 	cont "to get them."
 	done
 
+AideText_AskCandy:
+	text "Would you like"
+	line "an EVER CANDY?"
+	done
+
+AideText_NoCandy:
+	text "Oh..."
+	done
+
+AideText_GiveCandy:
+	text "Here is an"
+	line "EVER CANDY!"
+	done
+
+AideText_HaveCandy:
+	text "The EVER CANDY"
+	line "lets you level"
+
+	para "up a #MON as"
+	line "much as you want!"
+	done
+
 ElmsLabOfficerText1:
 	text "I heard a #MON"
 	line "was stolen here…"
@@ -1410,3 +1460,4 @@ ElmsLab_MapEvents:
 	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TotodilePokeBallScript, EVENT_TOTODILE_POKEBALL_IN_ELMS_LAB
 	object_event  8,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ChikoritaPokeBallScript, EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
 	object_event  5,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopScript, EVENT_COP_IN_ELMS_LAB
+	object_event  6,  11, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ElmsCandyAideScript, -1
