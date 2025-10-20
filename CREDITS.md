@@ -17,6 +17,7 @@ The following keeps track of specific credits for assets and features.
 - `pokecrystal` Community
 - Official Pret Discord
 - [Pokemon Crystal Legacy](https://github.com/cRz-Shadows/Pokemon_Crystal_Legacy)
+- [Pokemon Sour Crystal](https://github.com/SoupPotato/sourcrystal)
 
 ---
 
