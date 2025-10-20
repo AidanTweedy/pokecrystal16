@@ -42,6 +42,21 @@ if !DEF(MONOCHROME)
 	RGB 08, 01, 08
 	RGB 08, 00, 14
 	RGB 10, 00, 24
+; dragonbreath
+	RGB 31, 31, 31
+	RGB 31, 26, 09
+	RGB 27, 08, 22
+	RGB 00, 00, 00
+; dragonrage
+	RGB 31, 31, 31
+	RGB 31, 29, 09
+	RGB 03, 09, 26
+	RGB 00, 00, 00
+; aurora
+	RGB 31, 28, 16
+	RGB 15, 31, 20
+	RGB 15, 24, 31
+	RGB 31, 15, 26
 else
 rept NUM_CUSTOM_BATTLE_PALETTES - 6
 	MONOCHROME_RGB_FOUR
