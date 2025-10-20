@@ -34,3 +34,5 @@ The following keeps track of specific credits for assets and features.
 - [Add a new text scrolling speed](https://github.com/pret/pokecrystal/wiki/Add-a-new-text-scrolling-speed)
 - [Speed up Pokemon Center Healing](https://github.com/pret/pokecrystal/wiki/Speed-up-Pok%C3%A9mon-Center-Healing)
 - [Show an icon for the current weather](https://github.com/pret/pokecrystal/wiki/Show-an-icon-for-the-current-weather)
+- [Add a new item](https://github.com/pret/pokecrystal/wiki/Add-a-new-item)
+- [Adding an NPC that gives you an item](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
