@@ -199,6 +199,9 @@ TotodileEvosAttacks:
 	dbw 1, LEER
 	dbw 7, RAGE
 	dbw 13, WATER_GUN
+	dbw 16, ACID
+	dbw 16, LEECH_LIFE
+	dbw 16, POWDER_SNOW
 	dbw 20, BITE
 	dbw 27, SCARY_FACE
 	dbw 35, SLASH
