@@ -551,6 +551,8 @@ ElmsCandyAideScript:
 	opentext
 	checkevent EVENT_GOT_EVERCANDY_FROM_ELMS_AIDE
 	iftrue HaveCandy
+	writetext AideText_ExplainCandy
+	promptbutton
 	writetext AideText_AskCandy
 	yesorno
 	iffalse NoCandy
@@ -1297,18 +1299,32 @@ AideText_ExplainBalls:
 	cont "to get them."
 	done
 
+AideText_ExplainCandy:
+	text "Hi <PLAY_G>!"
+	line "I've been working"
+	cont "on an experimental"
+
+	para "product that will"
+	line "change the way"
+	cont "people train their"
+
+	para "#MON."
+	done
+
 AideText_AskCandy:
 	text "Would you like"
-	line "an EVER CANDY?"
+	line "to try a sample?"
 	done
 
 AideText_NoCandy:
-	text "Oh..."
+	text "No worries. Come"
+	line "back if you change"
+
+	para "your mind."
 	done
 
 AideText_GiveCandy:
-	text "Here is an"
-	line "EVER CANDY!"
+	text "Here you go!"
 	done
 
 AideText_HaveCandy:
