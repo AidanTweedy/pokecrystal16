@@ -692,6 +692,8 @@ SECTION "VWF", ROMX
 
 INCLUDE "engine/gfx/vwf.asm"
 
+SECTION "Custom GFX", ROMX
+INCLUDE "gfx/rangi_gfx.asm"
 
 SECTION "Stadium 2 Checksums", ROMX[$7DE0], BANK[$7F]
 
