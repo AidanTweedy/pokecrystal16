@@ -607,7 +607,6 @@ Pokedex_ReinitDexEntryScreen:
 	ld [wPokedexEntryPageNum], a
 	farcall DisplayDexMonStats
 	jr .cont
-
 .put_max_page
 	ld b, POKEDEX_STATSPAGE_MAX_PAGE_NUM - 1 ; 3 for vanilla, 4 for EVs.
 	jr .basestats
@@ -678,6 +677,7 @@ DexEntryScreen_ArrowCursorData:
 	dwcoord 17, 17 ; PICS
 
 DexEntryScreen_MenuActionJumptable:
+	dw Pokedex_Page
 	dw BaseStat_Page
 	dw Moves_Page
 	dw Area_Page
@@ -3744,8 +3744,9 @@ Pokedex_LoadInversedFont:
 	ld de, Pokedex_RightArrow_Tile
 	ld a, BANK(Pokedex_RightArrow_Tile)
 	call Get1bpp
+
 	ld a, $0
-	ldh [rVBK], a
+	ldh [rVBK], a	
 	ret
 
 Pokedex_LoadInvertedFont:
@@ -3773,7 +3774,6 @@ Pokedex_InvertTiles:
 	ld de, Pokedex_Imperial_Tiles
 	ld a, BANK(Pokedex_Imperial_Tiles)
 	call Get1bpp
-
 	ret
 
 Pokedex_CheckSGB:
