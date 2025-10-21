@@ -3223,7 +3223,6 @@ wKenjiFightCount::   db ; unreferenced
 wParryFightCount::   db
 wErinFightCount::    db
 
-	ds 100
 
 wEventFlags:: flag_array NUM_EVENTS
 

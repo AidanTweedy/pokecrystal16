@@ -26,7 +26,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] New TMs
 - [x] Berry store
 - [x] Berry slot
-- [ ] Larger bag
+- [x] Larger bag
 - [x] Unlimited TM usage
 - [ ] Overworld weather
 - [x] Weather icon
