@@ -5,10 +5,12 @@ The following keeps track of specific credits for assets and features.
 ---
 
 ## Individual Credits
+- vulcandth - 16 bit expansion with newbox
 - dannye - crystal-tracker
 - Tom Wang - Chris Running Sprite
 - Seasick - Kris Running Sprite
 - FIQ - Dynamic Battle Palette System
+- Nayru62 - Nayru's PokeDex
 
 ---
 

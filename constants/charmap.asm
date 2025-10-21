@@ -76,6 +76,9 @@
 
 	charmap "<LV>",      $6e
 
+	charmap "<DEX_LV>",  $5d
+	charmap "<DEX_LV_VRAM1>",$74
+
 	charmap "<DO>",      $70 ; hiragana small do, unused
 	charmap "◀",         $71
 	charmap "『",         $72 ; Japanese opening quote, unused
@@ -95,6 +98,14 @@
 
 	; needed for StatsScreen_PlaceShinyIcon and PrintPartyMonPage1
 	charmap "⁂",         $3f ; gfx/stats/stats_tiles.png, tile 14
+
+	charmap "<DEX_⁂>",   $64 ; gfx/stats/stats_tiles.png, tile 14, VRAM0
+
+	charmap ">",		 $c0
+	charmap "<",		 $c1
+	charmap "=",		 $c2
+	charmap "+",		 $c3
+	charmap "<%>",		 $c4
 
 ; Actual characters (from gfx/font/font.png)
 
