@@ -19,7 +19,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Story modifications (more compelling Rocket arc, Rival, etc.)
 - [ ] Moves from later generations
 - [ ] Titlescreen/Credits
-- [ ] Rare Candy method
+- [x] Rare Candy method
 - [x] View DVs 
 - [x] Fourth stat screen
 - [ ] Move reminder/forgetter (easier access)
