@@ -3705,6 +3705,7 @@ Pokedex_LoadPageNums:
 ; 	lb bc, BANK(Pokedex_PageNumTiles), 1
 ; 	call Request2bpp	
 ; single black tile at vram1 $7f
+; the following code conflicts with newbox
 	ld de, Pokedex_ExtraTiles tile 31
 	ld hl, vTiles2 tile $7f
 	lb bc, BANK(Pokedex_ExtraTiles), 1
