@@ -26,7 +26,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] New TMs
 - [x] Berry store
 - [x] Berry slot
-- [ ] Larger bag
+- [x] Larger bag
 - [x] Unlimited TM usage
 - [ ] Overworld weather
 - [x] Weather icon
@@ -39,6 +39,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Field moves/Revisit HM usage
 - [x] Increase shiny odds to 1/4096
 - [x] Dynamic battle palette
+- [x] Nayru's PokeDex
 
 ## Stretch Goals
 

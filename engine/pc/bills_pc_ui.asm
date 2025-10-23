@@ -178,6 +178,17 @@ BillsPC_LoadUI:
 	; Set up background + outline palettes
 	xor a
 	ld [wBillsPC_ApplyThemePals], a
+
+	; ensure $7f tile in VRAM1 is empty
+	ld a, $1
+	ldh [rVBK], a
+	ld hl, vTiles2 tile $7f
+	ld de, Pokedex_ExtraTiles tile 0
+	lb bc, BANK(Pokedex_ExtraTiles), 1
+	call Request2bpp
+	ld a, $0
+	ldh [rVBK], a
+
 	; fallthrough
 _BillsPC_GetCGBLayout:
 	ld b, SCGB_BILLS_PC
