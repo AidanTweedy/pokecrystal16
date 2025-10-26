@@ -39,3 +39,4 @@ The following keeps track of specific credits for assets and features.
 - [Add a new item](https://github.com/pret/pokecrystal/wiki/Add-a-new-item)
 - [Adding an NPC that gives you an item](https://github.com/pret/pokecrystal/wiki/Adding-an-NPC-that-gives-you-an-item)
 - [Display more information on the move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
+- [Make new battle text to distinguish status move misses and fails](https://github.com/pret/pokecrystal/wiki/Make-new-battle-text-to-distinguish-status-move-misses-and-fails)
