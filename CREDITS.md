@@ -41,3 +41,4 @@ The following keeps track of specific credits for assets and features.
 - [Display more information on the move screen](https://github.com/pret/pokecrystal/wiki/Display-more-information-on-the-move-screen)
 - [Make new battle text to distinguish status move misses and fails](https://github.com/pret/pokecrystal/wiki/Make-new-battle-text-to-distinguish-status-move-misses-and-fails)
 - [Prevent Steel‐types from being poisoned by Twineedle](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
+- [Remove the 25% failure chance for AI status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
