@@ -3647,6 +3647,32 @@ UpdateMoveData:
 	call GetMoveName
 	jp CopyName1
 
+CheckForStatusIfAlreadyHasAny:
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVarAddr
+	ld d, h
+	ld e, l
+	and SLP_MASK
+	ld hl, AlreadyAsleepText
+	ret nz
+	
+	ld a, [de]
+	bit FRZ, a
+	ld hl, AlreadyFrozenText
+	ret nz
+	
+	bit PAR, a
+	ld hl, AlreadyParalyzedText
+	ret nz
+	
+	bit PSN, a
+	ld hl, AlreadyPoisonedText
+	ret nz
+	
+	bit BRN, a
+	ld hl, AlreadyBurnedText
+	ret
+
 BattleCommand_SleepTarget:
 	call GetOpponentItem
 	ld a, b
@@ -3660,13 +3686,7 @@ BattleCommand_SleepTarget:
 	jr .fail
 
 .not_protected_by_item
-	ld a, BATTLE_VARS_STATUS_OPP
-	call GetBattleVarAddr
-	ld d, h
-	ld e, l
-	ld a, [de]
-	and SLP_MASK
-	ld hl, AlreadyAsleepText
+	call CheckForStatusIfAlreadyHasAny
 	jr nz, .fail
 
 	ld a, [wAttackMissed]
@@ -3674,12 +3694,6 @@ BattleCommand_SleepTarget:
 	jp nz, PrintDidntAffect2
 
 	ld hl, DidntAffect1Text
-	call .CheckAIRandomFail
-	jr c, .fail
-
-	ld a, [de]
-	and a
-	jr nz, .fail
 
 	call CheckSubstituteOpp
 	jr nz, .fail
@@ -3716,34 +3730,6 @@ BattleCommand_SleepTarget:
 	pop hl
 	jp StdBattleTextbox
 
-.CheckAIRandomFail:
-	; Enemy turn
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .dont_fail
-
-	; Not in link battle
-	ld a, [wLinkMode]
-	and a
-	jr nz, .dont_fail
-
-	ld a, [wInBattleTowerBattle]
-	and a
-	jr nz, .dont_fail
-
-	; Not locked-on by the enemy
-	ld a, [wPlayerSubStatus5]
-	bit SUBSTATUS_LOCK_ON, a
-	jr nz, .dont_fail
-
-	call BattleRandom
-	cp 25 percent + 1 ; 25% chance AI fails
-	ret c
-
-.dont_fail
-	xor a
-	ret
-
 BattleCommand_PoisonTarget:
 	call CheckSubstituteOpp
 	ret nz
@@ -3754,7 +3740,11 @@ BattleCommand_PoisonTarget:
 	ld a, [wTypeModifier]
 	and EFFECTIVENESS_MASK
 	ret z
-	call CheckIfTargetIsPoisonType
+	ld b, POISON ; Don't poison a Poison-type
+	call CheckIfTargetIsGivenType
+	ret z
+	ld b, STEEL ; Don't poison a Steel-type
+	call CheckIfTargetIsGivenType
 	ret z
 	call GetOpponentItem
 	ld a, b
@@ -3783,14 +3773,15 @@ BattleCommand_Poison:
 	and EFFECTIVENESS_MASK
 	jp z, .failed
 
-	call CheckIfTargetIsPoisonType
+	ld b, POISON
+	call CheckIfTargetIsGivenType
 	jp z, .failed
 
-	ld a, BATTLE_VARS_STATUS_OPP
-	call GetBattleVar
-	ld b, a
-	ld hl, AlreadyPoisonedText
-	and 1 << PSN
+	ld b, STEEL
+	call CheckIfTargetIsGivenType
+	jp z, .failed
+
+	call CheckForStatusIfAlreadyHasAny
 	jp nz, .failed
 
 	call GetOpponentItem
@@ -3810,29 +3801,11 @@ BattleCommand_Poison:
 	and a
 	jr nz, .failed
 
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .dont_sample_failure
-
-	ld a, [wLinkMode]
-	and a
-	jr nz, .dont_sample_failure
-
-	ld a, [wInBattleTowerBattle]
-	and a
-	jr nz, .dont_sample_failure
-
-	ld a, [wPlayerSubStatus5]
-	bit SUBSTATUS_LOCK_ON, a
-	jr nz, .dont_sample_failure
-
-	call BattleRandom
-	cp 25 percent + 1 ; 25% chance AI fails
-	jr c, .failed
-
-.dont_sample_failure
+	ld hl, ProtectingItselfText
 	call CheckSubstituteOpp
 	jr nz, .failed
+
+	ld hl, EvadedText
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .failed
@@ -3882,7 +3855,7 @@ BattleCommand_Poison:
 	cp EFFECT_TOXIC
 	ret
 
-CheckIfTargetIsPoisonType:
+CheckIfTargetIsGivenType:
 	ld de, wEnemyMonType1
 	ldh a, [hBattleTurn]
 	and a
@@ -3891,10 +3864,10 @@ CheckIfTargetIsPoisonType:
 .ok
 	ld a, [de]
 	inc de
-	cp POISON
+	cp b
 	ret z
 	ld a, [de]
-	cp POISON
+	cp b
 	ret
 
 PoisonOpponent:
@@ -4018,7 +3991,8 @@ BattleCommand_BurnTarget:
 	ld a, [wTypeModifier]
 	and EFFECTIVENESS_MASK
 	ret z
-	call CheckMoveTypeMatchesTarget ; Don't burn a Fire-type
+	ld b, FIRE ; Don't burn a Fire-type
+	call CheckIfTargetIsGivenType
 	ret z
 	call GetOpponentItem
 	ld a, b
@@ -4085,7 +4059,8 @@ BattleCommand_FreezeTarget:
 	ld a, [wBattleWeather]
 	cp WEATHER_SUN
 	ret z
-	call CheckMoveTypeMatchesTarget ; Don't freeze an Ice-type
+	ld b, ICE ; Don't freeze an Ice-type
+	call CheckIfTargetIsGivenType
 	ret z
 	call GetOpponentItem
 	ld a, b
@@ -4423,41 +4398,12 @@ BattleCommand_StatDown:
 ; Sharply lower the stat if applicable.
 	ld a, [wLoweredStat]
 	and $f0
-	jr z, .ComputerMiss
+	jr z, .GotAmountToLower
 	dec b
-	jr nz, .ComputerMiss
+	jr z, .GotAmountToLower
 	inc b
 
-.ComputerMiss:
-; Computer opponents have a 25% chance of failing.
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .DidntMiss
-
-	ld a, [wLinkMode]
-	and a
-	jr nz, .DidntMiss
-
-	ld a, [wInBattleTowerBattle]
-	and a
-	jr nz, .DidntMiss
-
-; Lock-On still always works.
-	ld a, [wPlayerSubStatus5]
-	bit SUBSTATUS_LOCK_ON, a
-	jr nz, .DidntMiss
-
-; Attacking moves that also lower accuracy are unaffected.
-	ld a, BATTLE_VARS_MOVE_EFFECT
-	call GetBattleVar
-	cp EFFECT_ACCURACY_DOWN_HIT
-	jr z, .DidntMiss
-
-	call BattleRandom
-	cp 25 percent + 1 ; 25% chance AI fails
-	jr c, .Failed
-
-.DidntMiss:
+.GotAmountToLower:
 	call CheckSubstituteOpp
 	jr nz, .Failed
 
@@ -5920,9 +5866,7 @@ BattleCommand_Confuse_CheckSnore_Swagger_ConfuseHit:
 	jp PrintDidntAffect2
 
 BattleCommand_Paralyze:
-	ld a, BATTLE_VARS_STATUS_OPP
-	call GetBattleVar
-	bit PAR, a
+	call CheckForStatusIfAlreadyHasAny
 	jr nz, .paralyzed
 	ld a, [wTypeModifier]
 	and EFFECTIVENESS_MASK
@@ -5939,31 +5883,6 @@ BattleCommand_Paralyze:
 	jp StdBattleTextbox
 
 .no_item_protection
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .dont_sample_failure
-
-	ld a, [wLinkMode]
-	and a
-	jr nz, .dont_sample_failure
-
-	ld a, [wInBattleTowerBattle]
-	and a
-	jr nz, .dont_sample_failure
-
-	ld a, [wPlayerSubStatus5]
-	bit SUBSTATUS_LOCK_ON, a
-	jr nz, .dont_sample_failure
-
-	call BattleRandom
-	cp 25 percent + 1 ; 25% chance AI fails
-	jr c, .failed
-
-.dont_sample_failure
-	ld a, BATTLE_VARS_STATUS_OPP
-	call GetBattleVarAddr
-	and a
-	jr nz, .failed
 	ld a, [wAttackMissed]
 	and a
 	jr nz, .failed
@@ -5986,8 +5905,9 @@ BattleCommand_Paralyze:
 	jp CallBattleCore
 
 .paralyzed
+	push hl
 	call AnimateFailedMove
-	ld hl, AlreadyParalyzedText
+	pop hl
 	jp StdBattleTextbox
 
 .failed
@@ -5996,42 +5916,6 @@ BattleCommand_Paralyze:
 .didnt_affect
 	call AnimateFailedMove
 	jp PrintDoesntAffect
-
-CheckMoveTypeMatchesTarget:
-; Compare move type to opponent type.
-; Return z if matching the opponent type,
-; unless the move is Normal (Tri Attack).
-
-	push hl
-
-	ld hl, wEnemyMonType1
-	ldh a, [hBattleTurn]
-	and a
-	jr z, .ok
-	ld hl, wBattleMonType1
-.ok
-
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
-	and TYPE_MASK
-	cp NORMAL
-	jr z, .normal
-
-	cp [hl]
-	jr z, .return
-
-	inc hl
-	cp [hl]
-
-.return
-	pop hl
-	ret
-
-.normal
-	ld a, 1
-	and a
-	pop hl
-	ret
 
 INCLUDE "engine/battle/move_effects/substitute.asm"
 
@@ -6314,8 +6198,8 @@ PrintDidntAffect:
 
 PrintDidntAffect2:
 	call AnimateFailedMove
-	ld hl, DidntAffect1Text ; 'it didn't affect'
-	ld de, DidntAffect2Text ; 'it didn't affect'
+	ld hl, EvadedText ; 'evaded the attack'
+	ld de, ProtectingItselfText ; 'protecting itself'
 	jp FailText_CheckOpponentProtect
 
 PrintParalyze:

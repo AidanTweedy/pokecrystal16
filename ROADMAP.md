@@ -40,6 +40,8 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Increase shiny odds to 1/4096
 - [x] Dynamic battle palette
 - [x] Nayru's PokeDex
+- [x] Improved move screen
+- [ ] Improve battle AI
 
 ## Stretch Goals
 
