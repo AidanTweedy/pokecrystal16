@@ -5748,8 +5748,8 @@ MoveInfoBox:
 	xor a
 	ldh [hBGMapMode], a
 
-	hlcoord 0, 8
-	ld b, 3
+	hlcoord 0, 6
+	ld b, 5
 	ld c, 9
 	call Textbox
 	call MobileTextBorder
@@ -5768,7 +5768,7 @@ MoveInfoBox:
 	hlcoord 1, 10
 	ld de, .Disabled
 	call PlaceString
-	jr .done
+	jp .display_pow
 
 .not_disabled
 	ld hl, wMenuCursorY
@@ -5804,27 +5804,103 @@ MoveInfoBox:
 	ld b, a
 	farcall GetMoveCategoryName
 
-	hlcoord 1, 9
+	hlcoord 1, 7
 	ld de, wStringBuffer1
 	call PlaceString
 
 	ld h, b
 	ld l, c
 
+	hlcoord 1, 11
+	ld de, .PP_word
+	call PlaceString
+
 	hlcoord 7, 11
 	ld [hl], "/"
 
+	hlcoord 1, 8
+	ld [hl], "/"
 	callfar UpdateMoveData
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
-	hlcoord 2, 10
+	hlcoord 2, 8
 	predef PrintMoveType
+
+.display_pow
+	hlcoord 1, 9
+	ld de, .Pow
+	call PlaceString
+	
+	hlcoord 7, 9
+	ld a, [wPlayerMoveStruct + MOVE_POWER]
+	ld [wStringBuffer1], a
+	cp 2
+	jr c, .no_pow
+	ld de, wStringBuffer1
+	lb bc, 1, 3
+	call PrintNum
+	jr .display_acc
+
+.no_pow
+	ld de, .NoAccPow
+	call PlaceString
+
+.display_acc
+	hlcoord 1, 10
+	ld de, .Acc
+	call PlaceString
+	
+	ld a, [wPlayerMoveStruct + MOVE_ACC]
+	ldh [hMultiplicand], a
+	ld a, 100
+	ldh [hMultiplier], a
+	ld b, 1
+	call Multiply
+	ldh a, [hProduct + 2]
+	ldh [hDividend + 3], a
+	ldh a, [hProduct + 1]
+	ldh [hDividend + 2], a
+	ld a, $ff
+	ldh [hDivisor], a
+	ld b, 2
+	call Divide
+	ldh a, [hQuotient + 3]
+	ld b, a
+	ldh a, [hRemainder]
+	cp 50 percent + 1
+	jr c, .display_acc_2
+	inc b
+.display_acc_2
+	ld a, b
+	hlcoord 7, 10
+	cp 2
+	jr c, .no_acc
+	ld [wStringBuffer1], a
+	ld de, wStringBuffer1
+	lb bc, 1, 3
+	call PrintNum
+	;hlcoord 8, 8
+	;ld [hl], "<PERCENT>"
+	;call PrintNum
+	jr .done
+
+.no_acc
+	ld de, .NoAccPow
+	call PlaceString
 
 .done
 	ret
 
 .Disabled:
 	db "Disabled!@"
+.PP_word:
+	db "PP:@"
+.Acc:
+	db "ACC:@"
+.NoAccPow:	
+	db "---@"
+.Pow:
+	db "PWR:@"
 
 .PrintPP:
 	hlcoord 5, 11
