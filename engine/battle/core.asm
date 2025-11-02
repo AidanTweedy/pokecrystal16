@@ -5754,23 +5754,6 @@ MoveInfoBox:
 	call Textbox
 	call MobileTextBorder
 
-	ld a, [wPlayerDisableCount]
-	and a
-	jr z, .not_disabled
-
-	swap a
-	and $f
-	ld b, a
-	ld a, [wMenuCursorY]
-	cp b
-	jr nz, .not_disabled
-
-	hlcoord 1, 10
-	ld de, .Disabled
-	call PlaceString
-	jp .display_pow
-
-.not_disabled
 	ld hl, wMenuCursorY
 	dec [hl]
 	call SetPlayerTurn
@@ -5811,13 +5794,6 @@ MoveInfoBox:
 	ld h, b
 	ld l, c
 
-	hlcoord 1, 11
-	ld de, .PP_word
-	call PlaceString
-
-	hlcoord 7, 11
-	ld [hl], "/"
-
 	hlcoord 1, 8
 	ld [hl], "/"
 	callfar UpdateMoveData
@@ -5825,6 +5801,31 @@ MoveInfoBox:
 	ld b, a
 	hlcoord 2, 8
 	predef PrintMoveType
+
+	ld a, [wPlayerDisableCount]
+	and a
+	jr z, .not_disabled
+
+	swap a
+	and $f
+	ld b, a
+	ld a, [wMenuCursorY]
+	cp b
+	jr nz, .not_disabled
+
+	hlcoord 1, 11
+	ld de, .Disabled
+	call PlaceString
+
+	jp .display_pow
+
+.not_disabled
+	hlcoord 1, 11
+	ld de, .PP_word
+	call PlaceString
+
+	hlcoord 7, 11
+	ld [hl], "/"
 
 .display_pow
 	hlcoord 1, 9

@@ -363,7 +363,7 @@ BeedrillEvosAttacks:
 PidgeyEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, PIDGEOTTO
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
+	dbw 1, DISABLE
 	dbw 5, SAND_ATTACK
 	dbw 9, GUST
 	dbw 15, QUICK_ATTACK
