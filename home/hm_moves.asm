@@ -18,11 +18,11 @@ IsHMMove::
 	jp IsInWordArray
 
 .HMMoves:
-	dw CUT
-	dw FLY
-	dw SURF
-	dw STRENGTH
-	dw FLASH
-	dw WATERFALL
-	dw WHIRLPOOL
+	;dw CUT
+	;dw FLY
+	;dw SURF
+	;dw STRENGTH
+	;dw FLASH
+	;dw WATERFALL
+	;dw WHIRLPOOL
 	dw -1 ; end
