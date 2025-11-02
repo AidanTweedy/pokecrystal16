@@ -382,7 +382,7 @@ CanUseFlash:
 ; Step 6: Check if Mon can learn move from LVL-UP
 	ld hl, FLASH
 	call GetMoveIDFromIndex
-	call Sub_CheckLvlUpMoves
+	;call Sub_CheckLvlUpMoves
 	scf
 	ret c ; fail
 
@@ -428,7 +428,7 @@ CanUseFly:
 ; Step 6: Check if Mon can learn move via LVL-UP
 	ld hl, FLY
 	call GetMoveIDFromIndex
-	call Sub_CheckLvlUpMoves
+	;call Sub_CheckLvlUpMoves
 	scf
 	ret c ; fail
 .yes
@@ -469,7 +469,7 @@ Can_Use_Sweet_Scent:
 ; Step 5: Check if mon can learn move via LVL-UP
 	ld hl, SWEET_SCENT
 	call GetMoveIDFromIndex
-	call Sub_CheckLvlUpMoves
+	;call Sub_CheckLvlUpMoves
 	scf
 	ret c ; fail
 .yes
@@ -509,7 +509,7 @@ CanUseDig:
 ; Step 5: Check if Mon can learn move via LVL-UP
 	ld hl, DIG
 	call GetMoveIDFromIndex
-	call Sub_CheckLvlUpMoves
+	;call Sub_CheckLvlUpMoves
 	scf
 	ret c ; fail
 .yes
