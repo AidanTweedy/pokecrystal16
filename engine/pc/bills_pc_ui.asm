@@ -2762,8 +2762,7 @@ BillsPC_ReleaseAll:
 
 .NothingReleased:
 	text "You can't release"
-	line "EGGs or #MON"
-	cont "with HM moves."
+	line "EGGs."
 	prompt
 
 .ReleasedXMon:
@@ -2774,8 +2773,7 @@ BillsPC_ReleaseAll:
 	prompt
 
 .TheRestWasnt:
-	text "The rest are EGGs"
-	line "or know HM moves."
+	text "The rest are EGGs."
 	prompt
 
 BillsPC_Release:
