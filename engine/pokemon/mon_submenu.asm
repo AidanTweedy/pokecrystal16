@@ -383,7 +383,7 @@ CanUseFlash:
 	ld hl, FLASH
 	call GetMoveIDFromIndex
 	call Sub_CheckLvlUpMoves
-	;scf
+	scf
 	ret c ; fail
 
 .yes
@@ -429,7 +429,7 @@ CanUseFly:
 	ld hl, FLY
 	call GetMoveIDFromIndex
 	call Sub_CheckLvlUpMoves
-	;scf
+	scf
 	ret c ; fail
 .yes
 	ld a, MONMENUITEM_FLY
@@ -470,7 +470,7 @@ Can_Use_Sweet_Scent:
 	ld hl, SWEET_SCENT
 	call GetMoveIDFromIndex
 	call Sub_CheckLvlUpMoves
-	;scf
+	scf
 	ret c ; fail
 .yes
 	ld a, MONMENUITEM_SWEETSCENT
@@ -510,7 +510,7 @@ CanUseDig:
 	ld hl, DIG
 	call GetMoveIDFromIndex
 	call Sub_CheckLvlUpMoves
-	;scf
+	scf
 	ret c ; fail
 .yes
 	ld a, MONMENUITEM_DIG
