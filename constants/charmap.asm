@@ -185,6 +185,8 @@
 	charmap "'t",        $d5
 	charmap "'v",        $d6
 
+	charmap "<SHINY>",   $d7
+
 	charmap "←",         $df
 	charmap "'",         $e0
 	charmap "<PK>",      $e1

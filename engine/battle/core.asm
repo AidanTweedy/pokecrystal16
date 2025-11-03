@@ -4800,23 +4800,26 @@ PrintPlayerHUD:
 .got_gender_char
 	hlcoord 17, 8
 	ld [hl], a
-	hlcoord 14, 8
 	push af ; back up gender
 	push hl
+	hlcoord 10, 8
 	ld de, wBattleMonStatus
 	predef PlaceNonFaintStatus
 	pop hl
 	pop bc
-	ret nz
-	ld a, b
-	cp " "
-	jr nz, .copy_level ; male or female
-	dec hl ; genderless
-
-.copy_level
+	
+	hlcoord 13, 8
 	ld a, [wBattleMonLevel]
 	ld [wTempMonLevel], a
-	jp PrintLevel
+	call PrintLevel_Force3Digits
+
+.player_shiny
+    call BattleCheckPlayerShininess
+    ret nc
+    ld a, "<SHINY>"
+    hlcoord 18, 8
+    ld [hl], a
+	ret
 
 UpdateEnemyHUD::
 	push hl
@@ -4864,9 +4867,16 @@ DrawEnemyHUD:
 	ld a, [hl]
 	ld [de], a
 
+	call BattleCheckEnemyShininess
+    jr nc, .regular_mon
+    ld a, "<SHINY>"
+    hlcoord 10, 1 ; TODO - move?
+    ld [hl], a
+
+.regular_mon
 	ld a, TEMPMON
 	ld [wMonType], a
-	callfar GetGender
+	farcall GetGender
 	ld a, " "
 	jr c, .got_gender
 	ld a, "♂"
@@ -4877,23 +4887,18 @@ DrawEnemyHUD:
 	hlcoord 9, 1
 	ld [hl], a
 
-	hlcoord 6, 1
 	push af
 	push hl
+	hlcoord 2, 1
 	ld de, wEnemyMonStatus
 	predef PlaceNonFaintStatus
 	pop hl
 	pop bc
-	jr nz, .skip_level
+	hlcoord 5, 1
 	ld a, b
-	cp " "
-	jr nz, .print_level
-	dec hl
-.print_level
 	ld a, [wEnemyMonLevel]
 	ld [wTempMonLevel], a
-	call PrintLevel
-.skip_level
+	call PrintLevel_Force3Digits
 
 	ld hl, wEnemyMonHP
 	ld a, [hli]
