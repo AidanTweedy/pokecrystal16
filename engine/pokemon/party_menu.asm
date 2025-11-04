@@ -77,6 +77,7 @@ WritePartyMenuTilemap:
 	dw PlacePartyMonEvoStoneCompatibility
 	dw PlacePartyMonGender
 	dw PlacePartyMonMobileBattleSelection
+	dw PlacePartyMonGenderStats
 
 PlacePartyNicknames:
 	hlcoord 3, 1
@@ -269,7 +270,7 @@ PlacePartyMonStatus:
 	ret z
 	ld c, a
 	ld b, 0
-	hlcoord 5, 2
+	hlcoord 3, 2
 .loop
 	push bc
 	push hl
@@ -396,6 +397,102 @@ PlacePartyMonEvoStoneCompatibility:
 	db "ABLE@"
 .string_not_able
 	db "NOT ABLE@"
+
+PlacePartyMonGenderStats:
+	ld a, [wCurPartyMon]
+	push af
+
+	ld a, [wPartyCount]
+	and a
+	jr z, .finish
+	ld c, a
+	ld b, 0
+	hlcoord 7, 2
+.loop
+	ld a, c
+	and a
+	jr z, .finish
+	push bc
+	push hl
+	call PartyMenuCheckEgg
+	jr z, .next
+	ld [wCurPartySpecies], a
+	push hl
+	ld a, b
+	ld [wCurPartyMon], a
+	xor a
+	ld [wMonType], a
+	call GetGender
+	ld de, .unknown
+	jr c, .got_gender
+	ld de, .male
+	jr nz, .got_gender
+	ld de, .female
+
+.got_gender
+	pop hl
+	call PlaceString
+	
+.next
+	pop hl
+	ld de, 2 * SCREEN_WIDTH
+	add hl, de
+	pop bc
+	inc b
+	dec c
+	jr nz, .loop
+	
+.finish
+	pop af
+	ld [wCurPartyMon], a
+	jr PlacePartyMonShiny
+
+.male
+	db "♂@"
+
+.female
+	db "♀@"
+
+.unknown
+	db "@"
+	
+PlacePartyMonShiny:
+	ld a, [wPartyCount]
+	and a
+	ret z
+	ld c, a
+	ld b, 0
+	hlcoord 6, 2
+.loop
+	ld a, c
+	and a
+	ret z
+	push bc
+	push hl
+	call PartyMenuCheckEgg
+	jr z, .next
+	ld a, b
+	ld bc, PARTYMON_STRUCT_LENGTH
+	ld hl, wPartyMon1DVs
+	call AddNTimes
+	ld c, l
+	ld b, h
+	farcall CheckShininess
+	pop hl
+	push hl
+    jr nc, .next
+    ld a, "<SHINY>"
+	ld [hl], a
+
+.next
+	pop hl
+	ld de, SCREEN_WIDTH * 2
+	add hl, de
+	pop bc
+	inc b
+	dec c
+	jr nz, .loop
+	ret
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
