@@ -41,7 +41,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Dynamic battle palette
 - [x] Nayru's PokeDex
 - [x] Improved move screen
-- [x] Improve battle AI
+- [x] Improved battle AI
 
 ## Stretch Goals
 
