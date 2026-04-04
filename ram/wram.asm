@@ -2508,7 +2508,11 @@ wTilesetBlocksAddress:: dw
 wTilesetCollisionBank:: db
 wTilesetCollisionAddress:: dw
 wTilesetAnim:: dw ; bank 3f
-	ds 2 ; unused
+
+; Substitute palette states for battle rendering
+wPlayerSubPalActive:: db
+wEnemySubPalActive::  db
+
 wTilesetPalettes:: dw ; bank 3f
 wTilesetEnd::
 	assert wTilesetEnd - wTileset == TILESET_LENGTH

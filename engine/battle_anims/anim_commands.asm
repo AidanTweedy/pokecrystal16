@@ -978,56 +978,156 @@ GetSubstitutePic: ; used only for BANK(GetSubstitutePic)
 
 	ldh a, [hBattleTurn]
 	and a
-	jr z, .player
+	jp z, .player
 
-	ld hl, MonsterSpriteGFX + 0 tiles
+	; Opponent side: use front sprite, 7x7 buffer
+	; place 4x4 sprite at x=1..4, y=3..6
+
+	ld hl, Substitute_FrontSpriteGFX +  0 tiles
+	ld de, sScratch + (1 * 7 + 3) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  1 tiles
+	ld de, sScratch + (2 * 7 + 3) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  2 tiles
+	ld de, sScratch + (3 * 7 + 3) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  3 tiles
+	ld de, sScratch + (4 * 7 + 3) tiles
+	call .CopyTileFront
+
+	ld hl, Substitute_FrontSpriteGFX +  4 tiles
+	ld de, sScratch + (1 * 7 + 4) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  5 tiles
+	ld de, sScratch + (2 * 7 + 4) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  6 tiles
+	ld de, sScratch + (3 * 7 + 4) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  7 tiles
+	ld de, sScratch + (4 * 7 + 4) tiles
+	call .CopyTileFront
+
+	ld hl, Substitute_FrontSpriteGFX +  8 tiles
+	ld de, sScratch + (1 * 7 + 5) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX +  9 tiles
 	ld de, sScratch + (2 * 7 + 5) tiles
-	call .CopyTile
-	ld hl, MonsterSpriteGFX + 1 tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX + 10 tiles
 	ld de, sScratch + (3 * 7 + 5) tiles
-	call .CopyTile
-	ld hl, MonsterSpriteGFX + 2 tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX + 11 tiles
+	ld de, sScratch + (4 * 7 + 5) tiles
+	call .CopyTileFront
+
+	ld hl, Substitute_FrontSpriteGFX + 12 tiles
+	ld de, sScratch + (1 * 7 + 6) tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX + 13 tiles
 	ld de, sScratch + (2 * 7 + 6) tiles
-	call .CopyTile
-	ld hl, MonsterSpriteGFX + 3 tiles
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX + 14 tiles
 	ld de, sScratch + (3 * 7 + 6) tiles
-	call .CopyTile
+	call .CopyTileFront
+	ld hl, Substitute_FrontSpriteGFX + 15 tiles
+	ld de, sScratch + (4 * 7 + 6) tiles
+	call .CopyTileFront
 
 	ld hl, vTiles2 tile $00
 	ld de, sScratch
-	lb bc, BANK(GetSubstitutePic), 7 * 7
+	lb bc, BANK(Substitute_FrontSpriteGFX), 7 * 7
 	call Request2bpp
-	jr .done
+
+	call CloseSRAM
+	ld a, 1
+	ld [wEnemySubPalActive], a
+	jp .refresh
 
 .player
-	ld hl, MonsterSpriteGFX + 4 tiles
+	; Player side: use back sprite, 6x6 buffer
+	; place 4x4 sprite at x=1..4, y=2..5
+
+	ld hl, Substitute_BackSpriteGFX +  0 tiles
+	ld de, sScratch + (1 * 6 + 2) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  1 tiles
+	ld de, sScratch + (2 * 6 + 2) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  2 tiles
+	ld de, sScratch + (3 * 6 + 2) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  3 tiles
+	ld de, sScratch + (4 * 6 + 2) tiles
+	call .CopyTileBack
+
+	ld hl, Substitute_BackSpriteGFX +  4 tiles
+	ld de, sScratch + (1 * 6 + 3) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  5 tiles
+	ld de, sScratch + (2 * 6 + 3) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  6 tiles
+	ld de, sScratch + (3 * 6 + 3) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  7 tiles
+	ld de, sScratch + (4 * 6 + 3) tiles
+	call .CopyTileBack
+
+	ld hl, Substitute_BackSpriteGFX +  8 tiles
+	ld de, sScratch + (1 * 6 + 4) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX +  9 tiles
 	ld de, sScratch + (2 * 6 + 4) tiles
-	call .CopyTile
-	ld hl, MonsterSpriteGFX + 5 tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX + 10 tiles
 	ld de, sScratch + (3 * 6 + 4) tiles
-	call .CopyTile
-	ld hl, MonsterSpriteGFX + 6 tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX + 11 tiles
+	ld de, sScratch + (4 * 6 + 4) tiles
+	call .CopyTileBack
+
+	ld hl, Substitute_BackSpriteGFX + 12 tiles
+	ld de, sScratch + (1 * 6 + 5) tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX + 13 tiles
 	ld de, sScratch + (2 * 6 + 5) tiles
-	call .CopyTile
-	ld hl, MonsterSpriteGFX + 7 tiles
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX + 14 tiles
 	ld de, sScratch + (3 * 6 + 5) tiles
-	call .CopyTile
+	call .CopyTileBack
+	ld hl, Substitute_BackSpriteGFX + 15 tiles
+	ld de, sScratch + (4 * 6 + 5) tiles
+	call .CopyTileBack
 
 	ld hl, vTiles2 tile $31
 	ld de, sScratch
-	lb bc, BANK(GetSubstitutePic), 6 * 6
+	lb bc, BANK(Substitute_BackSpriteGFX), 6 * 6
 	call Request2bpp
 
-.done
+
 	call CloseSRAM
+	ld a, 1
+	ld [wPlayerSubPalActive], a
+
+.refresh
+	ld b, SCGB_BATTLE_COLORS
+	call GetSGBLayout
 
 	pop af
 	ldh [rSVBK], a
 	ret
 
-.CopyTile:
+.CopyTileFront:
 	ld bc, 1 tiles
-	ld a, BANK(MonsterSpriteGFX)
+	ld a, BANK(Substitute_FrontSpriteGFX)
+	call FarCopyBytes
+	ret
+
+.CopyTileBack:
+	ld bc, 1 tiles
+	ld a, BANK(Substitute_BackSpriteGFX)
 	call FarCopyBytes
 	ret
 
@@ -1211,14 +1311,21 @@ BattleAnimCmd_DropSub:
 	jr z, .player
 
 	callfar DropEnemySub
-	jr .done
+	xor a
+	ld [wEnemySubPalActive], a
+	jr .refresh
 
 .player
 	callfar DropPlayerSub
+	xor a
+	ld [wPlayerSubPalActive], a
 
-.done
+.refresh
 	pop af
 	ld [wCurPartySpecies], a
+
+	ld b, SCGB_BATTLE_COLORS
+	call GetSGBLayout
 
 	pop af
 	ldh [rSVBK], a

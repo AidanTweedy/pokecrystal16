@@ -195,6 +195,11 @@ ClearPalettes::
 	pop af
 	ldh [rSVBK], a
 
+; Clear substitute palettes
+	xor a
+	ld [wPlayerSubPalActive], a
+	ld [wEnemySubPalActive], a
+
 ; Request palette update
 	ld a, TRUE
 	ldh [hCGBPalUpdate], a

@@ -123,12 +123,31 @@ SetDefaultBattlePalette:
 	ldh [rSVBK], a
 	ret
 
+SubstituteBattlePalette:
+INCLUDE "gfx/battle/substitute.pal"
+
 SetBattlePal_Player:
+	ld a, [wPlayerSubPalActive]
+	and a
+	jr nz, .sub
+
 	call GetBattlemonBackpicPalettePointer
 	jp LoadPalette_White_Col1_Col2_Black
 
+.sub
+	ld hl, SubstituteBattlePalette
+	jp LoadPalette_White_Col1_Col2_Black
+
 SetBattlePal_Enemy:
+	ld a, [wEnemySubPalActive]
+	and a
+	jr nz, .sub
+
 	call GetEnemyFrontpicPalettePointer
+	jp LoadPalette_White_Col1_Col2_Black
+
+.sub
+	ld hl, SubstituteBattlePalette
 	jp LoadPalette_White_Col1_Col2_Black
 
 SetBattlePal_EnemyHP:

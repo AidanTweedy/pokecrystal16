@@ -2588,6 +2588,7 @@ BattleAnim_Substitute:
 	anim_1gfx BATTLE_ANIM_GFX_SMOKE
 	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 48
+	anim_setbgpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_SUBSTITUTE
 	anim_raisesub
 	anim_obj BATTLE_ANIM_OBJ_BALL_POOF, 48, 96, $0
 	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, BG_EFFECT_USER, $0
@@ -2598,6 +2599,7 @@ BattleAnim_Substitute:
 	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 48
 	anim_dropsub
+	anim_setbgpal PAL_BATTLE_BG_USER, $ff
 	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 32
 	anim_ret
@@ -2605,6 +2607,7 @@ BattleAnim_Substitute:
 .raisesub:
 	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 48
+	anim_setbgpal PAL_BATTLE_BG_USER, PAL_BTLCUSTOM_SUBSTITUTE
 	anim_raisesub
 	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 32
@@ -2614,6 +2617,7 @@ BattleAnim_Substitute:
 	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 48
 	anim_dropsub
+	anim_setbgpal PAL_BATTLE_BG_USER, $ff
 	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 32
 	anim_ret

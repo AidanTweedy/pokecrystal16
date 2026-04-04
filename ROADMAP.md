@@ -42,6 +42,8 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Nayru's PokeDex
 - [x] Improved move screen
 - [x] Improved battle AI
+- [ ] Improved Town Map
+- [ ] Improved Pokeball animations
 
 ## Stretch Goals
 
