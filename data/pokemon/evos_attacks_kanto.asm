@@ -327,9 +327,6 @@ ButterfreeEvosAttacks:
 	dbw 13, POISONPOWDER
 	dbw 14, STUN_SPORE
 	dbw 15, SLEEP_POWDER
-	dbw 16, SUNNY_DAY
-	dbw 16, RAIN_DANCE
-	dbw 16, SANDSTORM
 	dbw 18, SUPERSONIC
 	dbw 23, WHIRLWIND
 	dbw 28, GUST
