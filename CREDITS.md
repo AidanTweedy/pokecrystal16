@@ -45,3 +45,4 @@ The following keeps track of specific credits for assets and features.
 - [Prevent Steel‐types from being poisoned by Twineedle](https://github.com/pret/pokecrystal/wiki/Prevent-Steel%E2%80%90types-from-being-poisoned-by-Twineedle)
 - [Remove the 25% failure chance for AI status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [Allow using a field move if the Pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It#1-adding-the-new-canpartylearnmove-function-well-be-using)
+- [Automatic battle weather on certain maps](http://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
