@@ -253,4 +253,7 @@ NewPokedexOrder:
 	dw MEWTWO
 	dw MEW
 	dw CELEBI
+	dw TREECKO
+	dw GROVYLE
+	dw SCEPTILE
 	assert_table_length NUM_POKEMON

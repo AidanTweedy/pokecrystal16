@@ -253,4 +253,7 @@ Pokered_MonIndices:
 	db QWILFISH
 	db WOBBUFFET
 	db WOBBUFFET
+	db TREECKO
+	db GROVYLE
+	db SCEPTILE
 	assert_table_length NUM_POKEMON + 1

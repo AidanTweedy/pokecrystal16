@@ -252,4 +252,7 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
+	dw TREECKO
+	dw TREECKO
+	dw TREECKO
 	assert_table_length NUM_POKEMON

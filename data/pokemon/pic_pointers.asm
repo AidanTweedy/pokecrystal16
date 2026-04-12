@@ -518,4 +518,10 @@ PokemonPicPointers::
 	dba HoOhBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
+	dba TreeckoFrontPic
+	dba TreeckoBackPic
+	dba GrovyleFrontPic
+	dba GrovyleBackPic
+	dba SceptileFrontPic
+	dba SceptileBackPic
 	assert_table_length NUM_POKEMON + 1

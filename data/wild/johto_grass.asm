@@ -1284,10 +1284,10 @@ JohtoGrassWildMons:
 	dbw 3, SPINARAK
 	dbw 3, HOOTHOOT
 	dbw 4, POLIWAG
-	dbw 4, HOOTHOOT
-	dbw 3, ZUBAT
-	dbw 4, HOOTHOOT
-	dbw 4, HOOTHOOT
+	dbw 4, SCEPTILE
+	dbw 3, TREECKO
+	dbw 4, TREECKO
+	dbw 4, TREECKO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31

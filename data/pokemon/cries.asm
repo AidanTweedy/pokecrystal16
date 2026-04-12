@@ -257,4 +257,7 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
+	mon_cry CRY_BULBASAUR,   330,  273 ; TREECKO
+	mon_cry CRY_BULBASAUR,   220,  273 ; GROVYLE
+	mon_cry CRY_BULBASAUR,   120,  273 ; SCEPTILE
 	assert_table_length NUM_POKEMON
