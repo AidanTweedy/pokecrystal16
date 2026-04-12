@@ -3602,8 +3602,30 @@ DoSubstituteDamage:
 	call GetBattleVarAddr
 	res SUBSTATUS_SUBSTITUTE, [hl]
 
+; Clear custom substitute palette flag for the battler whose sub broke
+	ldh a, [hBattleTurn]
+	and a
+	jr z, .enemy_sub_broke
+
+	xor a
+	ld [wPlayerSubPalActive], a
+	jr .sub_pal_cleared
+
+.enemy_sub_broke
+	xor a
+	ld [wEnemySubPalActive], a
+
+.sub_pal_cleared
 	ld hl, SubFadedText
 	call StdBattleTextbox
+
+	; clear sub palette
+	ld b, SCGB_BATTLE_COLORS
+	call GetSGBLayout
+	ld a, TRUE
+	ldh [hCGBPalUpdate], a
+	ld a, $1
+	ldh [hBGMapMode], a
 
 	call BattleCommand_SwitchTurn
 	call BattleCommand_LowerSubNoAnim

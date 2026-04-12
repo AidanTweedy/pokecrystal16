@@ -1728,6 +1728,12 @@ HandleWeather:
 	cp WEATHER_NONE
 	ret z
 
+	cp WEATHER_RAIN
+	jp z, .rain_anim
+
+	cp WEATHER_SUN
+	jp z, .sun_anim
+
 	ld hl, wWeatherCount
 	dec [hl]
 	jr z, .ended
@@ -1800,6 +1806,25 @@ HandleWeather:
 	xor a
 	ld [wBattleWeather], a
 	ret
+
+.rain_anim
+	call SwitchTurnCore
+	xor a
+	ld [wNumHits], a
+	ld de, RAIN_DANCE
+	call Call_PlayBattleAnim
+	call SwitchTurnCore
+	ld hl, .WeatherMessages
+	jr .PrintWeatherMessage
+
+.sun_anim
+	call SwitchTurnCore
+	xor a
+	ld [wNumHits], a
+	ld de, SUNNY_DAY
+	call Call_PlayBattleAnim
+	call SwitchTurnCore
+	ld hl, .WeatherMessages
 
 .PrintWeatherMessage:
 	ld a, [wBattleWeather]
@@ -4800,23 +4825,26 @@ PrintPlayerHUD:
 .got_gender_char
 	hlcoord 17, 8
 	ld [hl], a
-	hlcoord 14, 8
 	push af ; back up gender
 	push hl
+	hlcoord 10, 8
 	ld de, wBattleMonStatus
 	predef PlaceNonFaintStatus
 	pop hl
 	pop bc
-	ret nz
-	ld a, b
-	cp " "
-	jr nz, .copy_level ; male or female
-	dec hl ; genderless
-
-.copy_level
+	
+	hlcoord 13, 8
 	ld a, [wBattleMonLevel]
 	ld [wTempMonLevel], a
-	jp PrintLevel
+	call PrintLevel_Force3Digits
+
+.player_shiny
+    call BattleCheckPlayerShininess
+    ret nc
+    ld a, "<SHINY>"
+    hlcoord 18, 8
+    ld [hl], a
+	ret
 
 UpdateEnemyHUD::
 	push hl
@@ -4864,9 +4892,16 @@ DrawEnemyHUD:
 	ld a, [hl]
 	ld [de], a
 
+	call BattleCheckEnemyShininess
+    jr nc, .regular_mon
+    ld a, "<SHINY>"
+    hlcoord 10, 1 ; TODO - move?
+    ld [hl], a
+
+.regular_mon
 	ld a, TEMPMON
 	ld [wMonType], a
-	callfar GetGender
+	farcall GetGender
 	ld a, " "
 	jr c, .got_gender
 	ld a, "♂"
@@ -4877,23 +4912,18 @@ DrawEnemyHUD:
 	hlcoord 9, 1
 	ld [hl], a
 
-	hlcoord 6, 1
 	push af
 	push hl
+	hlcoord 2, 1
 	ld de, wEnemyMonStatus
 	predef PlaceNonFaintStatus
 	pop hl
 	pop bc
-	jr nz, .skip_level
+	hlcoord 5, 1
 	ld a, b
-	cp " "
-	jr nz, .print_level
-	dec hl
-.print_level
 	ld a, [wEnemyMonLevel]
 	ld [wTempMonLevel], a
-	call PrintLevel
-.skip_level
+	call PrintLevel_Force3Digits
 
 	ld hl, wEnemyMonHP
 	ld a, [hli]
@@ -5748,29 +5778,12 @@ MoveInfoBox:
 	xor a
 	ldh [hBGMapMode], a
 
-	hlcoord 0, 8
-	ld b, 3
+	hlcoord 0, 6
+	ld b, 5
 	ld c, 9
 	call Textbox
 	call MobileTextBorder
 
-	ld a, [wPlayerDisableCount]
-	and a
-	jr z, .not_disabled
-
-	swap a
-	and $f
-	ld b, a
-	ld a, [wMenuCursorY]
-	cp b
-	jr nz, .not_disabled
-
-	hlcoord 1, 10
-	ld de, .Disabled
-	call PlaceString
-	jr .done
-
-.not_disabled
 	ld hl, wMenuCursorY
 	dec [hl]
 	call SetPlayerTurn
@@ -5804,27 +5817,121 @@ MoveInfoBox:
 	ld b, a
 	farcall GetMoveCategoryName
 
-	hlcoord 1, 9
+	hlcoord 1, 7
 	ld de, wStringBuffer1
 	call PlaceString
 
 	ld h, b
 	ld l, c
 
-	hlcoord 7, 11
+	hlcoord 1, 8
 	ld [hl], "/"
-
 	callfar UpdateMoveData
 	ld a, [wPlayerMoveStruct + MOVE_ANIM]
 	ld b, a
-	hlcoord 2, 10
+	hlcoord 2, 8
 	predef PrintMoveType
+
+	ld a, [wPlayerDisableCount]
+	and a
+	jr z, .not_disabled
+
+	swap a
+	and $f
+	ld b, a
+	ld a, [wMenuCursorY]
+	cp b
+	jr nz, .not_disabled
+
+	hlcoord 1, 11
+	ld de, .Disabled
+	call PlaceString
+
+	jp .display_pow
+
+.not_disabled
+	hlcoord 1, 11
+	ld de, .PP_word
+	call PlaceString
+
+	hlcoord 7, 11
+	ld [hl], "/"
+
+.display_pow
+	hlcoord 1, 9
+	ld de, .Pow
+	call PlaceString
+	
+	hlcoord 7, 9
+	ld a, [wPlayerMoveStruct + MOVE_POWER]
+	ld [wStringBuffer1], a
+	cp 2
+	jr c, .no_pow
+	ld de, wStringBuffer1
+	lb bc, 1, 3
+	call PrintNum
+	jr .display_acc
+
+.no_pow
+	ld de, .NoAccPow
+	call PlaceString
+
+.display_acc
+	hlcoord 1, 10
+	ld de, .Acc
+	call PlaceString
+	
+	ld a, [wPlayerMoveStruct + MOVE_ACC]
+	ldh [hMultiplicand], a
+	ld a, 100
+	ldh [hMultiplier], a
+	ld b, 1
+	call Multiply
+	ldh a, [hProduct + 2]
+	ldh [hDividend + 3], a
+	ldh a, [hProduct + 1]
+	ldh [hDividend + 2], a
+	ld a, $ff
+	ldh [hDivisor], a
+	ld b, 2
+	call Divide
+	ldh a, [hQuotient + 3]
+	ld b, a
+	ldh a, [hRemainder]
+	cp 50 percent + 1
+	jr c, .display_acc_2
+	inc b
+.display_acc_2
+	ld a, b
+	hlcoord 7, 10
+	cp 2
+	jr c, .no_acc
+	ld [wStringBuffer1], a
+	ld de, wStringBuffer1
+	lb bc, 1, 3
+	call PrintNum
+	;hlcoord 8, 8
+	;ld [hl], "<PERCENT>"
+	;call PrintNum
+	jr .done
+
+.no_acc
+	ld de, .NoAccPow
+	call PlaceString
 
 .done
 	ret
 
 .Disabled:
 	db "Disabled!@"
+.PP_word:
+	db "PP:@"
+.Acc:
+	db "ACC:@"
+.NoAccPow:	
+	db "---@"
+.Pow:
+	db "PWR:@"
 
 .PrintPP:
 	hlcoord 5, 11
@@ -8066,7 +8173,7 @@ PlaceExpBar:
 	sub $8
 	jr c, .next
 	ld b, a
-	ld a, $6a ; full bar
+	ld a, $5d ; full bar
 	ld [hld], a
 	dec c
 	jr z, .finish
@@ -8075,15 +8182,15 @@ PlaceExpBar:
 .next
 	add $8
 	jr z, .loop2
-	add $54 ; tile to the left of small exp bar tile
+	add $55 ; tile to the left of small exp bar tile
 	jr .skip
 
 .loop2
-	ld a, $62 ; empty bar
+	ld a, $55 ; empty bar
 
 .skip
 	ld [hld], a
-	ld a, $62 ; empty bar
+	ld a, $55 ; empty bar
 	dec c
 	jr nz, .loop2
 
