@@ -275,6 +275,12 @@ DEF HOENN_POKEMON EQU const_value
 	const TREECKO
 	const GROVYLE
 	const SCEPTILE
+	const TORCHIC
+	const COMBUSKEN
+	const BLAZIKEN
+	const MUDKIP
+	const MARSHTOMP
+	const SWAMPERT
 
 DEF NUM_POKEMON EQU const_value - 1
 

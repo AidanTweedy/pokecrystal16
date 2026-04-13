@@ -606,15 +606,35 @@ endr
 GetIconBank:
 	push hl
 	ld a, [wCurIcon]
-	call GetPokemonIndexFromID
-	ld a, h
-	cp HIGH(MAGIKARP) ; first species in "Mon Icons 2"
+	call GetPokemonIndexFromID ; hl = species index
+
 	lb bc, BANK("Mon Icons 1"), 8
+
+	; if hl < MAGIKARP, stay in Mon Icons 1
+	ld a, h
+	cp HIGH(MAGIKARP)
 	jr c, .return
+	jr nz, .check_icons_3
 	ld a, l
 	cp LOW(MAGIKARP)
 	jr c, .return
+
+	; otherwise default to Mon Icons 2
 	ld b, BANK("Mon Icons 2")
+
+.check_icons_3
+	; if hl < TREECKO, stay in Mon Icons 2
+	ld a, h
+	cp HIGH(TREECKO)
+	jr c, .return
+	jr nz, .bank_3
+	ld a, l
+	cp LOW(TREECKO)
+	jr c, .return
+
+.bank_3
+	ld b, BANK("Mon Icons 3")
+
 .return
 	pop hl
 	ret

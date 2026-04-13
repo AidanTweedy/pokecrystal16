@@ -1,10 +1,10 @@
 	db "WOOD GECKO@" ; species name
-	dw 200, 210 ; height, weight
+	dw 211, 476 ; height, weight
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
+	db   "It leaps from tree"
+	next "branch to tree"
+	next "branch swiftly."
 
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+	page "It shows"
+	next "astounding"
+	next "agility.@"

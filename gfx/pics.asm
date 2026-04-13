@@ -711,7 +711,7 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 
 SECTION "Pics 19", ROMX
 
-; Seems to be an accidental copy of the previous bank
+; Hoenn Pokemon
 
 TreeckoFrontPic:     INCBIN "gfx/pokemon/treecko/front.animated.2bpp.lz"
 TreeckoBackPic:      INCBIN "gfx/pokemon/treecko/back.2bpp.lz"
@@ -719,3 +719,15 @@ GrovyleFrontPic:     INCBIN "gfx/pokemon/grovyle/front.animated.2bpp.lz"
 GrovyleBackPic:      INCBIN "gfx/pokemon/grovyle/back.2bpp.lz"
 SceptileFrontPic:    INCBIN "gfx/pokemon/sceptile/front.animated.2bpp.lz"
 SceptileBackPic:     INCBIN "gfx/pokemon/sceptile/back.2bpp.lz"
+TorchicFrontPic:     INCBIN "gfx/pokemon/torchic/front.animated.2bpp.lz"
+TorchicBackPic:      INCBIN "gfx/pokemon/torchic/back.2bpp.lz"
+CombuskenFrontPic:   INCBIN "gfx/pokemon/combusken/front.animated.2bpp.lz"
+CombuskenBackPic:    INCBIN "gfx/pokemon/combusken/back.2bpp.lz"
+BlazikenFrontPic:    INCBIN "gfx/pokemon/blaziken/front.animated.2bpp.lz"
+BlazikenBackPic:     INCBIN "gfx/pokemon/blaziken/back.2bpp.lz"
+MudkipFrontPic:      INCBIN "gfx/pokemon/mudkip/front.animated.2bpp.lz"
+MudkipBackPic:       INCBIN "gfx/pokemon/mudkip/back.2bpp.lz"
+MarshtompFrontPic:   INCBIN "gfx/pokemon/marshtomp/front.animated.2bpp.lz"
+MarshtompBackPic:    INCBIN "gfx/pokemon/marshtomp/back.2bpp.lz"
+SwampertFrontPic:    INCBIN "gfx/pokemon/swampert/front.animated.2bpp.lz"
+SwampertBackPic:     INCBIN "gfx/pokemon/swampert/back.2bpp.lz"
