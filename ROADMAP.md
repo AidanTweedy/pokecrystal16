@@ -45,6 +45,13 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Improved Town Map
 - [ ] Improved Pokeball animations
 - [x] 60 FPS
+- [ ] Item icon appears in text box when obtained
+- [ ] TMHM bag menu displays move info
+- [ ] Enhanced player selection screen
+- [ ] Enhanced textures
+- [ ] Gen III+ Berry Names
+- [ ] Lowercase text
+- [ ] New fonts
 
 ## Stretch Goals
 
@@ -56,3 +63,4 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Level caps
 - [ ] Change starters
 - [ ] Battle backgrounds (likely very difficult/impossible)
+- [ ] Enhanced battle music
