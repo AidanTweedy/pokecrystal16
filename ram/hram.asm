@@ -175,7 +175,7 @@ if DEF(_DEBUG)
 hDebugRoomMenuPage::
 endc
 hClockResetTrigger:: db
-
+hDelayFrameLY:: db
 hFarCallSavedA:: db
 hFarCallSavedHL::
 hFarCallSavedL:: db
@@ -187,6 +187,6 @@ hFunctionTarget::
 hFunctionTargetLo:: db
 hFunctionTargetHi:: db
 
-	ds 13
+	ds 12
 
 ENDSECTION
