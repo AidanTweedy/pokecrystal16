@@ -136,8 +136,8 @@ if DEF(_DEBUG)
 	giveitem TM_ROCK_SMASH
 	giveitem TM_HEADBUTT
 	giveitem HM_WATERFALL
-	; items
-	giveitem MAX_REPEL, 99
+	; key items
+	giveitem BICYCLE
 	;giveitem CLEAR_BELL
 	; intro events
 	addcellnum PHONE_MOM

@@ -143,19 +143,17 @@ RunBattleAnimScript:
 	ret
 
 BattleAnimClearHud:
-	call BattleAnimDelayFrame
+	call DelayFrame
 	call WaitTop
 	call ClearActorHud
 	ld a, $1
 	ldh [hBGMapMode], a
-	call BattleAnimDelayFrame
-	call BattleAnimDelayFrame
-	call BattleAnimDelayFrame
+	call Delay3
 	call WaitTop
 	ret
 
 BattleAnimRestoreHuds:
-	call BattleAnimDelayFrame
+	call DelayFrame
 	call WaitTop
 
 	ldh a, [rSVBK]
@@ -174,9 +172,7 @@ BattleAnimRestoreHuds:
 
 	ld a, $1
 	ldh [hBGMapMode], a
-	call BattleAnimDelayFrame
-	call BattleAnimDelayFrame
-	call BattleAnimDelayFrame
+	call Delay3
 	call WaitTop
 	ret
 
