@@ -255,4 +255,13 @@ PokemonNames::
 	db "LUGIA@@@@@"
 	db "HO-OH@@@@@"
 	db "CELEBI@@@@"
+	db "TREECKO@@@"
+	db "GROVYLE@@@"
+	db "SCEPTILE@@"
+	db "TORCHIC@@@"
+	db "COMBUSKEN@"
+	db "BLAZIKEN@@"
+	db "MUDKIP@@@@"
+	db "MARSHTOMP@"
+	db "SWAMPERT@@"
 	assert_table_length NUM_POKEMON

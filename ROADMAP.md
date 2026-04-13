@@ -47,7 +47,6 @@ This document is a living checklist outlining the items needed to be complete pr
 
 ## Stretch Goals
 
-- [ ] Battle backgrounds
 - [ ] Pokemon abilities (incl. Ability Capsule)
 - [ ] Pokemon natures 
 
@@ -55,3 +54,4 @@ This document is a living checklist outlining the items needed to be complete pr
 
 - [ ] Level caps
 - [ ] Change starters
+- [ ] Battle backgrounds (likely very difficult/impossible)

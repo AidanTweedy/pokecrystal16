@@ -11,6 +11,8 @@ The following keeps track of specific credits for assets and features.
 - Seasick - Kris Running Sprite
 - FIQ - Dynamic Battle Palette System
 - Nayru62 - Nayru's PokeDex
+- Nuukiie - Hoenn GBC Sprites + Animations
+- EeVeeEe1999 - Hoenn GBC Party Sprites
 
 ---
 
@@ -46,3 +48,4 @@ The following keeps track of specific credits for assets and features.
 - [Remove the 25% failure chance for AI status moves](https://github.com/pret/pokecrystal/wiki/Remove-the-25%25-failure-chance-for-AI-status-moves)
 - [Allow using a field move if the Pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It#1-adding-the-new-canpartylearnmove-function-well-be-using)
 - [Automatic battle weather on certain maps](http://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
+- [Add a new Pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pok%C3%A9mon) 
