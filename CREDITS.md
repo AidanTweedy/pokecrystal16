@@ -5,7 +5,7 @@ The following keeps track of specific credits for assets and features.
 ---
 
 ## Individual Credits
-- vulcandth - 16 bit expansion with newbox
+- vulcandth - 16 bit expansion with newbox, 60 FPS
 - dannye - crystal-tracker
 - Tom Wang - Chris Running Sprite
 - Seasick - Kris Running Sprite

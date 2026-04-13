@@ -44,6 +44,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [x] Improved battle AI
 - [ ] Improved Town Map
 - [ ] Improved Pokeball animations
+- [x] 60 FPS
 
 ## Stretch Goals
 
