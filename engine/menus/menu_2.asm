@@ -104,9 +104,9 @@ DisplayMoneyAndCoinBalance:
 	ret
 
 MoneyString:
-	db "MONEY@"
+	db "Money@"
 CoinString:
-	db "COIN@"
+	db "Coin@"
 ShowMoney_TerminatorString:
 	db "@"
 

@@ -1857,9 +1857,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "SEEN", -1
+	db "Seen", -1
 String_OWN:
-	db "OWN", -1
+	db "Own", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -2269,8 +2269,8 @@ Pokedex_DrawSearchScreenBG:
 	db   "@"
 
 .Menu:
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
+	db   "Begin Search!!"
+	next "Cancel"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:

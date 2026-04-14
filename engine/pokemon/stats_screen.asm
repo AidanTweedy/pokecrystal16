@@ -694,23 +694,23 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
-	next "TYPE/@"
+	db   "Status/"
+	next "Type/@"
 
 .OK_str:
-	db "OK @"
+	db "Ok @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "Exp Points@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "Level Up@"
 
 .ToStr:
-	db "TO@"
+	db "to@"
 
 .PkrsStr:
-	db "#RUS@"
+	db "#rus@"
 
 LoadGreenPage:
 	ld de, .Item
@@ -749,13 +749,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "Item@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "Moves@"
 
 LoadBluePage:
 	call StatsScreen_PrintHappiness
@@ -913,9 +913,9 @@ LoadOrangePage:
 	ret
 
 .times
-	db "MORN@"
-	db "DAY@"
-	db "NITE@"
+	db "Morn@"
+	db "Day@"
+	db "Night@"
 
 .placeCaughtLevel
 	; caught level
@@ -944,10 +944,10 @@ LoadOrangePage:
 	ret
 
 MetAtMapString:
-	db "MET AT:@"
+	db "Met at:@"
 
 MetUnknownMapString:
-	db "UNKNOWN@"
+	db "Unknown@"
  
 MetUnknownLevelString:
 	db "???@"
@@ -1077,7 +1077,7 @@ StatsScreen_PrintDVs:
  	db "                   @"
 
 HiddenPowerTypeString:
-	db "POWER:@"
+	db "Power:@"
 
 IDNoString:
 	db "<ID>№.@"

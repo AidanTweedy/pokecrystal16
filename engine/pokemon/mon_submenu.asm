@@ -273,7 +273,7 @@ BattleMonMenu:
 	db 3 ; items
 	db "SWITCH@"
 	db "STATS@"
-	db "CANCEL@"
+	db "Cancel@"
 
 CheckMonCanLearn_TM_HM:
 ; Check if wCurPartySpecies can learn move in 'a'
