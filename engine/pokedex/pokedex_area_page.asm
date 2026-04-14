@@ -9,11 +9,11 @@ DEF ENTRY_SIZE_BYTES EQU 3 ; pk 16, species is 2 bytes
 DEF ENTRY_SKIP_ENCOUNTER_RATES EQU 6 ; see the wild data: db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 
 String_johto_text:
-	db "JOHTO:     @"
+	db "Johto:     @"
 String_kanto_text:
-	db "KANTO:     @"
+	db "Kanto:     @"
 String_swarm_text:
-	db "SWARM:     @"
+	db "Swarm:     @"
 
 Pokedex_DetailedArea:
 	xor a

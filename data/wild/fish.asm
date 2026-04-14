@@ -251,33 +251,33 @@ FishGroups_Names::
 
 ; max length : 11 characters
 Group1_Name:
-	db " SHORE@"
+	db " Shore@"
 Group2_Name:
-	db " OCEAN@"
+	db " Ocean@"
 Group3_Name:
-	db " LAKE@"
+	db " Lake@"
 Group4_Name:
-	db " POND@"
+	db " Pond@"
 Group5_Name:
-	db " DRATINI@"
+	db " Dratini@"
 Group6_Name:
-	db " SWARM 1@"
+	db " Swarm 1@"
 Group7_Name:
-	db " SWARM 2@"
+	db " Swarm 2@"
 Group8_Name:
-	db " GYARADOS@"
+	db " Gyarados@"
 Group9_Name:
-	db " ROUTE 45@"
-	; db " DRATINI 2@"
+	db " Route 45@"
+	; db " Dratini 2@"
 Group10_Name:
-	db " WHIRL@"
+	db " Whirl@"
 Group11_Name:
-	db " QWILFISH@"
+	db " Qwilfish@"
 Group12_Name:
-	db " REMORAID@"
+	db " Remoraid@"
 Group13_Name:
-	db " ROUTE 12@"
-	; db " QWILFISH 2@"
+	db " Route 12@"
+	; db " Qwilfish 2@"
 
 GetFishGroupName:
 ; given fishing group num in 'a'
