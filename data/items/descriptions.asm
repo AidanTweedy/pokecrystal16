@@ -843,7 +843,7 @@ GorgeousBoxDesc:
 
 SunStoneDesc:
 	db   "Evolves certain"
-	next "kinds of #MON.@"
+	next "kinds of #mon.@"
 
 PolkadotBowDesc:
 	db   "Powers up normal-"

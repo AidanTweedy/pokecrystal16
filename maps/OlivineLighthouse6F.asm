@@ -166,7 +166,7 @@ OlivineLighthouseJasmineLeavesRightMovement:
 
 JasmineCianwoodPharmacyText:
 	text "JASMINE: … This"
-	line "#MON always"
+	line "#mon always"
 
 	para "kept the sea lit"
 	line "at night."

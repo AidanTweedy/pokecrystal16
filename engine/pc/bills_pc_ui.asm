@@ -85,7 +85,7 @@ _BillsPC:
 	ret
 
 .Text_GottaHavePokemon:
-	; You gotta have #MON to call!
+	; You gotta have #mon to call!
 	text_far _PCGottaHavePokemonText
 	text_end
 
@@ -2752,7 +2752,7 @@ BillsPC_ReleaseAll:
 
 .CantRecallReleasedMons:
 	text "You can't recall"
-	line "released #MON."
+	line "released #mon."
 	cont "Are you sure?"
 	done
 
@@ -2769,7 +2769,7 @@ BillsPC_ReleaseAll:
 	text "Released @"
 	text_decimal wTextDecimalByte, 1, 2
 	text ""
-	line "#MON."
+	line "#mon."
 	prompt
 
 .TheRestWasnt:
@@ -3256,7 +3256,7 @@ BillsPC_SwapStorage:
 
 BillsPC_LastPartyMon:
 	text "That's your last"
-	line "healthy #MON!"
+	line "healthy #mon!"
 	prompt
 
 BillsPC_MustSaveToContinue:

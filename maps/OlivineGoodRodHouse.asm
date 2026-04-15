@@ -70,7 +70,7 @@ GaveGoodRodText:
 	para "By the way,"
 	line "your #DEX shows"
 	cont "fishing groups for"
-	cont "#MON."
+	cont "#mon."
 
 	para "Different spots"
 	line "have similar fish."
