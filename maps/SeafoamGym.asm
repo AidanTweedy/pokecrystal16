@@ -145,7 +145,7 @@ SeafoamGymGuideWinText:
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #mon GYM can"
+	text "A #mon Gym can"
 	line "be anywhere as"
 
 	para "long as the GYM"

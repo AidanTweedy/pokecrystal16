@@ -345,7 +345,7 @@ CianwoodCitySignText:
 
 CianwoodGymSignText:
 	text "CIANWOOD CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 
 	para "LEADER: CHUCK"
 

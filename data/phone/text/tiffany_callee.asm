@@ -73,6 +73,6 @@ TiffanyGenericText:
 	para "precisely because"
 	line "I take it to a"
 
-	para "#mon CENTER"
+	para "#mon Center"
 	line "every day."
 	done

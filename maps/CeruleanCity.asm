@@ -235,7 +235,7 @@ CeruleanCitySignText:
 
 CeruleanGymSignText:
 	text "CERULEAN CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: MISTY"
 
 	para "The Tomboyish"

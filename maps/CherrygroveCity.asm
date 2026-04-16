@@ -486,7 +486,7 @@ CherrygroveRivalText_YouWon:
 CherrygroveTeacherText_NoMapCard:
 	text "Did you talk to"
 	line "the old man by the"
-	cont "#mon CENTER?"
+	cont "#mon Center?"
 
 	para "He'll put a MAP of"
 	line "JOHTO on your"
@@ -514,7 +514,7 @@ CherrygroveYoungsterText_HavePokedex:
 	line "They're a mess! I"
 
 	para "must take them to"
-	line "a #mon CENTER."
+	line "a #mon Center."
 	done
 
 MysticWaterGuyTextBefore:

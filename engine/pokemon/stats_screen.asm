@@ -218,7 +218,7 @@ if DEF(_DEBUG)
 	jp StatsScreen_JoypadAction
 
 .HatchSoonString:
-	db "▶HATCH SOON!@"
+	db "▶Hatch Soon!@"
 endc
 
 StatsScreen_LoadPage:
@@ -1283,7 +1283,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶Push Start.@"
 
 .placed_push_start
 endc
@@ -1318,7 +1318,7 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "Egg@"
 
 FiveQMarkString:
 	db "?????@"
@@ -1340,7 +1340,7 @@ EggMoreTimeString:
 	next "more time, though.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
+	db   "This Egg needs a"
 	next "lot more time to"
 	next "hatch.@"
 

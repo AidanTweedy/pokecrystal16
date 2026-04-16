@@ -878,7 +878,7 @@ GiveEgg::
 	ret
 
 String_Egg:
-	db "EGG@"
+	db "Egg@"
 
 RemoveMonFromParty:
 	ld hl, wPartyCount

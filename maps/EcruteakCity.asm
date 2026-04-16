@@ -233,7 +233,7 @@ TinTowerSignText:
 
 EcruteakGymSignText:
 	text "ECRUTEAK CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: MORTY"
 
 	para "The Mystic Seer of"

@@ -558,7 +558,7 @@ Route32CooltrainerMText_UnusedSproutTower:
 
 Route32CooltrainerMText_VioletGym:
 	text "Have you gone to"
-	line "the #mon GYM?"
+	line "the #mon Gym?"
 
 	para "You can test your"
 	line "#mon and your-"

@@ -193,7 +193,7 @@ CeladonCitySignText:
 
 CeladonGymSignText:
 	text "CELADON CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: ERIKA"
 
 	para "The Nature-Loving"
@@ -213,7 +213,7 @@ CeladonCityMansionSignText:
 CeladonCityGameCornerSignText:
 	text "The Playground for"
 	line "Everybody--CELADON"
-	cont "GAME CORNER"
+	cont "Game Corner"
 	done
 
 CeladonCityTrainerTipsText:

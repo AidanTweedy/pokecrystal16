@@ -13,7 +13,7 @@ NurseNiteText:
 
 NurseCenterWelcomeText:
 	text "Welcome to our"
-	line "#mon CENTER."
+	line "#mon Center."
 
 	para "We can heal your"
 	line "#mon to perfect"
@@ -63,7 +63,7 @@ NursePokerusText:
 	line "you anything more"
 
 	para "at a #mon"
-	line "CENTER."
+	line "Center."
 	done
 
 PokeComNursePokerusText:
@@ -171,14 +171,14 @@ TrashCanText:
 
 PokecenterSignText:
 	text "Heal Your #mon!"
-	line "#mon CENTER"
+	line "#mon Center"
 	done
 
 MartSignText:
 	text "For All Your"
 	line "#mon Needs"
 
-	para "#mon MART"
+	para "#mon Mart"
 	done
 
 ContestResults_ReadyToJudgeText:
@@ -248,20 +248,20 @@ ContestResults_PartyFullText:
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
 	text_start
-	line "#mon GYM"
+	line "#mon Gym"
 	done
 
 GymStatue_WinningTrainersText:
-	text "LEADER: @"
+	text "Leader: @"
 	text_ram wStringBuffer4
 	text_start
-	para "WINNING TRAINERS:"
+	para "Winning Trainers:"
 	line "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:
 	text "Welcome to the"
-	line "GAME CORNER."
+	line "Game Corner."
 	done
 
 CoinVendor_NoCoinCaseText:
@@ -308,7 +308,7 @@ CoinVendor_CancelText:
 	done
 
 BugContestPrizeNoRoomText:
-	text "Oh? Your PACK is"
+	text "Oh? Your Bag is"
 	line "full."
 
 	para "We'll keep this"

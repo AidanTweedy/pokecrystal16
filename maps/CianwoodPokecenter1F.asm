@@ -45,7 +45,7 @@ CianwoodPokecenter1FLassText:
 	done
 
 CianwoodGymGuideText:
-	text "The #mon GYM"
+	text "The #mon Gym"
 	line "trainers here are"
 	cont "macho bullies."
 

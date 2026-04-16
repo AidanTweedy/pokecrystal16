@@ -257,7 +257,7 @@ VioletCitySignText:
 
 VioletGymSignText:
 	text "VIOLET CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: FALKNER"
 
 	para "The Elegant Master"

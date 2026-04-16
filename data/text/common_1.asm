@@ -18,7 +18,7 @@ _ObtainedFruitText::
 	done
 
 _FruitPackIsFullText::
-	text "But the PACK is"
+	text "But the Bag is"
 	line "full…"
 	done
 
@@ -28,7 +28,7 @@ _NothingHereText::
 	done
 
 _WhichApricornText::
-	text "Which APRICORN"
+	text "Which Apricorn"
 	line "should I use?"
 	done
 

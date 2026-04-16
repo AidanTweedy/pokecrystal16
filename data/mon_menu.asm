@@ -33,4 +33,4 @@ MonMenuOptions:
 .cancel: db "Cancel@"
 .move:   db "Move@"
 .mail:   db "Mail@"
-.error:  db "ERROR!@"
+.error:  db "Error!@"

@@ -1049,7 +1049,7 @@ ElmAfterTheftText5:
 	cont "with #mon too."
 
 	para "You should take"
-	line "the #mon GYM"
+	line "the #mon Gym"
 	cont "challenge."
 
 	para "The closest GYM"
@@ -1086,7 +1086,7 @@ ElmAideHasEggText:
 	line "you with the EGG"
 
 	para "at VIOLET CITY's"
-	line "#mon CENTER."
+	line "#mon Center."
 
 	para "You must have just"
 	line "missed him. Try to"

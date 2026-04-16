@@ -506,7 +506,7 @@ _HerbalLadyThanksText::
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? Your PACK is"
+	text "Oh? Your Bag is"
 	line "full, dear."
 	done
 
@@ -836,7 +836,7 @@ _MobileCardFolderIntro3Text::
 
 	para "mobile phone on"
 	line "the 2nd floor of a"
-	cont "#mon CENTER."
+	cont "#mon Center."
 
 	para ""
 	done

@@ -326,7 +326,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "Time not set@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText

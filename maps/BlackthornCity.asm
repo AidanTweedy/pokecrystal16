@@ -282,7 +282,7 @@ BlackthornCitySignText:
 
 BlackthornGymSignText:
 	text "BLACKTHORN CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: CLAIR"
 
 	para "The Blessed User"

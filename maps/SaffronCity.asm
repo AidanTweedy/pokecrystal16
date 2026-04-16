@@ -235,7 +235,7 @@ SaffronCitySignText:
 
 SaffronGymSignText:
 	text "SAFFRON CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: SABRINA"
 
 	para "The Master of"

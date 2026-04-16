@@ -432,7 +432,7 @@ GoldenrodDeptStoreSignText:
 
 GoldenrodGymSignText:
 	text "GOLDENROD CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: WHITNEY"
 
 	para "The Incredibly"
@@ -456,7 +456,7 @@ GoldenrodCityGameCornerSignText:
 	text "Your Playground!"
 
 	para "GOLDENROD CITY"
-	line "GAME CORNER"
+	line "Game Corner"
 	done
 
 GoldenrodCityNameRaterSignText:

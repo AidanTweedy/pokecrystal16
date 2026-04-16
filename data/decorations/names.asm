@@ -10,7 +10,7 @@ DecorationNames:
 	li "NES"
 	li "Super NES"
 	li "Nintendo 64"
-	li "VIRTUAL BOY"
+	li "Virtual Boy"
 	li "Gold Trophy"
 	li "Silver Trophy"
 	li "Surf Pikachu Doll"

@@ -974,7 +974,7 @@ Text_MysteryGiftDeliveryGuy_NoRoom:
 	line "space for this."
 
 	para "Stop in at any"
-	line "#mon CENTER"
+	line "#mon Center"
 
 	para "across the country"
 	line "to pick it up."

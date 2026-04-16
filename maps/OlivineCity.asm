@@ -263,7 +263,7 @@ OlivineCityPortSignText:
 
 OlivineGymSignText:
 	text "OLIVINE CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: JASMINE"
 
 	para "The Steel-Clad"

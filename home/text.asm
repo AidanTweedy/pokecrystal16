@@ -430,9 +430,9 @@ PlaceCommandCharacter::
 	jp NextChar
 
 TMCharText::      db "TM@"
-TrainerCharText:: db "TRAINER@"
+TrainerCharText:: db "Trainer@"
 PCCharText::      db "PC@"
-RocketCharText::  db "ROCKET@"
+RocketCharText::  db "Rocket@"
 PlacePOKeText::   db "Poké@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"

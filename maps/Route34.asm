@@ -523,7 +523,7 @@ YoungsterSamuelMobileText: ; unreferenced
 	line "by how they've"
 
 	para "changed the"
-	line "#mon CENTER?"
+	line "#mon Center?"
 	done
 
 YoungsterSamuelAfterText:

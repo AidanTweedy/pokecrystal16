@@ -191,7 +191,7 @@ ViridianCitySignText:
 
 ViridianGymSignText:
 	text "VIRIDIAN CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: …"
 
 	para "The rest of the"

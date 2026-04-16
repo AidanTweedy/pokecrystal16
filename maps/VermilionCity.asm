@@ -160,7 +160,7 @@ VermilionCitySuperNerdText:
 
 	para "That big building"
 	line "is VERMILION's"
-	cont "#mon GYM."
+	cont "#mon Gym."
 	done
 
 VermilionCitySnorlaxSleepingText:
@@ -242,7 +242,7 @@ VermilionCitySignText:
 
 VermilionGymSignText:
 	text "VERMILION CITY"
-	line "#mon GYM"
+	line "#mon Gym"
 	cont "LEADER: LT.SURGE"
 
 	para "The Lightning"
