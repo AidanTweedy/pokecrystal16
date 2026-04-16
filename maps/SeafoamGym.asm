@@ -63,7 +63,7 @@ SeafoamGymGuideScript:
 BlaineIntroText:
 	text "BLAINE: Waaah!"
 
-	para "My GYM in CINNABAR"
+	para "My Gym in CINNABAR"
 	line "burned down."
 
 	para "My fire-breathing"
@@ -75,14 +75,14 @@ BlaineIntroText:
 	para "Waaah!"
 
 	para "But I'm back in"
-	line "business as a GYM"
+	line "business as a Gym"
 
 	para "LEADER here in"
 	line "this cave."
 
 	para "If you can beat"
 	line "me, I'll give you"
-	cont "a BADGE."
+	cont "a Badge."
 
 	para "Ha! You'd better"
 	line "have BURN HEAL!"
@@ -109,7 +109,7 @@ BlaineAfterBattleText:
 	line "next time."
 
 	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	line "CINNABAR Gym,"
 
 	para "we'll have to have"
 	line "a rematch."
@@ -131,7 +131,7 @@ SeafoamGymGuideWinText:
 
 	para "Sorry, sorry!"
 
-	para "CINNABAR GYM was"
+	para "CINNABAR Gym was"
 	line "gone, so I didn't"
 
 	para "know where to find"
@@ -148,7 +148,7 @@ SeafoamGymGuideWinText2:
 	text "A #mon Gym can"
 	line "be anywhere as"
 
-	para "long as the GYM"
+	para "long as the Gym"
 	line "LEADER is there."
 
 	para "There's no need"

@@ -158,7 +158,7 @@ WiseTriosRoomSage3BlocksExitText:
 	line "entered by those"
 
 	para "bearing ECRUTEAK's"
-	line "GYM BADGE."
+	line "Gym Badge."
 
 	para "However, now that"
 	line "SUICUNE, RAIKOU"

@@ -107,7 +107,7 @@ VioletPokecenterElmsAideFavorText:
 	text "<PLAY_G>, long"
 	line "time, no see."
 
-	para "PROF.ELM asked me"
+	para "Prof.Elm asked me"
 	line "to find you."
 
 	para "He has another"
@@ -132,8 +132,8 @@ VioletPokecenterElmsAideGiveEggText:
 	line "the only person"
 	cont "we can rely on."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
+	para "Please call Prof."
+	line "Elm when that EGG"
 	cont "hatches!"
 	done
 
@@ -148,7 +148,7 @@ VioletCityElmsAideFullPartyText:
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
+	text "B-but… Prof.Elm"
 	line "asked for you…"
 	done
 
@@ -181,7 +181,7 @@ VioletPokecenterMobileAdapterText: ; unreferenced
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
+	text "A guy named Bill"
 	line "made the #mon"
 	cont "PC storage system."
 	done
@@ -207,7 +207,7 @@ VioletPokecenter1FYoungsterText:
 	line "respect."
 
 	para "Without the right"
-	line "GYM BADGES, they"
+	line "Gym Badges, they"
 
 	para "will just do as"
 	line "they please."

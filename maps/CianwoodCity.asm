@@ -196,10 +196,10 @@ ChucksWifeEasierToFlyText:
 ChucksWifeBeatChuckText:
 	text "But you can't use"
 	line "FLY without this"
-	cont "city's GYM BADGE."
+	cont "city's Gym Badge."
 
 	para "If you beat the"
-	line "GYM LEADER here,"
+	line "Gym LEADER here,"
 	cont "come see me."
 
 	para "I'll have a nice"
@@ -208,7 +208,7 @@ ChucksWifeBeatChuckText:
 
 ChucksWifeGiveHMText:
 	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	line "Gym Badge!"
 
 	para "Then you should"
 	line "take this HM."
@@ -257,11 +257,11 @@ CianwoodCityPokefanMText:
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
+	text "CHUCK, the Gym"
 	line "LEADER, spars with"
 
 	para "his fighting #-"
-	line "MON."
+	line "mon."
 	done
 
 CianwoodCityUnusedText:

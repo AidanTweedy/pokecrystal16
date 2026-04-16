@@ -890,7 +890,7 @@ _MonNumberText:: ; unreferenced
 _WasSentToBillsPCText::
 	text_ram wStringBuffer1
 	text " was"
-	line "sent to BILL's PC."
+	line "sent to Bill's PC."
 	prompt
 
 _PCGottaHavePokemonText::
@@ -1052,7 +1052,7 @@ _LuckyNumberMatchPCText::
 	para "of @"
 	text_ram wStringBuffer1
 	text " in"
-	line "your PC BOX."
+	line "your PC Box."
 	prompt
 
 _CaughtAskNicknameText::
@@ -1131,7 +1131,7 @@ _PokecenterPCWhoseText::
 	done
 
 _PokecenterBillsPCText::
-	text "BILL's PC"
+	text "Bill's PC"
 	line "accessed."
 
 	para "#mon Storage"
@@ -1146,7 +1146,7 @@ _PokecenterPlayersPCText::
 	prompt
 
 _PokecenterOaksPCText::
-	text "PROF.OAK's PC"
+	text "Prof.Oak's PC"
 	line "accessed."
 
 	para "#dex Rating"
@@ -1175,7 +1175,7 @@ _OakPCText3::
 	text_ram wStringBuffer4
 	text " #mon owned"
 
-	para "PROF.OAK's"
+	para "Prof.Oak's"
 	line "Rating:"
 	done
 

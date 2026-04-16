@@ -251,21 +251,21 @@ Route25MistyDateText:
 
 	para "…"
 
-	para "…Oh? Those BADGES"
+	para "…Oh? Those Badges"
 	line "you have… Are they"
-	cont "JOHTO GYM BADGES?"
+	cont "Johto Gym Badges?"
 
 	para "If you have eight,"
 	line "you must be good."
 
 	para "OK, then. Come to"
-	line "CERULEAN GYM."
+	line "CERULEAN Gym."
 
 	para "I'll be happy to"
 	line "take you on."
 
 	para "I'm MISTY, the"
-	line "GYM LEADER in"
+	line "Gym LEADER in"
 	cont "CERULEAN."
 	done
 
@@ -414,17 +414,17 @@ CooltrainermKevinAfterBattleText:
 	line "battle!"
 
 	para "You and your #-"
-	line "MON are truly out-"
+	line "mon are truly out-"
 	cont "standing!"
 	done
 
 BillsHouseSignText:
-	text "SEA COTTAGE"
-	line "BILL'S HOUSE"
+	text "Sea Cottage"
+	line "Bill's House"
 	done
 
 UnusedBillsHouseSignText: ; unreferenced
-	text "BILL'S HOUSE"
+	text "Bill's House"
 	done
 
 Route25_MapEvents:

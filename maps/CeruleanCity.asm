@@ -148,7 +148,7 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "KANTO's POWER"
+	text "Kanto's POWER"
 	line "PLANT?"
 
 	para "It's near the end"
@@ -201,7 +201,7 @@ CeruleanCityCooltrainerFText3:
 
 CeruleanCityFisherText:
 	text "I'm a huge fan of"
-	line "CERULEAN GYM's"
+	line "CERULEAN Gym's"
 	cont "MISTY."
 	done
 
@@ -248,7 +248,7 @@ CeruleanBikeShopSignText:
 
 	para "The BIKE SHOP has"
 	line "moved to GOLDENROD"
-	cont "CITY in JOHTO…"
+	cont "CITY in Johto…"
 	done
 
 CeruleanPoliceSignText:

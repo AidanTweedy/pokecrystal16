@@ -68,7 +68,7 @@ PewterCityFruitTree2:
 
 PewterCityCooltrainerFText:
 	text "Have you visited"
-	line "PEWTER GYM?"
+	line "PEWTER Gym?"
 
 	para "The LEADER uses"
 	line "rock-type #mon."
@@ -86,13 +86,13 @@ PewterCityBugCatcherText:
 PewterCityGrampsText:
 	text "Ah, you came all"
 	line "the way out here"
-	cont "from JOHTO?"
+	cont "from Johto?"
 
 	para "That brings back"
 	line "memories. When I"
 
 	para "was young, I went"
-	line "to JOHTO to train."
+	line "to Johto to train."
 
 	para "You remind me so"
 	line "much of what I was"
@@ -102,7 +102,7 @@ PewterCityGrampsText:
 
 	para "Here. I want you"
 	line "to have this item"
-	cont "I found in JOHTO."
+	cont "I found in Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:

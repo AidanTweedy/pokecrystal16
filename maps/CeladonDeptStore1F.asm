@@ -55,7 +55,7 @@ CeladonDeptStore1FTeacherText:
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: SERVICE"
+	text "1F: Service"
 	line "    COUNTER"
 
 	para "2F: TRAINER'S"

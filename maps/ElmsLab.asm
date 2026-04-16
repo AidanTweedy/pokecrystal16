@@ -754,7 +754,7 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
+	text "Elm: <PLAY_G>!"
 	line "There you are!"
 
 	para "I needed to ask"
@@ -882,30 +882,30 @@ ElmText_LetYourMonBattleIt:
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
+	text "Elm: Wait! Where"
 	line "are you going?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
+	text "Elm: You'll take"
 	line "CYNDAQUIL, the"
 	cont "fire #mon?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
+	text "Elm: Do you want"
 	line "TOTODILE, the"
 	cont "water #mon?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
+	text "Elm: So, you like"
 	line "CHIKORITA, the"
 	cont "grass #mon?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
+	text "Elm: Think it over"
 	line "carefully."
 
 	para "Your partner is"
@@ -913,7 +913,7 @@ DidntChooseStarterText:
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
+	text "Elm: I think"
 	line "that's a great"
 	cont "#mon too!"
 	done
@@ -962,7 +962,7 @@ ElmDirectionsText3:
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
+	text "<PLAYER> got Elm's"
 	line "phone number."
 	done
 
@@ -979,7 +979,7 @@ ElmDescribesMrPokemonText:
 ElmPokeBallText:
 	text "It contains a"
 	line "#mon caught by"
-	cont "PROF.ELM."
+	cont "Prof.Elm."
 	done
 
 ElmsLabHealingMachineText1:
@@ -993,7 +993,7 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
+	text "Elm: <PLAY_G>, this"
 	line "is terrible…"
 
 	para "Oh, yes, what was"
@@ -1004,11 +1004,11 @@ ElmAfterTheftText1:
 ElmAfterTheftText2:
 	text "<PLAYER> handed"
 	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	cont "Prof.Elm."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "Elm: This?"
 	done
 
 ElmAfterTheftText4:
@@ -1020,9 +1020,9 @@ ElmAfterTheftText4:
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "Elm: What?!?"
 
-	para "PROF.OAK gave you"
+	para "Prof.Oak gave you"
 	line "a #dex?"
 
 	para "<PLAY_G>, is that"
@@ -1052,7 +1052,7 @@ ElmAfterTheftText5:
 	line "the #mon Gym"
 	cont "challenge."
 
-	para "The closest GYM"
+	para "The closest Gym"
 	line "would be the one"
 	cont "in VIOLET CITY."
 	done
@@ -1070,7 +1070,7 @@ ElmAfterTheftText6:
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
+	text "Elm: Don't give"
 	line "up! I'll call if"
 
 	para "I learn anything"
@@ -1078,7 +1078,7 @@ ElmStudyingEggText:
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAY_G>?"
+	text "Elm: <PLAY_G>?"
 	line "Didn't you meet my"
 	cont "assistant?"
 
@@ -1094,7 +1094,7 @@ ElmAideHasEggText:
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
+	text "Elm: Hey, has that"
 	line "EGG changed any?"
 	done
 
@@ -1107,7 +1107,7 @@ ElmThoughtEggHatchedText:
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, you"
+	text "Elm: <PLAY_G>, you"
 	line "look great!"
 	done
 
@@ -1156,12 +1156,12 @@ ElmGiveEverstoneText2:
 	cont "won't evolve."
 
 	para "Give it to a #-"
-	line "MON you don't want"
+	line "mon you don't want"
 	cont "to evolve."
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAY_G>, I'll"
+	text "Elm: <PLAY_G>, I'll"
 	line "call you if any-"
 	cont "thing comes up."
 	done
@@ -1181,7 +1181,7 @@ AideText_AfterTheft:
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAY_G>!"
+	text "Elm: Hi, <PLAY_G>!"
 	line "Thanks to you, my"
 
 	para "research is going"
@@ -1214,7 +1214,7 @@ ElmGiveMasterBallText2:
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAY_G>!"
+	text "Elm: <PLAY_G>!"
 	line "There you are!"
 
 	para "I called because I"
@@ -1225,7 +1225,7 @@ ElmGiveTicketText1:
 	line "S.S.TICKET."
 
 	para "Now you can catch"
-	line "#mon in KANTO."
+	line "#mon in Kanto."
 	done
 
 ElmGiveTicketText2:
@@ -1240,13 +1240,13 @@ ElmGiveTicketText2:
 	cont "with your #mon."
 
 	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	line "Prof.Oak in Kanto!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
 	text "It's the #mon"
 	line "EGG being studied"
-	cont "by PROF.ELM."
+	cont "by Prof.Elm."
 	done
 
 AideText_GiveYouPotion:
@@ -1345,7 +1345,7 @@ ElmsLabOfficerText1:
 
 	para "I was just getting"
 	line "some information"
-	cont "from PROF.ELM."
+	cont "from Prof.Elm."
 
 	para "Apparently, it was"
 	line "a young male with"
@@ -1426,7 +1426,7 @@ ElmsLabTravelTip4Text:
 
 ElmsLabTrashcanText:
 	text "The wrapper from"
-	line "the snack PROF.ELM"
+	line "the snack Prof.Elm"
 	cont "ate is in there…"
 	done
 

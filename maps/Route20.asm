@@ -68,9 +68,9 @@ SwimmerfNicoleAfterBattleText:
 
 SwimmerfLoriSeenText:
 	text "What an impressive"
-	line "collection of GYM"
+	line "collection of Gym"
 
-	para "BADGES. We should"
+	para "Badges. We should"
 	line "battle!"
 	done
 
@@ -89,7 +89,7 @@ SwimmermCameronSeenText:
 	line "possible to swim"
 
 	para "all the way to"
-	line "JOHTO."
+	line "Johto."
 	done
 
 SwimmermCameronBeatenText:
@@ -106,7 +106,7 @@ CinnabarGymSignText:
 	text "What does this"
 	line "sign say?"
 
-	para "CINNABAR GYM"
+	para "CINNABAR Gym"
 	line "LEADER: BLAINE"
 	done
 

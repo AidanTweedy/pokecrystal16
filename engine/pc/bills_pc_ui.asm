@@ -1463,7 +1463,7 @@ ManageBoxes:
 	jp .loop
 
 .ContinueBoxUse:
-	text "Continue BOX"
+	text "Continue Box"
 	line "operations?"
 	done
 

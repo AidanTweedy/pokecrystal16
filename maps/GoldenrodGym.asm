@@ -221,7 +221,7 @@ WhitneyWhatDoYouWantText:
 	text "…Sniff…"
 
 	para "What? What do you"
-	line "want? A BADGE?"
+	line "want? A Badge?"
 
 	para "Oh, right."
 	line "I forgot. Here's"
@@ -288,7 +288,7 @@ LassCarrieAfterBattleText:
 
 LassBridgetSeenText:
 	text "I like cute #-"
-	line "MON better than"
+	line "mon better than"
 	cont "strong #mon."
 
 	para "But I have strong"
@@ -362,7 +362,7 @@ GoldenrodGymGuideText:
 	text "Yo! CHAMP in"
 	line "making!"
 
-	para "This GYM is home"
+	para "This Gym is home"
 	line "to normal-type"
 	cont "#mon trainers."
 

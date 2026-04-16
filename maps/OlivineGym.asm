@@ -104,7 +104,7 @@ Jasmine_SteelTypeIntro:
 	line "duce myself."
 
 	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
+	line "Gym LEADER. I use"
 	cont "the steel-type."
 
 	para "…Do you know about"
@@ -128,7 +128,7 @@ Jasmine_BetterTrainer:
 	line "LEAGUE rules, I"
 
 	para "confer upon you"
-	line "this BADGE."
+	line "this Badge."
 	done
 
 Text_ReceivedMineralBadge:
@@ -183,7 +183,7 @@ OlivineGymGuideWinText:
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, the GYM"
+	text "JASMINE, the Gym"
 	line "LEADER, is at the"
 	cont "LIGHTHOUSE."
 

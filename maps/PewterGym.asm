@@ -78,10 +78,10 @@ BrockIntroText:
 	line "not often that we"
 
 	para "get a challenger"
-	line "from JOHTO."
+	line "from Johto."
 
 	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	line "PEWTER Gym LEADER."
 
 	para "I'm an expert on"
 	line "rock-type #mon."
@@ -100,7 +100,7 @@ BrockIntroText:
 
 BrockWinLossText:
 	text "BROCK: Your #-"
-	line "MON's powerful at-"
+	line "mon's powerful at-"
 	cont "tacks overcame my"
 	cont "rock-hard defense…"
 
@@ -108,7 +108,7 @@ BrockWinLossText:
 	line "than I expected…"
 
 	para "Go ahead--take"
-	line "this BADGE."
+	line "this Badge."
 	done
 
 ReceivedBoulderBadgeText:
@@ -146,7 +146,7 @@ BrockFightDoneText:
 
 CamperJerrySeenText:
 	text "The trainers of"
-	line "this GYM use rock-"
+	line "this Gym use rock-"
 	cont "type #mon."
 
 	para "The rock-type has"
@@ -166,7 +166,7 @@ CamperJerryBeatenText:
 
 CamperJerryAfterBattleText:
 	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	line "from Johto! BROCK"
 
 	para "is tough. He'll"
 	line "punish you if you"
@@ -182,19 +182,19 @@ PewterGymGuideText:
 	para "really rocking."
 	line "Are you battling"
 
-	para "the GYM LEADERS of"
-	line "KANTO?"
+	para "the Gym LEADERS of"
+	line "Kanto?"
 
 	para "They're strong and"
 	line "dedicated people,"
 
-	para "just like JOHTO's"
-	line "GYM LEADERS."
+	para "just like Johto's"
+	line "Gym LEADERS."
 	done
 
 PewterGymGuideWinText:
 	text "Yo! CHAMP in"
-	line "making! That GYM"
+	line "making! That Gym"
 
 	para "didn't give you"
 	line "much trouble."

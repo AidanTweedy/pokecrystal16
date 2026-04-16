@@ -174,13 +174,13 @@ MrPokemonIntroText1:
 	text "Hello, hello! You"
 	line "must be <PLAY_G>."
 
-	para "PROF.ELM said that"
+	para "Prof.Elm said that"
 	line "you would visit."
 	done
 
 MrPokemonIntroText2:
 	text "This is what I"
-	line "want PROF.ELM to"
+	line "want Prof.Elm to"
 	cont "examine."
 	done
 
@@ -199,27 +199,27 @@ MrPokemonIntroText3:
 
 	para "I was intrigued,"
 	line "so I sent mail to"
-	cont "PROF.ELM."
+	cont "Prof.Elm."
 
 	para "For #mon evolu-"
-	line "tion, PROF.ELM is"
+	line "tion, Prof.Elm is"
 	cont "the authority."
 	done
 
 MrPokemonIntroText4:
-	text "Even PROF.OAK here"
+	text "Even Prof.Oak here"
 	line "recognizes that."
 	done
 
 MrPokemonIntroText5:
 	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	line "is correct, Prof."
+	cont "Elm will know it."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
 	text "You are returning"
-	line "to PROF.ELM?"
+	line "to Prof.Elm?"
 
 	para "Here. Your #mon"
 	line "should have some"
@@ -243,7 +243,7 @@ MrPokemonsHouse_OakText1:
 	text "Oak: Aha! So"
 	line "you're <PLAY_G>!"
 
-	para "I'm OAK! A #mon"
+	para "I'm Oak! A #mon"
 	line "researcher."
 
 	para "I was just visit-"
@@ -253,7 +253,7 @@ MrPokemonsHouse_OakText1:
 	para "I heard you were"
 	line "running an errand"
 
-	para "for PROF.ELM, so I"
+	para "for Prof.Elm, so I"
 	line "waited here."
 
 	para "Oh! What's this?"
@@ -264,13 +264,13 @@ MrPokemonsHouse_OakText1:
 	para "Hm, I see!"
 
 	para "I understand why"
-	line "PROF.ELM gave you"
+	line "Prof.Elm gave you"
 
 	para "a #mon for this"
 	line "errand."
 
 	para "To researchers"
-	line "like PROF.ELM and"
+	line "like Prof.Elm and"
 
 	para "I, #mon are our"
 	line "friends."

@@ -503,12 +503,12 @@ _MobileTradeCameBackText::
 
 _OPT_IntroText1::
 	text_start
-	line "MARY: PROF.OAK'S"
+	line "MARY: Prof.Oak's"
 	done
 
 _OPT_IntroText2::
 	text_start
-	line "#mon TALK!"
+	line "#mon Talk!"
 	done
 
 _OPT_IntroText3::
@@ -1165,7 +1165,7 @@ _WillYouPlayWithMonText:: ; unreferenced
 
 _YouNeedTwoMonForBreedingText:: ; unreferenced
 	text "You need two #-"
-	line "MON for breeding."
+	line "mon for breeding."
 	prompt
 
 _BreedingIsNotPossibleText:: ; unreferenced
@@ -1220,7 +1220,7 @@ _DoesntConcernABoyText:: ; unreferenced
 	done
 
 _TheBoxIsFullText:: ; unreferenced
-	text "The BOX is full!"
+	text "The Box is full!"
 	done
 
 ; Mobile Adapter

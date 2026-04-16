@@ -181,7 +181,7 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "Miltank: Mooo!"
 	done
 
 SailorEugeneSeenText:
@@ -268,7 +268,7 @@ PsychicNormanBeatenText:
 
 PsychicNormanAfterBattleText:
 	text "You know how #-"
-	line "MON have different"
+	line "mon have different"
 	cont "abilities?"
 
 	para "People are like"

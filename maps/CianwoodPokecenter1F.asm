@@ -54,7 +54,7 @@ CianwoodGymGuideText:
 	cont "after me."
 
 	para "Here's some ad-"
-	line "vice: the GYM"
+	line "vice: the Gym"
 
 	para "LEADER uses the"
 	line "fighting-type."
@@ -64,20 +64,20 @@ CianwoodGymGuideText:
 	cont "psychic #mon."
 
 	para "Wipe out his #-"
-	line "MON before they"
+	line "mon before they"
 
 	para "can use their"
 	line "physical strength."
 
 	para "And those boulders"
 	line "in the middle of"
-	cont "the GYM?"
+	cont "the Gym?"
 
 	para "If you don't move"
 	line "them correctly,"
 
 	para "you won't reach"
-	line "the GYM LEADER."
+	line "the Gym LEADER."
 
 	para "If you get stuck,"
 	line "go outside."

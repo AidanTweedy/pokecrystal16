@@ -130,7 +130,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 
 SaffronCityPokefanMText:
 	text "You came out from"
-	line "JOHTO?"
+	line "Johto?"
 
 	para "You can zip back"
 	line "home if the MAGNET"
@@ -139,7 +139,7 @@ SaffronCityPokefanMText:
 
 SaffronCityPokefanMText_ReturnedMachinePart:
 	text "You came out from"
-	line "JOHTO?"
+	line "Johto?"
 
 	para "You can zip back"
 	line "home by hopping on"
@@ -147,14 +147,14 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
+	text "I went to the Gym,"
 	line "raring for battles"
 	cont "against trainers…"
 
 	para "It turns out, I"
 	line "stumbled into the"
 
-	para "unused GYM next"
+	para "unused Gym next"
 	line "door."
 
 	para "Boy, I was pretty"

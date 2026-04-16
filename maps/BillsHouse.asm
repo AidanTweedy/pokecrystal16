@@ -234,10 +234,10 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hm? You know BILL?"
+	text "Hm? You know Bill?"
 	line "He's my grandson."
 
-	para "He's in JOHTO. He"
+	para "He's in Johto. He"
 	line "does something"
 
 	para "with PCs, so I'm"
@@ -304,7 +304,7 @@ BillsGrandpaWrongPokemonText:
 	done
 
 BillsGrandpaLickitungText:
-	text "My grandson BILL"
+	text "My grandson Bill"
 	line "told me about a"
 
 	para "#mon that has a"
@@ -339,7 +339,7 @@ BillsGrandpaStaryuText:
 	done
 
 BillsGrandpaGrowlitheText:
-	text "BILL told me about"
+	text "Bill told me about"
 	line "a #mon that is"
 
 	para "very loyal to its"

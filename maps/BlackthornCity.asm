@@ -145,11 +145,11 @@ BlackthornCityMartSign:
 Text_ClairIsOut:
 	text "I am sorry."
 
-	para "CLAIR, our GYM"
+	para "CLAIR, our Gym"
 	line "LEADER, entered"
 
 	para "the DRAGON'S DEN"
-	line "behind the GYM."
+	line "behind the Gym."
 
 	para "I have no idea"
 	line "when our LEADER"
@@ -157,7 +157,7 @@ Text_ClairIsOut:
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
+	text "CLAIR, our Gym"
 	line "LEADER, is waiting"
 	cont "for you."
 

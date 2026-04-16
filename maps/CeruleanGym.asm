@@ -229,13 +229,13 @@ CeruleanGymGruntByeText:
 CeruleanGymNote1Text:
 	text "Sorry, I'll be out"
 	line "for a while."
-	cont "MISTY, GYM LEADER"
+	cont "MISTY, Gym LEADER"
 	done
 
 CeruleanGymNote2Text:
 	text "Since MISTY's out,"
 	line "we'll be away too."
-	cont "GYM TRAINERS"
+	cont "Gym TRAINERS"
 	done
 
 MistyIntroText:
@@ -244,9 +244,9 @@ MistyIntroText:
 	cont "pest!"
 
 	para "You may have a"
-	line "lot of JOHTO GYM"
+	line "lot of Johto Gym"
 
-	para "BADGES, but you'd"
+	para "Badges, but you'd"
 	line "better not take me"
 	cont "too lightly."
 
@@ -273,7 +273,7 @@ ReceivedCascadeBadgeText:
 MistyFightDoneText:
 	text "MISTY: Are there"
 	line "many strong train-"
-	cont "ers in JOHTO? Like"
+	cont "ers in Johto? Like"
 	cont "you, I mean."
 
 	para "I'm going to"

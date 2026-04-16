@@ -204,13 +204,13 @@ IrwinFogBadgeGossipText:
 	text "I saw, I heard!"
 
 	para "You beat MORTY of"
-	line "ECRUTEAK GYM!"
+	line "ECRUTEAK Gym!"
 
 	para "Th-that's just"
 	line "incredible!"
 
 	para "I actually went to"
-	line "the GYM's entrance"
+	line "the Gym's entrance"
 
 	para "to cheer you on."
 	line "Did you know that?"
@@ -231,7 +231,7 @@ IrwinMarshBadgeGossipText:
 	para "You're kicking up"
 	line "a mighty ruckus"
 
-	para "over in KANTO!"
+	para "over in Kanto!"
 	line "What a glorious"
 
 	para "rampage it must"
@@ -267,7 +267,7 @@ IrwinSoMuchToChatAboutText:
 
 	para "Where are you?"
 
-	para "How many BADGES do"
+	para "How many Badges do"
 	line "you have now?"
 
 	para "How much money"

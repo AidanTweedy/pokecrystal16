@@ -238,7 +238,7 @@ ClairText_NoRoom:
 	line "any room for this."
 
 	para "I'm going back to"
-	line "the GYM, so make"
+	line "the Gym, so make"
 
 	para "room, then come"
 	line "see me there."
@@ -265,7 +265,7 @@ ClairText_WhatsTheMatterDragonDen:
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "MON LEAGUE!"
+	cont "mon LEAGUE!"
 
 	para "If you do, I'll"
 	line "feel even worse"
@@ -304,7 +304,7 @@ RivalText_Training1:
 	line "ciplined to become"
 
 	para "the greatest #-"
-	line "MON trainer…"
+	line "mon trainer…"
 	done
 
 RivalText_Training2:

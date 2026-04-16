@@ -292,7 +292,7 @@ BugCatcherWade1AfterText:
 
 	para "If you catch one,"
 	line "it'll go to your"
-	cont "BOX automatically."
+	cont "Box automatically."
 	done
 
 Text_Route31SleepyMan:
@@ -372,7 +372,7 @@ Text_Route31WrongMail:
 
 Text_Route31MissingMail:
 	text "Why is this #-"
-	line "MON so special?"
+	line "mon so special?"
 
 	para "It doesn't have"
 	line "any MAIL."
@@ -401,7 +401,7 @@ Route31YoungsterText:
 	cont "FALKNER."
 
 	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	line "VIOLET CITY's Gym."
 	done
 
 Route31SignText:

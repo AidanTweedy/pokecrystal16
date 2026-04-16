@@ -138,9 +138,9 @@ RadioTower4FDJMaryText_GivePinkBow:
 
 RadioTower4FDJMaryText_After:
 	text "MARY: Please tune"
-	line "into me on PROF."
+	line "into me on Prof."
 
-	para "OAK'S #mon TALK"
+	para "Oak's #mon Talk"
 	line "show."
 	done
 

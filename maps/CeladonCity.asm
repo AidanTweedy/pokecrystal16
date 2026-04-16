@@ -115,7 +115,7 @@ CeladonCityGramps1Text:
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This GYM"
+	text "Nihihi! This Gym"
 	line "is great! Only"
 
 	para "girls are allowed"
@@ -173,7 +173,7 @@ CeladonCityLassText_Mobile: ; unreferenced
 	line "I wish we had a"
 
 	para "place like that in"
-	line "KANTO…"
+	line "Kanto…"
 	done
 
 CeladonCityLassText:

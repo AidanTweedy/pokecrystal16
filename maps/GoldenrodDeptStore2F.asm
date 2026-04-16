@@ -46,7 +46,7 @@ GoldenrodDeptStore2FUnusedText1: ; unreferenced
 
 	para "This is a free"
 	line "gift. Have a #-"
-	cont "MON hold it."
+	cont "mon hold it."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced

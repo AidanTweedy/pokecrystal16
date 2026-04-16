@@ -125,7 +125,7 @@ VermilionCityHiddenFullHeal:
 
 VermilionCityTeacherText:
 	text "VERMILION PORT is"
-	line "KANTO's seaside"
+	line "Kanto's seaside"
 	cont "gateway."
 
 	para "Luxury liners from"
@@ -156,7 +156,7 @@ VermilionMachopText2:
 
 VermilionCitySuperNerdText:
 	text "There are eight"
-	line "GYMS in KANTO."
+	line "GYMS in Kanto."
 
 	para "That big building"
 	line "is VERMILION's"
@@ -180,9 +180,9 @@ VermilionCityRadioNearSnorlaxText:
 
 VermilionCityBadgeGuyTrainerText:
 	text "Skilled trainers"
-	line "gather in KANTO."
+	line "gather in Kanto."
 
-	para "GYM LEADERS are"
+	para "Gym LEADERS are"
 	line "especially strong."
 
 	para "They won't be easy"
@@ -191,8 +191,8 @@ VermilionCityBadgeGuyTrainerText:
 
 VermilionCityBadgeGuySomeBadgesText:
 	text "You've started to"
-	line "collect KANTO GYM"
-	cont "BADGES?"
+	line "collect Kanto Gym"
+	cont "Badges?"
 
 	para "Don't you agree"
 	line "that the trainers"
@@ -203,19 +203,19 @@ VermilionCityBadgeGuyMostBadgesText:
 	text "I guess you'll be"
 	line "finished with your"
 
-	para "conquest of KANTO"
+	para "conquest of Kanto"
 	line "GYMS soon."
 
 	para "Let me know if"
 	line "you get all eight"
-	cont "BADGES."
+	cont "Badges."
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
 	text "Congratulations!"
 
 	para "You got all the"
-	line "KANTO GYM BADGES."
+	line "Kanto Gym Badges."
 
 	para "I've got a reward"
 	line "for your efforts."
@@ -228,8 +228,8 @@ VermilionCityBadgeGuyBattleEdgeText:
 	para "should give you an"
 	line "edge in battle."
 
-	para "I'm sure the KANTO"
-	line "GYM BADGES will"
+	para "I'm sure the Kanto"
+	line "Gym Badges will"
 	cont "help you."
 	done
 

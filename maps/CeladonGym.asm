@@ -122,10 +122,10 @@ ErikaBeforeBattleText:
 
 	para "My name is ERIKA."
 	line "I am the LEADER of"
-	cont "CELADON GYM."
+	cont "CELADON Gym."
 
 	para "…Oh? All the way"
-	line "from JOHTO, you"
+	line "from Johto, you"
 	cont "say? How nice…"
 
 	para "Oh. I'm sorry, I"
@@ -189,7 +189,7 @@ ErikaAfterBattleText:
 
 LassMichelleSeenText:
 	text "Do you think a"
-	line "girls-only GYM"
+	line "girls-only Gym"
 	cont "is rare?"
 	done
 
@@ -214,7 +214,7 @@ PicnickerTanyaBeatenText:
 
 PicnickerTanyaAfterBattleText:
 	text "Oh, look at all"
-	line "your BADGES. No"
+	line "your Badges. No"
 
 	para "wonder I couldn't"
 	line "win!"

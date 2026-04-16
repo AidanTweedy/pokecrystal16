@@ -147,7 +147,7 @@ ManiaText_IfHeComesBack:
 
 ManiaText_CanIHaveMyMonBack:
 	text "Hi! How's my #-"
-	line "MON?"
+	line "mon?"
 
 	para "I think I'm safe"
 	line "now, so may I have"
@@ -191,7 +191,7 @@ ManiaText_HappinessSpeech:
 
 ManiaText_ShuckleIsYourLastMon:
 	text "If I take my #-"
-	line "MON back, what are"
+	line "mon back, what are"
 
 	para "you going to use"
 	line "in battle?"

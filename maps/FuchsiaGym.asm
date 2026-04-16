@@ -244,7 +244,7 @@ JanineText_DisappointYou:
 	para "I'm the real deal!"
 
 	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	line "Gym, that's me!"
 	done
 
 JanineText_ToughOne:
@@ -289,7 +289,7 @@ LassAliceBeforeText:
 	text "Fufufu!"
 
 	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	line "Gym LEADER!"
 
 	para "No, I'm not!"
 	line "Gotcha, sucker!"
@@ -375,7 +375,7 @@ FuchsiaGymGuideText:
 FuchsiaGymGuideWinText:
 	text "That was a great"
 	line "battle, trainer"
-	cont "from JOHTO!"
+	cont "from Johto!"
 	done
 
 FuchsiaGym_MapEvents:

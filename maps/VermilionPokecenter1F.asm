@@ -67,11 +67,11 @@ VermilionPokecenter1FSailorText:
 
 VermilionPokecenter1FBugCatcherText:
 	text "Oh? You have some"
-	line "BADGES I've never"
+	line "Badges I've never"
 	cont "seen before."
 
 	para "Oh, I get it. You"
-	line "got them in JOHTO."
+	line "got them in Johto."
 	done
 
 VermilionPokecenter1F_MapEvents:

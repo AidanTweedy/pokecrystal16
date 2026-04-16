@@ -170,7 +170,7 @@ KimonoGirlSayoAfterBattleText:
 	line "tant for both"
 
 	para "dancing and #-"
-	line "MON."
+	line "mon."
 	done
 
 KimonoGirlZukiSeenText:

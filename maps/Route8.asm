@@ -76,7 +76,7 @@ Route8FruitTree:
 	fruittree FRUITTREE_ROUTE_8
 
 BikerDwayneSeenText:
-	text "We're the KANTO"
+	text "We're the Kanto"
 	line "#mon FEDERATION"
 	cont "trainer group."
 
@@ -89,7 +89,7 @@ BikerDwayneBeatenText:
 	done
 
 BikerDwayneAfterBattleText:
-	text "The KANTO #mon"
+	text "The Kanto #mon"
 	line "FEDERATION will"
 	cont "never fall!"
 	done
@@ -108,11 +108,11 @@ BikerHarrisBeatenText:
 
 BikerHarrisAfterBattleText:
 	text "Wiped out by some"
-	line "punk from JOHTO…"
+	line "punk from Johto…"
 	done
 
 BikerZekeSeenText:
-	text "We're the KANTO"
+	text "We're the Kanto"
 	line "#mon FEDERA-"
 	cont "TION!"
 	cont "Right on!"
@@ -145,7 +145,7 @@ SupernerdSamAfterBattleText:
 
 SupernerdTomSeenText:
 	text "Hm… You've got"
-	line "many GYM BADGES."
+	line "many Gym Badges."
 	done
 
 SupernerdTomBeatenText:
@@ -154,7 +154,7 @@ SupernerdTomBeatenText:
 	done
 
 SupernerdTomAfterBattleText:
-	text "GYM BADGES give"
+	text "Gym Badges give"
 	line "you advantages in"
 	cont "battles."
 	done

@@ -749,8 +749,8 @@ RocketBaseLanceWhirlpoolText:
 	para "You can use that"
 	line "out of battle only"
 
-	para "with the BADGE"
-	line "from MAHOGANY GYM."
+	para "with the Badge"
+	line "from MAHOGANY Gym."
 	done
 
 RocketBaseLanceMonMasterText:

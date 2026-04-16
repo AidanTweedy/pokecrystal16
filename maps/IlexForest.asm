@@ -762,7 +762,7 @@ IlexForestApprenticeAfterText:
 	para "My boss's #mon"
 	line "won't obey me be-"
 	cont "cause I don't have"
-	cont "a BADGE."
+	cont "a Badge."
 	done
 
 Text_ItsTheMissingPokemon:
@@ -805,7 +805,7 @@ Text_CharcoalMasterOutro:
 	para "Of course, you"
 	line "have to have the"
 
-	para "GYM BADGE from"
+	para "Gym Badge from"
 	line "AZALEA to use it."
 	done
 

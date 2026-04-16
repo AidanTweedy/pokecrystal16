@@ -53,7 +53,7 @@ SailorKentAfterBattleText:
 
 LassConnie1SeenText:
 	text "JASMINE is this"
-	line "city's GYM LEADER."
+	line "city's Gym LEADER."
 
 	para "I mean to bring"
 	line "her back with me."
@@ -76,7 +76,7 @@ LassConnie1AfterBattleText:
 	line "#mon here, so"
 
 	para "JASMINE can come"
-	line "back to the GYM."
+	line "back to the Gym."
 	done
 
 OlivineLighthouse4F_MapEvents:

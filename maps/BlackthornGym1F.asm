@@ -165,7 +165,7 @@ ClairIntroText:
 	para "…Fine."
 	line "Let's do it!"
 
-	para "As a GYM LEADER,"
+	para "As a Gym LEADER,"
 	line "I will use my full"
 
 	para "power against any"
@@ -194,7 +194,7 @@ ClairText_GoToDragonsDen:
 	line "take the dragon"
 	cont "user challenge."
 
-	para "Behind this GYM is"
+	para "Behind this Gym is"
 	line "a place called"
 	cont "DRAGON'S DEN."
 
@@ -211,8 +211,8 @@ ClairText_GoToDragonsDen:
 	line "I will recognize"
 
 	para "you as a trainer"
-	line "worthy of a GYM"
-	cont "BADGE!"
+	line "worthy of a Gym"
+	cont "Badge!"
 	done
 
 ClairText_TooMuchToExpect:
@@ -271,7 +271,7 @@ BlackthornGymClairText_League:
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "MON LEAGUE!"
+	cont "mon LEAGUE!"
 
 	para "If you do, I'll"
 	line "feel even worse"

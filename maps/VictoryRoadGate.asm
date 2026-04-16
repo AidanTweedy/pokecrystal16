@@ -59,8 +59,8 @@ VictoryRoadGateOfficerText:
 
 VictoryRoadGateNotEnoughBadgesText:
 	text "You don't have all"
-	line "the GYM BADGES of"
-	cont "JOHTO."
+	line "the Gym Badges of"
+	cont "Johto."
 
 	para "I'm sorry, but I"
 	line "can't let you go"
@@ -69,7 +69,7 @@ VictoryRoadGateNotEnoughBadgesText:
 
 VictoryRoadGateEightBadgesText:
 	text "Oh! The eight"
-	line "BADGES of JOHTO!"
+	line "Badges of Johto!"
 
 	para "Please, go right"
 	line "on through!"

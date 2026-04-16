@@ -164,7 +164,7 @@ HikerTimSeenText:
 	cont "when she comes…"
 
 	para "MT.SILVER is in"
-	line "JOHTO, right?"
+	line "Johto, right?"
 	done
 
 HikerTimBeatenText:

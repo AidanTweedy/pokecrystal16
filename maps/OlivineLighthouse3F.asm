@@ -83,9 +83,9 @@ SailorTerrellBeatenText:
 SailorTerrellAfterBattleText:
 	text "Every time I come"
 	line "back to OLIVINE, I"
-	cont "visit the GYM."
+	cont "visit the Gym."
 
-	para "The GYM LEADER's"
+	para "The Gym LEADER's"
 	line "#mon type has"
 
 	para "changed without me"
@@ -95,7 +95,7 @@ SailorTerrellAfterBattleText:
 GentlemanPrestonSeenText:
 	text "I travel the world"
 	line "to train my #-"
-	cont "MON. I wish to"
+	cont "mon. I wish to"
 	cont "battle with you."
 	done
 

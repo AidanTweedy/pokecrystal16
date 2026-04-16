@@ -121,13 +121,13 @@ SabrinaIntroText:
 	cont "your arrival."
 
 	para "You're after my"
-	line "BADGE."
+	line "Badge."
 
 	para "I don't enjoy bat-"
 	line "tling, but it's my"
 
 	para "duty as a LEADER"
-	line "to confer BADGES"
+	line "to confer Badges"
 
 	para "on anyone who has"
 	line "proven him- or"
@@ -163,7 +163,7 @@ ReceivedMarshBadgeText:
 
 SabrinaMarshBadgeText:
 	text "SABRINA: MARSH-"
-	line "BADGE draws out"
+	line "Badge draws out"
 
 	para "your subliminal"
 	line "powers…"
@@ -248,7 +248,7 @@ MediumDorisAfterBattleText:
 PsychicJaredSeenText:
 	text "The FIGHTING DOJO"
 	line "next door was once"
-	cont "this city's GYM."
+	cont "this city's Gym."
 	done
 
 PsychicJaredBeatenText:

@@ -295,7 +295,7 @@ PicnickerDebraAfterBattleText:
 	line "I hear there are"
 
 	para "many big cities"
-	line "in KANTO."
+	line "in Kanto."
 	done
 
 JugglerFritzSeenText:
@@ -369,7 +369,7 @@ BlackbeltWaiBeatenText:
 BlackbeltWaiAfterBattleText:
 	text "I couldn't find"
 	line "the KARATE KING in"
-	cont "JOHTO."
+	cont "Johto."
 
 	para "He's supposed to"
 	line "be training in a"
@@ -390,11 +390,11 @@ SailorKennethBeatenText:
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
+	text "Eight Badges!"
 	line "They must prove"
 
 	para "that you've beaten"
-	line "GYM LEADERS."
+	line "Gym LEADERS."
 
 	para "No wonder you're"
 	line "so good!"

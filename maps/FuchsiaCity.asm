@@ -55,14 +55,14 @@ FuchsiaCityYoungsterText:
 	line "FOUR used to be"
 
 	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	line "FUCHSIA's Gym."
 	done
 
 FuchsiaCityPokefanMText:
 	text "KOGA's daughter"
 	line "succeeded him as"
 
-	para "the GYM LEADER"
+	para "the Gym LEADER"
 	line "after he joined"
 	cont "the ELITE FOUR."
 	done

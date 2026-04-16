@@ -187,7 +187,7 @@ SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
 	line "have I gone back"
 
 	para "and forth between"
-	line "KANTO and JOHTO?"
+	line "Kanto and Johto?"
 	done
 
 SaffronMagnetTrainStationTeacherText:

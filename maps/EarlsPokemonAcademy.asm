@@ -251,7 +251,7 @@ EarlsPokemonAcademyGameboyKid2Text:
 
 EarlsPokemonAcademyYoungster2Text:
 	text "A #mon holding"
-	line "a BERRY will heal"
+	line "a Berry will heal"
 	cont "itself in battle."
 
 	para "Many other items"

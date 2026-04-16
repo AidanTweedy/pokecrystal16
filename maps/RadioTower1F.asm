@@ -336,7 +336,7 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	line "correct?"
 
 	para "You can't buy a"
-	line "BERRY at a MART."
+	line "Berry at a MART."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
@@ -352,7 +352,7 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	line "Question 4:"
 
 	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	line "VIOLET Gym LEADER"
 
 	para "who uses bird"
 	line "#mon?"

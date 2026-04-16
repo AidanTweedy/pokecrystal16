@@ -88,7 +88,7 @@ LavRadioTower1FOfficerText:
 	line "only tour the"
 	cont "ground floor."
 
-	para "Ever since JOHTO's"
+	para "Ever since Johto's"
 	line "RADIO TOWER was"
 
 	para "taken over by a"
@@ -150,7 +150,7 @@ LavRadioTower1FGentlemanText_GotExpnCard:
 	line "you can tune into"
 
 	para "the radio programs"
-	line "here in KANTO."
+	line "here in Kanto."
 
 	para "Gahahahaha!"
 	done

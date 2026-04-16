@@ -125,7 +125,7 @@ ViridianCityCoffeeGrampsDoubtedText:
 	done
 
 ViridianCityGrampsNearGymText:
-	text "This GYM didn't"
+	text "This Gym didn't"
 	line "have a LEADER"
 	cont "until recently."
 

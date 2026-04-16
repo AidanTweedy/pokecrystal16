@@ -22,7 +22,7 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 
 	para "It's a railway"
 	line "that goes to GOL-"
-	cont "DENROD in JOHTO."
+	cont "DENROD in Johto."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:

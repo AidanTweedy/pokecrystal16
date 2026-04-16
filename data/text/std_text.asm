@@ -220,7 +220,7 @@ ContestResults_JoinUsNextTimeText:
 
 ContestResults_ConsolationPrizeText:
 	text "Everyone else gets"
-	line "a BERRY as a con-"
+	line "a Berry as a con-"
 	cont "solation prize!"
 	done
 
@@ -241,8 +241,8 @@ ContestResults_PartyFullText:
 	text "Your party's full,"
 	line "so the #mon was"
 
-	para "sent to your BOX"
-	line "in BILL's PC."
+	para "sent to your Box"
+	line "in Bill's PC."
 	done
 
 GymStatue_CityGymText:

@@ -277,12 +277,12 @@ LancesRoomMaryOhNoOakText:
 	text "MARY: Oh, no!"
 	line "It's all over!"
 
-	para "PROF.OAK, if you"
+	para "Prof.Oak, if you"
 	line "weren't so slow…"
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.Oak: Ah,"
+	text "Prof.Oak: Ah,"
 	line "<PLAY_G>!"
 
 	para "It's been a long"

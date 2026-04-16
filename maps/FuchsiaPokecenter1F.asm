@@ -63,13 +63,13 @@ FuchsiaPokecenter1FCooltrainerMText:
 	line "brand new kind of"
 	cont "#dex."
 
-	para "Did PROF.OAK give"
+	para "Did Prof.Oak give"
 	line "that to you?"
 	done
 
 FuchsiaPokecenter1FCooltrainerFText:
 	text "I got quite a"
-	line "shock at the GYM."
+	line "shock at the Gym."
 
 	para "There were all"
 	line "these girls who"

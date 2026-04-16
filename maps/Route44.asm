@@ -443,7 +443,7 @@ CooltrainermAllenSeenText:
 	cont "looking at you."
 
 	para "I'm good at #-"
-	line "MON, and I can see"
+	line "mon, and I can see"
 	cont "that you are too."
 	done
 
@@ -454,13 +454,13 @@ CooltrainermAllenBeatenText:
 
 CooltrainermAllenAfterBattleText:
 	text "Wow. You have a"
-	line "lot of BADGES."
+	line "lot of Badges."
 
 	para "No wonder you're"
 	line "so tough."
 
 	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	line "ECRUTEAK Gym's"
 
 	para "MORTY is still in"
 	line "training?"

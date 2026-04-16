@@ -234,7 +234,7 @@ JasmineThankYouText:
 	line "very much."
 
 	para "…I will return to"
-	line "the GYM…"
+	line "the Gym…"
 	done
 
 JasmineISeeText:

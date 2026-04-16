@@ -206,7 +206,7 @@ EcruteakCityGramps3Text:
 	line "has been passed"
 
 	para "down by ECRUTEAK"
-	line "GYM LEADERS."
+	line "Gym LEADERS."
 
 	para "Me?"
 
@@ -227,7 +227,7 @@ TinTowerSignText:
 	text "TIN TOWER"
 
 	para "A legendary #-"
-	line "MON is said to"
+	line "mon is said to"
 	cont "roost here."
 	done
 

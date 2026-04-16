@@ -189,7 +189,7 @@ PryceText_Impressed:
 	line "life's obstacles."
 
 	para "You are worthy of"
-	line "this BADGE!"
+	line "this Badge!"
 	done
 
 Text_ReceivedGlacierBadge:
@@ -198,7 +198,7 @@ Text_ReceivedGlacierBadge:
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
+	text "That Badge will"
 	line "raise the SPECIAL"
 	cont "stats of #mon."
 
@@ -229,7 +229,7 @@ PryceText_CherishYourPokemon:
 	cont "arrives."
 
 	para "You and your #-"
-	line "MON will be to-"
+	line "mon will be to-"
 
 	para "gether for many"
 	line "years to come."
@@ -258,7 +258,7 @@ BoarderRonaldAfterBattleText:
 	done
 
 BoarderBradSeenText:
-	text "This GYM has a"
+	text "This Gym has a"
 	line "slippery floor."
 
 	para "It's fun, isn't"
@@ -275,7 +275,7 @@ BoarderBradBeatenText:
 	done
 
 BoarderBradAfterBattleText:
-	text "This GYM is great."
+	text "This Gym is great."
 	line "I love boarding"
 	cont "with my #mon!"
 	done
@@ -303,7 +303,7 @@ BoarderDouglasAfterBattleText:
 
 SkierRoxanneSeenText:
 	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	line "our Gym LEADER,"
 
 	para "you need to think"
 	line "before you skate."
@@ -319,7 +319,7 @@ SkierRoxanneAfterBattleText:
 	line "with precision,"
 
 	para "you won't get far"
-	line "in this GYM."
+	line "in this Gym."
 	done
 
 SkierClarissaSeenText:

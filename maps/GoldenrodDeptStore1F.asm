@@ -59,7 +59,7 @@ GoldenrodDeptStore1FBugCatcherText:
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1F SERVICE COUNTER"
+	text "1F Service Counter"
 
 	para "2F TRAINER'S"
 	line "   MARKET"
@@ -67,7 +67,7 @@ GoldenrodDeptStore1FDirectoryText:
 	para "3F BATTLE"
 	line "   COLLECTION"
 
-	para "4F MEDICINE BOX"
+	para "4F MEDICINE Box"
 
 	para "5F TM CORNER"
 

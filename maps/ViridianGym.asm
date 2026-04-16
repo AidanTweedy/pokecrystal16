@@ -75,9 +75,9 @@ LeaderBlueBeforeText:
 
 	para "You're telling me"
 	line "you conquered all"
-	cont "the GYMS in JOHTO?"
+	cont "the GYMS in Johto?"
 
-	para "Heh! JOHTO's GYMS"
+	para "Heh! Johto's GYMS"
 	line "must be pretty"
 	cont "pathetic then."
 
@@ -90,7 +90,7 @@ LeaderBlueBeforeText:
 	para "battling you right"
 	line "now."
 
-	para "Ready, JOHTO"
+	para "Ready, Johto"
 	line "CHAMP?"
 	done
 
@@ -144,7 +144,7 @@ ViridianGymGuideText:
 	line "Looks like you're"
 	cont "on a roll."
 
-	para "The GYM LEADER is"
+	para "The Gym LEADER is"
 	line "a guy who battled"
 
 	para "the CHAMPION three"

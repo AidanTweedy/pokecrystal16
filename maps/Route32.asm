@@ -580,7 +580,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "VIOLET CITY."
 
 	para "The training at"
-	line "the GYM must have"
+	line "the Gym must have"
 
 	para "been especially"
 	line "helpful."
@@ -642,7 +642,7 @@ FisherJustinAfterText:
 	line "The essence of"
 
 	para "fishing and #-"
-	line "MON is the same."
+	line "mon is the same."
 	done
 
 FisherRalph1SeenText:
@@ -813,7 +813,7 @@ PicnickerLiz1AfterText:
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
+	text "That Badge! It's"
 	line "from VIOLET CITY!"
 
 	para "You beat FALKNER?"
@@ -826,7 +826,7 @@ BirdKeeperPeterBeatenText:
 
 BirdKeeperPeterAfterText:
 	text "I should train"
-	line "again at the GYM"
+	line "again at the Gym"
 	cont "in VIOLET CITY."
 	done
 

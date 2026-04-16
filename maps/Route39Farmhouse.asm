@@ -94,7 +94,7 @@ FarmhouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FarmerMText_SickCow:
-	text "My MILTANK ain't"
+	text "My Miltank ain't"
 	line "givin' me milk"
 	cont "n'more."
 
@@ -108,7 +108,7 @@ FarmerMText_SickCow:
 	line "o' milk if'n I"
 
 	para "feed it lots o'"
-	line "BERRIES, I reckon."
+	line "Berries, I reckon."
 	done
 
 FarmerMText_BuyMilk:
@@ -152,10 +152,10 @@ FarmerMText_Milking:
 
 FarmerFText_InTrouble:
 	text "Our milk even goes"
-	line "out to KANTO."
+	line "out to Kanto."
 
 	para "So if our own"
-	line "MILTANK won't give"
+	line "Miltank won't give"
 
 	para "us any milk, we're"
 	line "in trouble."
@@ -163,7 +163,7 @@ FarmerFText_InTrouble:
 
 FarmerFText_HealedMiltank:
 	text "You fixed our"
-	line "MILTANK, hon. Now"
+	line "Miltank, hon. Now"
 
 	para "it gives MOOMOO"
 	line "MILK again."

@@ -47,7 +47,7 @@ Route10Pokecenter1FGymGuideText:
 	line "MANAGER is looking"
 
 	para "for a strong #-"
-	line "MON trainer."
+	line "mon trainer."
 
 	para "He needs help"
 	line "getting back"
@@ -60,7 +60,7 @@ Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
 	text "I hear TEAM ROCKET"
 	line "got back together"
 
-	para "in JOHTO but fell"
+	para "in Johto but fell"
 	line "apart right away."
 
 	para "I didn't know any-"

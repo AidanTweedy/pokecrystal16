@@ -130,7 +130,7 @@ MountMoonRivalTextAfter:
 
 	para "I'm going to be"
 	line "the greatest #-"
-	cont "MON trainer ever."
+	cont "mon trainer ever."
 
 	para "Because these guys"
 	line "are behind me."

@@ -82,7 +82,7 @@ OakWelcomeKantoText:
 	line "It's good of you"
 
 	para "to come all this"
-	line "way to KANTO."
+	line "way to Kanto."
 
 	para "What do you think"
 	line "of the trainers"
@@ -109,8 +109,8 @@ OakOpenMtSilverText:
 	line "excellent!"
 
 	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO. Well done!"
+	line "Badges of GYMS in"
+	cont "Kanto. Well done!"
 
 	para "I was right in my"
 	line "assessment of you."
@@ -148,13 +148,13 @@ OakOpenMtSilverText:
 OakNoKantoBadgesText:
 	text "Oak: Hmm? You're"
 	line "not collecting"
-	cont "KANTO GYM BADGES?"
+	cont "Kanto Gym Badges?"
 
-	para "The GYM LEADERS in"
-	line "KANTO are as tough"
+	para "The Gym LEADERS in"
+	line "Kanto are as tough"
 
 	para "as any you battled"
-	line "in JOHTO."
+	line "in Johto."
 
 	para "I recommend that"
 	line "you challenge"
@@ -163,8 +163,8 @@ OakNoKantoBadgesText:
 
 OakYesKantoBadgesText:
 	text "Oak: Ah, you're"
-	line "collecting KANTO"
-	cont "GYM BADGES."
+	line "collecting Kanto"
+	cont "Gym Badges."
 
 	para "I imagine that"
 	line "it's hard, but the"
@@ -183,11 +183,11 @@ OakYesKantoBadgesText:
 	done
 
 OaksAssistant1Text:
-	text "The PROF's #mon"
+	text "The Prof's #mon"
 	line "TALK radio program"
 
 	para "isn't aired here"
-	line "in KANTO."
+	line "in Kanto."
 
 	para "It's a shame--I'd"
 	line "like to hear it."
@@ -196,7 +196,7 @@ OaksAssistant1Text:
 OaksAssistant2Text:
 	text "Thanks to your"
 	line "work on the #-"
-	cont "DEX, the PROF's"
+	cont "DEX, the Prof's"
 
 	para "research is coming"
 	line "along great."
@@ -204,7 +204,7 @@ OaksAssistant2Text:
 
 OaksAssistant3Text:
 	text "Don't tell anyone,"
-	line "but PROF.OAK'S"
+	line "but Prof.Oak's"
 
 	para "#mon TALK isn't"
 	line "a live broadcast."
@@ -234,7 +234,7 @@ OaksLabPCText:
 
 	para "…"
 
-	para "PROF.OAK, how is"
+	para "Prof.Oak, how is"
 	line "your research"
 	cont "coming along?"
 
@@ -250,7 +250,7 @@ OaksLabPCText:
 	para "I'm delighted to"
 	line "hear that."
 
-	para "ELM in NEW BARK"
+	para "Elm in NEW BARK"
 	line "TOWN 8-)"
 	done
 

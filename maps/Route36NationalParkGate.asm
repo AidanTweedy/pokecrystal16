@@ -592,7 +592,7 @@ Route36NationalParkGateOfficer1MakeRoomText:
 	text "Uh-oh…"
 	line "Both your party"
 
-	para "and your PC BOX"
+	para "and your PC Box"
 	line "are full."
 
 	para "You have no room"
@@ -602,7 +602,7 @@ Route36NationalParkGateOfficer1MakeRoomText:
 	para "Please make room"
 	line "in your party or"
 
-	para "your PC BOX, then"
+	para "your PC Box, then"
 	line "come see me."
 	done
 
@@ -726,7 +726,7 @@ BugCatchingContestant5BStillCompetingText:
 
 BugCatchingContestant6BText:
 	text "BARRY: That #-"
-	line "MON you caught…"
+	line "mon you caught…"
 	cont "it's awesome!"
 	done
 

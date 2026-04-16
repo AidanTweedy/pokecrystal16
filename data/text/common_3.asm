@@ -606,7 +606,7 @@ BerryShop_IntroText::
 	text "Hiya!"
 
 	para "I found some"
-	line "BERRIES outside."
+	line "Berries outside."
 
 	para "Would you like"
 	line "to buy some?"

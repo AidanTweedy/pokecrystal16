@@ -290,7 +290,7 @@ RuinsOfAlphResearchCenterScientist2Text:
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
 	text "The strange #-"
-	line "MON you saw in the"
+	line "mon you saw in the"
 	cont "RUINS?"
 
 	para "They appear to be"
@@ -372,10 +372,10 @@ RuinsOfAlphResearchCenterUnownPrinterText:
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
 	text "It's a photo of"
-	line "the RESEARCH"
+	line "the Research"
 
-	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	para "Center's founder,"
+	line "Prof.Silktree."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

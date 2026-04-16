@@ -664,8 +664,8 @@ KurtsHouseSlowpokeText:
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "…A young Prof."
+	line "Oak?"
 	done
 
 KurtsHouseCelebiStatueText:

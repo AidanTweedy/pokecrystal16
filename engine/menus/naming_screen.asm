@@ -194,7 +194,7 @@ NamingScreen:
 	ret
 
 .BoxNameString:
-	db "BOX NAME?@"
+	db "Box Name?@"
 
 .Tomodachi:
 	hlcoord 3, 2

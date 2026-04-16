@@ -187,7 +187,7 @@ HikerBaileyAfterBattleText:
 
 CamperTedSeenText:
 	text "I'm raising #-"
-	line "MON too!"
+	line "mon too!"
 
 	para "Will you battle"
 	line "with me?"
@@ -219,7 +219,7 @@ PicnickerErin1BeatenText:
 
 PicnickerErinAfterBattleText:
 	text "I've been to many"
-	line "GYMS, but the GYM"
+	line "GYMS, but the Gym"
 
 	para "in GOLDENROD is my"
 	line "favorite."

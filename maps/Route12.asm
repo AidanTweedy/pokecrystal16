@@ -99,7 +99,7 @@ FisherStephenBeatenText:
 
 FisherStephenAfterBattleText:
 	text "Have you checked"
-	line "out KANTO's radio"
+	line "out Kanto's radio"
 
 	para "programs? We get a"
 	line "good variety here."
@@ -146,7 +146,7 @@ FisherKyleAfterBattleText:
 	line "on the ROD when"
 
 	para "you hook a #-"
-	line "MON…"
+	line "mon…"
 
 	para "That's the best"
 	line "feeling ever for"

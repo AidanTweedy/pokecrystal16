@@ -737,7 +737,7 @@ GoldenrodPokecomCenterSignText: ; unreferenced
 	line "1F INFORMATION"
 
 	para "Left:"
-	line "ADMINISTRATION"
+	line "Administration"
 
 	para "Center:"
 	line "TRADE CORNER"

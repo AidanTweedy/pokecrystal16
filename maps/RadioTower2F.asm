@@ -698,7 +698,7 @@ RadioTower2FSalesSignText:
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "PROF.OAK'S #mon"
+	text "Prof.Oak's #mon"
 	line "TALK"
 
 	para "The Hottest Show"

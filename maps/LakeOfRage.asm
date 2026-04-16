@@ -366,7 +366,7 @@ FisherAndreBeatenText:
 	line "pert angler, but"
 
 	para "I stink as a #-"
-	line "MON trainer…"
+	line "mon trainer…"
 	done
 
 FisherAndreAfterBattleText:
@@ -380,7 +380,7 @@ FisherRaymondSeenText:
 	line "do, all I catch"
 
 	para "are the same #-"
-	line "MON…"
+	line "mon…"
 	done
 
 FisherRaymondBeatenText:

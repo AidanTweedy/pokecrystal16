@@ -440,7 +440,7 @@ PokefanBeverlyCuteMonText:
 
 PokefanmWilliamSeenText:
 	text "We adore our #-"
-	line "MON, even if they"
+	line "mon, even if they"
 	cont "dislike us."
 
 	para "That's what being"
