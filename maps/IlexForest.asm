@@ -931,7 +931,7 @@ BugCatcherWayneAfterBattleText:
 	cont "HEADBUTT."
 
 	para "I ought to use"
-	line "HEADBUTT in other"
+	line "Headbutt in other"
 	cont "places too."
 	done
 

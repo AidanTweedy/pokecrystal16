@@ -329,7 +329,7 @@ MoomooFarmSignText:
 Route39TrainerTipsText:
 	text "TRAINER TIPS"
 
-	para "Use HEADBUTT on"
+	para "Use Headbutt on"
 	line "trees to shake"
 	cont "#mon out."
 
@@ -337,7 +337,7 @@ Route39TrainerTipsText:
 	line "#mon drop out"
 	cont "of trees."
 
-	para "Use HEADBUTT on"
+	para "Use Headbutt on"
 	line "any tree you see!"
 	done
 

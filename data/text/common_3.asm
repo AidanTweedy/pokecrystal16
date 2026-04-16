@@ -544,7 +544,7 @@ _BargainShopThanksText::
 	done
 
 _BargainShopPackFullText::
-	text "Uh-oh, your PACK"
+	text "Uh-oh, your Bag"
 	line "is chock-full."
 	done
 
@@ -1263,7 +1263,7 @@ _NewDexDataText::
 	text_ram wEnemyMonNickname
 	text "'s data"
 	line "was newly added to"
-	cont "the #DEX.@"
+	cont "the #dex.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1291,14 +1291,14 @@ _ItemCantUseOnMonText::
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used"
+	text "The Repel used"
 	line "earlier is still"
 	cont "in effect."
 	prompt
 
 _PlayedFluteText::
 	text "Played the #"
-	line "FLUTE."
+	line "Flute."
 
 	para "Now, that's a"
 	line "catchy tune!"
@@ -1311,7 +1311,7 @@ _FluteWakeUpText::
 
 Text_PlayedPokeFlute::
 	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	line "# Flute.@"
 	text_promptbutton
 	text_end
 
@@ -1376,11 +1376,11 @@ _ItemLooksBitterText::
 
 _ItemCantUseOnEggText::
 	text "That can't be used"
-	line "on an EGG."
+	line "on an Egg."
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt
@@ -1397,7 +1397,7 @@ _ItemWontHaveEffectText::
 
 _BallBlockedText::
 	text "The trainer"
-	line "blocked the BALL!"
+	line "blocked the Ball!"
 	prompt
 
 _BallDontBeAThiefText::
@@ -1423,14 +1423,14 @@ _CurBoxFullText::
 	prompt
 
 _StorageFullText::
-	text "The STORAGE SYSTEM"
+	text "The Storage System"
 	line "is full. That"
 	cont "can't be used now."
 	prompt
 
 _DatabaseFullText::
 	; too technical? needs improvement
-	text "The STORAGE SYSTEM"
+	text "The Storage System"
 	line "is overtaxed."
 
 	para "You need to save"
@@ -1485,7 +1485,7 @@ _DeleterForgotMoveText::
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't"
+	text "An Egg doesn't"
 	line "know any moves!"
 	done
 
@@ -1557,7 +1557,7 @@ _TimesetAskAdjustDSTText::
 _MomLostGearBookletText::
 	text "I lost the in-"
 	line "struction booklet"
-	cont "for the #GEAR."
+	cont "for the #gear."
 
 	para "Come back again in"
 	line "a while."

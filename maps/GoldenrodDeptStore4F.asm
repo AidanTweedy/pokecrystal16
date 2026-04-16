@@ -67,7 +67,7 @@ GoldenrodDeptStore4FGameboyKidText:
 	para "I heard there are"
 	line "others too."
 
-	para "Your #DEX shows"
+	para "Your #dex shows"
 	line "how #mon really"
 	cont "evolve!"
 	done

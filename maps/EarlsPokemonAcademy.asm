@@ -204,7 +204,7 @@ AcademyEarlTeachHowToRaiseWellText:
 	para "If #mon come"
 	line "out in battle even"
 
-	para "briefly, some EXP."
+	para "briefly, some Exp."
 	line "Points it gets."
 
 	para "At top of list put"

@@ -68,14 +68,14 @@ GaveGoodRodText:
 	line "there is water."
 
 	para "By the way,"
-	line "your #DEX shows"
+	line "your #dex shows"
 	cont "fishing groups for"
 	cont "#mon."
 
 	para "Different spots"
 	line "have similar fish."
 
-	para "The #GEAR shows"
+	para "The #gear shows"
 	line "the fishing group"
 	cont "of where you are"
 	cont "currently."

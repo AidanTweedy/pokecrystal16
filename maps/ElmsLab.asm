@@ -1023,13 +1023,13 @@ ElmAfterTheftText5:
 	text "ELM: What?!?"
 
 	para "PROF.OAK gave you"
-	line "a #DEX?"
+	line "a #dex?"
 
 	para "<PLAY_G>, is that"
 	line "true? Th-that's"
 	cont "incredible!"
 
-	para "The #DEX shows"
+	para "The #dex shows"
 	line "how #mon evolve"
 	cont "and learn moves."
 
@@ -1290,12 +1290,12 @@ AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
 	para "Use these on your"
-	line "#DEX quest!"
+	line "#dex quest!"
 	done
 
 AideText_ExplainBalls:
 	text "To add to your"
-	line "#DEX, you have"
+	line "#dex, you have"
 	cont "to catch #mon."
 
 	para "Throw # BALLS"
@@ -1406,7 +1406,7 @@ ElmsLabTravelTip3Text:
 
 	para "Travel Tip 3:"
 
-	para "Open your PACK and"
+	para "Open your Bag and"
 	line "press SELECT to"
 	cont "move items."
 	done

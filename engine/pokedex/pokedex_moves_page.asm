@@ -14,21 +14,21 @@ Field_Moves_Method_List: ; PK16 THIS BRANCH ISNT USING EXPANDED ITEMS, but when 
 ; must fill in spaces to erase other text already printed
 ; top string goes in 8, 6, bottom in 8, 7
 String_LVL_text:
-	db "LVL-UP     @"
+	db "Level     @"
 String_FIELD_text:
-	db "FIELD      @"
+	db "Field      @"
 String_EGG_text:
-	db "EGG        @"
+	db "Egg        @"
 String_MOVES_text:
-	db " MOVES     @"
+	db " Moves     @"
 String_TECH_text:
-	db "TECHNICAL  @"
+	db "Technical  @"
 String_MACHINES_text:
-	db " MACHINES  @"
+	db " Machines  @"
 String_MOVE_text:
-	db "MOVE       @"
+	db "Move       @"
 String_TUTOR_text:
-	db " TUTOR     @"
+	db " Tutor     @"
 
 Pokedex_SkipEvolutions: ; ripped straight from engine\pokemon\evolve.asm
 	ld a, b
@@ -868,4 +868,4 @@ Pokedex_anymoreMTs:
 ; 	ret
 
 DexEntry_NONE_text:
-	db "NONE@"
+	db "None@"

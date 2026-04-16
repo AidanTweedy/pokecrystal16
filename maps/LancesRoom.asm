@@ -282,7 +282,7 @@ LancesRoomMaryOhNoOakText:
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
+	text "PROF.Oak: Ah,"
 	line "<PLAY_G>!"
 
 	para "It's been a long"

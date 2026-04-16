@@ -127,7 +127,7 @@ MerchandiseShelfText:
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP."
+	text "It's the Town Map."
 	done
 
 WindowText:
@@ -140,15 +140,15 @@ TVText:
 	done
 
 HomepageText:
-	text "#mon JOURNAL"
-	line "HOME PAGE…"
+	text "#mon Journal"
+	line "Home Page…"
 
 	para "It hasn't been"
 	line "updated…"
 	done
 
 ; not used
-	text "#mon RADIO!"
+	text "#mon Radio!"
 
 	para "Call in with your"
 	line "requests now!"

@@ -59,7 +59,7 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
+	text "#gear can store"
 	line "up to ten phone"
 	cont "numbers."
 

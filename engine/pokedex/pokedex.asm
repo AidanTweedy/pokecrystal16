@@ -2044,19 +2044,19 @@ Pokedex_DrawOptionScreenBG:
 	db $3b, " OPTION ", $3c, -1
 
 .NayrusPokedex:
-	db "#DEX INFO@"
+	db "#dex INFO@"
 
 .NewMode:
-	db "NEW #DEX MODE@"
+	db "NEW #dex MODE@"
 
 .OldMode:
-	db "OLD #DEX MODE@"
+	db "OLD #dex MODE@"
 
 .AtoZMode:
 	db "A to Z MODE@"
 	
 .Color:
-	db "#DEX COLOR@"
+	db "#dex COLOR@"
 
 .UnownMode:
 	db "UNOWN MODE@"

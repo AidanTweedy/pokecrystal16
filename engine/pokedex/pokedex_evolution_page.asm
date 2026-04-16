@@ -284,7 +284,7 @@ DisplayDexMonEvos:
 .cont_page_text:
 	db $63, $64, $65, $66, "@"
 .doesnt_evo_text:
-	db "DOES NOT EVOLVE@"
+	db "Does Not Evolve@"
 .exit_early_print_cont
 	pop af
 .exit_early_print_cont2

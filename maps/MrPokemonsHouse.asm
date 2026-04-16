@@ -240,7 +240,7 @@ MrPokemonText_AlwaysNewDiscoveries:
 	done
 
 MrPokemonsHouse_OakText1:
-	text "OAK: Aha! So"
+	text "Oak: Aha! So"
 	line "you're <PLAY_G>!"
 
 	para "I'm OAK! A #mon"
@@ -291,7 +291,7 @@ MrPokemonsHouse_OakText1:
 
 	para "See? This is the"
 	line "latest version of"
-	cont "#DEX."
+	cont "#dex."
 
 	para "It automatically"
 	line "records data on"
@@ -310,7 +310,7 @@ MrPokemonsHouse_OakText1:
 
 MrPokemonsHouse_GetDexText:
 	text "<PLAYER> received"
-	line "#DEX!"
+	line "#dex!"
 	done
 
 MrPokemonsHouse_OakText2:
@@ -318,7 +318,7 @@ MrPokemonsHouse_OakText2:
 	line "of #mon and"
 
 	para "complete that"
-	line "#DEX!"
+	line "#dex!"
 
 	para "But I've stayed"
 	line "too long."
@@ -343,8 +343,8 @@ MrPokemonText_GimmeTheScale:
 	line "care to trade it?"
 
 	para "I can offer this"
-	line "EXP.SHARE I got"
-	cont "from PROF.OAK."
+	line "Exp.Share I got"
+	cont "from Prof.Oak."
 	done
 
 MrPokemonText_Disappointed:

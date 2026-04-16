@@ -319,7 +319,7 @@ _AlreadySetUpText::
 	prompt
 
 _LookTownMapText::
-	text "It's the TOWN MAP."
+	text "It's the Town Map."
 	done
 
 _LookPikachuPosterText::
@@ -518,7 +518,7 @@ _OPT_IntroText3::
 
 _OPT_OakText1::
 	text_start
-	line "OAK: @"
+	line "Oak: @"
 	text_ram wMonOrItemNameBuffer
 	text_end
 
@@ -1127,7 +1127,7 @@ _ThatCantBeUsedRightNowText:: ; unreferenced
 
 _ThatItemCantBePutInThePackText:: ; unreferenced
 	text "That item can't be"
-	line "put in the PACK."
+	line "put in the Bag."
 	done
 
 _TheItemWasPutInThePackText:: ; unreferenced
@@ -1135,7 +1135,7 @@ _TheItemWasPutInThePackText:: ; unreferenced
 	text_ram wStringBuffer1
 	text_start
 	line "was put in the"
-	cont "PACK."
+	cont "Bag."
 	done
 
 _RemainingTimeText:: ; unreferenced

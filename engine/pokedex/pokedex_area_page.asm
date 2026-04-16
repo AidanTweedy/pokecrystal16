@@ -163,7 +163,7 @@ Pokedex_DetailedArea:
 	xor a
 	ret
 .none_found_text:
-	db "NOT LOCATED@"
+	db "Not Located@"
 
 Dex_FindFirstList:
 ; contest, trees(+rocks), grass swarm, grass, rods, water surf, surf
@@ -525,9 +525,9 @@ Pokedex_DetailedArea_grass:
 	xor a ; to ensure a isnt actually returned at -1. 0 is for normal
 	ret
 .grass_walk_text:
-	; db "GRASS     @"
-	db " WALKING @"
-	; db "GRASS/WALKING@"
+	; db "Grass     @"
+	db " Walking @"
+	; db "Grass/Walking@"
 
 Pokedex_Parse_grass:
 	push hl ; first species byte in morn
@@ -777,7 +777,7 @@ Pokedex_DetailedArea_surf:
 	xor a ; to ensure a isnt actually returned at -1. 0 is for normal
 	ret
 .surfing_text:
-	db " SURFING @"
+	db " Surfing @"
 
 Pokedex_Parse_surf:
 	push hl ; first species byte, surfing has no time of day
@@ -1165,11 +1165,11 @@ Pokedex_DetailedArea_bugcontest:
 	call DexEntry_NextCategory
 	ret
 .bugcontest_text:
-	db "BUG       @" ; CATCH CONTEST@"
+	db "BUG       @" ; Catch Contest@"
 .contest_text:
-	db " CONTEST @"	
+	db " Contest @"	
 .park_text:
-	db " NATIONAL PARK@"
+	db " National Park@"
 .String_Tuesday:
 	db " Tuesdays@"
 .String_Thursday:
@@ -1281,7 +1281,7 @@ Pokedex_DetailedArea_roaming:
 	call DexEntry_NextCategory
 	ret
 .roaming_text:
-	db "ROAMING   @"
+	db "Roaming   @"
 
 Dex_Print_Roamer_Info:
 	; push bc ; line counter in c
@@ -1500,9 +1500,9 @@ Pokedex_DetailedArea_casino:
 	call DexEntry_NextCategory
 	ret
 .casino_text:
-	db "CASINO    @"
+	db "Casino    @"
 .prize_text:
-	db " PRIZE   @"
+	db " Prize   @"
 
 Print_casinomon:
 	; 'de' has casino map_id ptr
@@ -1560,7 +1560,7 @@ Print_casinomon:
 	pop hl ; current casinomon species ptr
 	ret
 .coins_text:
-	db "COINS@"
+	db "Coins@"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CASINO END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; NPC TRADES ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1687,7 +1687,7 @@ Pokedex_DetailedArea_npctrades:
 .npctrade_text:
 	db "NPC       @"
 .trade_text:
-	db " TRADE   @"
+	db " Trade   @"
 
 Dex_Print_TradeMon_Info:
 	; 'de': location: 		hlcoord 2, 10
@@ -1976,9 +1976,9 @@ Pokedex_DetailedArea_eventwildmons:
 	jp Pokedex_DetailedArea_eventmons
 	
 .eventwildmon_text:
-	db "SPECIAL   @"
+	db "Special   @"
 .eventwildmon_text2:
-	db "ENCOUNTER@"
+	db "Encounter@"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; EVENT WILD MONS END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -2002,7 +2002,7 @@ Pokedex_DetailedArea_giftmons:
 	jp Pokedex_DetailedArea_eventmons
 
 .giftmon_text:
-	db "GIFT      @"
+	db "Gift      @"
 	ret
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; GIFT MONS END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

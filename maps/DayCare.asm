@@ -119,7 +119,7 @@ DayCareManText_GiveOddEgg:
 	line "that?"
 
 	para "You know, your"
-	line "#DEX shows EGG"
+	line "#dex shows EGG"
 	cont "groups, and how"
 
 	para "long they take to"

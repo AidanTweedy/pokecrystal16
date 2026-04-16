@@ -187,7 +187,7 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
+	text "Wow, your #gear"
 	line "is impressive!"
 
 	para "Did your mom get"
@@ -232,7 +232,7 @@ Text_TellMomIfLeaving:
 
 Text_CallMomOnGear:
 	text "Call your mom on"
-	line "your #GEAR to"
+	line "your #gear to"
 
 	para "let her know how"
 	line "you're doing."

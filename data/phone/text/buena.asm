@@ -486,7 +486,7 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 
 BuenaPhonePokegearAnswerText:
 	text "Hey, <PLAY_G>. You"
-	line "use your #GEAR"
+	line "use your #gear"
 
 	para "to listen to the"
 	line "radio, right?"
@@ -495,12 +495,12 @@ BuenaPhonePokegearAnswerText:
 	line "can even display"
 
 	para "town maps with"
-	line "#GEAR."
+	line "#gear."
 
 	para "I have a bad sense"
 	line "of direction, so"
 
-	para "#GEAR would be"
+	para "#gear would be"
 	line "handy…"
 
 	para "Anyway, thanks for"
