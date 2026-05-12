@@ -26,18 +26,18 @@ CeladonDeptStore1FElevatorButton:
 CeladonDeptStore1FReceptionistText:
 	text "Hello! Welcome to"
 	line "CELADON DEPT."
-	cont "STORE!"
+	cont "Store!"
 
 	para "The directory is"
 	line "on the wall."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This DEPT.STORE is"
+	text "This Dept.Store is"
 	line "part of the same"
 
 	para "chain as the one"
-	line "in GOLDENROD CITY."
+	line "in Goldenrod City."
 
 	para "They were both"
 	line "renovated at the"
@@ -56,19 +56,19 @@ CeladonDeptStore1FTeacherText:
 
 CeladonDeptStore1FDirectoryText:
 	text "1F: Service"
-	line "    COUNTER"
+	line "    Counter"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: Trainer's"
+	line "    Market"
 
-	para "3F: TM SHOP"
+	para "3F: TM Shop"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: Wiseman Gifts"
 
-	para "5F: DRUG STORE"
+	para "5F: Drug Store"
 
-	para "6F: ROOFTOP"
-	line "    SQUARE"
+	para "6F: Rooftop"
+	line "    Square"
 	done
 
 CeladonDeptStore1F_MapEvents:

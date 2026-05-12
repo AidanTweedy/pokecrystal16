@@ -67,7 +67,7 @@ DaisyHelloText:
 	text "DAISY: Hi! My kid"
 	line "brother is the Gym"
 
-	para "LEADER in VIRIDIAN"
+	para "Leader in VIRIDIAN"
 	line "CITY."
 
 	para "But he goes out"
@@ -139,7 +139,7 @@ DaisyRefusedText:
 DaisyCantGroomEggText:
 	text "DAISY: Oh, sorry."
 	line "I honestly can't"
-	cont "groom an EGG."
+	cont "groom an Egg."
 	done
 
 BluesHouse_MapEvents:

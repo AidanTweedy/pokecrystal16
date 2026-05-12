@@ -47,7 +47,7 @@ CeruleanPokecenter1FSuperNerdText_Mobile:
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
+	text "The Magnet Train"
 	line "travels at over"
 
 	para "340 mph. It goes"

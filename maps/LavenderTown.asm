@@ -48,8 +48,8 @@ LavenderTownPokefanMText:
 	text "That's quite some"
 	line "building, eh?"
 
-	para "It's Kanto's RADIO"
-	line "TOWER."
+	para "It's Kanto's Radio"
+	line "Tower."
 	done
 
 LavenderTownTeacherText:
@@ -83,8 +83,8 @@ LavenderTownSignText:
 	done
 
 KantoRadioStationSignText:
-	text "Kanto RADIO"
-	line "STATION"
+	text "Kanto Radio"
+	line "Station"
 
 	para "Your Favorite"
 	line "Programs On-Air"
@@ -93,11 +93,11 @@ KantoRadioStationSignText:
 
 VolunteerPokemonHouseSignText:
 	text "LAVENDER VOLUNTEER"
-	line "#mon HOUSE"
+	line "#mon House"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "SOUL House"
 
 	para "May the Souls of"
 	line "#mon Rest Easy"

@@ -496,14 +496,14 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 	done
 
 Route36NationalParkGateOfficer1GiveParkBallsText:
-	text "Here are the PARK"
-	line "BALLS for the"
+	text "Here are the Park"
+	line "Balls for the"
 	cont "Contest."
 	done
 
 Route36NationalParkGatePlayerReceivedParkBallsText:
 	text "<PLAYER> received"
-	line "{d:BUG_CONTEST_BALLS} PARK BALLS."
+	line "{d:BUG_CONTEST_BALLS} Park Balls."
 	done
 
 Route36NationalParkGateOfficer1ExplainsRulesText:
@@ -516,7 +516,7 @@ Route36NationalParkGateOfficer1ExplainsRulesText:
 	line "minutes."
 
 	para "If you run out of"
-	line "PARK BALLS, you're"
+	line "Park Balls, you're"
 	cont "done."
 
 	para "You can keep the"
@@ -608,7 +608,7 @@ Route36NationalParkGateOfficer1MakeRoomText:
 
 Route36NationalParkGateOfficer1EggAsFirstMonText:
 	text "Uh-oh…"
-	line "You have an EGG as"
+	line "You have an Egg as"
 
 	para "the first #mon"
 	line "in your party."

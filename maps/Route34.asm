@@ -517,7 +517,7 @@ YoungsterSamuelBeatenText:
 
 YoungsterSamuelMobileText: ; unreferenced
 	text "Have you been to"
-	line "GOLDENROD CITY?"
+	line "Goldenrod City?"
 
 	para "Weren't you amazed"
 	line "by how they've"
@@ -532,7 +532,7 @@ YoungsterSamuelAfterText:
 
 	para "After all, I'm"
 	line "trying to become"
-	cont "a Gym LEADER."
+	cont "a Gym Leader."
 	done
 
 YoungsterIanSeenText:
@@ -626,7 +626,7 @@ OfficerKeithDaytimeText:
 PokefanmBrandonSeenText:
 	text "I just got my"
 	line "#mon back from"
-	cont "DAY-CARE."
+	cont "Day-Care."
 
 	para "Let's see how much"
 	line "stronger it got!"
@@ -730,9 +730,9 @@ Route34IlexForestSignText:
 	done
 
 Route34SignText:
-	text "ROUTE 34"
+	text "Route 34"
 
-	para "GOLDENROD CITY -"
+	para "Goldenrod City -"
 	line "AZALEA TOWN"
 
 	para "ILEX FOREST"
@@ -740,7 +740,7 @@ Route34SignText:
 	done
 
 Route34TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Berry trees grow"
 	line "new Berries"
@@ -752,7 +752,7 @@ Route34TrainerTipsText:
 	done
 
 DayCareSignText:
-	text "DAY-CARE"
+	text "Day-Care"
 
 	para "LET US RAISE YOUR"
 	line "#mon FOR YOU!"

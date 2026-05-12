@@ -124,7 +124,7 @@ GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
 	text "May I see your"
-	line "rail PASS, please?"
+	line "rail Pass, please?"
 
 	para "OK. Right this"
 	line "way, please."
@@ -132,7 +132,7 @@ GoldenrodMagnetTrainStationOfficerRightThisWayText:
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
 	text "Sorry. You don't"
-	line "have a rail PASS."
+	line "have a rail Pass."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
@@ -142,7 +142,7 @@ GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 	text "We have arrived in"
-	line "GOLDENROD."
+	line "Goldenrod."
 
 	para "We hope to see you"
 	line "again."

@@ -344,7 +344,7 @@ PicnickerKimAfterBattleText:
 
 BirdKeeperBryanSeenText:
 	text "What kinds of"
-	line "BALLS do you use?"
+	line "Balls do you use?"
 	done
 
 BirdKeeperBryanBeatenText:
@@ -357,20 +357,20 @@ BirdKeeperBryanAfterBattleText:
 	line "right away."
 
 	para "Try catching them"
-	line "with KURT's FAST"
-	cont "BALL."
+	line "with Kurt's Fast"
+	cont "Ball."
 
 	para "Whenever I find a"
-	line "WHT APRICORN, I"
-	cont "take it to KURT."
+	line "Wht Apricorn, I"
+	cont "take it to Kurt."
 
 	para "He turns it into a"
-	line "custom BALL."
+	line "custom Ball."
 	done
 
 JugglerIrwin1SeenText:
 	text "Behold my graceful"
-	line "BALL dexterity!"
+	line "Ball dexterity!"
 	done
 
 JugglerIrwin1BeatenText:
@@ -457,7 +457,7 @@ OfficerDirkPrettyToughText:
 	done
 
 Route35SignText:
-	text "ROUTE 35"
+	text "Route 35"
 	done
 
 Route35_MapEvents:

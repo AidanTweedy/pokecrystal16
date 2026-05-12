@@ -41,7 +41,7 @@ SaffronPokecenter1FYoungsterScript:
 
 SaffronPokecenter1FTeacherText:
 	text "What are Johto's"
-	line "#mon CENTERS"
+	line "#mon Centers"
 	cont "like?"
 
 	para "…Oh, I see. So"
@@ -57,7 +57,7 @@ SaffronPokecenter1FTeacherText:
 
 SaffronPokecenter1FTeacherMobileText:
 	text "What are Johto's"
-	line "#mon CENTERS"
+	line "#mon Centers"
 	cont "like?"
 
 	para "…Oh, I see."
@@ -93,7 +93,7 @@ SaffronPokecenter1FFisherReturnedMachinePartText:
 	line "like the one out-"
 	cont "side CERULEAN."
 
-	para "As a pro HIKER,"
+	para "As a pro Hiker,"
 	line "that's common"
 	cont "knowledge."
 	done
@@ -102,8 +102,8 @@ SaffronPokecenter1FYoungsterText:
 	text "SILPH CO.'s HEAD"
 	line "OFFICE and the"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "Magnet Train Sta-"
+	line "tion--they're the"
 
 	para "places to see in"
 	line "SAFFRON."

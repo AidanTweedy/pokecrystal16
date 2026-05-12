@@ -79,31 +79,31 @@ Text_GrampsLookingForYou:
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "I'm the Day-Care"
+	line "Man."
 
 	para "There's something"
-	line "new in GOLDENROD"
+	line "new in Goldenrod"
 
-	para "called the TRADE"
-	line "CORNER."
+	para "called the Trade"
+	line "Corner."
 
-	para "I was given an EGG"
-	line "TICKET that can be"
+	para "I was given an Egg"
+	line "Ticket that can be"
 
 	para "traded in for a"
-	line "ODD EGG."
+	line "ODD Egg."
 
 	para "But since we run a"
-	line "DAY-CARE, we don't"
+	line "Day-Care, we don't"
 
 	para "need it. You may"
 	line "as well have it."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "I'm the Day-Care"
+	line "Man."
 
 	para "Do you know about"
 	line "EGGS?"
@@ -113,20 +113,20 @@ DayCareManText_GiveOddEgg:
 	cont "wife, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an Egg!"
 
 	para "How incredible is"
 	line "that?"
 
 	para "You know, your"
-	line "#dex shows EGG"
+	line "#dex shows Egg"
 	cont "groups, and how"
 
 	para "long they take to"
 	line "hatch!"
 
 	para "Well, wouldn't you"
-	line "like this EGG?"
+	line "like this Egg?"
 
 	para "Then fine, this is"
 	line "yours to keep!"
@@ -138,7 +138,7 @@ DayCareText_ComeAgain: ; unreferenced
 
 DayCareText_GotOddEgg:
 	text "<PLAYER> received"
-	line "ODD EGG!"
+	line "ODD Egg!"
 	done
 
 DayCareText_DescribeOddEgg:
@@ -151,7 +151,7 @@ DayCareText_DescribeOddEgg:
 	para "But the trainer"
 	line "didn't want the"
 
-	para "EGG, so I'd kept"
+	para "Egg, so I'd kept"
 	line "it around."
 	done
 

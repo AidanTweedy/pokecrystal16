@@ -224,7 +224,7 @@ JugglerHortonAfterBattleText:
 	done
 
 VermilionGymGuideText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "You lucked out"

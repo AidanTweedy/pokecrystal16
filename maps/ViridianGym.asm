@@ -66,7 +66,7 @@ LeaderBlueBeforeText:
 	line "got here, huh?"
 
 	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	line "mood at Cinnabar,"
 
 	para "but now I'm ready"
 	line "to battle you."
@@ -91,7 +91,7 @@ LeaderBlueBeforeText:
 	line "now."
 
 	para "Ready, Johto"
-	line "CHAMP?"
+	line "Champ?"
 	done
 
 LeaderBlueWinText:
@@ -137,17 +137,17 @@ LeaderBlueEpilogueText:
 	done
 
 ViridianGymGuideText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "How's it going?"
 	line "Looks like you're"
 	cont "on a roll."
 
-	para "The Gym LEADER is"
+	para "The Gym Leader is"
 	line "a guy who battled"
 
-	para "the CHAMPION three"
+	para "the Champion three"
 	line "years ago."
 
 	para "He's no pushover."

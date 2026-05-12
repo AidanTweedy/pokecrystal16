@@ -186,7 +186,7 @@ Route39MiltankText:
 
 SailorEugeneSeenText:
 	text "I just got back to"
-	line "OLIVINE."
+	line "Olivine."
 
 	para "So how about a"
 	line "#mon battle?"
@@ -209,12 +209,12 @@ SailorEugeneAfterBattleText:
 PokefanmDerekSeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my PIKACHU!"
+	cont "my Pikachu!"
 	done
 
 PokefanmDerekBeatenText:
 	text "I had no time to"
-	line "show off PIKACHU…"
+	line "show off Pikachu…"
 	done
 
 PokefanMDerekText_NotBragging:
@@ -251,7 +251,7 @@ PokefanfRuthAfterBattleText:
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
+	text "Pikachu is it!"
 	line "Don't you agree?"
 	done
 
@@ -297,7 +297,7 @@ PokefanfJaimeBeatenText:
 PokefanfJaimeAfterBattleText:
 	text "I met my MEOWTH at"
 	line "night, right here"
-	cont "on ROUTE 39."
+	cont "on Route 39."
 
 	para "I'm not sure why,"
 	line "but it seems to"
@@ -313,21 +313,21 @@ PokefanfJaimeAfterBattleText:
 	done
 
 Route39SignText:
-	text "ROUTE 39"
+	text "Route 39"
 
-	para "OLIVINE CITY -"
+	para "Olivine City -"
 	line "ECRUTEAK CITY"
 	done
 
 MoomooFarmSignText:
-	text "MOOMOO FARM"
+	text "Moomoo Farm"
 
 	para "Enjoy Our Fresh"
 	line "and Tasty Milk"
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Use Headbutt on"
 	line "trees to shake"

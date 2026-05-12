@@ -96,18 +96,18 @@ PokefanmAlexAfterBattleText:
 PokefanmJoshuaSeenText:
 	text "Nihihi! Would you"
 	line "like to battle my"
-	cont "PIKACHU gang?"
+	cont "Pikachu gang?"
 	done
 
 PokefanmJoshuaBeatenText:
-	text "PI-PIKACHU!"
+	text "PI-Pikachu!"
 	done
 
 PokefanmJoshuaAfterBattleText:
 	text "You look like you"
 	line "have many #mon,"
 
-	para "but PIKACHU is"
+	para "but Pikachu is"
 	line "still the best."
 	done
 
@@ -167,7 +167,7 @@ HikerKennyAfterBattleText:
 	done
 
 Route13TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Look! Right there,"
 	line "at the left side"
@@ -175,7 +175,7 @@ Route13TrainerTipsText:
 	done
 
 Route13SignText:
-	text "ROUTE 13"
+	text "Route 13"
 
 	para "NORTH TO SILENCE"
 	line "BRIDGE"

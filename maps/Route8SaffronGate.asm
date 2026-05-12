@@ -14,7 +14,7 @@ Route8SaffronGateOfficerText:
 	line "LAVENDER TOWN?"
 
 	para "There's a tall"
-	line "RADIO TOWER there."
+	line "Radio Tower there."
 	done
 
 Route8SaffronGate_MapEvents:

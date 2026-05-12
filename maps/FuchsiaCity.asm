@@ -51,10 +51,10 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "One of the Elite"
+	line "Four used to be"
 
-	para "the LEADER of"
+	para "the Leader of"
 	line "FUCHSIA's Gym."
 	done
 
@@ -62,9 +62,9 @@ FuchsiaCityPokefanMText:
 	text "KOGA's daughter"
 	line "succeeded him as"
 
-	para "the Gym LEADER"
+	para "the Gym Leader"
 	line "after he joined"
-	cont "the ELITE FOUR."
+	cont "the Elite Four."
 	done
 
 FuchsiaCityTeacherText:
@@ -86,7 +86,7 @@ FuchsiaCitySignText:
 FuchsiaGymSignText:
 	text "FUCHSIA CITY"
 	line "#mon Gym"
-	cont "LEADER: JANINE"
+	cont "Leader: JANINE"
 
 	para "The Poisonous"
 	line "Ninja Master"

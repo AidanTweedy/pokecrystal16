@@ -181,7 +181,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	text "Hello!"
 	line "You are trainer?"
 
-	para "Battle Gym LEADER,"
+	para "Battle Gym Leader,"
 	line "win you did?"
 	done
 
@@ -205,7 +205,7 @@ Text_HereTeacherIAm:
 VioletCityLassText:
 	text "Ghosts are rumored"
 	line "to appear in"
-	cont "SPROUT TOWER."
+	cont "SPROUT Tower."
 
 	para "They said normal-"
 	line "type #mon moves"
@@ -219,7 +219,7 @@ VioletCitySuperNerdText:
 	line "#mon trainer?"
 
 	para "If you beat the"
-	line "Gym LEADER here,"
+	line "Gym Leader here,"
 
 	para "you'll be ready"
 	line "for prime time!"
@@ -258,14 +258,14 @@ VioletCitySignText:
 VioletGymSignText:
 	text "VIOLET CITY"
 	line "#mon Gym"
-	cont "LEADER: FALKNER"
+	cont "Leader: FALKNER"
 
 	para "The Elegant Master"
 	line "of Flying #mon"
 	done
 
 SproutTowerSignText:
-	text "SPROUT TOWER"
+	text "SPROUT Tower"
 
 	para "Experience the"
 	line "Way of #mon"

@@ -226,7 +226,7 @@ FakeDirectorTextAfter:
 	text "We stashed the"
 	line "real DIRECTOR in"
 
-	para "the UNDERGROUND"
+	para "the Underground"
 	line "WAREHOUSE."
 
 	para "It's at the far"
@@ -240,7 +240,7 @@ FakeDirectorTextAfter:
 Executivef1SeenText:
 	text "Remember me from"
 	line "the HIDEOUT in"
-	cont "MAHOGANY TOWN?"
+	cont "Mahogany Town?"
 
 	para "I lost then, but I"
 	line "won't this time."
@@ -261,7 +261,7 @@ Executivef1AfterBattleText:
 	line "won't appreciate"
 
 	para "the magnificence"
-	line "of TEAM ROCKET."
+	line "of Team Rocket."
 
 	para "That's too bad."
 	line "I really admire"
@@ -276,9 +276,9 @@ RadioTower5FRocketBossBeforeText:
 	line "the trainer."
 
 	para "We intend to take"
-	line "over this RADIO"
+	line "over this Radio"
 
-	para "STATION and an-"
+	para "Station and an-"
 	line "nounce our come-"
 	cont "back."
 
@@ -314,8 +314,8 @@ RadioTower5FRocketBossAfterText:
 	para "Like GIOVANNI did"
 	line "before me, I will"
 
-	para "disband TEAM"
-	line "ROCKET here today."
+	para "disband Team"
+	line "Rocket here today."
 
 	para "Farewell."
 	done
@@ -338,14 +338,14 @@ RadioTower5FDirectorThankYouText:
 RadioTower5FDirectorDescribeClearBellText:
 	text "There used to be a"
 	line "tower right here"
-	cont "in GOLDENROD CITY."
+	cont "in Goldenrod City."
 
 	para "But it was old and"
 	line "creaky."
 
 	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	line "with our Radio"
+	cont "Tower."
 
 	para "We dug up that"
 	line "bell during"
@@ -354,7 +354,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "I heard that all"
 	line "sorts of #mon"
 
-	para "lived in GOLDENROD"
+	para "lived in Goldenrod"
 	line "in the past."
 
 	para "Perhaps…"
@@ -362,19 +362,19 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "That bell has some"
 	line "connection to the"
 
-	para "TIN TOWER in"
+	para "Tin Tower in"
 	line "ECRUTEAK CITY…"
 
 	para "Ah!"
 
 	para "That reminds me…"
 
-	para "I overheard TEAM"
-	line "ROCKET whispering."
+	para "I overheard Team"
+	line "Rocket whispering."
 
 	para "Apparently, some-"
 	line "thing is going on"
-	cont "at the TIN TOWER."
+	cont "at the Tin Tower."
 
 	para "I have no idea"
 	line "what is happening,"
@@ -393,8 +393,8 @@ RadioTower5FDirectorText:
 	para "You know, I love"
 	line "#mon."
 
-	para "I built this RADIO"
-	line "TOWER so I could"
+	para "I built this Radio"
+	line "Tower so I could"
 
 	para "express my love"
 	line "of #mon."

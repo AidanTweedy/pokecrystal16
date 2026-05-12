@@ -226,7 +226,7 @@ CopycatText_Male_2:
 
 	para "<PLAYER>: If I find"
 	line "it, you'll give me"
-	cont "a rail PASS?"
+	cont "a rail Pass?"
 
 	para "<PLAYER>: I'll go"
 	line "find it for you."
@@ -262,27 +262,27 @@ CopycatText_GiveDoll:
 
 CopycatText_GivePass:
 	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
+	line "Magnet Train Pass"
 	cont "like I promised!"
 	done
 
 CopycatText_ExplainPass:
 	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	line "the Pass for the"
+	cont "Magnet Train."
 
 	para "The rail company"
 	line "man gave me that"
 
 	para "when they tore"
 	line "down our old house"
-	cont "for the STATION."
+	cont "for the Station."
 	done
 
 CopycatText_Male_3:
 	text "<PLAYER>: Hi!"
 	line "Thanks a lot for"
-	cont "the rail PASS!"
+	cont "the rail Pass!"
 
 	para "<PLAYER>: Pardon?"
 
@@ -315,7 +315,7 @@ CopycatText_Female_2:
 	para "<PLAYER>: You'll"
 	line "really give me a"
 
-	para "rail PASS if I"
+	para "rail Pass if I"
 	line "find it for you?"
 
 	para "<PLAYER>: Sure,"
@@ -328,7 +328,7 @@ CopycatText_Female_2:
 
 CopycatText_Female_3:
 	text "<PLAYER>: Thank you"
-	line "for the rail PASS!"
+	line "for the rail Pass!"
 
 	para "<PLAYER>: …Pardon?"
 

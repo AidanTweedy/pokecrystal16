@@ -380,7 +380,7 @@ LassDanaMoomooMilkText:
 	text "I know something"
 	line "good!"
 
-	para "MOOMOO FARM's milk"
+	para "Moomoo Farm's milk"
 	line "is famous for its"
 	cont "flavor."
 	done
@@ -432,12 +432,12 @@ BeautyOliviaSeenText:
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink MOOMOO"
-	line "MILK every day."
+	text "We drink Moomoo"
+	line "Milk every day."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "MOOMOO MILK is"
+	text "Moomoo Milk is"
 	line "good for beauty"
 
 	para "and health, but"
@@ -448,14 +448,14 @@ BeautyOliviaAfterBattleText:
 	done
 
 Route38SignText:
-	text "ROUTE 38"
+	text "Route 38"
 
-	para "OLIVINE CITY -"
+	para "Olivine City -"
 	line "ECRUTEAK CITY"
 	done
 
 Route38TrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "If a #mon is"
 	line "trying to evolve,"

@@ -37,7 +37,7 @@ Chris:
 
 PewterPokecenter1FTeacherText:
 	text "…Yeah, and the"
-	line "Gym in CINNABAR's"
+	line "Gym in Cinnabar's"
 
 	para "gone. I was really"
 	line "amazed."

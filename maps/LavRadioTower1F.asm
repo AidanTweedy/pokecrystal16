@@ -89,7 +89,7 @@ LavRadioTower1FOfficerText:
 	cont "ground floor."
 
 	para "Ever since Johto's"
-	line "RADIO TOWER was"
+	line "Radio Tower was"
 
 	para "taken over by a"
 	line "criminal gang, we"
@@ -102,8 +102,8 @@ LavRadioTower1FSuperNerd1Text:
 	text "Many people are"
 	line "hard at work here"
 
-	para "in the RADIO"
-	line "TOWER."
+	para "in the Radio"
+	line "Tower."
 
 	para "They must be doing"
 	line "their best to put"

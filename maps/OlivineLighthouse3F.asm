@@ -82,10 +82,10 @@ SailorTerrellBeatenText:
 
 SailorTerrellAfterBattleText:
 	text "Every time I come"
-	line "back to OLIVINE, I"
+	line "back to Olivine, I"
 	cont "visit the Gym."
 
-	para "The Gym LEADER's"
+	para "The Gym Leader's"
 	line "#mon type has"
 
 	para "changed without me"

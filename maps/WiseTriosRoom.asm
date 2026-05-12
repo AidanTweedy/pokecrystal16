@@ -141,7 +141,7 @@ WiseTriosRoomSage1Text:
 
 WiseTriosRoomSage2Text:
 	text "We train at the"
-	line "BURNED TOWER, but"
+	line "BURNED Tower, but"
 
 	para "we've never heard"
 	line "of a hole opening"
@@ -154,7 +154,7 @@ WiseTriosRoomSage2Text:
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "TIN TOWER may be"
+	text "Tin Tower may be"
 	line "entered by those"
 
 	para "bearing ECRUTEAK's"
@@ -192,7 +192,7 @@ SageGakuSeenText:
 	line "put that trainer"
 
 	para "to test at the TIN"
-	line "TOWER."
+	line "Tower."
 
 	para "The legend has"
 	line "come true!"
@@ -246,11 +246,11 @@ SageMasaAfterBattleText:
 	line "were two nine-tier"
 	cont "towers here."
 
-	para "The BRASS TOWER,"
+	para "The BRASS Tower,"
 	line "which was said to"
 
 	para "awaken #mon,"
-	line "and the TIN TOWER,"
+	line "and the Tin Tower,"
 
 	para "where #mon were"
 	line "said to rest."
@@ -268,7 +268,7 @@ SageMasaAfterBattleText:
 	line "was said to make"
 
 	para "its roost atop the"
-	line "BRASS TOWER."
+	line "BRASS Tower."
 
 	para "However…"
 
@@ -287,7 +287,7 @@ SageMasaAfterBattleText:
 	cont "the blaze."
 
 	para "And that is how"
-	line "the BURNED TOWER"
+	line "the BURNED Tower"
 	cont "came to be."
 	done
 
@@ -329,7 +329,7 @@ SageKojiAfterBattleSpeechText:
 
 	para "Please, do go on"
 	line "and enter the TIN"
-	cont "TOWER ahead."
+	cont "Tower ahead."
 
 	para "SUICUNE will put"
 	line "you to the test."

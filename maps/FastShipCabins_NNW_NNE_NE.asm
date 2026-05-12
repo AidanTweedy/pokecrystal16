@@ -145,12 +145,12 @@ CooltrainermSeanAfterBattleText:
 	line "Johto can battle"
 
 	para "with Kanto Gym"
-	line "LEADERS."
+	line "Leaders."
 	done
 
 CooltrainerfCarolSeenText:
 	text "I'm training to"
-	line "become the CHAMP!"
+	line "become the Champ!"
 	done
 
 CooltrainerfCarolBeatenText:

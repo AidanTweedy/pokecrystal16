@@ -80,7 +80,7 @@ WillsRoom_EnterMovement:
 
 WillScript_WillBeforeText:
 	text "Welcome to #mon"
-	line "LEAGUE, <PLAYER>."
+	line "League, <PLAYER>."
 
 	para "Allow me to intro-"
 	line "duce myself. I am"
@@ -94,7 +94,7 @@ WillScript_WillBeforeText:
 
 	para "And, at last, I've"
 	line "been accepted into"
-	cont "the ELITE FOUR."
+	cont "the Elite Four."
 
 	para "I can only keep"
 	line "getting better!"
@@ -123,7 +123,7 @@ WillScript_WillDefeatText:
 	line "on and experience"
 
 	para "the true ferocity"
-	line "of the ELITE FOUR."
+	line "of the Elite Four."
 	done
 
 WillsRoom_MapEvents:

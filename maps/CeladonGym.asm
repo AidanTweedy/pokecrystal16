@@ -121,7 +121,7 @@ ErikaBeforeBattleText:
 	line "doze off…"
 
 	para "My name is ERIKA."
-	line "I am the LEADER of"
+	line "I am the Leader of"
 	cont "CELADON Gym."
 
 	para "…Oh? All the way"

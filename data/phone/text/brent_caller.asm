@@ -34,7 +34,7 @@ BrentLostAMonText:
 	line "sighting. But I"
 
 	para "didn't have any"
-	line "# BALLS…"
+	line "# Balls…"
 
 	para "Would Bill laugh"
 	line "at my mistakes?"
@@ -82,14 +82,14 @@ BrentGrandpaGossipText:
 BrentGoldenrodGossipText:
 	text "Did you know…?"
 	line "Bill's originally"
-	cont "from GOLDENROD."
+	cont "from Goldenrod."
 	done
 
 BrentRoute25GossipText:
 	text "Did you know…?"
 	line "Bill evidently"
 
-	para "lives on ROUTE 25"
+	para "lives on Route 25"
 	line "in Kanto."
 	done
 
@@ -130,7 +130,7 @@ BrentFlowerShopGossipText:
 	line "Bill appears to"
 
 	para "like the lady at"
-	line "the FLOWER SHOP."
+	line "the Flower Shop."
 	done
 
 BrentKimonoGirlGossipText:

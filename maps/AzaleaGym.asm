@@ -295,7 +295,7 @@ BugCatcherJoshAfterBattleText:
 TwinsAmyandmay1SeenText:
 	text "AMY: Hi! Are you"
 	line "challenging the"
-	cont "LEADER? No way!"
+	cont "Leader? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
@@ -310,7 +310,7 @@ TwinsAmyandmay1AfterBattleText:
 
 TwinsAmyandmay2SeenText:
 	text "MAY: You want to"
-	line "see the LEADER?"
+	line "see the Leader?"
 	cont "We come first!"
 	done
 

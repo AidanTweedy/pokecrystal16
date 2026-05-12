@@ -68,9 +68,9 @@ HallOfFame_LanceText:
 	cont "last came here."
 
 	para "This is where we"
-	line "honor the LEAGUE"
+	line "honor the League"
 
-	para "CHAMPIONS for all"
+	para "Champions for all"
 	line "eternity."
 
 	para "Their courageous"
@@ -80,8 +80,8 @@ HallOfFame_LanceText:
 	para "Here today, we"
 	line "witnessed the rise"
 
-	para "of a new LEAGUE"
-	line "CHAMPION--a"
+	para "of a new League"
+	line "Champion--a"
 
 	para "trainer who feels"
 	line "compassion for,"
@@ -95,8 +95,8 @@ HallOfFame_LanceText:
 	para "perseverance and"
 	line "determination."
 
-	para "The new LEAGUE"
-	line "CHAMPION who has"
+	para "The new League"
+	line "Champion who has"
 
 	para "all the makings"
 	line "of greatness!"
@@ -105,7 +105,7 @@ HallOfFame_LanceText:
 	line "to register you"
 
 	para "and your partners"
-	line "as CHAMPIONS!"
+	line "as Champions!"
 	done
 
 HallOfFame_MapEvents:

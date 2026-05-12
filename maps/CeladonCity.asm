@@ -142,7 +142,7 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON DEPT.STORE"
+	text "CELADON Dept.Store"
 	line "has the biggest"
 
 	para "and best selection"
@@ -164,9 +164,9 @@ CeladonCityLassText_Mobile: ; unreferenced
 	cont "buildings!"
 
 	para "Isn't it true that"
-	line "GOLDENROD #mon"
+	line "Goldenrod #mon"
 
-	para "CENTER was made"
+	para "Center was made"
 	line "much, much bigger?"
 
 	para "That is so neat!"
@@ -194,7 +194,7 @@ CeladonCitySignText:
 CeladonGymSignText:
 	text "CELADON CITY"
 	line "#mon Gym"
-	cont "LEADER: ERIKA"
+	cont "Leader: ERIKA"
 
 	para "The Nature-Loving"
 	line "Princess"
@@ -203,7 +203,7 @@ CeladonGymSignText:
 CeladonCityDeptStoreSignText:
 	text "Find What You"
 	line "Need at CELADON"
-	cont "DEPT.STORE!"
+	cont "Dept.Store!"
 	done
 
 CeladonCityMansionSignText:
@@ -217,18 +217,18 @@ CeladonCityGameCornerSignText:
 	done
 
 CeladonCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "GUARD SPEC."
 	line "protects #mon"
 
-	para "against SPECIAL"
+	para "against Special"
 	line "attacks such as"
 	cont "fire and water."
 
 	para "Get your items at"
 	line "CELADON DEPT."
-	cont "STORE!"
+	cont "Store!"
 	done
 
 CeladonCity_MapEvents:

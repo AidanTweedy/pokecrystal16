@@ -249,7 +249,7 @@ MortyText_FogBadgeSpeech:
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
+	text "It's SHADOW Ball."
 	line "It causes damage"
 
 	para "and may reduce"
@@ -376,7 +376,7 @@ EcruteakGymGuideWinText:
 
 EcruteakGymClosedText:
 	text "MORTY, the Gym"
-	line "LEADER, is absent."
+	line "Leader, is absent."
 
 	para "Sorry, but you'll"
 	line "have to leave."

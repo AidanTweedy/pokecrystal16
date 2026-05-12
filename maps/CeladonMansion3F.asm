@@ -163,7 +163,7 @@ GameFreakCharacterDesignerText:
 
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
-	line "DEVELOPMENT ROOM"
+	line "DEVELOPMENT Room"
 	done
 
 CeladonMansion3FDrawingText:

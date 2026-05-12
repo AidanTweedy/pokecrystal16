@@ -35,8 +35,8 @@ TrainerHouseIllegibleBook:
 	jumptext TrainerHouseIllegibleText
 
 TrainerHouse1FReceptionistText:
-	text "Welcome to TRAINER"
-	line "HOUSE, the newest"
+	text "Welcome to Trainer"
+	line "House, the newest"
 
 	para "and most happening"
 	line "place in VIRIDIAN."
@@ -80,7 +80,7 @@ TrainerHouse1FCooltrainerFText:
 
 TrainerHouse1FYoungsterText:
 	text "I guess you can't"
-	line "become the CHAMP"
+	line "become the Champ"
 
 	para "unless you go all"
 	line "over the place and"
@@ -88,7 +88,7 @@ TrainerHouse1FYoungsterText:
 	para "battle all kinds"
 	line "of people."
 
-	para "The CHAMPION from"
+	para "The Champion from"
 	line "PALLET traveled to"
 
 	para "all the cities and"

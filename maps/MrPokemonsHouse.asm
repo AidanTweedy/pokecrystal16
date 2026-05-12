@@ -186,16 +186,16 @@ MrPokemonIntroText2:
 
 MrPokemonsHouse_GotEggText:
 	text "<PLAYER> received"
-	line "MYSTERY EGG."
+	line "Mystery Egg."
 	done
 
 MrPokemonIntroText3:
 	text "I know a couple"
 	line "who run a #mon"
-	cont "DAY-CARE service."
+	cont "Day-Care service."
 
 	para "They gave me that"
-	line "EGG."
+	line "Egg."
 
 	para "I was intrigued,"
 	line "so I sent mail to"
@@ -248,7 +248,7 @@ MrPokemonsHouse_OakText1:
 
 	para "I was just visit-"
 	line "ing my old friend"
-	cont "MR.#mon."
+	cont "Mr.#mon."
 
 	para "I heard you were"
 	line "running an errand"
@@ -324,7 +324,7 @@ MrPokemonsHouse_OakText2:
 	line "too long."
 
 	para "I have to get to"
-	line "GOLDENROD for my"
+	line "Goldenrod for my"
 	cont "usual radio show."
 
 	para "<PLAY_G>, I'm"

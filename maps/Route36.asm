@@ -428,8 +428,8 @@ SudowoodoAttackedText:
 	done
 
 FloriaText1:
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	text "I'm the Flower"
+	line "Shop's FLORIA!"
 
 	para "Listen, listen!"
 
@@ -512,19 +512,19 @@ RockSmashGuyText3:
 UnusedOddTreeText: ; unreferenced
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to Goldenrod City."
 
 	para "I wanted to go see"
 	line "the huge #mon"
 
-	para "CENTER they just"
+	para "Center they just"
 	line "opened…"
 	done
 
 Route36LassText:
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to Goldenrod City."
 
 	para "It's preventing"
 	line "me from shopping."
@@ -618,7 +618,7 @@ ArthurNotThursdayText:
 	done
 
 Route36SignText:
-	text "ROUTE 36"
+	text "Route 36"
 	done
 
 RuinsOfAlphNorthSignText:
@@ -627,7 +627,7 @@ RuinsOfAlphNorthSignText:
 	done
 
 Route36TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "#mon stats"
 	line "vary--even within"
@@ -644,7 +644,7 @@ Route36TrainerTips1Text:
 	done
 
 Route36TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Use DIG to return"
 	line "to the entrance of"

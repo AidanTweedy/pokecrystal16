@@ -5427,30 +5427,30 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "SAVE FILE will be"
+	text "Save FILE will be"
 	line "sent."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Sent SAVE FILE."
-	line "Reading NEWS…"
+	text "Sent Save FILE."
+	line "Reading News…"
 	done
 
 Text_ReadingNews:
-	text "Reading NEWS…"
+	text "Reading News…"
 	done
 
 Text_ReceivedNews:
-	text "Received NEWS!"
+	text "Received News!"
 	done
 
 Text_QuitReadingNews:
-	text "Quit reading NEWS?"
+	text "Quit reading News?"
 	done
 
 Text_CanceledSendingSaveFile: ; unreferenced
 	text "Canceled sending"
-	line "SAVE FILE."
+	line "Save FILE."
 	done
 
 Text_ReceivedOddEgg: ; unreferenced
@@ -5465,7 +5465,7 @@ Text_RegisteringRecord:
 
 Text_BattleRoomVisitLimit: ; unreferenced
 	text "One visit per day"
-	line "per BATTLE ROOM!"
+	line "per Battle Room!"
 	done
 
 Text_PartyMonTopsThisLevel:
@@ -5476,25 +5476,25 @@ Text_PartyMonTopsThisLevel:
 Text_UberRestriction:
 	text_ram wcd49
 	text " may go"
-	line "only to BATTLE"
+	line "only to Battle"
 
 	para "ROOMS that are"
 	line "Lv.70 or higher."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Cancel your Battle"
+	line "Room challenge?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit Gym LEADER"
+	text "Exit Gym Leader"
 	line "HONOR ROLL?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
 	text "Linking with the"
-	line "CENTER…"
+	line "Center…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
@@ -5503,22 +5503,22 @@ Text_WhatLevelDoYouWantToChallenge:
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
+	text "Check Battle Room"
 	line "list by max level?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
 	text "Enter which"
-	line "BATTLE ROOM?"
+	line "Battle Room?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "Which BATTLE ROOM?"
+	text "Which Battle Room?"
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
 	text_ram wStringBuffer3
-	text "'s ROOM"
+	text "'s Room"
 	line "@"
 	text_ram wStringBuffer4
 	text "?"

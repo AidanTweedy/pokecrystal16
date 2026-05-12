@@ -83,11 +83,11 @@ SnorlaxEvent_Str:
 	next "holding LEFTOVERS."
 	next "LVL 40.@"
 SuicuneEvent_Str:
-	db 	 "CLEAR BELL is the"
+	db 	 "Clear Bell is the"
 	next "key to the hunt."
 	next "LVL 40.@"
 CelebiEvent_Str:
-	db 	 "GS BALL, deeply"
+	db 	 "GS Ball, deeply"
 	next "buried in RUINS."
 	next "Offer to SHRINE.@"
 LugiaEvent_Str:
@@ -97,7 +97,7 @@ LugiaEvent_Str:
 HoOhEvent_Str:
 	db 	 "RAINBOW WING best-"
 	next "owed to Trainers"
-	next "after FOUR trials.@"
+	next "after Four trials.@"
 ; ArticunoEvent_Str:
 ; 	db 	 "Waiting surrounded"
 ; 	next "by waves."
@@ -140,7 +140,7 @@ ShuckieEvent_Str:
 KenyaEvent_Str:
 	db 	 "Scrappy birb"
 	next "carrying mail"
-	next "for ROUTE 31.@"
+	next "for Route 31.@"
 ExtremespeedDratini_Str:
 	db 	 "EXTREMESPEED is"
 	next "rewarded as a true"

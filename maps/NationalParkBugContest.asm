@@ -155,7 +155,7 @@ BugCatchingContestant6AText:
 	line "weaken bug #mon"
 
 	para "first, then throw"
-	line "a BALL."
+	line "a Ball."
 	done
 
 BugCatchingContestant7AText:
@@ -195,7 +195,7 @@ BugCatchingContestant10AText:
 	done
 
 NationalParkBugContestRelaxationSquareText:
-	text "RELAXATION SQUARE"
+	text "RELAXATION Square"
 	line "NATIONAL PARK"
 	done
 
@@ -211,9 +211,9 @@ NationalParkBugContestBattleNoticeText:
 	done
 
 NationalParkBugContestTrainerTipsText:
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "Print out MAIL by"
+	para "Print out Mail by"
 	line "opening it then"
 	cont "pressing START."
 	done

@@ -103,7 +103,7 @@ CharcoalKilnBossText2:
 
 CharcoalKilnBossText3:
 	text "You chased off"
-	line "TEAM ROCKET and"
+	line "Team Rocket and"
 
 	para "went to ILEX"
 	line "FOREST alone?"
@@ -125,7 +125,7 @@ CharcoalKilnApprenticeText2:
 	text "I'm sorry--I for-"
 	line "got to thank you."
 
-	para "This is CHARCOAL"
+	para "This is Charcoal"
 	line "that I made."
 
 	para "Fire-type #mon"

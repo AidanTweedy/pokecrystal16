@@ -248,7 +248,7 @@ AzaleaTownRivalBeforeText:
 	line "thing."
 
 	para "Is it true that"
-	line "TEAM ROCKET has"
+	line "Team Rocket has"
 	cont "returned?"
 
 	para "What? You beat"
@@ -282,8 +282,8 @@ AzaleaTownRivalAfterText:
 	line "strong and wipe"
 	cont "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "That goes for Team"
+	line "Rocket too."
 
 	para "They act big and"
 	line "tough in a group."
@@ -347,8 +347,8 @@ AzaleaTownGrampsTextAfter:
 
 AzaleaTownTeacherText:
 	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	line "get Kurt to make"
+	cont "some Balls?"
 
 	para "A lot of people do"
 	line "just that."
@@ -365,8 +365,8 @@ AzaleaTownYoungsterText:
 	para "impossible to get"
 	line "through."
 
-	para "The CHARCOAL MAN's"
-	line "#mon can CUT"
+	para "The Charcoal Man's"
+	line "#mon can Cut"
 	cont "down trees."
 	done
 
@@ -393,7 +393,7 @@ AzaleaTownKurtText1:
 
 AzaleaTownKurtText2:
 	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	line "your GS Ball back!"
 	done
 
 AzaleaTownKurtText3:
@@ -411,13 +411,13 @@ AzaleaTownSignText:
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "Kurt's House"
 	done
 
 AzaleaGymSignText:
 	text "AZALEA TOWN"
 	line "#mon Gym"
-	cont "LEADER: BUGSY"
+	cont "Leader: BUGSY"
 
 	para "The Walking"
 	line "Bug #mon"
@@ -442,7 +442,7 @@ SlowpokeWellSignText:
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "Charcoal Kiln"
 	done
 
 AzaleaTownIlexForestSignText:

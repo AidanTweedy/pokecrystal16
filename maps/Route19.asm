@@ -156,8 +156,8 @@ SwimmerfDawnAfterBattleText:
 	text "It's a quick swim"
 	line "between FUCHSIA"
 
-	para "and SEAFOAM IS-"
-	line "LANDS…"
+	para "and Seafoam Is-"
+	line "lands…"
 
 	para "Sheesh, some big"
 	line "man my boyfriend"
@@ -191,7 +191,7 @@ Route19Fisher1Text:
 	cont "construction."
 
 	para "If you want to get"
-	line "to CINNABAR, you'd"
+	line "to Cinnabar, you'd"
 
 	para "better go south"
 	line "from PALLET TOWN."
@@ -217,17 +217,17 @@ Route19Fisher2Text_RocksCleared:
 	done
 
 Route19SignText:
-	text "ROUTE 19"
+	text "Route 19"
 
 	para "FUCHSIA CITY -"
-	line "SEAFOAM ISLANDS"
+	line "Seafoam Islands"
 	done
 
 CarefulSwimmingSignText:
 	text "Please be careful"
 	line "if you are swim-"
-	cont "ming to SEAFOAM"
-	cont "ISLANDS."
+	cont "ming to Seafoam"
+	cont "Islands."
 
 	para "FUCHSIA POLICE"
 	done

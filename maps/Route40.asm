@@ -258,7 +258,7 @@ Route40PokefanMText_Mobile:
 	done
 
 Route40Lass2Text:
-	text "I came to OLIVINE"
+	text "I came to Olivine"
 	line "by ship to see the"
 
 	para "sights and soak up"
@@ -271,7 +271,7 @@ Route40Lass2Text:
 
 Route40StandingYoungsterText:
 	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	line "the Battle Tower?"
 
 	para "I think a lot of"
 	line "tough trainers"
@@ -329,10 +329,10 @@ MonicaNotMondayText:
 	done
 
 Route40SignText:
-	text "ROUTE 40"
+	text "Route 40"
 
 	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	line "Olivine City"
 	done
 
 Route40_MapEvents:

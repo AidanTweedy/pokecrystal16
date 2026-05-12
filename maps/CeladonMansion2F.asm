@@ -44,7 +44,7 @@ CeladonMansion2FComputerText:
 
 CeladonMansion2FMeetingRoomSignText:
 	text "GAME FREAK"
-	line "MEETING ROOM"
+	line "MEETING Room"
 	done
 
 CeladonMansion2F_MapEvents:

@@ -142,7 +142,7 @@ FalknerWinLossText:
 	line "Take this."
 
 	para "It's the official"
-	line "#mon LEAGUE"
+	line "#mon League"
 	cont "ZEPHYRBADGE."
 	done
 
@@ -275,7 +275,7 @@ VioletGymGuideWinText:
 	text "Nice battle! Keep"
 	line "it up, and you'll"
 
-	para "be the CHAMP in no"
+	para "be the Champ in no"
 	line "time at all!"
 	done
 

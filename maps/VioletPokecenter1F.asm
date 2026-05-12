@@ -114,7 +114,7 @@ VioletPokecenterElmsAideFavorText:
 	line "favor to ask."
 
 	para "Would you take the"
-	line "#mon EGG?"
+	line "#mon Egg?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
@@ -122,7 +122,7 @@ VioletPokecenterElmsAideGiveEggText:
 	line "a #mon will not"
 
 	para "hatch until it"
-	line "grows in the EGG."
+	line "grows in the Egg."
 
 	para "It also has to be"
 	line "with other active"
@@ -133,7 +133,7 @@ VioletPokecenterElmsAideGiveEggText:
 	cont "we can rely on."
 
 	para "Please call Prof."
-	line "Elm when that EGG"
+	line "Elm when that Egg"
 	cont "hatches!"
 	done
 
@@ -144,7 +144,7 @@ VioletCityElmsAideFullPartyText:
 
 	para "I'll wait here"
 	line "while you make"
-	cont "room for the EGG."
+	cont "room for the Egg."
 	done
 
 VioletPokecenterElmsAideRefuseText:
@@ -154,7 +154,7 @@ VioletPokecenterElmsAideRefuseText:
 
 VioletPokecenterElmsAideAskEggText:
 	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	line "take the Egg?"
 	done
 
 VioletPokecenterFarawayLinkText: ; unreferenced
@@ -190,7 +190,7 @@ VioletPokecenter1FGentlemanText:
 	text "It was around"
 	line "three years ago."
 
-	para "TEAM ROCKET was up"
+	para "Team Rocket was up"
 	line "to no good with"
 	cont "#mon."
 

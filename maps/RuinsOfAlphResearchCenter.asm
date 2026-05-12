@@ -324,8 +324,8 @@ RuinsOfAlphResearchCenterUnusedText2: ; unreferenced
 	para "Those mysterious"
 	line "patterns appeared"
 
-	para "when the #COM"
-	line "CENTER was built."
+	para "when the #Com"
+	line "Center was built."
 
 	para "It must mean that"
 	line "radio waves have"

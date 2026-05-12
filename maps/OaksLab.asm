@@ -150,7 +150,7 @@ OakNoKantoBadgesText:
 	line "not collecting"
 	cont "Kanto Gym Badges?"
 
-	para "The Gym LEADERS in"
+	para "The Gym Leaders in"
 	line "Kanto are as tough"
 
 	para "as any you battled"
@@ -216,7 +216,7 @@ OaksLabPoster1Text:
 	done
 
 OaksLabPoster2Text:
-	text "The SAVE option is"
+	text "The Save option is"
 	line "on the MENU."
 
 	para "Use it in a timely"

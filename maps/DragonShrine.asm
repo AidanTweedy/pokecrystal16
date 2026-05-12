@@ -460,7 +460,7 @@ DragonShrinePassedTestText:
 
 	para "It will see you"
 	line "through at the"
-	cont "#mon LEAGUE."
+	cont "#mon League."
 	done
 
 DragonShrineMustIInformLanceText:
@@ -574,7 +574,7 @@ DragonShrineElder2Text:
 	line "some time since a"
 
 	para "trainer has gained"
-	line "our MASTER's rare"
+	line "our Master's rare"
 	cont "approval."
 
 	para "In fact, not since"
@@ -586,7 +586,7 @@ DragonShrineElder3Text:
 	line "Master LANCE?"
 
 	para "He looks so much"
-	line "like our MASTER"
+	line "like our Master"
 	cont "did in his youth."
 
 	para "It's in their"

@@ -40,7 +40,7 @@ OlivineCafeStrengthSailorText:
 
 	para "Here, use this"
 	line "and teach them"
-	cont "STRENGTH!"
+	cont "Strength!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
@@ -55,7 +55,7 @@ OlivineCafeStrengthSailorText_GotStrength:
 	done
 
 OlivineCafeFishingGuruText:
-	text "OLIVINE CAFE's"
+	text "Olivine Cafe's"
 	line "menu is chock full"
 
 	para "of hearty fare for"
@@ -67,7 +67,7 @@ OlivineCafeSailorText:
 	line "into this town, I"
 
 	para "always visit the"
-	line "OLIVINE CAFE."
+	line "Olivine Cafe."
 
 	para "Everything on the"
 	line "menu makes me feel"

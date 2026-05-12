@@ -152,7 +152,7 @@ CeruleanCityCooltrainerMText1:
 	line "PLANT?"
 
 	para "It's near the end"
-	line "of ROUTE 9, the"
+	line "of Route 9, the"
 
 	para "road that heads"
 	line "east from here."
@@ -236,7 +236,7 @@ CeruleanCitySignText:
 CeruleanGymSignText:
 	text "CERULEAN CITY"
 	line "#mon Gym"
-	cont "LEADER: MISTY"
+	cont "Leader: MISTY"
 
 	para "The Tomboyish"
 	line "Mermaid"
@@ -246,8 +246,8 @@ CeruleanBikeShopSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
+	para "The Bike Shop has"
+	line "moved to Goldenrod"
 	cont "CITY in Johto…"
 	done
 
@@ -266,7 +266,7 @@ CeruleanPoliceSignText:
 
 CeruleanCapeSignText:
 	text "CERULEAN CAPE"
-	line "AHEAD"
+	line "Ahead"
 	done
 
 CeruleanLockedDoorText:

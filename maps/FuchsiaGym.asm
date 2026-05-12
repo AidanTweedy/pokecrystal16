@@ -289,7 +289,7 @@ LassAliceBeforeText:
 	text "Fufufu!"
 
 	para "I'm JANINE, the"
-	line "Gym LEADER!"
+	line "Gym Leader!"
 
 	para "No, I'm not!"
 	line "Gotcha, sucker!"
@@ -302,7 +302,7 @@ LassAliceBeatenText:
 LassAliceAfterText:
 	text "How will you dis-"
 	line "tinguish our real"
-	cont "LEADER?"
+	cont "Leader?"
 	done
 
 LassLindaBeforeText:
@@ -358,7 +358,7 @@ CamperBarryAfterText:
 	done
 
 FuchsiaGymGuideText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "Whoops! Take a"
@@ -366,7 +366,7 @@ FuchsiaGymGuideText:
 
 	para "you. The trainers"
 	line "all look like the"
-	cont "LEADER, JANINE."
+	cont "Leader, JANINE."
 
 	para "Which of them is"
 	line "the real JANINE?"

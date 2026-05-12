@@ -60,7 +60,7 @@ TiffanyGenericText:
 
 	para "I hope you take"
 	line "them to a #mon"
-	cont "CENTER every day."
+	cont "Center every day."
 
 	para "Don't push them"
 	line "too hard."

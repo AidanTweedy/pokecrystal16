@@ -814,7 +814,7 @@ Text_TradeReceptionistMobile:
 
 Text_ThisWayToMobileRoom: ; unreferenced
 	text "This way to the"
-	line "MOBILE ROOM."
+	line "MOBILE Room."
 	done
 
 Text_BattleReceptionistIntro:
@@ -830,7 +830,7 @@ Text_BattleReceptionistIntro:
 
 Text_TradeReceptionistIntro:
 	text "Welcome to CABLE"
-	line "TRADE CENTER."
+	line "Trade Center."
 
 	para "You may trade your"
 	line "#mon here with"
@@ -841,8 +841,8 @@ Text_TradeReceptionistIntro:
 	done
 
 Text_TimeCapsuleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB TIME CAPSULE."
+	text "Welcome to Cable"
+	line "Club Time Capsule."
 
 	para "You can travel to"
 	line "the past and trade"
@@ -931,24 +931,24 @@ Text_RejectMonWithMail:
 	line "@"
 	text_ram wStringBuffer1
 	text " that"
-	cont "has MAIL with you."
+	cont "has Mail with you."
 	prompt
 
 Text_TimeCapsuleClosed:
 	text "I'm sorry--the"
-	line "TIME CAPSULE is"
+	line "Time Capsule is"
 	cont "being adjusted."
 	done
 
 Text_TradeRoomClosed:
 	text "I'm sorry--the"
-	line "TRADE MACHINE is"
+	line "Trade Machine is"
 	cont "being adjusted."
 	done
 
 Text_BattleRoomClosed:
 	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
+	line "Battle Machine is"
 	cont "being adjusted."
 	done
 

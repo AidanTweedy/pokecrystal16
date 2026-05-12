@@ -161,7 +161,7 @@ SchoolboyJohnnySeenText:
 	text "We're on a field"
 	line "trip to LAVENDER"
 
-	para "RADIO TOWER for"
+	para "Radio Tower for"
 	line "social studies."
 	done
 
@@ -193,7 +193,7 @@ SchoolboyBillyAfterBattleText:
 	done
 
 Route15SignText:
-	text "ROUTE 15"
+	text "Route 15"
 
 	para "FUCHSIA CITY -"
 	line "LAVENDER TOWN"

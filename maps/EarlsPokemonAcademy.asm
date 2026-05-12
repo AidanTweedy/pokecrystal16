@@ -343,7 +343,7 @@ AcademyNotebookText:
 	line "notebook…"
 
 	para "Catch #mon"
-	line "using # BALLS."
+	line "using # Balls."
 
 	para "Up to six can be"
 	line "in your party."
@@ -353,7 +353,7 @@ AcademyNotebookText:
 
 AcademyNotebookText1:
 	text "Before throwing a"
-	line "# BALL, weaken"
+	line "# Ball, weaken"
 	cont "the target first."
 
 	para "A poisoned or"

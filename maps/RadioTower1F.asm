@@ -158,7 +158,7 @@ RadioTower1FRadioCardWomanScript:
 	end
 
 .RadioCardText:
-	db "RADIO CARD@"
+	db "Radio Card@"
 
 .ReceiveItem:
 	jumpstd ReceiveItemScript
@@ -266,7 +266,7 @@ RadioTower1FLuckyNumberManPerfectMatchText:
 	line "prize winner!"
 
 	para "You have won a"
-	line "MASTER BALL!"
+	line "Master Ball!"
 	done
 
 RadioTower1FLuckyNumberManOkayMatchText:
@@ -308,7 +308,7 @@ RadioTower1FRadioCardWomanOfferQuizText:
 
 	para "Answer five ques-"
 	line "tions correctly to"
-	cont "win a RADIO CARD."
+	cont "win a Radio Card."
 
 	para "Slide it into your"
 	line "#gear to play"
@@ -352,7 +352,7 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	line "Question 4:"
 
 	para "Is FALKNER the"
-	line "VIOLET Gym LEADER"
+	line "VIOLET Gym Leader"
 
 	para "who uses bird"
 	line "#mon?"
@@ -363,8 +363,8 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
+	para "Do Goldenrod GAME"
+	line "Corner's slots"
 
 	para "have CHARMANDER"
 	line "on their reels?"
@@ -375,7 +375,7 @@ RadioTower1FRadioCardWomanYouWinText:
 	line "Congratulations!"
 
 	para "Here's your prize,"
-	line "a RADIO CARD!"
+	line "a Radio Card!"
 	done
 
 RadioTower1FPokegearIsARadioText:
@@ -423,13 +423,13 @@ RadioTower1FYoungsterText:
 GruntM3SeenText:
 	text "We've finally"
 	line "taken over the"
-	cont "RADIO TOWER!"
+	cont "Radio Tower!"
 
 	para "Now everyone will"
 	line "get to experience"
 
 	para "the true terror of"
-	line "TEAM ROCKET!"
+	line "Team Rocket!"
 
 	para "We'll show you"
 	line "how scary we are!"

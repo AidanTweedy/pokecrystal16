@@ -229,13 +229,13 @@ CeruleanGymGruntByeText:
 CeruleanGymNote1Text:
 	text "Sorry, I'll be out"
 	line "for a while."
-	cont "MISTY, Gym LEADER"
+	cont "MISTY, Gym Leader"
 	done
 
 CeruleanGymNote2Text:
 	text "Since MISTY's out,"
 	line "we'll be away too."
-	cont "Gym TRAINERS"
+	cont "Gym Trainers"
 	done
 
 MistyIntroText:
@@ -341,7 +341,7 @@ SwimmermParkerAfterBattleText:
 	done
 
 CeruleanGymGuideText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "Since MISTY was"

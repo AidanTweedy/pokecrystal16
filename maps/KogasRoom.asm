@@ -82,7 +82,7 @@ KogaScript_KogaBeforeText:
 	text "Fwahahahaha!"
 
 	para "I am KOGA of the"
-	line "ELITE FOUR."
+	line "Elite Four."
 
 	para "I live in shadows,"
 	line "a ninja!"

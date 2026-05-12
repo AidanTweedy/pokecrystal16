@@ -57,17 +57,17 @@ LavenderPokecenter1FYoungsterText:
 	text "If the POWER PLANT"
 	line "isn't running, the"
 
-	para "MAGNET TRAIN won't"
+	para "Magnet Train won't"
 	line "run either…"
 
 	para "It also means the"
-	line "RADIO STATION"
+	line "Radio Station"
 	cont "can't broadcast…"
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
 	text "The DIRECTOR of"
-	line "the RADIO STATION"
+	line "the Radio Station"
 	cont "sure was happy."
 
 	para "He said they're"

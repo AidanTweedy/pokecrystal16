@@ -238,8 +238,8 @@ VermilionPortCantBoardText:
 	done
 
 VermilionPortAskBoardingText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Welcome to Fast"
+	line "Ship S.S.Aqua."
 
 	para "Will you be board-"
 	line "ing today?"
@@ -247,7 +247,7 @@ VermilionPortAskBoardingText:
 
 VermilionPortAskTicketText:
 	text "May I see your"
-	line "S.S.TICKET?"
+	line "S.S.Ticket?"
 	done
 
 VermilionPortComeAgainText:
@@ -257,7 +257,7 @@ VermilionPortComeAgainText:
 
 VermilionPortSSTicketText:
 	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	line "the S.S.Ticket."
 
 	para "That's it."
 	line "Thank you!"
@@ -268,22 +268,22 @@ VermilionPortNoTicketText:
 	line "show the S.S."
 	cont "TICKET…"
 
-	para "…But no TICKET!"
+	para "…But no Ticket!"
 
 	para "Sorry!"
 	line "You may board only"
 
 	para "if you have an"
-	line "S.S.TICKET."
+	line "S.S.Ticket."
 	done
 
 VermilionPortSailWednesdayText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail on Wednesday."
 	done
 
 VermilionPortSailSundayText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail next Sunday."
 	done
 

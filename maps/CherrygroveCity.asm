@@ -354,7 +354,7 @@ GuideGentTourText1:
 
 GuideGentPokecenterText:
 	text "This is a #mon"
-	line "CENTER. They heal"
+	line "Center. They heal"
 
 	para "your #mon in no"
 	line "time at all."
@@ -370,7 +370,7 @@ GuideGentMartText:
 	text "This is a #mon"
 	line "MART."
 
-	para "They sell BALLS"
+	para "They sell Balls"
 	line "for catching wild"
 
 	para "#mon and other"
@@ -378,7 +378,7 @@ GuideGentMartText:
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
+	text "Route 30 is out"
 	line "this way."
 
 	para "Trainers will be"
@@ -434,7 +434,7 @@ CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
 	para "You got a #mon"
-	line "at the LAB."
+	line "at the Lab."
 
 	para "What a waste."
 	line "A wimp like you."
@@ -500,7 +500,7 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#mon's house"
+	text "Mr.#mon's house"
 	line "is still farther"
 	cont "up ahead."
 	done
@@ -541,7 +541,7 @@ CherrygroveCitySignText:
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "GUIDE GENT'S House"
 	done
 
 CherrygroveCity_MapEvents:

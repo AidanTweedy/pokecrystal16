@@ -182,7 +182,7 @@ VermilionCityBadgeGuyTrainerText:
 	text "Skilled trainers"
 	line "gather in Kanto."
 
-	para "Gym LEADERS are"
+	para "Gym Leaders are"
 	line "especially strong."
 
 	para "They won't be easy"
@@ -243,7 +243,7 @@ VermilionCitySignText:
 VermilionGymSignText:
 	text "VERMILION CITY"
 	line "#mon Gym"
-	cont "LEADER: LT.SURGE"
+	cont "Leader: LT.SURGE"
 
 	para "The Lightning"
 	line "American"

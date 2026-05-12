@@ -221,7 +221,7 @@ PicnickerErinAfterBattleText:
 	text "I've been to many"
 	line "GYMS, but the Gym"
 
-	para "in GOLDENROD is my"
+	para "in Goldenrod is my"
 	line "favorite."
 
 	para "It's filled with"
@@ -244,8 +244,8 @@ PicnickerErin2BeatenText:
 	done
 
 Route46SignText:
-	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	text "Route 46"
+	line "MOUNTAIN RD. Ahead"
 	done
 
 Route46_MapEvents:

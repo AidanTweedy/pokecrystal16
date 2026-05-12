@@ -22,14 +22,14 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "The SAILOR in the"
-	line "OLIVINE CAFE next"
+	text "The Sailor in the"
+	line "Olivine Cafe next"
 
 	para "door is really"
 	line "generous."
 
 	para "He taught my"
-	line "#mon STRENGTH."
+	line "#mon Strength."
 
 	para "Now it can move"
 	line "big boulders."

@@ -481,14 +481,14 @@ WesleyNotWednesdayText:
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
+	text "Lake of Rage,"
 	line "also known as"
 	cont "GYARADOS LAKE."
 	done
 
 FishingGurusHouseSignText:
 	text "FISHING GURU'S"
-	line "HOUSE"
+	line "House"
 	done
 
 LakeOfRage_MapEvents:

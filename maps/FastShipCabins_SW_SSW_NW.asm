@@ -162,7 +162,7 @@ BeautyCassieAfterBattleText:
 	line "for getting over"
 	cont "a broken heart."
 
-	para "But a FAST SHIP"
+	para "But a Fast Ship"
 	line "trip is too short"
 	cont "for grieving."
 	done
@@ -171,8 +171,8 @@ GuitaristClydeSeenText:
 	text "I'm going to audi-"
 	line "tion my songs at"
 
-	para "GOLDENROD's RADIO"
-	line "STATION."
+	para "Goldenrod's Radio"
+	line "Station."
 	done
 
 GuitaristClydeBeatenText:
@@ -183,7 +183,7 @@ GuitaristClydeBeatenText:
 GuitaristClydeAfterBattleMobileText:
 	text "I was going to"
 	line "make my debut at"
-	cont "the BATTLE TOWER…"
+	cont "the Battle TOWER…"
 
 	para "I should go back"
 	line "to VERMILION and"
@@ -192,7 +192,7 @@ GuitaristClydeAfterBattleMobileText:
 
 GuitaristClydeAfterBattleText:
 	text "Speaking of the"
-	line "RADIO STATION,"
+	line "Radio Station,"
 
 	para "what's this week's"
 	line "lucky number?"
@@ -209,13 +209,13 @@ FastShipBedText2:
 	done
 
 FastShipArrivedOlivineText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
-	cont "OLIVINE CITY."
+	cont "Olivine City."
 	done
 
 FastShipArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
 	cont "VERMILION CITY."
 	done

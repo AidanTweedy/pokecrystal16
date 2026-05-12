@@ -38,16 +38,16 @@ ViridianPokecenter1FCooltrainerMText:
 	text "Where in the world"
 	line "is VIRIDIAN's Gym"
 
-	para "LEADER? I wanted"
+	para "Leader? I wanted"
 	line "to challenge him."
 	done
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
 	text "There are no Gym"
-	line "TRAINERS at the"
+	line "Trainers at the"
 	cont "VIRIDIAN Gym."
 
-	para "The LEADER claims"
+	para "The Leader claims"
 	line "his policy is to"
 
 	para "win without having"
@@ -56,17 +56,17 @@ ViridianPokecenter1FCooltrainerMText_BlueReturned:
 
 ViridianPokecenter1FCooltrainerFText:
 	text "I heard that the"
-	line "Gym in CINNABAR is"
+	line "Gym in Cinnabar is"
 	cont "gone."
 
 	para "I wonder what be-"
-	line "came of BLAINE,"
-	cont "the Gym LEADER."
+	line "came of Blaine,"
+	cont "the Gym Leader."
 	done
 
 ViridianPokecenter1FBugCatcherText:
 	text "My dream is to be-"
-	line "come a Gym LEADER."
+	line "come a Gym Leader."
 	done
 
 ViridianPokecenter1F_MapEvents:

@@ -80,7 +80,7 @@ BrunosRoom_EnterMovement:
 
 BrunoScript_BrunoBeforeText:
 	text "I am BRUNO of the"
-	line "ELITE FOUR."
+	line "Elite Four."
 
 	para "I always train to"
 	line "the extreme be-"

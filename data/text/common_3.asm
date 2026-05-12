@@ -335,7 +335,7 @@ _SeerNoLocationText::
 _SeerEggText::
 	text "Hey!"
 
-	para "That's an EGG!"
+	para "That's an Egg!"
 
 	para "You can't say that"
 	line "you've met it yet…"
@@ -1162,7 +1162,7 @@ _NeedAtLeastThreeMonText::
 	done
 
 _EggDoesNotQualifyText::
-	text "Sorry, an EGG"
+	text "Sorry, an Egg"
 	line "doesn't qualify."
 
 	para ""
@@ -1197,14 +1197,14 @@ _TheMonMustNotHoldTheSameItemsText::
 
 _YouCantTakeAnEggText::
 	text "You can't take an"
-	line "EGG!"
+	line "Egg!"
 
 	para ""
 	done
 
 _BallDodgedText::
 	text "It dodged the"
-	line "thrown BALL!"
+	line "thrown Ball!"
 
 	para "This #mon"
 	line "can't be caught!"

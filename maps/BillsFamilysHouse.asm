@@ -113,7 +113,7 @@ BillTakeThisEeveeText:
 
 	para "It came over when"
 	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	cont "the Time Capsule."
 
 	para "Someone has to"
 	line "take care of it,"
@@ -183,13 +183,13 @@ BillsMomText_BeforeEcruteak:
 	para "He just got called"
 	line "to the #mon"
 
-	para "CENTER in ECRUTEAK"
+	para "Center in ECRUTEAK"
 	line "CITY."
 
 	para "My husband went"
 	line "off to the GAME"
 
-	para "CORNER without"
+	para "Corner without"
 	line "being called…"
 	done
 

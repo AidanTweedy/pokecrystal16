@@ -295,8 +295,8 @@ OlivinePortCantBoardText:
 	done
 
 OlivinePortAskBoardText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Welcome to Fast"
+	line "Ship S.S.Aqua."
 
 	para "Will you be board-"
 	line "ing today?"
@@ -304,7 +304,7 @@ OlivinePortAskBoardText:
 
 OlivinePortAskTicketText:
 	text "May I see your"
-	line "S.S.TICKET?"
+	line "S.S.Ticket?"
 	done
 
 OlivinePortComeAgainText:
@@ -314,7 +314,7 @@ OlivinePortComeAgainText:
 
 OlivinePortFlashTicketText:
 	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	line "the S.S.Ticket."
 
 	para "That's it."
 	line "Thank you!"
@@ -325,22 +325,22 @@ OlivinePortNoTicketText:
 	line "show the S.S."
 	cont "TICKET…"
 
-	para "…But no TICKET!"
+	para "…But no Ticket!"
 
 	para "Sorry!"
 	line "You may board only"
 
 	para "if you have an"
-	line "S.S.TICKET."
+	line "S.S.Ticket."
 	done
 
 OlivinePortMondayShipText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail next Monday."
 	done
 
 OlivinePortFridayShipText:
-	text "The FAST SHIP will"
+	text "The Fast Ship will"
 	line "sail next Friday."
 	done
 
@@ -362,7 +362,7 @@ OlivinePortFishingGuru2Text:
 	done
 
 OlivinePortYoungsterText:
-	text "S.S.AQUA uses jets"
+	text "S.S.Aqua uses jets"
 	line "to skim over the"
 	cont "waves!"
 	done

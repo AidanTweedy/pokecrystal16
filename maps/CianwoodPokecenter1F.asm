@@ -56,7 +56,7 @@ CianwoodGymGuideText:
 	para "Here's some ad-"
 	line "vice: the Gym"
 
-	para "LEADER uses the"
+	para "Leader uses the"
 	line "fighting-type."
 
 	para "So you should"
@@ -77,7 +77,7 @@ CianwoodGymGuideText:
 	line "them correctly,"
 
 	para "you won't reach"
-	line "the Gym LEADER."
+	line "the Gym Leader."
 
 	para "If you get stuck,"
 	line "go outside."

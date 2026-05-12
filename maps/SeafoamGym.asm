@@ -61,9 +61,9 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "Blaine: Waaah!"
 
-	para "My Gym in CINNABAR"
+	para "My Gym in Cinnabar"
 	line "burned down."
 
 	para "My fire-breathing"
@@ -77,7 +77,7 @@ BlaineIntroText:
 	para "But I'm back in"
 	line "business as a Gym"
 
-	para "LEADER here in"
+	para "Leader here in"
 	line "this cave."
 
 	para "If you can beat"
@@ -89,7 +89,7 @@ BlaineIntroText:
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
+	text "Blaine: Awesome."
 	line "I've burned out…"
 
 	para "You've earned"
@@ -102,21 +102,21 @@ ReceivedVolcanoBadgeText:
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
+	text "Blaine: I did lose"
 	line "this time, but I'm"
 
 	para "going to win the"
 	line "next time."
 
 	para "When I rebuild my"
-	line "CINNABAR Gym,"
+	line "Cinnabar Gym,"
 
 	para "we'll have to have"
 	line "a rematch."
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
+	text "Blaine: My fire"
 	line "#mon will be"
 
 	para "even stronger."
@@ -131,7 +131,7 @@ SeafoamGymGuideWinText:
 
 	para "Sorry, sorry!"
 
-	para "CINNABAR Gym was"
+	para "Cinnabar Gym was"
 	line "gone, so I didn't"
 
 	para "know where to find"
@@ -149,7 +149,7 @@ SeafoamGymGuideWinText2:
 	line "be anywhere as"
 
 	para "long as the Gym"
-	line "LEADER is there."
+	line "Leader is there."
 
 	para "There's no need"
 	line "for a building."

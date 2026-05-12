@@ -95,7 +95,7 @@ OlivineGymStatue:
 Jasmine_SteelTypeIntro:
 	text "…Thank you for"
 	line "your help at the"
-	cont "LIGHTHOUSE…"
+	cont "Lighthouse…"
 
 	para "But this is dif-"
 	line "ferent. Please"
@@ -104,7 +104,7 @@ Jasmine_SteelTypeIntro:
 	line "duce myself."
 
 	para "I am JASMINE, a"
-	line "Gym LEADER. I use"
+	line "Gym Leader. I use"
 	cont "the steel-type."
 
 	para "…Do you know about"
@@ -125,7 +125,7 @@ Jasmine_BetterTrainer:
 	line "kindness."
 
 	para "In accordance with"
-	line "LEAGUE rules, I"
+	line "League rules, I"
 
 	para "confer upon you"
 	line "this Badge."
@@ -184,8 +184,8 @@ OlivineGymGuideWinText:
 
 OlivineGymGuidePreText:
 	text "JASMINE, the Gym"
-	line "LEADER, is at the"
-	cont "LIGHTHOUSE."
+	line "Leader, is at the"
+	cont "Lighthouse."
 
 	para "She's been tending"
 	line "to a sick #mon."

@@ -2143,7 +2143,7 @@ BillsPC_Moves:
 
 .CantCheckEggMoves:
 	text "You can't check"
-	line "an EGG's moves!"
+	line "an Egg's moves!"
 	prompt
 
 BillsPC_GetStorageSpace:

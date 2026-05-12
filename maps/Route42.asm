@@ -236,7 +236,7 @@ FisherTullyBeatenText:
 
 FisherTullyAfterBattleText:
 	text "I want to become"
-	line "the trainer CHAMP"
+	line "the trainer Champ"
 
 	para "using the #mon"
 	line "I caught."
@@ -273,7 +273,7 @@ PokemaniacShaneSeenText:
 
 PokemaniacShaneBeatenText:
 	text "I should have used"
-	line "my MOON STONE…"
+	line "my Moon Stone…"
 	done
 
 PokemaniacShaneAfterBattleText:
@@ -289,10 +289,10 @@ PokemaniacShaneAfterBattleText:
 	done
 
 Route42Sign1Text:
-	text "ROUTE 42"
+	text "Route 42"
 
 	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	line "Mahogany Town"
 	done
 
 MtMortarSign1Text:
@@ -310,10 +310,10 @@ MtMortarSign2Text:
 	done
 
 Route42Sign2Text:
-	text "ROUTE 42"
+	text "Route 42"
 
 	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	line "Mahogany Town"
 	done
 
 Route42_MapEvents:

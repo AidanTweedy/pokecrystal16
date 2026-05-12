@@ -207,7 +207,7 @@ CeladonGameCornerFisherText2:
 
 CeladonGameCornerFisherNoCoinCaseText:
 	text "Hey, you don't"
-	line "have a COIN CASE."
+	line "have a Coin Case."
 
 	para "How am I supposed"
 	line "to give you any"
@@ -224,7 +224,7 @@ CeladonGameCornerFisherFullCoinCaseText:
 	done
 
 CeladonGymGuideText:
-	text "Hey! CHAMP in"
+	text "Hey! Champ in"
 	line "making!"
 
 	para "Are you playing"
@@ -242,7 +242,7 @@ CeladonGameCornerGrampsText:
 	text "Hmmm… The odds are"
 	line "surely better for"
 
-	para "PIKACHU's line,"
+	para "Pikachu's line,"
 	line "but… What to do?"
 	done
 

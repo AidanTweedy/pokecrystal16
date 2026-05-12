@@ -101,7 +101,7 @@ MagazineBookshelfText:
 	done
 
 TeamRocketOathText:
-	text "TEAM ROCKET OATH"
+	text "Team Rocket OATH"
 
 	para "Steal #mon for"
 	line "profit!"
@@ -111,7 +111,7 @@ TeamRocketOathText:
 
 	para "All #mon exist"
 	line "for the glory of"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 IncenseBurnerText:
@@ -269,7 +269,7 @@ CoinVendor_NoCoinCaseText:
 	line "coins?"
 
 	para "Oh, you don't have"
-	line "a COIN CASE for"
+	line "a Coin Case for"
 	cont "your coins."
 	done
 

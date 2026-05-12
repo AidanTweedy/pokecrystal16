@@ -9,14 +9,14 @@ IrwinRocketTakeoverRumorText:
 	text "<PLAY_G>, have you"
 	line "heard?"
 
-	para "GOLDENROD's RADIO"
-	line "TOWER has been"
+	para "Goldenrod's Radio"
+	line "Tower has been"
 
-	para "taken over by TEAM"
-	line "ROCKET!"
+	para "taken over by Team"
+	line "Rocket!"
 
-	para "…Um… What's TEAM"
-	line "ROCKET?"
+	para "…Um… What's Team"
+	line "Rocket?"
 	done
 
 IrwinPlainBadgeGossipText:
@@ -36,7 +36,7 @@ IrwinJasmineReturnedGossipText:
 	para "You saved that"
 	line "#mon at the"
 
-	para "LIGHTHOUSE, didn't"
+	para "Lighthouse, didn't"
 	line "you?"
 
 	para "<PLAY_G>, I wish"
@@ -50,14 +50,14 @@ IrwinRocketHideoutGossipText:
 	text "I heard, I heard,"
 	line "I heard!"
 
-	para "You smashed TEAM"
-	line "ROCKET's hideout!"
+	para "You smashed Team"
+	line "Rocket's hideout!"
 
 	para "You're like a"
 	line "movie hero, even!"
 
 	para "But um… What was"
-	line "TEAM ROCKET?"
+	line "Team Rocket?"
 	done
 
 IrwinRadioTowerGossipText:
@@ -67,7 +67,7 @@ IrwinRadioTowerGossipText:
 	para "About your heroic"
 	line "liberation of the"
 
-	para "RADIO TOWER! You"
+	para "Radio Tower! You"
 	line "rock so hard!"
 	done
 
@@ -130,8 +130,8 @@ IrwinVermilionCityGossipText:
 IrwinTrainPassGossipText:
 	text "I heard, I heard!"
 
-	para "You got a MAGNET"
-	line "TRAIN PASS!"
+	para "You got a Magnet"
+	line "Train Pass!"
 
 	para "When I saw you"
 	line "departing on the"
@@ -143,7 +143,7 @@ IrwinTrainPassGossipText:
 	line "for a while."
 
 	para "But since you have"
-	line "that PASS, you can"
+	line "that Pass, you can"
 
 	para "zip back anytime!"
 	line "That's reassuring!"

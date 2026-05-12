@@ -239,7 +239,7 @@ BurnedTower1FEusineIntroText:
 	para "I heard rumors"
 	line "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
+	para "this BURNED Tower,"
 	line "so I came to look."
 
 	para "But where exactly"
@@ -250,7 +250,7 @@ BurnedTower1FEusineText:
 	text "EUSINE: I heard"
 	line "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
+	para "this BURNED Tower,"
 	line "so I came to look."
 
 	para "But where exactly"
@@ -259,7 +259,7 @@ BurnedTower1FEusineText:
 
 BurnedTower1FMortyText:
 	text "MORTY: ECRUTEAK's"
-	line "Gym LEADER has to"
+	line "Gym Leader has to"
 
 	para "study what are"
 	line "said to be the"
@@ -272,7 +272,7 @@ BurnedTower1FMortyText:
 	line "I've decided to"
 
 	para "investigate the"
-	line "TOWER with him."
+	line "Tower with him."
 	done
 
 BurnedTower1F_MapEvents:

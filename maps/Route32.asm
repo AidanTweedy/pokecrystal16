@@ -538,12 +538,12 @@ Route32CooltrainerMText_AideIsWaiting:
 	line "He's waiting for"
 
 	para "you at the #mon"
-	line "CENTER."
+	line "Center."
 	done
 
 Route32CooltrainerMText_UnusedSproutTower:
 	text "Have you gone to"
-	line "SPROUT TOWER?"
+	line "SPROUT Tower?"
 
 	para "If you ever visit"
 	line "VIOLET CITY, "
@@ -553,7 +553,7 @@ Route32CooltrainerMText_UnusedSproutTower:
 
 	para "That's basic for"
 	line "trainers. Go to"
-	cont "SPROUT TOWER!"
+	cont "SPROUT Tower!"
 	done
 
 Route32CooltrainerMText_VioletGym:
@@ -904,7 +904,7 @@ FriedaNotFridayText:
 	done
 
 Route32SignText:
-	text "ROUTE 32"
+	text "Route 32"
 
 	para "VIOLET CITY -"
 	line "AZALEA TOWN"
@@ -917,7 +917,7 @@ Route32RuinsSignText:
 
 Route32UnionCaveSignText:
 	text "UNION CAVE"
-	line "AHEAD"
+	line "Ahead"
 	done
 
 Route32_MapEvents:

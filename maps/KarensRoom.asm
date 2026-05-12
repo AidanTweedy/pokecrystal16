@@ -80,7 +80,7 @@ KarensRoom_EnterMovement:
 
 KarenScript_KarenBeforeText:
 	text "I am KAREN of the"
-	line "ELITE FOUR."
+	line "Elite Four."
 
 	para "You're <PLAYER>?"
 	line "How amusing."

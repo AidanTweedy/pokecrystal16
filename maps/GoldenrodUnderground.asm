@@ -500,7 +500,7 @@ PokemaniacDonaldAfterBattleText:
 	line "#dex? Here's a"
 	cont "hot tip."
 
-	para "The HIKER on ROUTE"
+	para "The Hiker on Route"
 	line "33, ANTHONY, is a"
 	cont "good guy."
 

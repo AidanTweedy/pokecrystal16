@@ -22,7 +22,7 @@ SoulHouseGrannyScript:
 	jumptextfaceplayer SoulHouseGrannyText
 
 MrFujiText:
-	text "MR.FUJI: Welcome."
+	text "Mr.Fuji: Welcome."
 
 	para "Hmm… You appear to"
 	line "be raising your"
@@ -53,7 +53,7 @@ SoulHouseTeacherText:
 
 	para "There are many"
 	line "chambers that only"
-	cont "MR.FUJI may enter."
+	cont "Mr.Fuji may enter."
 	done
 
 SoulHouseLassText:

@@ -249,7 +249,7 @@ ClairText_WhatsTheMatterDragonDen:
 	line "matter? Aren't you"
 
 	para "going on to the"
-	line "#mon LEAGUE?"
+	line "#mon League?"
 
 	para "Do you know how to"
 	line "get there?"
@@ -258,14 +258,14 @@ ClairText_WhatsTheMatterDragonDen:
 	line "NEW BARK TOWN."
 
 	para "Then SURF east to"
-	line "#mon LEAGUE."
+	line "#mon League."
 
 	para "The route there is"
 	line "very tough."
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "mon LEAGUE!"
+	cont "mon League!"
 
 	para "If you do, I'll"
 	line "feel even worse"
@@ -329,7 +329,7 @@ CooltrainermDarinAfterBattleText:
 	text "The SHRINE ahead"
 	line "is home to the"
 
-	para "MASTER of our"
+	para "Master of our"
 	line "dragon-user clan."
 
 	para "You're not allowed"
@@ -349,7 +349,7 @@ CooltrainerfCaraAfterBattleText:
 	text "Soon I'm going to"
 	line "get permission"
 
-	para "from our MASTER to"
+	para "from our Master to"
 	line "use dragons."
 
 	para "When I do, I'm"
@@ -358,7 +358,7 @@ CooltrainerfCaraAfterBattleText:
 	para "admirable dragon"
 	line "trainer and gain"
 
-	para "our MASTER's"
+	para "our Master's"
 	line "approval."
 	done
 
@@ -387,7 +387,7 @@ TwinsLeaandpia2BeatenText:
 TwinsLeaandpia2AfterBattleText:
 	text "We'll tell on you."
 
-	para "MASTER will be"
+	para "Master will be"
 	line "angry with you."
 	done
 

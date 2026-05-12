@@ -156,8 +156,8 @@ ClairIntroText:
 	para "I can hold my own"
 	line "against even the"
 
-	para "#mon LEAGUE's"
-	line "ELITE FOUR."
+	para "#mon League's"
+	line "Elite Four."
 
 	para "Do you still want"
 	line "to take me on?"
@@ -165,7 +165,7 @@ ClairIntroText:
 	para "…Fine."
 	line "Let's do it!"
 
-	para "As a Gym LEADER,"
+	para "As a Gym Leader,"
 	line "I will use my full"
 
 	para "power against any"
@@ -188,7 +188,7 @@ ClairText_GoToDragonsDen:
 	line "but you're still"
 
 	para "not ready for the"
-	line "#mon LEAGUE."
+	line "#mon League."
 
 	para "I know. You should"
 	line "take the dragon"
@@ -257,7 +257,7 @@ BlackthornGymClairText_League:
 
 	para "Aren't you headed"
 	line "to the #mon"
-	cont "LEAGUE?"
+	cont "League?"
 
 	para "Don't you know"
 	line "where it is?"
@@ -271,7 +271,7 @@ BlackthornGymClairText_League:
 
 	para "Don't you dare"
 	line "lose at the #-"
-	cont "mon LEAGUE!"
+	cont "mon League!"
 
 	para "If you do, I'll"
 	line "feel even worse"
@@ -347,7 +347,7 @@ CooltrainerfLolaAfterBattleText:
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "It's been a long"
@@ -376,12 +376,12 @@ BlackthornGymGuideWinText:
 	line "beat CLAIR!"
 
 	para "All that's left is"
-	line "the #mon LEAGUE"
+	line "the #mon League"
 	cont "challenge."
 
 	para "You're on the way"
 	line "to becoming the"
-	cont "#mon CHAMPION!"
+	cont "#mon Champion!"
 	done
 
 BlackthornGym1F_MapEvents:

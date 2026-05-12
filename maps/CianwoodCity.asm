@@ -199,7 +199,7 @@ ChucksWifeBeatChuckText:
 	cont "city's Gym Badge."
 
 	para "If you beat the"
-	line "Gym LEADER here,"
+	line "Gym Leader here,"
 	cont "come see me."
 
 	para "I'll have a nice"
@@ -239,7 +239,7 @@ CianwoodCityYoungsterText:
 	text "If you use FLY,"
 	line "you can get back"
 
-	para "to OLIVINE in-"
+	para "to Olivine in-"
 	line "stantly."
 	done
 
@@ -258,7 +258,7 @@ CianwoodCityPokefanMText:
 
 CianwoodCityLassText:
 	text "CHUCK, the Gym"
-	line "LEADER, spars with"
+	line "Leader, spars with"
 
 	para "his fighting #-"
 	line "mon."
@@ -267,7 +267,7 @@ CianwoodCityLassText:
 CianwoodCityUnusedText:
 	text "There are several"
 	line "islands between"
-	cont "here and OLIVINE."
+	cont "here and Olivine."
 
 	para "A mythical sea"
 	line "creature supposed-"
@@ -347,7 +347,7 @@ CianwoodGymSignText:
 	text "CIANWOOD CITY"
 	line "#mon Gym"
 
-	para "LEADER: CHUCK"
+	para "Leader: CHUCK"
 
 	para "His Roaring Fists"
 	line "Do the Talking"
@@ -374,7 +374,7 @@ CianwoodPhotoStudioSignText:
 
 CianwoodPokeSeerSignText:
 	text "THE # SEER"
-	line "AHEAD"
+	line "Ahead"
 	done
 
 CianwoodCity_MapEvents:

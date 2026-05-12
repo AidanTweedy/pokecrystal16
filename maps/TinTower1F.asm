@@ -374,7 +374,7 @@ TinTower1FSage1Text:
 
 TinTower1FSage2Text:
 	text "When the BRASS"
-	line "TOWER burned down,"
+	line "Tower burned down,"
 
 	para "three nameless"
 	line "#mon were said"
@@ -426,7 +426,7 @@ TinTower1FSage4Text1:
 	line "have descended"
 
 	para "upon this, the TIN"
-	line "TOWER!"
+	line "Tower!"
 	done
 
 TinTower1FSage5Text1:
@@ -477,10 +477,10 @@ TinTower1FSage4Text2:
 	line "powers…"
 
 	para "The lightning that"
-	line "struck the TOWER."
+	line "struck the Tower."
 
 	para "The fire that"
-	line "burned the TOWER."
+	line "burned the Tower."
 
 	para "And the rain that"
 	line "put out the fire…"

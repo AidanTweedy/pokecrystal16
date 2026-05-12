@@ -249,7 +249,7 @@ SSAquaCaptainExhaustingText:
 
 SSAquaCaptainHowDoYouLikeText:
 	text "How do you like"
-	line "S.S.AQUA's ride?"
+	line "S.S.Aqua's ride?"
 
 	para "She practically"
 	line "skates across the"
@@ -400,7 +400,7 @@ PsychicRodneyBeatenText:
 PsychicRodneyAfterBattleText:
 	text "I get it. You can"
 	line "hear Johto's radio"
-	cont "on the FAST SHIP."
+	cont "on the Fast Ship."
 	done
 
 PokefanmJeremySeenText:
@@ -422,7 +422,7 @@ PokefanmJeremyAfterBattleText:
 
 PokefanfGeorgiaSeenText:
 	text "I'm going to shop"
-	line "at the DEPT.STORE"
+	line "at the Dept.Store"
 	cont "and then…"
 	done
 
@@ -434,12 +434,12 @@ PokefanfGeorgiaBeatenText:
 PokefanfGeorgiaAfterBattleText:
 	text "Oh, yes! I have to"
 	line "get my #mon out"
-	cont "of DAY-CARE!"
+	cont "of Day-Care!"
 	done
 
 SupernerdShawnSeenText:
 	text "What kinds of #"
-	line "BALLS do you have"
+	line "Balls do you have"
 	cont "with you?"
 	done
 
@@ -450,12 +450,12 @@ SupernerdShawnBeatenText:
 
 SupernerdShawnAfterBattleText:
 	text "You should use the"
-	line "right BALLS to fit"
+	line "right Balls to fit"
 	cont "the situation."
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
+	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
 	cont "VERMILION CITY."
 	done

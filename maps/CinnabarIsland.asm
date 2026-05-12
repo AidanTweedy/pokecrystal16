@@ -49,7 +49,7 @@ CinnabarIslandBlueText:
 	para "My name's BLUE."
 
 	para "I was once the"
-	line "CHAMPION, although"
+	line "Champion, although"
 
 	para "it was for only a"
 	line "short time…"
@@ -111,15 +111,15 @@ CinnabarIslandGymSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "CINNABAR Gym has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "Cinnabar Gym has"
+	line "relocated to Sea-"
+	cont "foam Islands."
 
-	para "BLAINE"
+	para "Blaine"
 	done
 
 CinnabarIslandSignText:
-	text "CINNABAR ISLAND"
+	text "Cinnabar Island"
 
 	para "The Fiery Town of"
 	line "Burning Desire"

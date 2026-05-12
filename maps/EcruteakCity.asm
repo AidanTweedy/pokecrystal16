@@ -96,7 +96,7 @@ UnusedMissingDaughterText: ; unreferenced
 
 	para "No… She couldn't"
 	line "have gone to the"
-	cont "BURNED TOWER."
+	cont "BURNED Tower."
 
 	para "I told her not to"
 	line "go near it…"
@@ -157,8 +157,8 @@ EcruteakCityLass2Text_ReleasedBeasts:
 
 EcruteakCityFisherText:
 	text "I heard a rumor"
-	line "about OLIVINE"
-	cont "LIGHTHOUSE."
+	line "about Olivine"
+	cont "Lighthouse."
 
 	para "The #mon that"
 	line "serves as the"
@@ -170,7 +170,7 @@ EcruteakCityFisherText:
 
 EcruteakCityFisherText_JasmineReturned:
 	text "The #mon at"
-	line "OLIVINE LIGHTHOUSE"
+	line "Olivine Lighthouse"
 	cont "has been cured."
 
 	para "Boats can safely"
@@ -182,7 +182,7 @@ EcruteakCityYoungsterText:
 	text "I hear #mon are"
 	line "rampaging at the"
 
-	para "LAKE OF RAGE. I'd"
+	para "Lake of Rage. I'd"
 	line "like to see that."
 	done
 
@@ -206,7 +206,7 @@ EcruteakCityGramps3Text:
 	line "has been passed"
 
 	para "down by ECRUTEAK"
-	line "Gym LEADERS."
+	line "Gym Leaders."
 
 	para "Me?"
 
@@ -224,7 +224,7 @@ EcruteakCitySignText:
 	done
 
 TinTowerSignText:
-	text "TIN TOWER"
+	text "Tin Tower"
 
 	para "A legendary #-"
 	line "mon is said to"
@@ -234,7 +234,7 @@ TinTowerSignText:
 EcruteakGymSignText:
 	text "ECRUTEAK CITY"
 	line "#mon Gym"
-	cont "LEADER: MORTY"
+	cont "Leader: MORTY"
 
 	para "The Mystic Seer of"
 	line "the Future"
@@ -246,7 +246,7 @@ EcruteakDanceTheaterSignText:
 	done
 
 BurnedTowerSignText:
-	text "BURNED TOWER"
+	text "BURNED Tower"
 
 	para "It was destroyed"
 	line "by a mysterious"

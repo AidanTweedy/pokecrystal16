@@ -142,7 +142,7 @@ CeladonDeptStore6FYoungsterText:
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
+	text "6F: Rooftop Square"
 	line "VENDING MACHINES"
 	done
 

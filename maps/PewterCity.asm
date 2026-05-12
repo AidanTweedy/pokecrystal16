@@ -70,14 +70,14 @@ PewterCityCooltrainerFText:
 	text "Have you visited"
 	line "PEWTER Gym?"
 
-	para "The LEADER uses"
+	para "The Leader uses"
 	line "rock-type #mon."
 	done
 
 PewterCityBugCatcherText:
 	text "At night, CLEFAIRY"
 	line "come out to play"
-	cont "at MT.MOON."
+	cont "at Mt.Moon."
 
 	para "But not every"
 	line "night."
@@ -122,7 +122,7 @@ PewterCitySignText:
 PewterGymSignText:
 	text "PEWTER CITY"
 	line "#mon Gym"
-	cont "LEADER: BROCK"
+	cont "Leader: BROCK"
 
 	para "The Rock Solid"
 	line "#mon Trainer"
@@ -141,7 +141,7 @@ PewterCityMtMoonGiftShopSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "MT.MOON GIFT SHOP"
+	para "Mt.Moon Gift Shop"
 	line "NOW OPEN!"
 	done
 

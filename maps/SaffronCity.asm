@@ -133,8 +133,8 @@ SaffronCityPokefanMText:
 	line "Johto?"
 
 	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	line "home if the Magnet"
+	cont "Train's running."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
@@ -143,7 +143,7 @@ SaffronCityPokefanMText_ReturnedMachinePart:
 
 	para "You can zip back"
 	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	cont "the Magnet Train."
 	done
 
 SaffronCityCooltrainerMText:
@@ -166,8 +166,8 @@ SaffronCityCooltrainerFText:
 	line "famous for #mon"
 	cont "merchandise."
 
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
+	para "In the past, Team"
+	line "Rocket wanted the"
 
 	para "company because of"
 	line "that."
@@ -204,9 +204,9 @@ SaffronCityYoungster1Text:
 
 SaffronCityYoungster2Text:
 	text "There's a place"
-	line "called TRAINER"
+	line "called Trainer"
 
-	para "HOUSE in VIRIDIAN"
+	para "House in VIRIDIAN"
 	line "where trainers"
 
 	para "gather from all"
@@ -236,7 +236,7 @@ SaffronCitySignText:
 SaffronGymSignText:
 	text "SAFFRON CITY"
 	line "#mon Gym"
-	cont "LEADER: SABRINA"
+	cont "Leader: SABRINA"
 
 	para "The Master of"
 	line "Psychic #mon!"
@@ -253,14 +253,14 @@ SilphCoSignText:
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "Mr.Psychic's"
+	line "House"
 	done
 
 SaffronCityMagnetTrainStationSignText:
 	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	line "Magnet Train"
+	cont "Station"
 	done
 
 SaffronCity_MapEvents:

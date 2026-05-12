@@ -20,15 +20,15 @@ Route40BattleTowerGateTwinScript:
 
 Route40BattleTowerGateUnusedText1: ; unreferenced
 	text "Did you come to"
-	line "see the BATTLE"
-	cont "TOWER too?"
+	line "see the Battle"
+	cont "Tower too?"
 
 	para "But I guess you"
 	line "can't go in yet."
 	done
 
 Route40BattleTowerGateUnusedText2: ; unreferenced
-	text "BATTLE TOWER has"
+	text "Battle Tower has"
 	line "opened."
 
 	para "I want to go, but"
@@ -40,7 +40,7 @@ Route40BattleTowerGateUnusedText2: ; unreferenced
 
 Route40BattleTowerGateRockerText:
 	text "Are you going to"
-	line "the BATTLE TOWER?"
+	line "the Battle Tower?"
 
 	para "This is a secret,"
 	line "but if you win a"
@@ -54,7 +54,7 @@ Route40BattleTowerGateUnusedText3: ; unreferenced
 	line "my #mon so I'll"
 
 	para "be all ready for"
-	line "the BATTLE TOWER."
+	line "the Battle Tower."
 	done
 
 Route40BattleTowerGateTwinText:

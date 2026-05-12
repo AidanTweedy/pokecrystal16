@@ -4,7 +4,7 @@ _NoPhotoText::
 	done
 
 _EggPhotoText::
-	text "An EGG? My talent"
+	text "An Egg? My talent"
 	line "is worth more…"
 	done
 
@@ -73,7 +73,7 @@ _NameRaterPerfectNameText::
 
 _NameRaterEggText::
 	text "Whoa… That's just"
-	line "an EGG."
+	line "an Egg."
 	done
 
 _NameRaterSameNameText::
@@ -904,10 +904,10 @@ _PCWhatText::
 
 _PCMonHoldingMailText::
 	text "There is a #mon"
-	line "holding MAIL."
+	line "holding Mail."
 
 	para "Please remove the"
-	line "MAIL."
+	line "Mail."
 	prompt
 
 _PCNoSingleMonText::
@@ -1187,7 +1187,7 @@ _OakRating01::
 _OakRating02::
 	text "Good. I see you"
 	line "understand how to"
-	cont "use # BALLS."
+	cont "use # Balls."
 	done
 
 _OakRating03::
@@ -1259,8 +1259,8 @@ _OakRating11::
 	done
 
 _OakRating12::
-	text "Have you met KURT?"
-	line "His custom BALLS"
+	text "Have you met Kurt?"
+	line "His custom Balls"
 	cont "should help."
 	done
 
@@ -1327,7 +1327,7 @@ _TrainerRankingExplanationText:: ; unreferenced
 	text "Triple-theme"
 	line "trainer ranking!"
 
-	para "The SAVE file you"
+	para "The Save file you"
 	line "just sent might"
 	cont "make the rankings!"
 

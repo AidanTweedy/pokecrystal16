@@ -101,7 +101,7 @@ CamperDeanAfterBattleText:
 
 	para "I'd better take"
 	line "them to a #mon"
-	cont "CENTER right away."
+	cont "Center right away."
 	done
 
 PicnickerHeidiSeenText:
@@ -197,7 +197,7 @@ HikerSidneyAfterBattleText:
 	done
 
 Route9SignText:
-	text "ROUTE 9"
+	text "Route 9"
 
 	para "CERULEAN CITY -"
 	line "ROCK TUNNEL"

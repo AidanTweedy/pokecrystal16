@@ -109,13 +109,13 @@ EcruteakPokecenter1F_BillText1:
 EcruteakPokecenter1F_BillText2:
 	text "I just finished"
 	line "adjustments on my"
-	cont "TIME CAPSULE."
+	cont "Time Capsule."
 
 	para "You know that"
 	line "#mon can be"
 	cont "traded, right?"
 
-	para "My TIME CAPSULE"
+	para "My Time Capsule"
 	line "was developed to"
 
 	para "enable trades with"
@@ -141,7 +141,7 @@ EcruteakPokecenter1F_BillText2:
 	line "sending new moves"
 
 	para "or new #mon in"
-	line "the TIME CAPSULE."
+	line "the Time Capsule."
 
 	para "Don't you worry."
 	line "I'm done with the"
@@ -151,10 +151,10 @@ EcruteakPokecenter1F_BillText2:
 	line "CAPSULES will be"
 
 	para "running at all"
-	line "#mon CENTERS."
+	line "#mon Centers."
 
 	para "I have to hurry on"
-	line "back to GOLDENROD"
+	line "back to Goldenrod"
 	cont "and see my folks."
 
 	para "Buh-bye!"
@@ -182,12 +182,12 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	para "Where, you ask?"
 
 	para "It's a little past"
-	line "OLIVINE CITY."
+	line "Olivine City."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
 	text "MORTY, the Gym"
-	line "LEADER, is soooo"
+	line "Leader, is soooo"
 	cont "cool."
 
 	para "His #mon are"
@@ -195,7 +195,7 @@ EcruteakPokecenter1FCooltrainerFText:
 	done
 
 EcruteakPokecenter1FGymGuideText:
-	text "LAKE OF RAGE…"
+	text "Lake of Rage…"
 
 	para "The appearance of"
 	line "a GYARADOS swarm…"

@@ -811,7 +811,7 @@ LevelBallDesc:
 
 LureBallDesc:
 	db   "A ball for #mon"
-	next "hooked by a ROD.@"
+	next "hooked by a Rod.@"
 
 FastBallDesc:
 	db   "A ball for catch-"

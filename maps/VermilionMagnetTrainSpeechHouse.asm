@@ -18,7 +18,7 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 
 VermilionMagnetTrainSpeechHousePokefanFText:
 	text "Do you know about"
-	line "the MAGNET TRAIN?"
+	line "the Magnet Train?"
 
 	para "It's a railway"
 	line "that goes to GOL-"
@@ -28,7 +28,7 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 VermilionMagnetTrainSpeechHouseYoungsterText:
 	text "I want to go to"
 	line "SAFFRON to see"
-	cont "the MAGNET TRAIN."
+	cont "the Magnet Train."
 	done
 
 VermilionMagnetTrainSpeechHouse_MapEvents:

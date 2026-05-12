@@ -271,7 +271,7 @@ PowerPlantGymGuide2PowerPlantUpAndRunningText:
 	line "and running to"
 
 	para "provide power to"
-	line "the MAGNET TRAIN."
+	line "the Magnet Train."
 	done
 
 PowerPlantGymGuide2GeneratorIsRunningAgainText:
@@ -300,7 +300,7 @@ PowerPlantOfficer2ManagerHasBeenCheerfulText:
 	done
 
 PowerPlantGymGuide4MagnetTrainConsumesElectricityText:
-	text "The MAGNET TRAIN"
+	text "The Magnet Train"
 	line "consumes a lot of"
 	cont "electricity."
 
@@ -313,7 +313,7 @@ PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
 	text "All right! We can"
 	line "finally get the"
 
-	para "MAGNET TRAIN"
+	para "Magnet Train"
 	line "running again."
 	done
 

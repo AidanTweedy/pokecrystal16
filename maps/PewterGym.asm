@@ -81,7 +81,7 @@ BrockIntroText:
 	line "from Johto."
 
 	para "I'm BROCK, the"
-	line "PEWTER Gym LEADER."
+	line "PEWTER Gym Leader."
 
 	para "I'm an expert on"
 	line "rock-type #mon."
@@ -176,24 +176,24 @@ CamperJerryAfterBattleText:
 	done
 
 PewterGymGuideText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making! You're"
 
 	para "really rocking."
 	line "Are you battling"
 
-	para "the Gym LEADERS of"
+	para "the Gym Leaders of"
 	line "Kanto?"
 
 	para "They're strong and"
 	line "dedicated people,"
 
 	para "just like Johto's"
-	line "Gym LEADERS."
+	line "Gym Leaders."
 	done
 
 PewterGymGuideWinText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making! That Gym"
 
 	para "didn't give you"

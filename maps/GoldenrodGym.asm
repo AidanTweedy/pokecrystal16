@@ -225,24 +225,24 @@ WhitneyWhatDoYouWantText:
 
 	para "Oh, right."
 	line "I forgot. Here's"
-	cont "PLAINBADGE."
+	cont "Plainbadge."
 	done
 
 PlayerReceivedPlainBadgeText:
 	text "<PLAYER> received"
-	line "PLAINBADGE."
+	line "Plainbadge."
 	done
 
 WhitneyPlainBadgeText:
-	text "PLAINBADGE lets"
+	text "Plainbadge lets"
 	line "your #mon use"
 
-	para "STRENGTH outside"
+	para "Strength outside"
 	line "of battle."
 
 	para "It also boosts"
 	line "your #mon's"
-	cont "SPEED."
+	cont "Speed."
 
 	para "Oh, you can have"
 	line "this too!"
@@ -359,7 +359,7 @@ BeautySamanthaAfterBattleText:
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in"
+	text "Yo! Champ in"
 	line "making!"
 
 	para "This Gym is home"

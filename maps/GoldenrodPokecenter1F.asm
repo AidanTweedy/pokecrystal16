@@ -152,8 +152,8 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 
 GoldenrodPokecomCenterWelcomeToTradeCornerText: ; unreferenced
 	text "Hello! Welcome to"
-	line "#COM CENTER"
-	cont "TRADE CORNER."
+	line "#Com Center"
+	cont "Trade Corner."
 
 	para "You can trade"
 	line "#mon with other"
@@ -254,7 +254,7 @@ GoldenrodPokecomCenterCantAcceptLastMonText: ; unreferenced
 
 GoldenrodPokecomCenterCantAcceptEggText: ; unreferenced
 	text "Sorry. We can't"
-	line "accept an EGG."
+	line "accept an Egg."
 	done
 
 GoldenrodPokecomCenterCantAcceptAbnormalMonText: ; unreferenced
@@ -360,9 +360,9 @@ GoldenrodPokecomCenterRecentlyLeftYourMonText: ; unreferenced
 	done
 
 GoldenrodPokecomCenterSaveBeforeTradeCornerText: ; unreferenced
-	text "We'll SAVE before"
+	text "We'll Save before"
 	line "connecting to the"
-	cont "CENTER."
+	cont "Center."
 	done
 
 GoldenrodPokecomCenterWhichMonToTradeText: ; unreferenced
@@ -379,7 +379,7 @@ GoldenrodPokecomCenterEggTicketText: ; unreferenced
 	text "Oh!"
 
 	para "I see you have an"
-	line "EGG TICKET!"
+	line "Egg Ticket!"
 
 	para "It's a coupon that"
 	line "special people can"
@@ -393,7 +393,7 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	line "quick briefing."
 
 	para "Trades held at the"
-	line "TRADE CORNER are"
+	line "Trade Corner are"
 
 	para "between two"
 	line "trainers who don't"
@@ -405,7 +405,7 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	line "may take time."
 
 	para "However, an ODD"
-	line "EGG is available"
+	line "Egg is available"
 	cont "just for you."
 
 	para "It will be sent to"
@@ -414,8 +414,8 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	para "Please choose one"
 	line "of the rooms in"
 
-	para "the CENTER."
-	line "An ODD EGG will be"
+	para "the Center."
+	line "An ODD Egg will be"
 
 	para "sent from the"
 	line "chosen room."
@@ -431,7 +431,7 @@ GoldenrodPokecomCenterHereIsYourOddEggText: ; unreferenced
 	line "waiting."
 
 	para "We received your"
-	line "ODD EGG."
+	line "ODD Egg."
 
 	para "Here it is!"
 
@@ -442,14 +442,14 @@ GoldenrodPokecomCenterHereIsYourOddEggText: ; unreferenced
 GoldenrodPokecomCenterNoEggTicketServiceText: ; unreferenced
 	text "I'm awfully sorry."
 
-	para "The EGG TICKET"
+	para "The Egg Ticket"
 	line "exchange service"
 	cont "isn't running now."
 	done
 
 GoldenrodPokecomCenterNewsMachineText: ; unreferenced
 	text "It's a #mon"
-	line "NEWS MACHINE."
+	line "News Machine."
 	done
 
 GoldenrodPokecomCenterWhatToDoText: ; unreferenced
@@ -458,19 +458,19 @@ GoldenrodPokecomCenterWhatToDoText: ; unreferenced
 	done
 
 GoldenrodPokecomCenterNewsMachineExplanationText: ; unreferenced
-	text "#mon NEWS is"
+	text "#mon News is"
 	line "news compiled from"
 
-	para "the SAVE files of"
+	para "the Save files of"
 	line "#mon trainers."
 
 	para "When reading the"
-	line "NEWS, your SAVE"
+	line "News, your Save"
 
 	para "file may be sent"
 	line "out."
 
-	para "The SAVE file data"
+	para "The Save file data"
 	line "will contain your"
 
 	para "adventure log and"
@@ -480,21 +480,21 @@ GoldenrodPokecomCenterNewsMachineExplanationText: ; unreferenced
 	line "will not be sent."
 
 	para "The contents of"
-	line "the NEWS will vary"
+	line "the News will vary"
 
 	para "depending on the"
-	line "SAVE files sent by"
+	line "Save files sent by"
 
 	para "you and the other"
 	line "#mon trainers."
 
 	para "You might even be"
-	line "in the NEWS!"
+	line "in the News!"
 	done
 
 GoldenrodPokecomCenterWouldYouLikeTheNewsText: ; unreferenced
 	text "Would you like to"
-	line "get the NEWS?"
+	line "get the News?"
 	done
 
 GoldenrodPokecomCenterReadingTheLatestNewsText: ; unreferenced
@@ -508,11 +508,11 @@ GoldenrodPokecomCenterNoOldNewsText: ; unreferenced
 	done
 
 GoldenrodPokecomCenterCorruptedNewsDataText: ; unreferenced
-	text "The NEWS data is"
+	text "The News data is"
 	line "corrupted."
 
 	para "Please download"
-	line "the NEWS again."
+	line "the News again."
 	done
 
 GoldenrodPokecomCenterMakingPreparationsText: ; unreferenced
@@ -524,16 +524,16 @@ GoldenrodPokecomCenterMakingPreparationsText: ; unreferenced
 	done
 
 GoldenrodPokecomCenterSaveBeforeNewsMachineText: ; unreferenced
-	text "We will SAVE your"
+	text "We will Save your"
 	line "progress before"
 
-	para "starting the NEWS"
-	line "MACHINE."
+	para "starting the News"
+	line "Machine."
 	done
 
 GoldenrodPokecomCenterPerson1Text: ; unreferenced
 	text "Whoa, this #mon"
-	line "CENTER is huge."
+	line "Center is huge."
 
 	para "They just built"
 	line "this place. They"
@@ -545,23 +545,23 @@ GoldenrodPokecomCenterPerson1Text: ; unreferenced
 GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	text "I thought up a fun"
 	line "new thing for the"
-	cont "TRADE CORNER!"
+	cont "Trade Corner!"
 
 	para "I make a PIDGEY"
-	line "hold MAIL, then"
+	line "hold Mail, then"
 
 	para "put it up for"
 	line "trade for another"
 	cont "one!"
 
 	para "If everyone did"
-	line "that, MAIL could"
+	line "that, Mail could"
 
 	para "be traded with all"
 	line "sorts of people!"
 
 	para "I call it PIDGEY"
-	line "MAIL!"
+	line "Mail!"
 
 	para "If it becomes"
 	line "popular, I might"
@@ -602,8 +602,8 @@ GoldenrodPokecomCenterPerson5Text: ; unreferenced
 	done
 
 GoldenrodPokecomCenterPerson6Text: ; unreferenced
-	text "What is the NEWS"
-	line "MACHINE?"
+	text "What is the News"
+	line "Machine?"
 
 	para "Does it get news"
 	line "from a wider area"
@@ -611,10 +611,10 @@ GoldenrodPokecomCenterPerson6Text: ; unreferenced
 	done
 
 GoldenrodPokecomCenterPerson7Text: ; unreferenced
-	text "The #COM CENTER"
+	text "The #Com Center"
 	line "will link with all"
 
-	para "#mon CENTERS in"
+	para "#mon Centers in"
 	line "a wireless net."
 
 	para "That must mean"
@@ -637,7 +637,7 @@ GoldenrodPokecomCenterPerson8Text: ; unreferenced
 
 GoldenrodPokecomCenterPerson9Text: ; unreferenced
 	text "My friend was in"
-	line "the NEWS a while"
+	line "the News a while"
 
 	para "back. I was really"
 	line "surprised!"
@@ -646,19 +646,19 @@ GoldenrodPokecomCenterPerson9Text: ; unreferenced
 GoldenrodPokecomCenterPerson10Text: ; unreferenced
 	text "I get anxious if I"
 	line "don't check out"
-	cont "the latest NEWS!"
+	cont "the latest News!"
 	done
 
 GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	text "If I get in the"
-	line "NEWS and become"
+	line "News and become"
 
 	para "famous, I bet I'll"
 	line "be adored."
 
 	para "I wonder how I"
 	line "could get in the"
-	cont "NEWS?"
+	cont "News?"
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
@@ -677,7 +677,7 @@ GoldenrodPokecomCenterPerson12Text: ; unreferenced
 	text "I came over here"
 	line "when I got word"
 
-	para "that GOLDENROD's"
+	para "that Goldenrod's"
 	line "#mon Center has"
 
 	para "new machines that"
@@ -721,7 +721,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
 	para "Congratulations!"
 
 	para "As a special deal,"
-	line "a GS BALL has been"
+	line "a GS Ball has been"
 	cont "sent just for you!"
 
 	para "Please accept it!"
@@ -733,22 +733,22 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
 	done
 
 GoldenrodPokecomCenterSignText: ; unreferenced
-	text "#COM CENTER"
+	text "#Com Center"
 	line "1F INFORMATION"
 
 	para "Left:"
 	line "Administration"
 
 	para "Center:"
-	line "TRADE CORNER"
+	line "Trade Corner"
 
 	para "Right:"
-	line "#mon NEWS"
+	line "#mon News"
 	done
 
 GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
 	text "It's a #mon"
-	line "NEWS MACHINE!"
+	line "News Machine!"
 
 	para "It's not in"
 	line "operation yet…"
@@ -760,7 +760,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 	para "Oh! Do you happen"
 	line "to have something"
-	cont "named EON MAIL?"
+	cont "named EON Mail?"
 
 	para "My daughter is"
 	line "after one."
@@ -771,7 +771,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
 	text "Give away an EON"
-	line "MAIL?"
+	line "Mail?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
@@ -799,7 +799,7 @@ GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
 	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	line "the EON Mail."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

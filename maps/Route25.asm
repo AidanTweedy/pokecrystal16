@@ -265,7 +265,7 @@ Route25MistyDateText:
 	line "take you on."
 
 	para "I'm MISTY, the"
-	line "Gym LEADER in"
+	line "Gym Leader in"
 	cont "CERULEAN."
 	done
 

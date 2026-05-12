@@ -76,7 +76,7 @@ ChadBlueGossipText:
 	line "grandson and a"
 
 	para "former #mon"
-	line "LEAGUE CHAMPION!"
+	line "League Champion!"
 
 	para "He's one super"
 	line "#mon trainer!"
@@ -119,8 +119,8 @@ ChadProfOaksDreamGossipText:
 	done
 
 ChadKurtGossipText:
-	text "Do you know KURT,"
-	line "the BALL creator?"
+	text "Do you know Kurt,"
+	line "the Ball creator?"
 
 	para "He and Prof.Oak go"
 	line "back a long way."
@@ -131,17 +131,17 @@ ChadKurtGossipText:
 	done
 
 ChadLeagueGossipText:
-	text "#mon LEAGUE is"
+	text "#mon League is"
 	line "the great gather-"
 	cont "ing place for all"
 
 	para "trainers who wish"
-	line "to become CHAMP."
+	line "to become Champ."
 
 	para "Prof.Oak acts as"
 	line "an advisor to the"
 
-	para "#mon LEAGUE's"
+	para "#mon League's"
 	line "headquarters."
 
 	para "He really is a"

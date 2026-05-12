@@ -109,7 +109,7 @@ GruntM24BeatenText:
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET will"
+	text "Team Rocket will"
 	line "keep going, wait-"
 	cont "ing for the return"
 	cont "of GIOVANNI."
@@ -164,13 +164,13 @@ DirectorIntroText:
 
 	para "Thank you!"
 
-	para "The RADIO TOWER!"
+	para "The Radio Tower!"
 
 	para "What's happening"
 	line "there?"
 
-	para "Taken over by TEAM"
-	line "ROCKET?"
+	para "Taken over by Team"
+	line "Rocket?"
 
 	para "Here. Take this"
 	line "CARD KEY."
@@ -202,7 +202,7 @@ DirectorAfterText:
 	line "one I can call on."
 
 	para "Please save the"
-	line "RADIO TOWER…"
+	line "Radio Tower…"
 
 	para "And all the #-"
 	line "mon nationwide!"

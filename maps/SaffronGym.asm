@@ -126,7 +126,7 @@ SabrinaIntroText:
 	para "I don't enjoy bat-"
 	line "tling, but it's my"
 
-	para "duty as a LEADER"
+	para "duty as a Leader"
 	line "to confer Badges"
 
 	para "on anyone who has"
@@ -176,7 +176,7 @@ SabrinaMarshBadgeText:
 
 	para "You will become a"
 	line "celebrated and"
-	cont "beloved CHAMPION!"
+	cont "beloved Champion!"
 	done
 
 SabrinaFightDoneText:
@@ -265,7 +265,7 @@ PsychicJaredAfterBattleText:
 	done
 
 SaffronGymGuideText:
-	text "Yo, CHAMP in"
+	text "Yo, Champ in"
 	line "making!"
 
 	para "A trainer as"

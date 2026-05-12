@@ -257,7 +257,7 @@ CooltrainermJakeSeenText:
 	line "final preparations"
 
 	para "for the #mon"
-	line "LEAGUE."
+	line "League."
 	done
 
 CooltrainermJakeBeatenText:
@@ -267,16 +267,16 @@ CooltrainermJakeBeatenText:
 CooltrainermJakeAfterBattleText:
 	text "It's going to be"
 	line "tough to win at"
-	cont "the LEAGUE."
+	cont "the League."
 
 	para "I need to do some"
 	line "more training."
 
 	para "I hear that the"
-	line "LEAGUE's ELITE"
+	line "League's Elite"
 
-	para "FOUR are tougher"
-	line "than Gym LEADERS."
+	para "Four are tougher"
+	line "than Gym Leaders."
 	done
 
 CooltrainermGaven3SeenText:
@@ -292,7 +292,7 @@ CooltrainermGaven3BeatenText:
 
 CooltrainermGavenAfterText:
 	text "To get to #mon"
-	line "LEAGUE, you have"
+	line "League, you have"
 
 	para "to get through"
 	line "VICTORY ROAD."
@@ -321,7 +321,7 @@ CooltrainerfJoyceBeatenText:
 
 CooltrainerfJoyceAfterBattleText:
 	text "I've defeated"
-	line "eight Gym LEADERS,"
+	line "eight Gym Leaders,"
 
 	para "so I was feeling"
 	line "confident."
@@ -387,7 +387,7 @@ FisherScottSeenText:
 
 	para "I feel like I"
 	line "could boot even"
-	cont "the LEAGUE CHAMP!"
+	cont "the League Champ!"
 	done
 
 FisherScottBeatenText:
@@ -404,9 +404,9 @@ FisherScottAfterBattleText:
 	done
 
 Route26SignText:
-	text "ROUTE 26"
+	text "Route 26"
 
-	para "#mon LEAGUE"
+	para "#mon League"
 	line "RECEPTION GATE"
 	done
 

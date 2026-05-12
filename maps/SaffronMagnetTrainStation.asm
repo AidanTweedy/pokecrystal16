@@ -126,13 +126,13 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
 	text "I'm sorry, but the"
-	line "MAGNET TRAIN isn't"
+	line "Magnet Train isn't"
 	cont "operating now."
 	done
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 	text "We'll soon depart"
-	line "for GOLDENROD."
+	line "for Goldenrod."
 
 	para "Are you coming on"
 	line "board?"
@@ -140,7 +140,7 @@ SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
 	text "May I see your"
-	line "rail PASS, please?"
+	line "rail Pass, please?"
 
 	para "OK. Right this"
 	line "way, please."
@@ -148,7 +148,7 @@ SaffronMagnetTrainStationOfficerRightThisWayText:
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
 	text "Sorry, but you"
-	line "don't have a PASS."
+	line "don't have a Pass."
 	done
 
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
@@ -165,7 +165,7 @@ SaffronMagnetTrainStationOfficerArrivedInSaffronText:
 	done
 
 SaffronMagnetTrainStationGymGuideText:
-	text "The MAGNET TRAIN"
+	text "The Magnet Train"
 	line "is a super-modern"
 
 	para "rail liner that"
@@ -191,8 +191,8 @@ SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Before the MAGNET"
-	line "TRAIN STATION was"
+	text "Before the Magnet"
+	line "Train Station was"
 
 	para "built, there was a"
 	line "house there."
@@ -204,13 +204,13 @@ SaffronMagnetTrainStationTeacherText:
 
 SaffronMagnetTrainStationLassText:
 	text "Hi. Do you have a"
-	line "rail PASS? I have"
+	line "rail Pass? I have"
 
 	para "one. All the peo-"
 	line "ple in SAFFRON who"
 
-	para "ride the MAGNET"
-	line "TRAIN have PASSES."
+	para "ride the Magnet"
+	line "Train have PASSES."
 	done
 
 SaffronMagnetTrainStation_MapEvents:

@@ -324,7 +324,7 @@ _LookTownMapText::
 
 _LookPikachuPosterText::
 	text "It's a poster of a"
-	line "cute PIKACHU."
+	line "cute Pikachu."
 	done
 
 _LookClefairyPosterText::
@@ -826,7 +826,7 @@ _LC_Text10::
 
 _LC_Text11::
 	text_start
-	line "the RADIO TOWER!"
+	line "the Radio Tower!"
 	done
 
 _LC_DragText1::
@@ -961,7 +961,7 @@ _RocketRadioText1::
 
 _RocketRadioText2::
 	text_start
-	line "TEAM ROCKET!"
+	line "Team Rocket!"
 	done
 
 _RocketRadioText3::
@@ -1041,12 +1041,12 @@ _BuenaRadioText5::
 
 _BuenaRadioText6::
 	text_start
-	line "I'm in GOLDENROD's"
+	line "I'm in Goldenrod's"
 	done
 
 _BuenaRadioText7::
 	text_start
-	line "RADIO TOWER!"
+	line "Radio Tower!"
 	done
 
 _BuenaRadioMidnightText1::
@@ -1182,7 +1182,7 @@ _CompatibilityShouldTheyBreedText:: ; unreferenced
 	done
 
 _ThereIsNoEggText:: ; unreferenced
-	text "There is no EGG."
+	text "There is no Egg."
 	line ""
 	prompt
 
@@ -1366,7 +1366,7 @@ _NoCoinsText::
 
 _NoCoinCaseText::
 	text "You don't have a"
-	line "COIN CASE."
+	line "Coin Case."
 	prompt
 
 _NPCTradeCableText::
@@ -1668,14 +1668,14 @@ _DaycareDummyText::
 	done
 
 _DayCareManIntroText::
-	text "I'm the DAY-CARE"
-	line "MAN. Want me to"
+	text "I'm the Day-Care"
+	line "Man. Want me to"
 	cont "raise a #mon?"
 	done
 
 _DayCareManIntroEggText::
-	text "I'm the DAY-CARE"
-	line "MAN. Do you know"
+	text "I'm the Day-Care"
+	line "Man. Do you know"
 	cont "about EGGS?"
 
 	para "I was raising"
@@ -1683,7 +1683,7 @@ _DayCareManIntroEggText::
 	cont "wife, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an Egg!"
 
 	para "How incredible is"
 	line "that?"
@@ -1693,7 +1693,7 @@ _DayCareManIntroEggText::
 	done
 
 _DayCareLadyIntroText::
-	text "I'm the DAY-CARE"
+	text "I'm the Day-Care"
 	line "LADY."
 
 	para "Should I raise a"
@@ -1701,7 +1701,7 @@ _DayCareLadyIntroText::
 	done
 
 _DayCareLadyIntroEggText::
-	text "I'm the DAY-CARE"
+	text "I'm the Day-Care"
 	line "LADY. Do you know"
 	cont "about EGGS?"
 
@@ -1710,7 +1710,7 @@ _DayCareLadyIntroEggText::
 	cont "#mon, you see."
 
 	para "We were shocked to"
-	line "find an EGG!"
+	line "find an Egg!"
 
 	para "How incredible"
 	line "could that be?"
@@ -1731,11 +1731,11 @@ _OnlyOneMonText::
 
 _CantAcceptEggText::
 	text "Sorry, but I can't"
-	line "accept an EGG."
+	line "accept an Egg."
 	prompt
 
 _RemoveMailText::
-	text "Remove MAIL before"
+	text "Remove Mail before"
 	line "you come see me."
 	prompt
 
@@ -1840,7 +1840,7 @@ _FoundAnEggText::
 	line "we surprised!"
 
 	para "Your #mon had"
-	line "an EGG!"
+	line "an Egg!"
 
 	para "We don't know how"
 	line "it got there, but"
@@ -1851,7 +1851,7 @@ _FoundAnEggText::
 
 _ReceivedEggText::
 	text "<PLAYER> received"
-	line "the EGG!"
+	line "the Egg!"
 	done
 
 _TakeGoodCareOfEggText::

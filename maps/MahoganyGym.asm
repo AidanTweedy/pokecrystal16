@@ -199,12 +199,12 @@ Text_ReceivedGlacierBadge:
 
 PryceText_GlacierBadgeSpeech:
 	text "That Badge will"
-	line "raise the SPECIAL"
+	line "raise the Special"
 	cont "stats of #mon."
 
 	para "It also lets your"
-	line "#mon use WHIRL-"
-	cont "POOL to get across"
+	line "#mon use Whirl-"
+	cont "Pool to get across"
 	cont "real whirlpools."
 
 	para "And this… This is"
@@ -303,7 +303,7 @@ BoarderDouglasAfterBattleText:
 
 SkierRoxanneSeenText:
 	text "To get to PRYCE,"
-	line "our Gym LEADER,"
+	line "our Gym Leader,"
 
 	para "you need to think"
 	line "before you skate."

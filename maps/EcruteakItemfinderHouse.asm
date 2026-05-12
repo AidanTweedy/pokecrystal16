@@ -102,7 +102,7 @@ ItemfinderExplanationText:
 	line "there are items"
 
 	para "in ECRUTEAK's"
-	line "BURNED TOWER."
+	line "BURNED Tower."
 	done
 
 EcruteakItemfinderToEachHisOwnText:

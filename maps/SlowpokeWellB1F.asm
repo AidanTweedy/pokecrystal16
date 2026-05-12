@@ -143,7 +143,7 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Hey there,"
+	text "Kurt: Hey there,"
 	line "<PLAYER>!"
 
 	para "The guard up top"
@@ -173,10 +173,10 @@ SlowpokeWellB1FKurtText:
 	done
 
 KurtLeaveSlowpokeWellText:
-	text "KURT: Way to go,"
+	text "Kurt: Way to go,"
 	line "<PLAYER>!"
 
-	para "TEAM ROCKET has"
+	para "Team Rocket has"
 	line "taken off."
 
 	para "My back's better"
@@ -216,7 +216,7 @@ GruntM29AfterBattleText:
 	line "is for profit."
 
 	para "That's right!"
-	line "We're TEAM ROCKET,"
+	line "We're Team Rocket,"
 
 	para "and we'll do any-"
 	line "thing for money!"
@@ -237,7 +237,7 @@ GruntM1BeatenText:
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
+	text "Yeah, Team Rocket"
 	line "was broken up"
 	cont "three years ago."
 
@@ -255,7 +255,7 @@ GruntM2SeenText:
 	line "POKETAILS?"
 
 	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
+	line "Team Rocket's rep"
 	cont "would be ruined!"
 	done
 
@@ -270,7 +270,7 @@ GruntM2AfterBattleText:
 	cont "POKETAILS?"
 
 	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	line "Rocket GRUNT!"
 	done
 
 GruntF1SeenText:
@@ -296,13 +296,13 @@ SlowpokeWellB1FSlowpokeWithMailText:
 	text "A SLOWPOKE with"
 	line "its TAIL cut off…"
 
-	para "Huh? It has MAIL."
+	para "Huh? It has Mail."
 	line "Read it?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
 	text "<PLAYER> read the"
-	line "MAIL."
+	line "Mail."
 
 	para "Be good and look"
 	line "after the house"

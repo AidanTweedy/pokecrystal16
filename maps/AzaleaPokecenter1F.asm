@@ -67,7 +67,7 @@ AzaleaPokecenter1FPokefanFText:
 	para "Then you can catch"
 	line "#mon with it."
 
-	para "Before # BALLS"
+	para "Before # Balls"
 	line "were invented,"
 
 	para "everyone used"

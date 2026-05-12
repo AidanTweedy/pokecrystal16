@@ -80,7 +80,7 @@ CeladonPokecenter1FCooltrainerFText:
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
+	text "Team Rocket's"
 	line "hideout is in the"
 
 	para "basement of the"
@@ -109,7 +109,7 @@ EusineLeavesCeladonText:
 
 	para "rainbow-colored"
 	line "#mon appearing"
-	cont "at TIN TOWER."
+	cont "at Tin Tower."
 
 	para "I've just had my"
 	line "party healed, so"

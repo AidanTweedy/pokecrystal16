@@ -140,7 +140,7 @@ LizSurfPikachuGossipText:
 	para "But I can't seem"
 	line "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."
+	para "Surf Pikachu Doll."
 	line "None of my friends"
 
 	para "have it. It must"
@@ -155,10 +155,10 @@ LizMooMooMilkGossipText:
 	text "Listen, listen!"
 
 	para "Do you know about"
-	line "MOOMOO MILK?"
+	line "Moomoo Milk?"
 
 	para "You can buy it at"
-	line "MOOMOO FARM."
+	line "Moomoo Farm."
 
 	para "It's supposed to"
 	line "be good for health"
@@ -174,7 +174,7 @@ LizSalonGossipText:
 	text "Listen, listen!"
 
 	para "There's a #mon"
-	line "SALON in GOLDENROD"
+	line "SALON in Goldenrod"
 
 	para "that's run by two"
 	line "brothers."
@@ -201,15 +201,15 @@ LizSalonGossipText:
 LizWhitneyGossipText:
 	text "Listen, listen!"
 
-	para "GOLDENROD Gym's"
+	para "Goldenrod Gym's"
 	line "WHITNEY began"
 
 	para "battling only a"
 	line "little while ago!"
 
 	para "But the #mon"
-	line "LEAGUE chose her"
-	cont "as a Gym LEADER!"
+	line "League chose her"
+	cont "as a Gym Leader!"
 
 	para "I bet she must be"
 	line "totally talented."

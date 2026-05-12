@@ -46,7 +46,7 @@ ElmsSonText:
 ElmsHouseLabFoodText: ; unreferenced
 	text "There's some food"
 	line "here. It must be"
-	cont "for the LAB."
+	cont "for the Lab."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced

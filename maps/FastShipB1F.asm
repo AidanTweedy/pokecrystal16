@@ -313,7 +313,7 @@ JugglerFritzAfterBattleText:
 	line "me. Next time,"
 
 	para "I'm taking the"
-	line "MAGNET TRAIN."
+	line "Magnet Train."
 	done
 
 SailorGarrettSeenText:
@@ -331,7 +331,7 @@ SailorGarrettAfterBattleText:
 	line "passengers from"
 
 	para "VERMILION CITY to"
-	line "OLIVINE CITY."
+	line "Olivine City."
 	done
 
 FisherJonahSeenText:
@@ -381,7 +381,7 @@ SailorKennethSeenText:
 
 	para "But I'm training"
 	line "#mon, so I can"
-	cont "become the CHAMP!"
+	cont "become the Champ!"
 	done
 
 SailorKennethBeatenText:
@@ -394,7 +394,7 @@ SailorKennethAfterBattleText:
 	line "They must prove"
 
 	para "that you've beaten"
-	line "Gym LEADERS."
+	line "Gym Leaders."
 
 	para "No wonder you're"
 	line "so good!"
