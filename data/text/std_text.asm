@@ -94,7 +94,7 @@ PictureBookshelfText:
 
 MagazineBookshelfText:
 	text "#mon magazines…"
-	line "#mon PAL,"
+	line "#mon Pal,"
 
 	para "#mon Handbook,"
 	line "#mon Graph…"
