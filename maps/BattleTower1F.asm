@@ -377,10 +377,10 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	line "hold battles in"
 
 	para "specially designed"
-	line "Battle ROOMS."
+	line "Battle Rooms."
 
 	para "There are many"
-	line "Battle ROOMS in"
+	line "Battle Rooms in"
 	cont "the Battle Tower."
 
 	para "Each Room holds"
@@ -398,13 +398,13 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	para "All Leaders will"
 	line "be recorded in the"
 
-	para "HONOR ROLL for"
+	para "Honor Roll for"
 	line "posterity."
 
 	para "You may challenge"
 	line "in up to five"
 
-	para "Battle ROOMS each"
+	para "Battle Rooms each"
 	line "day."
 
 	para "However, you may"
@@ -437,10 +437,10 @@ Text_BattleTowerIntroduction_2:
 	line "hold battles in"
 
 	para "specially designed"
-	line "Battle ROOMS."
+	line "Battle Rooms."
 
 	para "There are many"
-	line "Battle ROOMS in"
+	line "Battle Rooms in"
 	cont "the Battle Tower."
 
 	para "Each Room holds"
@@ -464,7 +464,7 @@ Text_BattleTowerIntroduction_2:
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
 	text "Received a list of"
 	line "Leaders on the"
-	cont "HONOR ROLL."
+	cont "Honor Roll."
 
 	para ""
 	done
@@ -585,7 +585,7 @@ Text_CantBeRegistered_PreviousRecordDeleted:
 
 Text_CheckTheLeaderHonorRoll: ; unreferenced
 	text "Check the Leader"
-	line "HONOR ROLL?"
+	line "Honor Roll?"
 	done
 
 Text_ReadBattleTowerRules:
@@ -642,7 +642,7 @@ Text_NextUpOpponentNo:
 
 Text_SaveBeforeConnecting_Mobile: ; unreferenced
 	text "Your session will"
-	line "be SAVED before"
+	line "be saved before"
 
 	para "connecting with"
 	line "the Center."
@@ -663,7 +663,7 @@ Text_SaveAndEndTheSession:
 
 Text_SaveBeforeReentry:
 	text "Your record will"
-	line "be SAVED before"
+	line "be saved before"
 
 	para "you go back into"
 	line "the previous Room."
@@ -693,7 +693,7 @@ Text_WeveBeenWaitingForYou:
 
 Text_FiveDayBattleLimit_Mobile:
 	text "You may enter only"
-	line "five Battle ROOMS"
+	line "five Battle Rooms"
 	cont "each day."
 
 	para "Please come back"
@@ -761,7 +761,7 @@ Text_BattleTowerYoungster:
 
 Text_BattleTowerCooltrainerF:
 	text "There are lots of"
-	line "Battle ROOMS, but"
+	line "Battle Rooms, but"
 
 	para "I'm going to win"
 	line "them all!"

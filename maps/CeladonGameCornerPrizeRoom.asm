@@ -223,7 +223,7 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "Cancel@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted PORYGON,"
+	text "I wanted Porygon,"
 	line "but I was short by"
 	cont "100 coins…"
 	done

@@ -399,16 +399,16 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
+	text "My Venonat won me"
 	line "the Bug-Catching"
 
 	para "Contest at the"
-	line "NATIONAL PARK."
+	line "National Park."
 	done
 
 BugCatcherArnieYanmaText:
 	text "Wow… Look at all"
-	line "those YANMA!"
+	line "those Yanma!"
 
 	para "I'm so blown away,"
 	line "I can't move."

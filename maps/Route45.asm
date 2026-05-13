@@ -327,7 +327,7 @@ HikerErikBeatenText:
 
 HikerErikAfterBattleText:
 	text "I'll head back to"
-	line "BLACKTHORN's ICE"
+	line "Blackthorn's Ice"
 
 	para "Path and train"
 	line "some more."
@@ -526,7 +526,7 @@ CamperQuentinAfterBattleText:
 
 Route45SignText:
 	text "Route 45"
-	line "MOUNTAIN RD. Ahead"
+	line "Mountain Rd. Ahead"
 	done
 
 Route45_MapEvents:

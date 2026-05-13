@@ -74,14 +74,14 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
+	text "Brock: Wow, it's"
 	line "not often that we"
 
 	para "get a challenger"
 	line "from Johto."
 
-	para "I'm BROCK, the"
-	line "PEWTER Gym Leader."
+	para "I'm Brock, the"
+	line "Pewter Gym Leader."
 
 	para "I'm an expert on"
 	line "rock-type #mon."
@@ -99,7 +99,7 @@ BrockIntroText:
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
+	text "Brock: Your #-"
 	line "mon's powerful at-"
 	cont "tacks overcame my"
 	cont "rock-hard defense…"
@@ -113,7 +113,7 @@ BrockWinLossText:
 
 ReceivedBoulderBadgeText:
 	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	line "Boulder Badge."
 	done
 
 BrockBoulderBadgeText:
@@ -124,7 +124,7 @@ BrockBoulderBadgeText:
 	line "though I am a bit"
 	cont "upset."
 
-	para "That BOULDERBADGE"
+	para "That Boulder Badge"
 	line "will make your"
 
 	para "#mon even more"
@@ -132,7 +132,7 @@ BrockBoulderBadgeText:
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
+	text "Brock: The world"
 	line "is huge. There are"
 
 	para "still many strong"
@@ -150,7 +150,7 @@ CamperJerrySeenText:
 	cont "type #mon."
 
 	para "The rock-type has"
-	line "high DEFENSE."
+	line "high Defense."
 
 	para "Battles could end"
 	line "up going a long"
@@ -166,7 +166,7 @@ CamperJerryBeatenText:
 
 CamperJerryAfterBattleText:
 	text "Hey, you! Trainer"
-	line "from Johto! BROCK"
+	line "from Johto! Brock"
 
 	para "is tough. He'll"
 	line "punish you if you"

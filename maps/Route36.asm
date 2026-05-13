@@ -410,18 +410,18 @@ Route36SuicuneMovement:
 
 UseSquirtbottleText:
 	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	line "Use Squirtbottle?"
 	done
 
 UsedSquirtbottleText:
 	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	line "Squirtbottle."
 	done
 
 SudowoodoAttackedText:
 	text "The weird tree"
 	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	cont "Squirtbottle!"
 
 	para "The weird tree"
 	line "attacked!"
@@ -429,7 +429,7 @@ SudowoodoAttackedText:
 
 FloriaText1:
 	text "I'm the Flower"
-	line "Shop's FLORIA!"
+	line "Shop's Floria!"
 
 	para "Listen, listen!"
 
@@ -460,7 +460,7 @@ FloriaText2:
 	para "tree, she said"
 	line "it's dangerous."
 
-	para "If I beat WHITNEY,"
+	para "If I beat Whitney,"
 	line "I wonder if she'll"
 
 	para "lend me her water"
@@ -496,7 +496,7 @@ Text_ReceivedTM08: ; unreferenced
 
 RockSmashGuyText3:
 	text "That happens to be"
-	line "ROCK SMASH."
+	line "Rock Smash."
 
 	para "You can shatter"
 	line "rocks with just a"
@@ -580,10 +580,10 @@ SchoolboyAlanBooksText:
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
+	text "Arthur: Who are"
 	line "you?"
 
-	para "I'm ARTHUR of"
+	para "I'm Arthur of"
 	line "Thursday."
 	done
 
@@ -593,7 +593,7 @@ ArthurGivesGiftText:
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #mon"
+	text "Arthur: A #mon"
 	line "that uses rock-"
 
 	para "type moves should"
@@ -604,7 +604,7 @@ ArthurGaveGiftText:
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
+	text "Arthur: I'm Arthur"
 	line "of Thursday. I'm"
 
 	para "the second son out"
@@ -612,7 +612,7 @@ ArthurThursdayText:
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
+	text "Arthur: Today's"
 	line "not Thursday. How"
 	cont "disappointing."
 	done
@@ -622,8 +622,8 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "Ruins of Alph"
+	line "North Entrance"
 	done
 
 Route36TrainerTips1Text:
@@ -646,7 +646,7 @@ Route36TrainerTips1Text:
 Route36TrainerTips2Text:
 	text "Trainer Tips"
 
-	para "Use DIG to return"
+	para "Use Dig to return"
 	line "to the entrance of"
 	cont "any place."
 

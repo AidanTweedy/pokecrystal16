@@ -63,7 +63,7 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
+	text "Lance: It's been a"
 	line "long time since I"
 	cont "last came here."
 

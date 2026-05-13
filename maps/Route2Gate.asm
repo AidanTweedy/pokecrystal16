@@ -13,14 +13,14 @@ Route2GateScientistText:
 	text "Are you <PLAY_G>?"
 
 	para "I work as Prof."
-	line "Oak's AIDE."
+	line "Oak's Aide."
 
 	para "I had no idea that"
 	line "you were out here."
 
 	para "Prof.Oak's Lab is"
-	line "nearby in PALLET"
-	cont "TOWN."
+	line "nearby in Pallet"
+	cont "Town."
 	done
 
 Route2Gate_MapEvents:

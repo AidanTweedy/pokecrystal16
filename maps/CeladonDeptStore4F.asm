@@ -29,7 +29,7 @@ CeladonDeptStore4FElevatorButton:
 
 CeladonDeptStore4FSuperNerdText:
 	text "I'm here to buy"
-	line "SURF Mail to send"
+	line "Surf Mail to send"
 	cont "to my girlfriend."
 	done
 
@@ -37,7 +37,7 @@ CeladonDeptStore4FYoungsterText:
 	text "This is the only"
 	line "place where you"
 
-	para "can buy LOVELY"
+	para "can buy Lovely"
 	line "Mail."
 	done
 

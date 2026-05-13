@@ -176,7 +176,7 @@ Route39BarnTotallyHealthyText:
 
 Route39BarnNoBerriesText:
 	text "<PLAYER> has no"
-	line "BERRIES…"
+	line "Berries…"
 	done
 
 Route39BarnRefusedBerryText:

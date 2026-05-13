@@ -235,7 +235,7 @@ FastShipB1FOnDutySailorText:
 FastShipB1FOnDutySailorRefusedText:
 	text "Oh, gee…"
 
-	para "The CAPTAIN will"
+	para "The Captain will"
 	line "be furious…"
 	done
 
@@ -260,7 +260,7 @@ FastShipB1FOnDutySailorDirectionsText:
 
 	para "The stairs at the"
 	line "end lead to the"
-	cont "CAPTAIN's cabin."
+	cont "Captain's cabin."
 	done
 
 SailorJeffSeenText:
@@ -291,7 +291,7 @@ PicnickerDebraBeatenText:
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON…"
+	text "Saffron, Celadon…"
 	line "I hear there are"
 
 	para "many big cities"
@@ -330,7 +330,7 @@ SailorGarrettAfterBattleText:
 	text "We get different"
 	line "passengers from"
 
-	para "VERMILION CITY to"
+	para "Vermilion City to"
 	line "Olivine City."
 	done
 
@@ -350,7 +350,7 @@ FisherJonahBeatenText:
 
 FisherJonahAfterBattleText:
 	text "I plan to fish off"
-	line "VERMILION's pier."
+	line "Vermilion's pier."
 	done
 
 BlackbeltWaiSeenText:
@@ -368,7 +368,7 @@ BlackbeltWaiBeatenText:
 
 BlackbeltWaiAfterBattleText:
 	text "I couldn't find"
-	line "the KARATE KING in"
+	line "the Karate King in"
 	cont "Johto."
 
 	para "He's supposed to"
@@ -411,13 +411,13 @@ TeacherShirleyBeatenText:
 
 TeacherShirleyAfterBattleText:
 	text "We're on a field"
-	line "trip to the RUINS"
-	cont "outside VIOLET."
+	line "trip to the Ruins"
+	cont "outside Violet."
 	done
 
 SchoolboyNateSeenText:
 	text "Do you know the"
-	line "RUINS OF ALPH?"
+	line "Ruins of Alph?"
 	done
 
 SchoolboyNateBeatenText:
@@ -427,13 +427,13 @@ SchoolboyNateBeatenText:
 SchoolboyNateAfterBattleText:
 	text "Radios pick up"
 	line "strange signals"
-	cont "inside the RUINS."
+	cont "inside the Ruins."
 	done
 
 SchoolboyRickySeenText:
 	text "There are some odd"
 	line "stone panels in"
-	cont "the RUINS OF ALPH."
+	cont "the Ruins of Alph."
 	done
 
 SchoolboyRickyBeatenText:

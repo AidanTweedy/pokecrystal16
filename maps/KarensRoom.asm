@@ -79,7 +79,7 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
+	text "I am Karen of the"
 	line "Elite Four."
 
 	para "You're <PLAYER>?"
@@ -126,8 +126,8 @@ KarenScript_KarenDefeatText:
 	line "You understand"
 	cont "what's important."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Go on--the Cham-"
+	line "pion is waiting."
 	done
 
 KarensRoom_MapEvents:

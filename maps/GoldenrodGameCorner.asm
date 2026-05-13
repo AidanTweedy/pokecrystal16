@@ -397,7 +397,7 @@ GoldenrodGameCornerPokefanM1Text:
 
 	para "It's more of a"
 	line "challenge than the"
-	cont "ones in CELADON."
+	cont "ones in Celadon."
 	done
 
 GoldenrodGameCornerCooltrainerMText:

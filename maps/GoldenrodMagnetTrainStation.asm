@@ -116,7 +116,7 @@ GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	text "We'll soon depart"
-	line "for SAFFRON."
+	line "for Saffron."
 
 	para "Are you coming"
 	line "aboard?"
@@ -149,7 +149,7 @@ GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "I'm the PRESIDENT."
+	text "I'm the President."
 
 	para "My dream was to"
 	line "build a train that"

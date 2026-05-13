@@ -85,7 +85,7 @@ BlaineIntroText:
 	cont "a Badge."
 
 	para "Ha! You'd better"
-	line "have BURN HEAL!"
+	line "have Burn Heal!"
 	done
 
 BlaineWinLossText:
@@ -93,12 +93,12 @@ BlaineWinLossText:
 	line "I've burned out…"
 
 	para "You've earned"
-	line "VOLCANOBADGE!"
+	line "Volcano Badge!"
 	done
 
 ReceivedVolcanoBadgeText:
 	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	line "Volcano Badge."
 	done
 
 BlaineAfterBattleText:

@@ -205,7 +205,7 @@ Text_HereTeacherIAm:
 VioletCityLassText:
 	text "Ghosts are rumored"
 	line "to appear in"
-	cont "SPROUT Tower."
+	cont "Sprout Tower."
 
 	para "They said normal-"
 	line "type #mon moves"
@@ -226,8 +226,8 @@ VioletCitySuperNerdText:
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, from the"
-	line "VIOLET #mon"
+	text "Falkner, from the"
+	line "Violet #mon"
 
 	para "Gym, is a fine"
 	line "trainer!"
@@ -249,31 +249,31 @@ VioletCityYoungsterText:
 	done
 
 VioletCitySignText:
-	text "VIOLET CITY"
+	text "Violet City"
 
 	para "The City of"
 	line "Nostalgic Scents"
 	done
 
 VioletGymSignText:
-	text "VIOLET CITY"
+	text "Violet City"
 	line "#mon Gym"
-	cont "Leader: FALKNER"
+	cont "Leader: Falkner"
 
 	para "The Elegant Master"
 	line "of Flying #mon"
 	done
 
 SproutTowerSignText:
-	text "SPROUT Tower"
+	text "Sprout Tower"
 
 	para "Experience the"
 	line "Way of #mon"
 	done
 
 EarlsPokemonAcademySignText:
-	text "EARL'S #mon"
-	line "ACADEMY"
+	text "Earl's #mon"
+	line "Academy"
 	done
 
 VioletCity_MapEvents:

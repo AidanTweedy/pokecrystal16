@@ -92,7 +92,7 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	line "Ticket that can be"
 
 	para "traded in for a"
-	line "ODD Egg."
+	line "Odd Egg."
 
 	para "But since we run a"
 	line "Day-Care, we don't"
@@ -106,7 +106,7 @@ DayCareManText_GiveOddEgg:
 	line "Man."
 
 	para "Do you know about"
-	line "EGGS?"
+	line "Eggs?"
 
 	para "I was raising"
 	line "#mon with my"
@@ -138,7 +138,7 @@ DayCareText_ComeAgain: ; unreferenced
 
 DayCareText_GotOddEgg:
 	text "<PLAYER> received"
-	line "ODD Egg!"
+	line "Odd Egg!"
 	done
 
 DayCareText_DescribeOddEgg:

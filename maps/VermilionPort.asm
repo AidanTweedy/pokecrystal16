@@ -266,7 +266,7 @@ VermilionPortSSTicketText:
 VermilionPortNoTicketText:
 	text "<PLAYER> tried to"
 	line "show the S.S."
-	cont "TICKET…"
+	cont "Ticket…"
 
 	para "…But no Ticket!"
 

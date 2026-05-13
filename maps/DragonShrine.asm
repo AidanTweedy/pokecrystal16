@@ -398,7 +398,7 @@ DragonShrineElderGreetingText:
 	para "No need to explain"
 	line "why you came."
 
-	para "CLAIR sent you"
+	para "Clair sent you"
 	line "here, didn't she?"
 
 	para "That girl is a"
@@ -464,22 +464,22 @@ DragonShrinePassedTestText:
 	done
 
 DragonShrineMustIInformLanceText:
-	text "CLAIR!"
+	text "Clair!"
 
 	para "This child is"
 	line "impeccable, in"
 	cont "skill and spirit!"
 
 	para "Admit defeat and"
-	line "confer the RISING-"
+	line "confer the Rising-"
 	cont "Badge!"
 
 	para "…Or must I inform"
-	line "LANCE of this?"
+	line "Lance of this?"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "CLAIR…"
+	text "Clair…"
 
 	para "Reflect upon what"
 	line "it is that you"
@@ -503,7 +503,7 @@ DragonShrineTakeThisDratiniText:
 	para "I have something"
 	line "for you."
 
-	para "Take this DRATINI"
+	para "Take this Dratini"
 	line "as proof that I"
 
 	para "have recognized"
@@ -512,7 +512,7 @@ DragonShrineTakeThisDratiniText:
 
 DragonShrinePlayerReceivedDratiniText:
 	text "<PLAYER> received"
-	line "DRATINI!"
+	line "Dratini!"
 	done
 
 DragonShrinePartyFullText:
@@ -533,7 +533,7 @@ DragonShrineSymbolicDragonText:
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
+	text "Clair appears to"
 	line "have learned an"
 
 	para "invaluable lesson"
@@ -549,7 +549,7 @@ DragonShrineRivalIsInTrainingText:
 	cont "training here."
 
 	para "He is much like"
-	line "CLAIR when she was"
+	line "Clair when she was"
 
 	para "younger. It is a"
 	line "little worrisome…"
@@ -578,12 +578,12 @@ DragonShrineElder2Text:
 	cont "approval."
 
 	para "In fact, not since"
-	line "Master LANCE."
+	line "Master Lance."
 	done
 
 DragonShrineElder3Text:
 	text "You know young"
-	line "Master LANCE?"
+	line "Master Lance?"
 
 	para "He looks so much"
 	line "like our Master"
@@ -623,18 +623,18 @@ DragonShrineIUnderstandText:
 
 DragonShrineHereRisingBadgeText:
 	text "Here, this is the"
-	line "RISINGBADGE…"
+	line "Rising Badge…"
 
 	para "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
 	text "<PLAYER> received"
-	line "RISINGBADGE."
+	line "Rising Badge."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
+	text "Rising Badge will"
 	line "enable your"
 
 	para "#mon to use the"

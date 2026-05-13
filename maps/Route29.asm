@@ -312,7 +312,7 @@ Route29TeacherText:
 	cont "off them."
 
 	para "But you can go to"
-	line "NEW BARK without"
+	line "New Bark without"
 
 	para "walking through"
 	line "the grass."
@@ -351,7 +351,7 @@ Route29CooltrainerMText_WaitingForMorning:
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
+	text "Tuscany: I do be-"
 	line "lieve that this is"
 
 	para "the first time"
@@ -360,7 +360,7 @@ MeetTuscanyText:
 	para "Please allow me to"
 	line "introduce myself."
 
-	para "I am TUSCANY of"
+	para "I am Tuscany of"
 	line "Tuesday."
 	done
 
@@ -369,11 +369,11 @@ TuscanyGivesGiftText:
 	line "duction, please"
 
 	para "accept this gift,"
-	line "a PINK BOW."
+	line "a Pink Bow."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
+	text "Tuscany: Wouldn't"
 	line "you agree that it"
 	cont "is most adorable?"
 
@@ -385,19 +385,19 @@ TuscanyGaveGiftText:
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
+	text "Tuscany: Have you"
+	line "met Monica, my"
 	cont "older sister?"
 
 	para "Or my younger"
-	line "brother, WESLEY?"
+	line "brother, Wesley?"
 
 	para "I am the second of"
 	line "seven children."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
+	text "Tuscany: Today is"
 	line "not Tuesday. That"
 	cont "is unfortunate…"
 	done
@@ -405,15 +405,15 @@ TuscanyNotTuesdayText:
 Route29Sign1Text:
 	text "Route 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "Cherrygrove City -"
+	line "New Bark Town"
 	done
 
 Route29Sign2Text:
 	text "Route 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "Cherrygrove City -"
+	line "New Bark Town"
 	done
 
 Route29_MapEvents:

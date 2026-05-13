@@ -236,7 +236,7 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Aww! Why"
+	text "Misty: Aww! Why"
 	line "did you have to"
 
 	para "show up and bug us"
@@ -259,14 +259,14 @@ Route25MistyDateText:
 	line "you must be good."
 
 	para "OK, then. Come to"
-	line "CERULEAN Gym."
+	line "Cerulean Gym."
 
 	para "I'll be happy to"
 	line "take you on."
 
-	para "I'm MISTY, the"
+	para "I'm Misty, the"
 	line "Gym Leader in"
-	cont "CERULEAN."
+	cont "Cerulean."
 	done
 
 SchoolboyDudleySeenText:

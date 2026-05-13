@@ -741,15 +741,15 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "The Farfetch'd"
+	line "that Cuts trees"
 
 	para "for charcoal took"
 	line "off on me."
 
 	para "I can't go looking"
 	line "for it here in the"
-	cont "ILEX FOREST."
+	cont "Ilex Forest."
 
 	para "It's too big, dark"
 	line "and scary for me…"
@@ -771,11 +771,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "Farfetch'd: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! My Farfetch'd!"
 
 	para "You found it for"
 	line "us, kid?"
@@ -783,7 +783,7 @@ Text_CharcoalMasterIntro:
 	para "Without it, we"
 	line "wouldn't be able"
 
-	para "to CUT trees for"
+	para "to Cut trees for"
 	line "charcoal."
 
 	para "Thanks, kid!"
@@ -796,7 +796,7 @@ Text_CharcoalMasterIntro:
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
+	text "That's the Cut HM."
 	line "Teach that to a"
 
 	para "#mon to clear"
@@ -806,7 +806,7 @@ Text_CharcoalMasterOutro:
 	line "have to have the"
 
 	para "Gym Badge from"
-	line "AZALEA to use it."
+	line "Azalea to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:
@@ -824,7 +824,7 @@ Text_HeadbuttIntro:
 	text "What am I doing?"
 
 	para "I'm shaking trees"
-	line "using HEADBUTT."
+	line "using Headbutt."
 
 	para "It's fun. Here,"
 	line "you try it too!"
@@ -832,7 +832,7 @@ Text_HeadbuttIntro:
 
 Text_HeadbuttOutro:
 	text "Rattle trees with"
-	line "HEADBUTT. Some-"
+	line "Headbutt. Some-"
 	cont "times, sleeping"
 	cont "#mon fall out."
 	done
@@ -844,7 +844,7 @@ Text_IlexForestLass:
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "so overgrown with"
 
 	para "trees that you"
@@ -856,8 +856,8 @@ IlexForestSignpostText:
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "Ilex Forest"
+	line "Shrine…"
 
 	para "It's in honor of"
 	line "the forest's"
@@ -865,8 +865,8 @@ Text_IlexForestShrine:
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "Ilex Forest"
+	line "Shrine…"
 
 	para "It's in honor of"
 	line "the forest's"
@@ -897,7 +897,7 @@ Text_KurtCaughtCelebi:
 	line "fantastic. Thanks!"
 
 	para "The legends about"
-	line "that SHRINE were"
+	line "that Shrine were"
 	cont "real after all."
 
 	para "I feel inspired by"
@@ -928,7 +928,7 @@ BugCatcherWayneAfterBattleText:
 
 	para "fell out of the"
 	line "tree when I used"
-	cont "HEADBUTT."
+	cont "Headbutt."
 
 	para "I ought to use"
 	line "Headbutt in other"

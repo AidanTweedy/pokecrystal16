@@ -1724,7 +1724,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "Buena's Password@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:

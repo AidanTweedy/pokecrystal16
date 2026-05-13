@@ -333,10 +333,10 @@ BirdKeeperTobyBeatenText:
 
 BirdKeeperTobyAfterBattleText:
 	text "I plan to train in"
-	line "CIANWOOD CITY to"
+	line "Cianwood City to"
 
 	para "teach my #mon"
-	line "how to FLY."
+	line "how to Fly."
 	done
 
 SchoolboyChad1SeenText:
@@ -451,7 +451,7 @@ Route38SignText:
 	text "Route 38"
 
 	para "Olivine City -"
-	line "ECRUTEAK CITY"
+	line "Ecruteak City"
 	done
 
 Route38TrainerTipsText:

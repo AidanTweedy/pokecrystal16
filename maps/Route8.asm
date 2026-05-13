@@ -77,7 +77,7 @@ Route8FruitTree:
 
 BikerDwayneSeenText:
 	text "We're the Kanto"
-	line "#mon FEDERATION"
+	line "#mon Federation"
 	cont "trainer group."
 
 	para "We'll drive you"
@@ -90,7 +90,7 @@ BikerDwayneBeatenText:
 
 BikerDwayneAfterBattleText:
 	text "The Kanto #mon"
-	line "FEDERATION will"
+	line "Federation will"
 	cont "never fall!"
 	done
 
@@ -113,8 +113,8 @@ BikerHarrisAfterBattleText:
 
 BikerZekeSeenText:
 	text "We're the Kanto"
-	line "#mon FEDERA-"
-	cont "TION!"
+	line "#mon Federa-"
+	cont "tion!"
 	cont "Right on!"
 	done
 
@@ -129,8 +129,8 @@ BikerZekeAfterBattleText:
 	done
 
 SupernerdSamSeenText:
-	text "How does the MAG-"
-	line "NET Train work?"
+	text "How does the Mag-"
+	line "net Train work?"
 	done
 
 SupernerdSamBeatenText:

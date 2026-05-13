@@ -131,8 +131,8 @@ NamingScreen:
 	ret
 
 .NicknameStrings:
-	db "'S@"
-	db "NICKNAME?@"
+	db "'s@"
+	db "Nickname?@"
 
 .Player:
 	farcall GetPlayerIcon
@@ -157,7 +157,7 @@ NamingScreen:
 	ret
 
 .RivalNameString:
-	db "RIVAL'S NAME?@"
+	db "Rival's Name?@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -170,7 +170,7 @@ NamingScreen:
 	ret
 
 .MomNameString:
-	db "MOTHER'S NAME?@"
+	db "Mother's Name?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX

@@ -183,7 +183,7 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm WHITNEY!"
+	text "Hi! I'm Whitney!"
 
 	para "Everyone was into"
 	line "#mon, so I got"
@@ -249,7 +249,7 @@ WhitneyPlainBadgeText:
 	done
 
 WhitneyAttractText:
-	text "It's ATTRACT!"
+	text "It's Attract!"
 	line "It makes full use"
 
 	para "of a #mon's"
@@ -301,7 +301,7 @@ LassBridgetBeatenText:
 
 LassBridgetAfterBattleText:
 	text "I'm trying to beat"
-	line "WHITNEY, but…"
+	line "Whitney, but…"
 	cont "It's depressing."
 
 	para "I'm okay! If I"
@@ -313,7 +313,7 @@ LassBridgetAfterBattleText:
 
 BridgetWhitneyCriesText:
 	text "Oh, no. You made"
-	line "WHITNEY cry."
+	line "Whitney cry."
 
 	para "It's OK. She'll"
 	line "stop soon. She"
@@ -348,12 +348,12 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
+	text "No! Oh, Meowth,"
 	line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
+	text "I taught Meowth"
 	line "moves for taking"
 	cont "on any type…"
 	done

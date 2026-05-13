@@ -129,7 +129,7 @@ FisherBarneyAfterBattleText:
 	para "have made such a"
 	line "fuss when the"
 
-	para "POWER PLANT went"
+	para "Power Plant went"
 	line "out of commission."
 	done
 
@@ -143,7 +143,7 @@ FisherKyleBeatenText:
 
 FisherKyleAfterBattleText:
 	text "The tug you feel"
-	line "on the ROD when"
+	line "on the Rod when"
 
 	para "you hook a #-"
 	line "mon…"
@@ -156,12 +156,12 @@ FisherKyleAfterBattleText:
 Route12SignText:
 	text "Route 12"
 
-	para "NORTH TO LAVENDER"
-	line "TOWN"
+	para "North to Lavender"
+	line "Town"
 	done
 
 FishingSpotSignText:
-	text "FISHING SPOT"
+	text "Fishing Spot"
 	done
 
 Route12_MapEvents:

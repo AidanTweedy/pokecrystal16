@@ -74,7 +74,7 @@ BillPhoneFullText:
 	line "is full!"
 
 	para "You'll have to"
-	line "switch BOXES if"
+	line "switch Boxes if"
 
 	para "you want to catch"
 	line "more #mon."
@@ -92,7 +92,7 @@ BillPhoneNewlyFullText:
 	cont "your Box up."
 
 	para "You'll have to"
-	line "switch BOXES if"
+	line "switch Boxes if"
 
 	para "you want to catch"
 	line "more #mon."

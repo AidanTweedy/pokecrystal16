@@ -181,7 +181,7 @@ HikerBaileyBeatenText:
 
 HikerBaileyAfterBattleText:
 	text "It's over. I don't"
-	line "mind. We HIKERS"
+	line "mind. We Hikers"
 	cont "are like that."
 	done
 
@@ -219,7 +219,7 @@ PicnickerErin1BeatenText:
 
 PicnickerErinAfterBattleText:
 	text "I've been to many"
-	line "GYMS, but the Gym"
+	line "Gyms, but the Gym"
 
 	para "in Goldenrod is my"
 	line "favorite."
@@ -245,7 +245,7 @@ PicnickerErin2BeatenText:
 
 Route46SignText:
 	text "Route 46"
-	line "MOUNTAIN RD. Ahead"
+	line "Mountain Rd. Ahead"
 	done
 
 Route46_MapEvents:

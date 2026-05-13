@@ -317,7 +317,7 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "SLOWPOKETAIL? I"
+	line "Slowpoketail? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"
@@ -325,17 +325,17 @@ AzaleaTownRocket2Text:
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
+	text "The Slowpoke have"
 	line "disappeared from"
 	cont "town…"
 
 	para "I heard their"
-	line "TAILS are being"
+	line "Tails are being"
 	cont "sold somewhere."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
+	text "The Slowpoke have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -355,9 +355,9 @@ AzaleaTownTeacherText:
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
+	text "Cut through Azalea"
 	line "and you'll be in"
-	cont "ILEX FOREST."
+	cont "Ilex Forest."
 
 	para "But these skinny"
 	line "trees make it"
@@ -371,7 +371,7 @@ AzaleaTownYoungsterText:
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "Slowpoke: …"
 
 	para "<……> <……> <……>"
 	done
@@ -381,11 +381,11 @@ AzaleaTownSlowpokeText2:
 	done
 
 WoosterText:
-	text "WOOSTER: Gugyoo…"
+	text "Wooster: Gugyoo…"
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
+	text "Ilex Forest is"
 	line "restless!"
 
 	para "What is going on?"
@@ -398,12 +398,12 @@ AzaleaTownKurtText2:
 
 AzaleaTownKurtText3:
 	text "Could you go see"
-	line "why ILEX FOREST is"
+	line "why Ilex Forest is"
 	cont "so restless?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
+	text "Azalea Town"
 	line "Where People and"
 
 	para "#mon Live in"
@@ -415,9 +415,9 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
+	text "Azalea Town"
 	line "#mon Gym"
-	cont "Leader: BUGSY"
+	cont "Leader: Bugsy"
 
 	para "The Walking"
 	line "Bug #mon"
@@ -425,17 +425,17 @@ AzaleaGymSignText:
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "Slowpoke Well"
 
 	para "Also known as the"
-	line "RAINMAKER WELL."
+	line "Rainmaker Well."
 
 	para "Locals believe"
-	line "that a SLOWPOKE's"
+	line "that a Slowpoke's"
 	cont "yawn summons rain."
 
 	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	line "a Slowpoke's yawn"
 
 	para "ended a drought"
 	line "400 years ago."
@@ -446,7 +446,7 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "Ilex Forest"
 
 	para "Enter through the"
 	line "gate."

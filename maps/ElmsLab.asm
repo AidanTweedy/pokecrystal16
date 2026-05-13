@@ -888,19 +888,19 @@ LabWhereGoingText:
 
 TakeCyndaquilText:
 	text "Elm: You'll take"
-	line "CYNDAQUIL, the"
+	line "Cyndaquil, the"
 	cont "fire #mon?"
 	done
 
 TakeTotodileText:
 	text "Elm: Do you want"
-	line "TOTODILE, the"
+	line "Totodile, the"
 	cont "water #mon?"
 	done
 
 TakeChikoritaText:
 	text "Elm: So, you like"
-	line "CHIKORITA, the"
+	line "Chikorita, the"
 	cont "grass #mon?"
 	done
 
@@ -929,7 +929,7 @@ ElmDirectionsText1:
 	text "Mr.#mon lives a"
 	line "little bit beyond"
 
-	para "CHERRYGROVE, the"
+	para "Cherrygrove, the"
 	line "next city over."
 
 	para "It's almost a"
@@ -1054,7 +1054,7 @@ ElmAfterTheftText5:
 
 	para "The closest Gym"
 	line "would be the one"
-	cont "in VIOLET CITY."
+	cont "in Violet City."
 	done
 
 ElmAfterTheftText6:
@@ -1085,7 +1085,7 @@ ElmAideHasEggText:
 	para "He should have met"
 	line "you with the Egg"
 
-	para "at VIOLET CITY's"
+	para "at Violet City's"
 	line "#mon Center."
 
 	para "You must have just"
@@ -1119,7 +1119,7 @@ ShowElmTogepiText2:
 ShowElmTogepiText3:
 	text "The Egg hatched!"
 	line "So, #mon are"
-	cont "born from EGGS…"
+	cont "born from Eggs…"
 
 	para "No, perhaps not"
 	line "all #mon are."
@@ -1143,7 +1143,7 @@ ElmGiveEverstoneText1:
 
 ElmGiveEverstoneText2:
 	text "That's an"
-	line "EVERSTONE."
+	line "Everstone."
 
 	para "Some species of"
 	line "#mon evolve"
@@ -1152,7 +1152,7 @@ ElmGiveEverstoneText2:
 	line "certain levels."
 
 	para "A #mon holding"
-	line "the EVERSTONE"
+	line "the Everstone"
 	cont "won't evolve."
 
 	para "Give it to a #-"
@@ -1332,7 +1332,7 @@ AideText_GiveCandy:
 	done
 
 AideText_HaveCandy:
-	text "The EVER CANDY"
+	text "The Ever Candy"
 	line "lets you level"
 
 	para "up a #mon as"
@@ -1387,7 +1387,7 @@ ElmsLabTravelTip1Text:
 	para "Travel Tip 1:"
 
 	para "Press START to"
-	line "open the MENU."
+	line "open the Menu."
 	done
 
 ElmsLabTravelTip2Text:
@@ -1431,8 +1431,8 @@ ElmsLabTrashcanText:
 	done
 
 ElmsLabPCText:
-	text "OBSERVATIONS ON"
-	line "#mon EVOLUTION"
+	text "Observations on"
+	line "#mon Evolution"
 
 	para "…It says on the"
 	line "screen…"

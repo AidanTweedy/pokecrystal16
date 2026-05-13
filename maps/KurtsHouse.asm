@@ -475,16 +475,16 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	cont "three years ago."
 
 	para "Anyway, they're at"
-	line "the WELL, cutting"
+	line "the Well, cutting"
 
-	para "off SLOWPOKETAILS"
+	para "off Slowpoketails"
 	line "for sale!"
 
 	para "So I'm going to"
 	line "go give them a"
 	cont "lesson in pain!"
 
-	para "Hang on, SLOWPOKE!"
+	para "Hang on, Slowpoke!"
 	line "Old Kurt is on his"
 	cont "way!"
 	done
@@ -494,7 +494,7 @@ KurtsHouseKurtHonoredToMakeBallsText:
 
 	para "You handled your-"
 	line "self like a real"
-	cont "hero at the WELL."
+	cont "hero at the Well."
 
 	para "I like your style!"
 
@@ -510,7 +510,7 @@ KurtsHouseKurtHonoredToMakeBallsText:
 
 KurtsHouseKurtBallsFromApricornsText:
 	text "Kurt: I make Balls"
-	line "from APRICORNS."
+	line "from Apricorns."
 
 	para "Collect them from"
 	line "trees and bring"
@@ -606,7 +606,7 @@ KurtsHouseKurtThisBallStartedToShakeText:
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
+	text "The Slowpoke are"
 	line "gone… Were they"
 
 	para "taken away by bad"
@@ -619,21 +619,21 @@ KurtsGranddaughterLonelyText:
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
+	text "The Slowpoke my"
 	line "dad gave me came"
 
-	para "back! Its TAIL is"
+	para "back! Its Tail is"
 	line "growing back too!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
+	text "Dad works at Silph"
 	line "where he studies"
 	cont "# Balls."
 
 	para "I have to stay"
 	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	cont "and Slowpoke."
 	done
 
 KurtsGranddaughterHelpText:
@@ -659,7 +659,7 @@ KurtsGranddaughterGSBallText:
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
+	text "Slowpoke: …"
 	line "Yawn?"
 	done
 

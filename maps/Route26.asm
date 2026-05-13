@@ -295,9 +295,9 @@ CooltrainermGavenAfterText:
 	line "League, you have"
 
 	para "to get through"
-	line "VICTORY ROAD."
+	line "Victory Road."
 
-	para "But VICTORY ROAD"
+	para "But Victory Road"
 	line "is tough."
 
 	para "Practically nobody"
@@ -407,7 +407,7 @@ Route26SignText:
 	text "Route 26"
 
 	para "#mon League"
-	line "RECEPTION GATE"
+	line "Reception Gate"
 	done
 
 Route26_MapEvents:

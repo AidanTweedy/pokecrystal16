@@ -84,7 +84,7 @@ WillScript_WillBeforeText:
 
 	para "Allow me to intro-"
 	line "duce myself. I am"
-	cont "WILL."
+	cont "Will."
 
 	para "I have trained all"
 	line "around the world,"

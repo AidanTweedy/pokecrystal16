@@ -37,7 +37,7 @@ CianwoodPokecenter1FSuperNerdScript:
 
 CianwoodPokecenter1FLassText:
 	text "Did you meet the"
-	line "#MANIAC?"
+	line "#Maniac?"
 
 	para "He's always brag-"
 	line "ging about his"
@@ -100,15 +100,15 @@ CianwoodPokecenter1FUnusedText1: ; unreferenced
 	line "show the #mon I"
 
 	para "raised to my pal"
-	line "in VIOLET."
+	line "in Violet."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
 	text "I've been battling"
-	line "my pal in VIOLET"
+	line "my pal in Violet"
 
-	para "using a MOBILE"
-	line "ADAPTER link."
+	para "using a Mobile"
+	line "Adapter link."
 
 	para "I'm down 5-7"
 	line "against him. I've"

@@ -25,7 +25,7 @@ CeladonDeptStore1FElevatorButton:
 
 CeladonDeptStore1FReceptionistText:
 	text "Hello! Welcome to"
-	line "CELADON DEPT."
+	line "Celadon Dept."
 	cont "Store!"
 
 	para "The directory is"

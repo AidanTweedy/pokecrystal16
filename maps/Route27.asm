@@ -327,7 +327,7 @@ Route27FisherText:
 	cont "Kanto."
 
 	para "Check your #-"
-	line "GEAR MAP and see."
+	line "Gear Map and see."
 	done
 
 CooltrainermBlakeSeenText:
@@ -451,7 +451,7 @@ BirdKeeperJose2BeatenText:
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
+	text "Bird Keepers like"
 	line "me mimic bird"
 
 	para "whistles to com-"
@@ -459,10 +459,10 @@ BirdKeeperJose2AfterBattleText:
 	done
 
 TohjoFallsSignText:
-	text "TOHJO FALLS"
+	text "Tohjo Falls"
 
-	para "THE LINK BETWEEN"
-	line "Kanto AND Johto"
+	para "The Link Between"
+	line "Kanto and Johto"
 	done
 
 Route27_MapEvents:

@@ -346,7 +346,7 @@ BillsGrandpaGrowlitheText:
 	line "trainer."
 
 	para "It's supposed to"
-	line "ROAR well."
+	line "Roar well."
 	done
 
 BillsGrandpaVulpixText:

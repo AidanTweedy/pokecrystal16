@@ -260,7 +260,7 @@ NewBarkTownRivalText2:
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "New Bark Town"
 
 	para "The Town Where the"
 	line "Winds of a New"
@@ -276,7 +276,7 @@ NewBarkTownElmsLabSignText:
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "Elm'S House"
+	text "Elm's House"
 	done
 
 NewBarkTown_MapEvents:

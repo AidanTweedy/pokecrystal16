@@ -215,8 +215,8 @@ CeladonGameCornerFisherNoCoinCaseText:
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Hey, your Coin"
+	line "Case is full, kid."
 
 	para "You must be riding"
 	line "a winning streak"

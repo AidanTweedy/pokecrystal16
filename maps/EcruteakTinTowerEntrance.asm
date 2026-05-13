@@ -155,7 +155,7 @@ EcruteakTinTowerEntranceSageText:
 	text "Tin Tower is off"
 	line "limits to anyone"
 
-	para "without ECRUTEAK"
+	para "without Ecruteak"
 	line "Gym's Badge."
 
 	para "Sorry, but you'll"
@@ -166,12 +166,12 @@ EcruteakTinTowerEntranceSageText_GotFogBadge:
 	text "Tin Tower is off"
 	line "limits to anyone"
 
-	para "without ECRUTEAK"
+	para "without Ecruteak"
 	line "Gym's Badge."
 
 	para "Ah!"
 
-	para "ECRUTEAK's Gym"
+	para "Ecruteak's Gym"
 	line "Badge! Please, go"
 	cont "right through."
 	done
@@ -187,7 +187,7 @@ EcruteakTinTowerEntranceSageText_NoClearBell:
 	para "…What soothes the"
 	line "soul…"
 
-	para "The WISE TRIO say"
+	para "The Wise Trio say"
 	line "things that are so"
 
 	para "very difficult to"

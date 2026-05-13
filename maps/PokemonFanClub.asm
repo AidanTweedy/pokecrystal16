@@ -119,9 +119,9 @@ PokemonFanClubBraggingSign:
 	jumptext PokemonFanClubBraggingSignText
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
-	text "I'm the CHAIRMAN"
-	line "of the #mon FAN"
-	cont "CLUB."
+	text "I'm the Chairman"
+	line "of the #mon Fan"
+	cont "Club."
 
 	para "I've raised over"
 	line "150 #mon."
@@ -140,7 +140,7 @@ PokemonFanClubChairmanRapidashText:
 	line "Then listen up!"
 
 	para "So… my favorite"
-	line "RAPIDASH…"
+	line "Rapidash…"
 
 	para "It… cute… lovely…"
 	line "smart… unbearably…"
@@ -168,7 +168,7 @@ PokemonFanClubChairmanIWantYouToHaveThisText:
 	done
 
 PokemonFanClubChairmanItsARareCandyText:
-	text "It's a RARE CANDY"
+	text "It's a Rare Candy"
 	line "that makes #mon"
 	cont "stronger."
 
@@ -198,30 +198,30 @@ PokemonFanClubChairmanHowDisappointingText:
 	done
 
 PokemonFanClubReceptionistText:
-	text "Our CHAIRMAN is"
+	text "Our Chairman is"
 	line "very vocal when it"
 	cont "comes to #mon…"
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	text "I love the way"
-	line "CLEFAIRY waggles"
+	line "Clefairy waggles"
 
 	para "its finger when"
 	line "it's trying to use"
 
-	para "METRONOME."
+	para "Metronome."
 	line "It's so adorable!"
 	done
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "I love CLEFAIRY,"
+	text "I love Clefairy,"
 	line "but I could never"
 
 	para "catch one. So I'm"
 	line "making do with a"
 
-	para "# DOLL that I"
+	para "# Doll that I"
 	line "found."
 	done
 
@@ -229,16 +229,16 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Oh, I see now. The"
 	line "girl who lost this"
 
-	para "# DOLL is sad…"
+	para "# Doll is sad…"
 
 	para "OK. Could you take"
-	line "this # DOLL"
+	line "this # Doll"
 
 	para "back to that poor"
 	line "little girl?"
 
 	para "I'll befriend a"
-	line "real CLEFAIRY on"
+	line "real Clefairy on"
 
 	para "my own one day."
 	line "No worries!"
@@ -246,14 +246,14 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 
 PokemonFanClubPlayerReceivedDollText:
 	text "<PLAYER> received"
-	line "# DOLL."
+	line "# Doll."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
 	text "You watch. I'm"
 	line "going to get a"
 
-	para "real CLEFAIRY as"
+	para "real Clefairy as"
 	line "my friend."
 	done
 
@@ -264,23 +264,23 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 
 PokemonFanClubTeacherText:
 	text "Look at my darling"
-	line "BAYLEEF!"
+	line "Bayleef!"
 
 	para "The leaf on its"
 	line "head is so cute!"
 	done
 
 PokemonFanClubClefairyDollText:
-	text "It's a CLEFAIRY!"
+	text "It's a Clefairy!"
 	line "Huh?"
 
 	para "Oh, right. It's a"
-	line "CLEFAIRY #"
-	cont "DOLL."
+	line "Clefairy #"
+	cont "Doll."
 	done
 
 PokemonFanClubBayleefText:
-	text "BAYLEEF: Li liif!"
+	text "Bayleef: Li liif!"
 	done
 
 PokemonFanClubListenSignText:

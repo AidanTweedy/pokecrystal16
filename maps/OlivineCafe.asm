@@ -59,7 +59,7 @@ OlivineCafeFishingGuruText:
 	line "menu is chock full"
 
 	para "of hearty fare for"
-	line "beefy SAILORS!"
+	line "beefy Sailors!"
 	done
 
 OlivineCafeSailorText:

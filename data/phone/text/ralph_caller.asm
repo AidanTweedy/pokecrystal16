@@ -104,7 +104,7 @@ RalphNoItemText:
 
 	para "Recently, all I've"
 	line "been catching are"
-	cont "MAGIKARP, though…"
+	cont "Magikarp, though…"
 	done
 
 RalphReminderText:
@@ -126,7 +126,7 @@ RalphHurryText:
 
 	para "Aren't you coming"
 	line "over to fish for"
-	cont "QWILFISH?"
+	cont "Qwilfish?"
 
 	para "I'm on Route 32,"
 	line "so hurry up!"

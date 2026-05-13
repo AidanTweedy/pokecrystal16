@@ -158,10 +158,10 @@ MahoganyMart1FRageCandyBarText: ; unreferenced
 	text "Hello, kiddo!"
 
 	para "How would you like"
-	line "some RAGECANDYBAR?"
+	line "some Ragecandybar?"
 
 	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	line "eat in Mahogany!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
@@ -175,10 +175,10 @@ MahoganyMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "MAGIKARP are just"
+	para "Magikarp are just"
 	line "worthless, but"
 
-	para "GYARADOS are big"
+	para "Gyarados are big"
 	line "moneymakers."
 	done
 
@@ -190,8 +190,8 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	text "Lance: Dragonite,"
+	line "Hyper Beam."
 	done
 
 MahoganyMart1FLanceRadioText:
@@ -211,7 +211,7 @@ MahoganyMart1FLanceStairsText:
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>, we"
+	text "Lance: <PLAY_G>, we"
 	line "should split up to"
 
 	para "check this place."

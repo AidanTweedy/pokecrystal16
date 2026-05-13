@@ -50,7 +50,7 @@ MrFujisHouseSuperNerdText:
 	para "home now."
 
 	para "He should be at"
-	line "the SOUL House."
+	line "the Soul House."
 	done
 
 MrFujisHouseLassText:
@@ -66,15 +66,15 @@ MrFujisHouseLassText:
 	done
 
 MrFujisPsyduckText:
-	text "PSYDUCK: Gu-guwa?"
+	text "Psyduck: Gu-guwa?"
 	done
 
 MrFujisNidorinoText:
-	text "NIDORINO: Gyun!"
+	text "Nidorino: Gyun!"
 	done
 
 MrFujisPidgeyText:
-	text "PIDGEY: Pijji!"
+	text "Pidgey: Pijji!"
 	done
 
 MrFujisHouse_MapEvents:

@@ -71,7 +71,7 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
+	text "Erika is a master"
 	line "of grass #mon."
 
 	para "She'll make you"
@@ -91,7 +91,7 @@ CeladonPokecenter1FPharmacistText:
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "Eusine: Hi!"
 
 	para "I'm back visiting"
 	line "my hometown."
@@ -115,7 +115,7 @@ EusineLeavesCeladonText:
 	line "party healed, so"
 
 	para "now I'm headed to"
-	line "ECRUTEAK."
+	line "Ecruteak."
 
 	para "I'll be seeing"
 	line "you, <PLAYER>!"
@@ -128,8 +128,8 @@ NoBeastsText:
 	para "Have you caught"
 	line "the legendary"
 
-	para "#mon RAIKOU and"
-	line "ENTEI?"
+	para "#mon Raikou and"
+	line "Entei?"
 
 	para "<……><……><……>"
 

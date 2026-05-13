@@ -27,8 +27,8 @@ MahoganyPokecenter1FPokefanMText:
 	cont "back?"
 
 	para "I saw some men in"
-	line "black at LAKE OF"
-	cont "RAGE…"
+	line "black at Lake of"
+	cont "Rage…"
 	done
 
 MahoganyPokecenter1FYoungsterText:

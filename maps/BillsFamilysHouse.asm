@@ -109,7 +109,7 @@ BillsHouseRadio:
 BillTakeThisEeveeText:
 	text "Bill: Hi, <PLAYER>!"
 	line "Do us a favor and"
-	cont "take this EEVEE."
+	cont "take this Eevee."
 
 	para "It came over when"
 	line "I was adjusting"
@@ -142,12 +142,12 @@ BillImCountingOnYouText:
 
 ReceivedEeveeText:
 	text "<PLAYER> received"
-	line "EEVEE!"
+	line "Eevee!"
 	done
 
 BillEeveeMayEvolveText:
 	text "Bill: Prof.Elm"
-	line "claims EEVEE may"
+	line "claims Eevee may"
 
 	para "evolve in new and"
 	line "unknown ways."
@@ -183,11 +183,11 @@ BillsMomText_BeforeEcruteak:
 	para "He just got called"
 	line "to the #mon"
 
-	para "Center in ECRUTEAK"
-	line "CITY."
+	para "Center in Ecruteak"
+	line "City."
 
 	para "My husband went"
-	line "off to the GAME"
+	line "off to the Game"
 
 	para "Corner without"
 	line "being called…"
@@ -197,7 +197,7 @@ BillsMomText_AfterEcruteak:
 	text "My husband was"
 	line "once known as a"
 
-	para "#MANIAC."
+	para "#Maniac."
 	line "Bill must have"
 
 	para "taken after his"

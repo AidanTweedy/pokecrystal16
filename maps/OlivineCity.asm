@@ -226,7 +226,7 @@ OlivineCitySailor1Text:
 OlivineCityStandingYoungsterPokegearText:
 	text "That thing you"
 	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
+	cont "Gear, right? Wow,"
 	cont "that's cool."
 	done
 
@@ -264,7 +264,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "Olivine City"
 	line "#mon Gym"
-	cont "Leader: JASMINE"
+	cont "Leader: Jasmine"
 
 	para "The Steel-Clad"
 	line "Defense Girl"
@@ -273,7 +273,7 @@ OlivineGymSignText:
 OlivineLighthouseSignText:
 	text "Olivine Lighthouse"
 	line "Also known as the"
-	cont "GLITTER Lighthouse"
+	cont "Glitter Lighthouse"
 	done
 
 OlivineCityBattleTowerSignText:

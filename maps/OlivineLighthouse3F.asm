@@ -105,9 +105,9 @@ GentlemanPrestonBeatenText:
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE used to"
+	text "Jasmine used to"
 	line "use rock #mon"
-	cont "like ONIX."
+	cont "like Onix."
 	done
 
 OlivineLighthouse3F_MapEvents:

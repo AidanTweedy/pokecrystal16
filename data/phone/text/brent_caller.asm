@@ -68,7 +68,7 @@ BrentFatherGossipText:
 	line "Bill's father is"
 
 	para "supposed to be a"
-	line "great #MANIAC."
+	line "great #Maniac."
 	done
 
 BrentGrandpaGossipText:
@@ -76,7 +76,7 @@ BrentGrandpaGossipText:
 	line "Apparently Bill's"
 
 	para "grandpa isn't a"
-	line "#MANIAC."
+	line "#Maniac."
 	done
 
 BrentGoldenrodGossipText:
@@ -95,7 +95,7 @@ BrentRoute25GossipText:
 
 BrentAbraGossipText:
 	text "Did you know…?"
-	line "ABRA was the first"
+	line "Abra was the first"
 
 	para "#mon that Bill"
 	line "ostensibly caught."
@@ -138,7 +138,7 @@ BrentKimonoGirlGossipText:
 	line "Bill's mother is"
 
 	para "said to have been"
-	line "a KIMONO GIRL."
+	line "a Kimono Girl."
 	done
 
 BrentSorryImTooBusyText:

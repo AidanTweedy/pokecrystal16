@@ -223,8 +223,8 @@ RadioTower1FReceptionistNoToursText:
 
 RadioTower1FLuckyNumberManAskToPlayText:
 	text "Hi, are you here"
-	line "for the LUCKY NUM-"
-	cont "BER SHOW?"
+	line "for the Lucky Num-"
+	cont "Ber Show?"
 
 	para "Want me to check"
 	line "the ID numbers of"
@@ -254,7 +254,7 @@ RadioTower1FLuckyNumberManDotDotDotText:
 RadioTower1FLuckyNumberManComeAgainText:
 	text "Please come back"
 	line "next week for the"
-	cont "next LUCKY NUMBER."
+	cont "next Lucky Number."
 	done
 
 RadioTower1FLuckyNumberManPerfectMatchText:
@@ -336,7 +336,7 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	line "correct?"
 
 	para "You can't buy a"
-	line "Berry at a MART."
+	line "Berry at a Mart."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
@@ -344,15 +344,15 @@ RadioTower1FRadioCardWomanQuestion3Text:
 	line "Question 3:"
 
 	para "Does HM01 contain"
-	line "the move FLASH?"
+	line "the move Flash?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
 	text "So far so good!"
 	line "Question 4:"
 
-	para "Is FALKNER the"
-	line "VIOLET Gym Leader"
+	para "Is Falkner the"
+	line "Violet Gym Leader"
 
 	para "who uses bird"
 	line "#mon?"
@@ -363,10 +363,10 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do Goldenrod GAME"
+	para "Do Goldenrod Game"
 	line "Corner's slots"
 
-	para "have CHARMANDER"
+	para "have Charmander"
 	line "on their reels?"
 	done
 
@@ -404,7 +404,7 @@ RadioTower1FRadioCardWomanNotTakingQuizText:
 	done
 
 RadioTower1FLassText:
-	text "BEN is a fabulous"
+	text "Ben is a fabulous"
 	line "DJ."
 
 	para "His sweet voice"
@@ -412,8 +412,8 @@ RadioTower1FLassText:
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
-	line "#mon TALK."
+	text "I love Mary, from"
+	line "#mon Talk."
 
 	para "I only know what"
 	line "she sounds like,"
@@ -449,18 +449,18 @@ GruntM3AfterBattleText:
 	done
 
 RadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "1F Reception"
+	line "2F Sales"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "3F Personnel"
+	line "4F Production"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "5F Director's"
+	line "   Office"
 	done
 
 RadioTower1FLuckyChannelSignText:
-	text "LUCKY CHANNEL!"
+	text "Lucky Channel!"
 
 	para "Win with #mon"
 	line "ID numbers!"

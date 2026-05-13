@@ -68,5 +68,5 @@ GavenGenericText:
 
 	para "Let's keep at it"
 	line "and become #mon"
-	cont "CHAMPS!"
+	cont "Champs!"
 	done

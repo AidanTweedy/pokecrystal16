@@ -208,7 +208,7 @@ FastShip1F_PlayerLeavesShipRightMovement:
 FastShip1FSailor1Text_ToVermilion:
 	text "Fast Ship S.S.Aqua"
 	line "is en route to"
-	cont "VERMILION CITY."
+	cont "Vermilion City."
 
 	para "We will make an"
 	line "announcement when"
@@ -280,7 +280,7 @@ FastShip1FSailor1Text_InOlivine:
 FastShip1FSailor1Text_InVermilion:
 	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
-	cont "VERMILION CITY."
+	cont "Vermilion City."
 	done
 
 FastShip1F_MapEvents:

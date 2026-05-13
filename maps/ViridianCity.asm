@@ -130,7 +130,7 @@ ViridianCityGrampsNearGymText:
 	cont "until recently."
 
 	para "A young man from"
-	line "PALLET became the"
+	line "Pallet became the"
 
 	para "Leader, but he's"
 	line "often away."
@@ -151,7 +151,7 @@ ViridianCityDreamEaterFisherText:
 	line "off in the sun."
 
 	para "…I had this dream"
-	line "about a DROWZEE"
+	line "about a Drowzee"
 
 	para "eating my dream."
 	line "Weird, huh?"
@@ -169,7 +169,7 @@ ViridianCityDreamEaterFisherText:
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
 	text "TM42 contains"
-	line "DREAM EATER…"
+	line "Dream Eater…"
 
 	para "…Zzzzz…"
 	done
@@ -179,18 +179,18 @@ ViridianCityYoungsterText:
 	line "are many items on"
 
 	para "the ground in"
-	line "VIRIDIAN FOREST."
+	line "Viridian Forest."
 	done
 
 ViridianCitySignText:
-	text "VIRIDIAN CITY"
+	text "Viridian City"
 
 	para "The Eternally"
 	line "Green Paradise"
 	done
 
 ViridianGymSignText:
-	text "VIRIDIAN CITY"
+	text "Viridian City"
 	line "#mon Gym"
 	cont "Leader: …"
 
@@ -199,11 +199,11 @@ ViridianGymSignText:
 	done
 
 ViridianCityWelcomeSignText:
-	text "WELCOME TO"
-	line "VIRIDIAN CITY,"
+	text "Welcome to"
+	line "Viridian City,"
 
-	para "THE GATEWAY TO"
-	line "INDIGO PLATEAU"
+	para "The Gateway to"
+	line "Indigo Plateau"
 	done
 
 TrainerHouseSignText:

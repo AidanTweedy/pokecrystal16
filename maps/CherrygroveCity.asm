@@ -368,7 +368,7 @@ GuideGentPokecenterText:
 
 GuideGentMartText:
 	text "This is a #mon"
-	line "MART."
+	line "Mart."
 
 	para "They sell Balls"
 	line "for catching wild"
@@ -410,13 +410,13 @@ GuideGentGiftText:
 
 GotMapCardText:
 	text "<PLAYER>'s #gear"
-	line "now has a MAP!"
+	line "now has a Map!"
 	done
 
 GuideGentPokegearText:
 	text "#gear becomes"
 	line "more useful as you"
-	cont "add CARDS."
+	cont "add Cards."
 
 	para "I wish you luck on"
 	line "your journey!"
@@ -488,7 +488,7 @@ CherrygroveTeacherText_NoMapCard:
 	line "the old man by the"
 	cont "#mon Center?"
 
-	para "He'll put a MAP of"
+	para "He'll put a Map of"
 	line "Johto on your"
 	cont "#gear."
 	done
@@ -522,7 +522,7 @@ MysticWaterGuyTextBefore:
 	line "had an item."
 
 	para "I think it's"
-	line "MYSTIC WATER."
+	line "Mystic Water."
 
 	para "I don't need it,"
 	line "so do you want it?"
@@ -534,14 +534,14 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "Cherrygrove City"
 
 	para "The City of Cute,"
 	line "Fragrant Flowers"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S House"
+	text "Guide Gent's House"
 	done
 
 CherrygroveCity_MapEvents:

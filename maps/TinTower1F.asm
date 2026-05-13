@@ -315,7 +315,7 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTower1FEusineSuicuneText:
-	text "EUSINE: Awesome!"
+	text "Eusine: Awesome!"
 	line "Too awesome, even!"
 
 	para "I've never seen a"
@@ -324,13 +324,13 @@ TinTower1FEusineSuicuneText:
 	para "That was truly"
 	line "inspiring to see."
 
-	para "SUICUNE was tough,"
+	para "Suicune was tough,"
 	line "but you were even"
 
 	para "more incredible,"
 	line "<PLAYER>."
 
-	para "I heard SUICUNE's"
+	para "I heard Suicune's"
 	line "mystic power"
 
 	para "summons a rainbow-"
@@ -373,7 +373,7 @@ TinTower1FSage1Text:
 	done
 
 TinTower1FSage2Text:
-	text "When the BRASS"
+	text "When the Brass"
 	line "Tower burned down,"
 
 	para "three nameless"
@@ -397,15 +397,15 @@ TinTower1FSage2Text:
 
 	para "They are…"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU."
+	para "Suicune, Entei and"
+	line "Raikou."
 
 	para "That is what they"
 	line "say."
 	done
 
 TinTower1FSage3Text:
-	text "The two TOWERS are"
+	text "The two Towers are"
 	line "said to have been"
 
 	para "built to foster"
@@ -425,7 +425,7 @@ TinTower1FSage4Text1:
 	text "HO-OH appears to"
 	line "have descended"
 
-	para "upon this, the TIN"
+	para "upon this, the Tin"
 	line "Tower!"
 	done
 
@@ -466,7 +466,7 @@ TinTower1FEusineHoOhText:
 	line "studying #mon"
 
 	para "to become a famous"
-	line "#MANIAC!"
+	line "#Maniac!"
 	done
 
 TinTower1FSage4Text2:
@@ -509,7 +509,7 @@ TinTower1FSage5Text3:
 
 TinTower1FSage6Text2:
 	text "Of the legendary"
-	line "#mon, SUICUNE"
+	line "#mon, Suicune"
 
 	para "is said to be the"
 	line "closest to HO-OH."
@@ -518,13 +518,13 @@ TinTower1FSage6Text2:
 	line "also be a link to"
 
 	para "#mon known as"
-	line "UNOWN."
+	line "Unown."
 
-	para "The #mon UNOWN"
+	para "The #mon Unown"
 	line "must be sharing a"
 
 	para "cooperative bond"
-	line "with SUICUNE."
+	line "with Suicune."
 	done
 
 TinTower1F_MapEvents:

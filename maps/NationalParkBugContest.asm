@@ -116,25 +116,25 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: I'm going to"
+	text "Don: I'm going to"
 	line "win! Don't bother"
 	cont "me."
 	done
 
 BugCatchingContestant2AText:
-	text "ED: My PARASECT"
+	text "Ed: My Parasect"
 	line "puts #mon to"
-	cont "sleep with SPORE."
+	cont "sleep with Spore."
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: I'm raising"
+	text "Nick: I'm raising"
 	line "fast #mon for"
 	cont "battles."
 	done
 
 BugCatchingContestant4AText:
-	text "WILLIAM: I'm not"
+	text "William: I'm not"
 	line "concerned about"
 	cont "winning."
 
@@ -143,15 +143,15 @@ BugCatchingContestant4AText:
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
+	text "Benny: Ssh! You'll"
+	line "scare off Scyther."
 
 	para "I'll talk to you"
 	line "later."
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: You should"
+	text "Barry: You should"
 	line "weaken bug #mon"
 
 	para "first, then throw"
@@ -159,7 +159,7 @@ BugCatchingContestant6AText:
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: I love bug"
+	text "Cindy: I love bug"
 	line "#mon."
 
 	para "I guess you must"
@@ -167,7 +167,7 @@ BugCatchingContestant7AText:
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: I've been"
+	text "Josh: I've been"
 	line "collecting bug"
 
 	para "#mon since I"
@@ -178,7 +178,7 @@ BugCatchingContestant8AText:
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: If you've"
+	text "Samuel: If you've"
 	line "got the time to"
 
 	para "chat, go find some"
@@ -186,7 +186,7 @@ BugCatchingContestant9AText:
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: I've studied"
+	text "Kipp: I've studied"
 	line "about bug #mon"
 	cont "a lot."
 
@@ -195,8 +195,8 @@ BugCatchingContestant10AText:
 	done
 
 NationalParkBugContestRelaxationSquareText:
-	text "RELAXATION Square"
-	line "NATIONAL PARK"
+	text "Relaxation Square"
+	line "National Park"
 	done
 
 NationalParkBugContestBattleNoticeText:
@@ -206,8 +206,8 @@ NationalParkBugContestBattleNoticeText:
 	para "Please battle only"
 	line "in the grass."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "National Park"
+	line "Warden's Office"
 	done
 
 NationalParkBugContestTrainerTipsText:

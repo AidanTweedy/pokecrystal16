@@ -798,28 +798,28 @@ Pokecenter2FMovementData_ReceptionistStepsRightLooksLeft_2:
 
 Text_BattleReceptionistMobile:
 	text "Would you like to"
-	line "battle over a GAME"
+	line "battle over a Game"
 
-	para "LINK cable or by"
+	para "Link cable or by"
 	line "mobile phone?"
 	done
 
 Text_TradeReceptionistMobile:
 	text "Would you like to"
-	line "trade over a GAME"
+	line "trade over a Game"
 
-	para "LINK cable or by"
+	para "Link cable or by"
 	line "mobile phone?"
 	done
 
 Text_ThisWayToMobileRoom: ; unreferenced
 	text "This way to the"
-	line "MOBILE Room."
+	line "Mobile Room."
 	done
 
 Text_BattleReceptionistIntro:
-	text "Welcome to CABLE"
-	line "CLUB COLOSSEUM."
+	text "Welcome to Cable"
+	line "Club Colosseum."
 
 	para "You may battle a"
 	line "friend here."
@@ -829,7 +829,7 @@ Text_BattleReceptionistIntro:
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to CABLE"
+	text "Welcome to Cable"
 	line "Trade Center."
 
 	para "You may trade your"
@@ -1002,11 +1002,11 @@ Text_LikeTheLook:
 Text_BrokeStadiumRules:
 	text "Excuse me!"
 
-	para "For STADIUM rules,"
+	para "For Stadium rules,"
 	line "please bring six"
 
 	para "different #mon,"
-	line "excluding EGGS."
+	line "excluding Eggs."
 
 	para "The six #mon"
 	line "must be different."

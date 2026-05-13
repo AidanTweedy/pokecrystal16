@@ -342,7 +342,7 @@ PokemaniacBenAfterBattleText:
 	line "like besides"
 	cont "#mon?"
 
-	para "MARY on the radio."
+	para "Mary on the radio."
 	line "I bet she's cute!"
 	done
 
@@ -375,7 +375,7 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
+	text "My Nidoking did"
 	line "pretty right on!"
 	done
 
@@ -457,7 +457,7 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
+	text "Isn't my Clefairy"
 	line "just the most"
 	cont "adorable thing?"
 	done

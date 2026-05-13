@@ -43,12 +43,12 @@ CeruleanTradeSpeechHouseGrampsText:
 	done
 
 CeruleanTradeSpeechHouseRhydonText:
-	text "KANGASKHAN: Garu"
+	text "Kangaskhan: Garu"
 	line "garuu."
 	done
 
 CeruleanTradeSpeechHouseZubatText:
-	text "ZUBAT: Zuba zubaa."
+	text "Zubat: Zuba zubaa."
 	done
 
 CeruleanTradeSpeechHouse_MapEvents:

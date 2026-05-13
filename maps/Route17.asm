@@ -111,7 +111,7 @@ BikerGlennBeatenText:
 BikerGlennAfterBattleText:
 	text "Hands-free riding"
 	line "is considered cool"
-	cont "on CYCLING ROAD."
+	cont "on Cycling Road."
 	done
 
 BikerCharlesSeenText:

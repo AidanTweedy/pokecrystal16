@@ -193,22 +193,22 @@ PlayersHousePCScript:
 
 PlayersRadioText1:
 	text "Prof.Oak's #mon"
-	line "TALK! Please tune"
+	line "Talk! Please tune"
 	cont "in next time!"
 	done
 
 PlayersRadioText2:
-	text "#mon CHANNEL!"
+	text "#mon Channel!"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
+	text "This is DJ Mary,"
 	line "your co-host!"
 	done
 
 PlayersRadioText4:
 	text "#mon!"
-	line "#mon CHANNEL…"
+	line "#mon Channel…"
 	done
 
 PlayersHouse2F_MapEvents:

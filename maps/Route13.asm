@@ -148,8 +148,8 @@ BirdKeeperBretAfterBattleText:
 
 HikerKennySeenText:
 	text "I should go to"
-	line "ROCK TUNNEL to get"
-	cont "myself an ONIX."
+	line "Rock Tunnel to get"
+	cont "myself an Onix."
 	done
 
 HikerKennyBeatenText:
@@ -177,16 +177,16 @@ Route13TrainerTipsText:
 Route13SignText:
 	text "Route 13"
 
-	para "NORTH TO SILENCE"
-	line "BRIDGE"
+	para "North to Silence"
+	line "Bridge"
 	done
 
 Route13DirectionsSignText:
-	text "NORTH TO LAVENDER"
-	line "TOWN"
+	text "North to Lavender"
+	line "Town"
 
-	para "WEST TO FUCHSIA"
-	line "CITY"
+	para "West to Fuchsia"
+	line "City"
 	done
 
 Route13_MapEvents:

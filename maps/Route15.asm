@@ -159,7 +159,7 @@ SchoolboyTommyAfterBattleText:
 
 SchoolboyJohnnySeenText:
 	text "We're on a field"
-	line "trip to LAVENDER"
+	line "trip to Lavender"
 
 	para "Radio Tower for"
 	line "social studies."
@@ -195,8 +195,8 @@ SchoolboyBillyAfterBattleText:
 Route15SignText:
 	text "Route 15"
 
-	para "FUCHSIA CITY -"
-	line "LAVENDER TOWN"
+	para "Fuchsia City -"
+	line "Lavender Town"
 	done
 
 Route15_MapEvents:

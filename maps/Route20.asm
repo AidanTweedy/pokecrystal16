@@ -79,7 +79,7 @@ SwimmerfLoriBeatenText:
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF is no longer"
+	text "Surf is no longer"
 	line "the only HM move"
 	cont "you use in water."
 	done

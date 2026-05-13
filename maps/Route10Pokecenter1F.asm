@@ -43,8 +43,8 @@ Route10Pokecenter1FGentlemanText:
 	done
 
 Route10Pokecenter1FGymGuideText:
-	text "The POWER PLANT's"
-	line "MANAGER is looking"
+	text "The Power Plant's"
+	line "Manager is looking"
 
 	para "for a strong #-"
 	line "mon trainer."
@@ -74,8 +74,8 @@ Route10Pokecenter1FCooltrainerFText:
 	para "the roof of a big"
 	line "building."
 
-	para "That's the POWER"
-	line "PLANT."
+	para "That's the Power"
+	line "Plant."
 	done
 
 Route10Pokecenter1F_MapEvents:

@@ -77,7 +77,7 @@ FuchsiaPokecenter1FCooltrainerFText:
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText1:
-	text "I'm JANINE! Hocus-"
+	text "I'm Janine! Hocus-"
 	line "pocus… Poof!"
 	done
 

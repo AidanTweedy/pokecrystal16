@@ -44,7 +44,7 @@ AnthonyLostAMonText:
 
 	para "It took off when I"
 	line "got distracted by"
-	cont "a passing BEAUTY."
+	cont "a passing Beauty."
 
 	para "Learn from my"
 	line "mistake--always"
@@ -124,14 +124,14 @@ AnthonyReminderText:
 
 AnthonyHurryText:
 	text "Hello? What? Where"
-	line "is DUNSPARCE?"
+	line "is Dunsparce?"
 
-	para "DARK CAVE! Hurry!"
+	para "Dark Cave! Hurry!"
 
 	para "I know I've said"
 	line "it before, but"
 
-	para "DUNSPARCE don't"
+	para "Dunsparce don't"
 	line "appear when there"
 
 	para "are strong #mon"

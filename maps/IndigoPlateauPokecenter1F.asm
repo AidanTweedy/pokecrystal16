@@ -275,10 +275,10 @@ TeleportGuyText1:
 	para "If you need to"
 	line "train some more,"
 
-	para "my ABRA can help"
+	para "my Abra can help"
 	line "you."
 
-	para "It can TELEPORT"
+	para "It can Teleport"
 	line "you home."
 
 	para "Would you like to"
@@ -297,7 +297,7 @@ TeleportGuyNoText:
 	done
 
 AbraText:
-	text "ABRA: Aabra…"
+	text "Abra: Aabra…"
 	done
 
 IndigoPlateauPokecenter1F_MapEvents:

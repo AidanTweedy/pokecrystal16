@@ -171,7 +171,7 @@ PryceText_Intro:
 	para "I do not lose"
 	line "easily."
 
-	para "I, PRYCE--the"
+	para "I, Pryce--the"
 	line "winter trainer--"
 
 	para "shall demonstrate"
@@ -194,7 +194,7 @@ PryceText_Impressed:
 
 Text_ReceivedGlacierBadge:
 	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	line "Glacier Badge."
 	done
 
 PryceText_GlacierBadgeSpeech:
@@ -213,7 +213,7 @@ PryceText_GlacierBadgeSpeech:
 
 PryceText_IcyWindSpeech:
 	text "That TM contains"
-	line "ICY WIND."
+	line "Icy Wind."
 
 	para "It inflicts damage"
 	line "and lowers speed."
@@ -281,18 +281,18 @@ BoarderBradAfterBattleText:
 	done
 
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
+	text "I know Pryce's"
 	line "secret."
 	done
 
 BoarderDouglasBeatenText:
 	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	line "Pryce's secret."
 	done
 
 BoarderDouglasAfterBattleText:
 	text "The secret behind"
-	line "PRYCE's power…"
+	line "Pryce's power…"
 
 	para "He meditates under"
 	line "a waterfall daily"
@@ -302,7 +302,7 @@ BoarderDouglasAfterBattleText:
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
+	text "To get to Pryce,"
 	line "our Gym Leader,"
 
 	para "you need to think"
@@ -339,7 +339,7 @@ SkierClarissaAfterBattleText:
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE is a veteran"
+	text "Pryce is a veteran"
 	line "who has trained"
 
 	para "#mon for some"
@@ -359,7 +359,7 @@ MahoganyGymGuideText:
 	done
 
 MahoganyGymGuideWinText:
-	text "PRYCE is some-"
+	text "Pryce is some-"
 	line "thing, but you're"
 	cont "something else!"
 

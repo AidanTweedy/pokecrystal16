@@ -68,7 +68,7 @@ LavenderTownGrampsText:
 
 LavenderTownYoungsterText:
 	text "You need a #"
-	line "FLUTE to wake"
+	line "Flute to wake"
 	cont "sleeping #mon."
 
 	para "Every trainer has"
@@ -76,7 +76,7 @@ LavenderTownYoungsterText:
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "Lavender Town"
 
 	para "The Noble Purple"
 	line "Town"
@@ -92,12 +92,12 @@ KantoRadioStationSignText:
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
+	text "Lavender Volunteer"
 	line "#mon House"
 	done
 
 SoulHouseSignText:
-	text "SOUL House"
+	text "Soul House"
 
 	para "May the Souls of"
 	line "#mon Rest Easy"

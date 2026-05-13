@@ -158,7 +158,7 @@ SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
 	text "We have arrived in"
-	line "SAFFRON."
+	line "Saffron."
 
 	para "We hope to see you"
 	line "again."
@@ -198,7 +198,7 @@ SaffronMagnetTrainStationTeacherText:
 	line "house there."
 
 	para "A little girl"
-	line "named COPYCAT used"
+	line "named Copycat used"
 	cont "to live there."
 	done
 
@@ -207,10 +207,10 @@ SaffronMagnetTrainStationLassText:
 	line "rail Pass? I have"
 
 	para "one. All the peo-"
-	line "ple in SAFFRON who"
+	line "ple in Saffron who"
 
 	para "ride the Magnet"
-	line "Train have PASSES."
+	line "Train have Passes."
 	done
 
 SaffronMagnetTrainStation_MapEvents:

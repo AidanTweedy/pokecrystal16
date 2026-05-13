@@ -23,7 +23,7 @@ BlackthornPokecenter1FCooltrainerMScript:
 
 BlackthornPokecenter1FGentlemanText:
 	text "Deep inside far-"
-	line "off INDIGO PLATEAU"
+	line "off Indigo Plateau"
 
 	para "is the #mon"
 	line "League."
@@ -42,8 +42,8 @@ BlackthornPokecenter1FTwinText:
 	para "to teach my #-"
 	line "mon."
 
-	para "So I got the MOVE"
-	line "DELETER to make it"
+	para "So I got the Move"
+	line "Deleter to make it"
 	cont "forget a move."
 	done
 

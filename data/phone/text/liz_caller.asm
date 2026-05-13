@@ -62,8 +62,8 @@ LizBattleRematchText:
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Hi, Tania. How are"
+	line "you? This is Liz."
 
 	para "I'm fine, but I'm"
 	line "bored silly!"
@@ -83,7 +83,7 @@ LizRuinsOfAlphGossipText:
 	para "I was listening to"
 	line "the radio in the"
 
-	para "RUINS OF ALPH when"
+	para "Ruins of Alph when"
 	line "an odd broadcast"
 
 	para "suddenly cut it on"
@@ -97,7 +97,7 @@ LizFalknerGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "FALKNER of VIOLET"
+	line "Falkner of Violet"
 
 	para "Gym is cool and"
 	line "handsome?"
@@ -109,7 +109,7 @@ LizFalknerGossipText:
 	line "road, is even more"
 
 	para "cool and handsome"
-	line "than FALKNER."
+	line "than Falkner."
 
 	para "I wish I could"
 	line "meet him!"
@@ -118,11 +118,11 @@ LizFalknerGossipText:
 LizEarlGossipText:
 	text "Listen, listen!"
 
-	para "Do you know EARL,"
+	para "Do you know Earl,"
 	line "the teacher who"
 
 	para "runs the #mon"
-	line "ACADEMY in VIOLET?"
+	line "Academy in Violet?"
 
 	para "I saw him doing"
 	line "pirouettes while"
@@ -174,7 +174,7 @@ LizSalonGossipText:
 	text "Listen, listen!"
 
 	para "There's a #mon"
-	line "SALON in Goldenrod"
+	line "Salon in Goldenrod"
 
 	para "that's run by two"
 	line "brothers."
@@ -202,7 +202,7 @@ LizWhitneyGossipText:
 	text "Listen, listen!"
 
 	para "Goldenrod Gym's"
-	line "WHITNEY began"
+	line "Whitney began"
 
 	para "battling only a"
 	line "little while ago!"
@@ -223,16 +223,16 @@ LizBugCatchingContestGossipText:
 
 	para "Bug-Catching"
 	line "Contest at the"
-	cont "NATIONAL PARK?"
+	cont "National Park?"
 
 	para "I did once, but"
 	line "all I could catch"
-	cont "was a CATERPIE."
+	cont "was a Caterpie."
 
 	para "But guess what!"
 
 	para "I won with that"
-	line "CATERPIE. Isn't"
+	line "Caterpie. Isn't"
 	cont "that great?"
 	done
 

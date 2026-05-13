@@ -190,12 +190,12 @@ ChucksWifeEasierToFlyText:
 	line "easier if your"
 
 	para "#mon knew how"
-	line "to FLY…"
+	line "to Fly…"
 	done
 
 ChucksWifeBeatChuckText:
 	text "But you can't use"
-	line "FLY without this"
+	line "Fly without this"
 	cont "city's Gym Badge."
 
 	para "If you beat the"
@@ -207,7 +207,7 @@ ChucksWifeBeatChuckText:
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
+	text "That's Cianwood's"
 	line "Gym Badge!"
 
 	para "Then you should"
@@ -215,11 +215,11 @@ ChucksWifeGiveHMText:
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
+	text "Teach Fly to your"
 	line "#mon."
 
 	para "You will be able"
-	line "to FLY instantly"
+	line "to Fly instantly"
 
 	para "to anywhere you "
 	line "have visited."
@@ -236,7 +236,7 @@ ChucksWifeChubbyText:
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
+	text "If you use Fly,"
 	line "you can get back"
 
 	para "to Olivine in-"
@@ -252,12 +252,12 @@ CianwoodCityPokefanMText:
 	line "something."
 
 	para "Your #mon could"
-	line "use ROCK SMASH to"
+	line "use Rock Smash to"
 	cont "break them."
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the Gym"
+	text "Chuck, the Gym"
 	line "Leader, spars with"
 
 	para "his fighting #-"
@@ -275,20 +275,20 @@ CianwoodCityUnusedText:
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
+	text "Eusine: Yo,"
 	line "<PLAYER>."
 
 	para "Wasn't that"
-	line "SUICUNE just now?"
+	line "Suicune just now?"
 
 	para "I only caught a"
 	line "quick glimpse, but"
 
 	para "I thought I saw"
-	line "SUICUNE running on"
+	line "Suicune running on"
 	cont "the waves."
 
-	para "SUICUNE is beau-"
+	para "Suicune is beau-"
 	line "tiful and grand."
 
 	para "And it races"
@@ -300,13 +300,13 @@ EusineSuicuneText:
 	para "It's wonderful…"
 
 	para "I want to see"
-	line "SUICUNE up close…"
+	line "Suicune up close…"
 
 	para "I've decided."
 
 	para "I'll battle you as"
 	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	cont "Suicune's respect!"
 
 	para "Come on, <PLAYER>."
 	line "Let's battle now!"
@@ -328,7 +328,7 @@ EusineAfterText:
 
 	para "I'm going to keep"
 	line "searching for"
-	cont "SUICUNE."
+	cont "Suicune."
 
 	para "I'm sure we'll see"
 	line "each other again."
@@ -337,17 +337,17 @@ EusineAfterText:
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "Cianwood City"
 
 	para "A Port Surrounded"
 	line "by Rough Seas"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
+	text "Cianwood City"
 	line "#mon Gym"
 
-	para "Leader: CHUCK"
+	para "Leader: Chuck"
 
 	para "His Roaring Fists"
 	line "Do the Talking"
@@ -357,23 +357,23 @@ CianwoodPharmacySignText:
 	text "500 Years of"
 	line "Tradition"
 
-	para "CIANWOOD CITY"
-	line "PHARMACY"
+	para "Cianwood City"
+	line "Pharmacy"
 
 	para "We Await Your"
 	line "Medicinal Queries"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	text "Cianwood City"
+	line "Photo Studio"
 
 	para "Take a Snapshot as"
 	line "a Keepsake!"
 	done
 
 CianwoodPokeSeerSignText:
-	text "THE # SEER"
+	text "The # Seer"
 	line "Ahead"
 	done
 

@@ -46,7 +46,7 @@ CinnabarIslandBlueText:
 	line "to see that you're"
 	cont "a trainer…"
 
-	para "My name's BLUE."
+	para "My name's Blue."
 
 	para "I was once the"
 	line "Champion, although"
@@ -54,7 +54,7 @@ CinnabarIslandBlueText:
 	para "it was for only a"
 	line "short time…"
 
-	para "That meddling RED"
+	para "That meddling Red"
 	line "did me in…"
 
 	para "Anyway, what do"
@@ -101,7 +101,7 @@ CinnabarIslandBlueText:
 
 	para "If you want to"
 	line "battle me, come to"
-	cont "the VIRIDIAN Gym."
+	cont "the Viridian Gym."
 
 	para "I'll take you on"
 	line "then."

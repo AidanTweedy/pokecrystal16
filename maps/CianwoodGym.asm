@@ -164,7 +164,7 @@ ChuckIntroText1:
 	done
 
 ChuckIntroText2:
-	text "CHUCK: Urggh!"
+	text "Chuck: Urggh!"
 	line "…"
 
 	para "Oooarrgh!"
@@ -190,23 +190,23 @@ ChuckLossText:
 
 	para "How about that!"
 	line "You're worthy of"
-	cont "STORMBADGE!"
+	cont "Storm Badge!"
 	done
 
 GetStormBadgeText:
 	text "<PLAYER> received"
-	line "STORMBADGE."
+	line "Storm Badge."
 	done
 
 ChuckExplainBadgeText:
-	text "STORMBADGE makes"
+	text "Storm Badge makes"
 	line "all #mon up to"
 
 	para "L70 obey, even"
 	line "traded ones."
 
 	para "It also lets your"
-	line "#mon use FLY"
+	line "#mon use Fly"
 
 	para "when you're not in"
 	line "a battle."
@@ -216,8 +216,8 @@ ChuckExplainBadgeText:
 	done
 
 ChuckExplainTMText:
-	text "That is DYNAMIC-"
-	line "PUNCH."
+	text "That is Dynamic-"
+	line "Punch."
 
 	para "It doesn't always"
 	line "hit, but when it"

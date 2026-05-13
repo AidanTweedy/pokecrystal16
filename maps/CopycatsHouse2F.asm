@@ -210,7 +210,7 @@ CopycatText_Male_1:
 	done
 
 CopycatText_QuickMimicking:
-	text "COPYCAT: Hmm?"
+	text "Copycat: Hmm?"
 	line "Quit mimicking?"
 
 	para "But that's my"
@@ -222,7 +222,7 @@ CopycatText_Male_2:
 	line "I heard that you"
 
 	para "lost your favorite"
-	line "# DOLL."
+	line "# Doll."
 
 	para "<PLAYER>: If I find"
 	line "it, you'll give me"
@@ -233,11 +233,11 @@ CopycatText_Male_2:
 
 	para "You think you lost"
 	line "it when you went"
-	cont "to VERMILION CITY?"
+	cont "to Vermilion City?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "Copycat: Pardon?"
 
 	para "I shouldn't decide"
 	line "what you should"
@@ -249,9 +249,9 @@ CopycatText_Worried:
 	done
 
 CopycatText_GiveDoll:
-	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	text "Copycat: Yay!"
+	line "That's my Clefairy"
+	cont "# Doll!"
 
 	para "See the tear where"
 	line "the right leg is"
@@ -267,7 +267,7 @@ CopycatText_GivePass:
 	done
 
 CopycatText_ExplainPass:
-	text "COPYCAT: That's"
+	text "Copycat: That's"
 	line "the Pass for the"
 	cont "Magnet Train."
 
@@ -292,7 +292,7 @@ CopycatText_Male_3:
 	done
 
 CopycatText_ItsAScream:
-	text "COPYCAT: You bet!"
+	text "Copycat: You bet!"
 	line "It's a scream!"
 	done
 
@@ -310,7 +310,7 @@ CopycatText_Female_1:
 CopycatText_Female_2:
 	text "<PLAYER>: Hi. Did"
 	line "you really lose"
-	cont "your # DOLL?"
+	cont "your # Doll?"
 
 	para "<PLAYER>: You'll"
 	line "really give me a"
@@ -323,7 +323,7 @@ CopycatText_Female_2:
 
 	para "You think you lost"
 	line "it when you were"
-	cont "in VERMILION?"
+	cont "in Vermilion?"
 	done
 
 CopycatText_Female_3:
@@ -340,15 +340,15 @@ CopycatText_Female_3:
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "Dodrio: Gii giii!"
 	done
 
 CopycatsDodrioText2:
-	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
+	text "Mirror, mirror on"
+	line "the wall, who's"
 
-	para "THE FAIREST ONE OF"
-	line "ALL?"
+	para "the fairest one of"
+	line "all?"
 	done
 
 CopycatsHouse2FDollText:

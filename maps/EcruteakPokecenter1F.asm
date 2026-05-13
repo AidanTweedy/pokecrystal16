@@ -147,8 +147,8 @@ EcruteakPokecenter1F_BillText2:
 	line "I'm done with the"
 	cont "adjustments."
 
-	para "Tomorrow, TIME"
-	line "CAPSULES will be"
+	para "Tomorrow, Time"
+	line "Capsules will be"
 
 	para "running at all"
 	line "#mon Centers."
@@ -161,8 +161,8 @@ EcruteakPokecenter1F_BillText2:
 	done
 
 EcruteakPokecenter1FPokefanMText:
-	text "The way the KIMONO"
-	line "GIRLS dance is"
+	text "The way the Kimono"
+	line "Girls dance is"
 
 	para "marvelous. Just"
 	line "like the way they"
@@ -186,7 +186,7 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, the Gym"
+	text "Morty, the Gym"
 	line "Leader, is soooo"
 	cont "cool."
 
@@ -198,7 +198,7 @@ EcruteakPokecenter1FGymGuideText:
 	text "Lake of Rage…"
 
 	para "The appearance of"
-	line "a GYARADOS swarm…"
+	line "a Gyarados swarm…"
 
 	para "I smell a conspir-"
 	line "acy. I know it!"

@@ -404,7 +404,7 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	para "As a result, it"
 	line "may take time."
 
-	para "However, an ODD"
+	para "However, an Odd"
 	line "Egg is available"
 	cont "just for you."
 
@@ -415,7 +415,7 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	line "of the rooms in"
 
 	para "the Center."
-	line "An ODD Egg will be"
+	line "An Odd Egg will be"
 
 	para "sent from the"
 	line "chosen room."
@@ -431,7 +431,7 @@ GoldenrodPokecomCenterHereIsYourOddEggText: ; unreferenced
 	line "waiting."
 
 	para "We received your"
-	line "ODD Egg."
+	line "Odd Egg."
 
 	para "Here it is!"
 
@@ -499,12 +499,12 @@ GoldenrodPokecomCenterWouldYouLikeTheNewsText: ; unreferenced
 
 GoldenrodPokecomCenterReadingTheLatestNewsText: ; unreferenced
 	text "Reading the latest"
-	line "NEWS… Please wait."
+	line "News… Please wait."
 	done
 
 GoldenrodPokecomCenterNoOldNewsText: ; unreferenced
 	text "There is no old"
-	line "NEWS…"
+	line "News…"
 	done
 
 GoldenrodPokecomCenterCorruptedNewsDataText: ; unreferenced
@@ -547,7 +547,7 @@ GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	line "new thing for the"
 	cont "Trade Corner!"
 
-	para "I make a PIDGEY"
+	para "I make a Pidgey"
 	line "hold Mail, then"
 
 	para "put it up for"
@@ -560,7 +560,7 @@ GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	para "be traded with all"
 	line "sorts of people!"
 
-	para "I call it PIDGEY"
+	para "I call it Pidgey"
 	line "Mail!"
 
 	para "If it becomes"
@@ -585,7 +585,7 @@ GoldenrodPokecomCenterPerson4Text: ; unreferenced
 	text "Some girl I don't"
 	line "know sent me her"
 
-	para "HOPPIP."
+	para "Hoppip."
 	line "You should trade"
 
 	para "for a #mon that"
@@ -594,8 +594,8 @@ GoldenrodPokecomCenterPerson4Text: ; unreferenced
 
 GoldenrodPokecomCenterPerson5Text: ; unreferenced
 	text "I received a"
-	line "female HOPPIP, but"
-	cont "its named STANLEY!"
+	line "female Hoppip, but"
+	cont "its named Stanley!"
 
 	para "That's my dad's"
 	line "name!"
@@ -662,7 +662,7 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
+	text "The Colosseum"
 	line "upstairs is for"
 	cont "link battles."
 
@@ -734,7 +734,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
 
 GoldenrodPokecomCenterSignText: ; unreferenced
 	text "#Com Center"
-	line "1F INFORMATION"
+	line "1F Information"
 
 	para "Left:"
 	line "Administration"
@@ -760,7 +760,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 	para "Oh! Do you happen"
 	line "to have something"
-	cont "named EON Mail?"
+	cont "named Eon Mail?"
 
 	para "My daughter is"
 	line "after one."
@@ -770,7 +770,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
+	text "Give away an Eon"
 	line "Mail?"
 	done
 
@@ -799,7 +799,7 @@ GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
 	text "<PLAYER> gave away"
-	line "the EON Mail."
+	line "the Eon Mail."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

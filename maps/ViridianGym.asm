@@ -62,7 +62,7 @@ ViridianGymStatue:
 	jumpstd GymStatue2Script
 
 LeaderBlueBeforeText:
-	text "BLUE: Yo! Finally"
+	text "Blue: Yo! Finally"
 	line "got here, huh?"
 
 	para "I wasn't in the"
@@ -75,9 +75,9 @@ LeaderBlueBeforeText:
 
 	para "You're telling me"
 	line "you conquered all"
-	cont "the GYMS in Johto?"
+	cont "the Gyms in Johto?"
 
-	para "Heh! Johto's GYMS"
+	para "Heh! Johto's Gyms"
 	line "must be pretty"
 	cont "pathetic then."
 
@@ -95,7 +95,7 @@ LeaderBlueBeforeText:
 	done
 
 LeaderBlueWinText:
-	text "BLUE: What?"
+	text "Blue: What?"
 
 	para "How the heck did I"
 	line "lose to you?"
@@ -104,16 +104,16 @@ LeaderBlueWinText:
 
 	para "Tch, all right…"
 	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	cont "it's Earth Badge."
 	done
 
 Text_ReceivedEarthBadge:
 	text "<PLAYER> received"
-	line "EARTHBADGE."
+	line "Earth Badge."
 	done
 
 LeaderBlueAfterText:
-	text "BLUE: …"
+	text "Blue: …"
 
 	para "All right, I was"
 	line "wrong. You're the"
@@ -129,7 +129,7 @@ LeaderBlueAfterText:
 	done
 
 LeaderBlueEpilogueText:
-	text "BLUE: Listen, you."
+	text "Blue: Listen, you."
 
 	para "You'd better not"
 	line "lose until I beat"

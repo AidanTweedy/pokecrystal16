@@ -69,17 +69,17 @@ SaffronPokecenter1FTeacherMobileText:
 	para "Then I'll get my"
 	line "friend in Johto to"
 
-	para "catch a MARILL and"
+	para "catch a Marill and"
 	line "trade it to me!"
 	done
 
 SaffronPokecenter1FFisherText:
 	text "I just happened to"
-	line "come through ROCK"
+	line "come through Rock"
 
-	para "TUNNEL. There was"
+	para "Tunnel. There was"
 	line "some commotion at"
-	cont "the POWER PLANT."
+	cont "the Power Plant."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
@@ -91,7 +91,7 @@ SaffronPokecenter1FFisherReturnedMachinePartText:
 
 	para "past few years,"
 	line "like the one out-"
-	cont "side CERULEAN."
+	cont "side Cerulean."
 
 	para "As a pro Hiker,"
 	line "that's common"
@@ -99,14 +99,14 @@ SaffronPokecenter1FFisherReturnedMachinePartText:
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "Silph Co.'s Head"
+	line "Office and the"
 
 	para "Magnet Train Sta-"
 	line "tion--they're the"
 
 	para "places to see in"
-	line "SAFFRON."
+	line "Saffron."
 	done
 
 SaffronPokecenter1F_MapEvents:

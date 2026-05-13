@@ -293,7 +293,7 @@ SSAquaGrandpaTravellingText:
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "CAPTAIN, play with"
+	text "Captain, play with"
 	line "me, please?"
 
 	para "I'm bored! I want"
@@ -319,7 +319,7 @@ SSAquaGranddaughterWasPlayingMText:
 	text "Grandpa, here I"
 	line "am! I was playing"
 
-	para "with the CAPTAIN"
+	para "with the Captain"
 	line "and this guy!"
 	done
 
@@ -327,7 +327,7 @@ SSAquaGranddaughterWasPlayingFText:
 	text "Grandpa, here I"
 	line "am! I was playing"
 
-	para "with the CAPTAIN"
+	para "with the Captain"
 	line "and this big girl!"
 	done
 
@@ -416,7 +416,7 @@ PokefanmJeremyBeatenText:
 
 PokefanmJeremyAfterBattleText:
 	text "I must go to the"
-	line "#mon SALON and"
+	line "#mon Salon and"
 	cont "fix them up nice!"
 	done
 
@@ -457,7 +457,7 @@ SupernerdShawnAfterBattleText:
 SSAquaHasArrivedVermilionText:
 	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
-	cont "VERMILION CITY."
+	cont "Vermilion City."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

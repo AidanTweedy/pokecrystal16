@@ -23,7 +23,7 @@ IrwinPlainBadgeGossipText:
 	text "<PLAY_G>, I heard!"
 
 	para "You defeated that"
-	line "WHITNEY?"
+	line "Whitney?"
 
 	para "It makes me proud"
 	line "to be your friend!"
@@ -75,7 +75,7 @@ IrwinRisingBadgeGossipText:
 	text "I saw, I saw!"
 
 	para "I saw you go into"
-	line "the DRAGON'S DEN!"
+	line "the Dragon's Den!"
 
 	para "I'm certain you"
 	line "passed! Aww, no"
@@ -86,9 +86,9 @@ IrwinRisingBadgeGossipText:
 
 IrwinEliteFourGossipText:
 	text "Yesterday, I went"
-	line "out to NEW BARK"
+	line "out to New Bark"
 
-	para "TOWN.  There was a"
+	para "Town.  There was a"
 	line "lady who looked a"
 
 	para "lot like you,"
@@ -148,18 +148,18 @@ IrwinTrainPassGossipText:
 	para "zip back anytime!"
 	line "That's reassuring!"
 
-	para "What? You can FLY"
+	para "What? You can Fly"
 	line "back anytime?"
 
 	para "What do you mean"
-	line "by FLY?"
+	line "by Fly?"
 	done
 
 IrwinSnorlaxGossipText:
 	text "I saw, I saw!"
 
 	para "You waking up"
-	line "SNORLAX!"
+	line "Snorlax!"
 
 	para "I was watching you"
 	line "from afar, so I"
@@ -203,8 +203,8 @@ IrwinCalledRightAwayText:
 IrwinFogBadgeGossipText:
 	text "I saw, I heard!"
 
-	para "You beat MORTY of"
-	line "ECRUTEAK Gym!"
+	para "You beat Morty of"
+	line "Ecruteak Gym!"
 
 	para "Th-that's just"
 	line "incredible!"

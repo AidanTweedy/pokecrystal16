@@ -323,7 +323,7 @@ OlivinePortFlashTicketText:
 OlivinePortNoTicketText:
 	text "<PLAYER> tried to"
 	line "show the S.S."
-	cont "TICKET…"
+	cont "Ticket…"
 
 	para "…But no Ticket!"
 
@@ -345,7 +345,7 @@ OlivinePortFridayShipText:
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER are easy"
+	text "Shellder are easy"
 	line "to catch here."
 
 	para "They're kind of"
@@ -353,10 +353,10 @@ OlivinePortFishingGuru1Text:
 	done
 
 OlivinePortFishingGuru2Text:
-	text "How many RODS do"
+	text "How many Rods do"
 	line "you have?"
 
-	para "Different RODS"
+	para "Different Rods"
 	line "catch different"
 	cont "#mon."
 	done

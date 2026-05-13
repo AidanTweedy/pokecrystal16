@@ -149,7 +149,7 @@ RageCandyBarMerchantTryOneText:
 	para "Since you're new,"
 	line "you should try a"
 
-	para "yummy RAGECANDY-"
+	para "yummy Ragecandy-"
 	line "BAR!"
 
 	para "Right now, it can"
@@ -176,7 +176,7 @@ RageCandyBarMerchantNoRoomText:
 	done
 
 RageCandyBarMerchantSoldOutText:
-	text "RAGECANDYBAR's"
+	text "Ragecandybar's"
 	line "sold out."
 
 	para "I'm packing up."
@@ -186,14 +186,14 @@ RageCandyBarMerchantSoldOutText:
 
 MahoganyTownGrampsText:
 	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	line "the Gyarados ram-"
+	cont "page at the Lake?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
-	line "returned to LAKE"
-	cont "OF RAGE."
+	text "Magikarp have"
+	line "returned to Lake"
+	cont "of Rage."
 
 	para "That should be"
 	line "good news for the"
@@ -232,13 +232,13 @@ MahoganyTownSignText:
 MahoganyTownRagecandybarSignText:
 	text "While visiting"
 	line "Mahogany Town, try"
-	cont "a RAGECANDYBAR!"
+	cont "a Ragecandybar!"
 	done
 
 MahoganyGymSignText:
 	text "Mahogany Town"
 	line "#mon Gym"
-	cont "Leader: PRYCE"
+	cont "Leader: Pryce"
 
 	para "The Teacher of"
 	line "Winter's Harshness"

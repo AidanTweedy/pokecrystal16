@@ -173,7 +173,7 @@ SwimmermSimonBeatenText:
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
+	text "Cianwood City is"
 	line "a good distance"
 	cont "away from here."
 	done
@@ -198,7 +198,7 @@ SwimmermRandallAfterBattleText:
 
 SwimmerfElaineSeenText:
 	text "Are you going to"
-	line "CIANWOOD?"
+	line "Cianwood?"
 
 	para "How about a quick"
 	line "battle first?"
@@ -237,7 +237,7 @@ Route40Lass1Text:
 	text "Although you can't"
 	line "see it from here,"
 
-	para "CIANWOOD is across"
+	para "Cianwood is across"
 	line "the sea."
 	done
 
@@ -287,10 +287,10 @@ Route40StandingYoungsterText:
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
+	text "Monica: Glad to"
 	line "meet you. I'm"
 
-	para "MONICA of Monday."
+	para "Monica of Monday."
 	done
 
 MonicaGivesGiftText:
@@ -300,7 +300,7 @@ MonicaGivesGiftText:
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
+	text "Monica: It's an"
 	line "item that raises"
 
 	para "the power of fly-"
@@ -312,7 +312,7 @@ MonicaGaveGiftText:
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
+	text "Monica: My broth-"
 	line "ers and sisters"
 
 	para "are all over the"
@@ -323,7 +323,7 @@ MonicaMondayText:
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
+	text "Monica: I don't"
 	line "think today is"
 	cont "Monday. How sad…"
 	done
@@ -331,7 +331,7 @@ MonicaNotMondayText:
 Route40SignText:
 	text "Route 40"
 
-	para "CIANWOOD CITY -"
+	para "Cianwood City -"
 	line "Olivine City"
 	done
 

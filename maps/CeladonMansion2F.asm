@@ -37,14 +37,14 @@ CeladonMansion2FComputerText:
 	para "aren't native to"
 	line "Johto."
 
-	para "To the PRODUCER"
+	para "To the Producer"
 
 	para "…"
 	done
 
 CeladonMansion2FMeetingRoomSignText:
-	text "GAME FREAK"
-	line "MEETING Room"
+	text "Game Freak"
+	line "Meeting Room"
 	done
 
 CeladonMansion2F_MapEvents:

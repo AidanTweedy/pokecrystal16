@@ -124,7 +124,7 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "VERMILION PORT is"
+	text "Vermilion Port is"
 	line "Kanto's seaside"
 	cont "gateway."
 
@@ -144,38 +144,38 @@ VermilionMachopOwnerText:
 	done
 
 VermilionMachopText1:
-	text "MACHOP: Guooh"
+	text "Machop: Guooh"
 	line "gogogoh!"
 	done
 
 VermilionMachopText2:
-	text "A MACHOP is growl-"
+	text "A Machop is growl-"
 	line "ing while stomping"
 	cont "the ground flat."
 	done
 
 VermilionCitySuperNerdText:
 	text "There are eight"
-	line "GYMS in Kanto."
+	line "Gyms in Kanto."
 
 	para "That big building"
-	line "is VERMILION's"
+	line "is Vermilion's"
 	cont "#mon Gym."
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is snoring"
+	text "Snorlax is snoring"
 	line "peacefully…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
 	text "The #gear was"
 	line "placed near the"
-	cont "sleeping SNORLAX…"
+	cont "sleeping Snorlax…"
 
 	para "…"
 
-	para "SNORLAX woke up!"
+	para "Snorlax woke up!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
@@ -204,7 +204,7 @@ VermilionCityBadgeGuyMostBadgesText:
 	line "finished with your"
 
 	para "conquest of Kanto"
-	line "GYMS soon."
+	line "Gyms soon."
 
 	para "Let me know if"
 	line "you get all eight"
@@ -234,35 +234,35 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 VermilionCitySignText:
-	text "VERMILION CITY"
+	text "Vermilion City"
 
 	para "The Port of"
 	line "Exquisite Sunsets"
 	done
 
 VermilionGymSignText:
-	text "VERMILION CITY"
+	text "Vermilion City"
 	line "#mon Gym"
-	cont "Leader: LT.SURGE"
+	cont "Leader: Lt.Surge"
 
 	para "The Lightning"
 	line "American"
 	done
 
 PokemonFanClubSignText:
-	text "#mon FAN CLUB"
+	text "#mon Fan Club"
 
 	para "All #mon Fans"
 	line "Welcome!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "Diglett's Cave"
 	done
 
 VermilionCityPortSignText:
-	text "VERMILION PORT"
-	line "ENTRANCE"
+	text "Vermilion Port"
+	line "Entrance"
 	done
 
 VermilionCity_MapEvents:

@@ -543,17 +543,17 @@ Route32CooltrainerMText_AideIsWaiting:
 
 Route32CooltrainerMText_UnusedSproutTower:
 	text "Have you gone to"
-	line "SPROUT Tower?"
+	line "Sprout Tower?"
 
 	para "If you ever visit"
-	line "VIOLET CITY, "
+	line "Violet City, "
 
 	para "they'll expect you"
 	line "to train there."
 
 	para "That's basic for"
 	line "trainers. Go to"
-	cont "SPROUT Tower!"
+	cont "Sprout Tower!"
 	done
 
 Route32CooltrainerMText_VioletGym:
@@ -577,7 +577,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "the training you"
 
 	para "gave them around"
-	line "VIOLET CITY."
+	line "Violet City."
 
 	para "The training at"
 	line "the Gym must have"
@@ -586,7 +586,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "helpful."
 
 	para "As a souvenir of"
-	line "VIOLET CITY, take"
+	line "Violet City, take"
 	cont "this."
 
 	para "It increases the"
@@ -596,7 +596,7 @@ Route32CooltrainerMText_HaveThisSeed:
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Your experiences"
-	line "in VIOLET CITY"
+	line "in Violet City"
 
 	para "should be useful"
 	line "for your journey."
@@ -607,7 +607,7 @@ Text_MillionDollarSlowpokeTail:
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	line "Slowpoketail?"
 
 	para "For you right now,"
 	line "just ¥1,000,000!"
@@ -711,7 +711,7 @@ Route32UnusedFisher2BeatenText: ; unreferenced
 
 Route32UnusedFisher2AfterText: ; unreferenced
 	text "You have to have a"
-	line "good ROD if you"
+	line "good Rod if you"
 
 	para "want to catch good"
 	line "#mon."
@@ -723,7 +723,7 @@ FisherHenrySeenText:
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "Splash?"
 	done
 
 FisherHenryAfterText:
@@ -814,9 +814,9 @@ PicnickerLiz1AfterText:
 
 BirdKeeperPeterSeenText:
 	text "That Badge! It's"
-	line "from VIOLET CITY!"
+	line "from Violet City!"
 
-	para "You beat FALKNER?"
+	para "You beat Falkner?"
 	done
 
 BirdKeeperPeterBeatenText:
@@ -827,7 +827,7 @@ BirdKeeperPeterBeatenText:
 BirdKeeperPeterAfterText:
 	text "I should train"
 	line "again at the Gym"
-	cont "in VIOLET CITY."
+	cont "in Violet City."
 	done
 
 Route32UnusedText: ; unreferenced
@@ -856,22 +856,22 @@ Text_RoarOutro:
 	done
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
+	text "Frieda: Yahoo!"
 	line "It's Friday!"
 
-	para "I'm FRIEDA of"
+	para "I'm Frieda of"
 	line "Friday!"
 
 	para "Nice to meet you!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Here's a Poison"
+	line "Barb for you!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
+	text "Frieda: Give it to"
 	line "a #mon that has"
 	cont "poison-type moves."
 
@@ -885,7 +885,7 @@ FriedaGaveGiftText:
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
+	text "Frieda: Hiya! What"
 	line "day do you like?"
 
 	para "I love Friday. No"
@@ -896,7 +896,7 @@ FriedaFridayText:
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
+	text "Frieda: Isn't it"
 	line "Friday today?"
 
 	para "It's so boring"
@@ -906,17 +906,17 @@ FriedaNotFridayText:
 Route32SignText:
 	text "Route 32"
 
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	para "Violet City -"
+	line "Azalea Town"
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "Ruins of Alph"
+	line "East Entrance"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
+	text "Union Cave"
 	line "Ahead"
 	done
 

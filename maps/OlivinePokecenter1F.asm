@@ -37,7 +37,7 @@ OlivinePokecenter1FFisherText:
 
 OlivinePokecenter1FTeacherText:
 	text "There's a person"
-	line "in CIANWOOD CITY"
+	line "in Cianwood City"
 	cont "across the sea."
 
 	para "I heard him brag-"

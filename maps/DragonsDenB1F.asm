@@ -208,7 +208,7 @@ ClairText_Wait:
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
+	text "Clair: I'm sorry"
 	line "about this."
 
 	para "Here, take this as"
@@ -222,7 +222,7 @@ Text_ReceivedTM24:
 
 ClairText_DescribeDragonbreathDragonDen:
 	text "That contains"
-	line "DRAGONBREATH."
+	line "DragonBreath."
 
 	para "No, it doesn't"
 	line "have anything to"
@@ -245,7 +245,7 @@ ClairText_NoRoom:
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
+	text "Clair: What's the"
 	line "matter? Aren't you"
 
 	para "going on to the"
@@ -255,9 +255,9 @@ ClairText_WhatsTheMatterDragonDen:
 	line "get there?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "New Bark Town."
 
-	para "Then SURF east to"
+	para "Then Surf east to"
 	line "#mon League."
 
 	para "The route there is"
@@ -278,13 +278,13 @@ ClairText_WhatsTheMatterDragonDen:
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "Dragon Shrine"
 
 	para "A shrine honoring"
 	line "the dragon #mon"
 
 	para "said to have lived"
-	line "in DRAGON'S DEN."
+	line "in Dragon's Den."
 	done
 
 RivalText_Training1:
@@ -326,7 +326,7 @@ CooltrainermDarinBeatenText:
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "The SHRINE ahead"
+	text "The Shrine ahead"
 	line "is home to the"
 
 	para "Master of our"
@@ -373,7 +373,7 @@ TwinsLeaandpia1BeatenText:
 
 TwinsLeaandpia1AfterBattleText:
 	text "It was like having"
-	line "to battle LANCE."
+	line "to battle Lance."
 	done
 
 TwinsLeaandpia2SeenText:

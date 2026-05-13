@@ -224,14 +224,14 @@ ElmsLookingForYouText:
 	para "Oh! I almost for-"
 	line "got! Your #mon"
 
-	para "GEAR is back from"
+	para "Gear is back from"
 	line "the repair shop."
 
 	para "Here you go!"
 	done
 
 MomGivesPokegearText:
-	text "#mon GEAR, or"
+	text "#mon Gear, or"
 	line "just #gear."
 
 	para "It's essential if"
@@ -259,7 +259,7 @@ ComeHomeForDSTText:
 
 	para "By the way, do you"
 	line "know how to use"
-	cont "the PHONE?"
+	cont "the Phone?"
 	done
 
 KnowTheInstructionsText:
@@ -267,7 +267,7 @@ KnowTheInstructionsText:
 	line "turn the #gear"
 
 	para "on and select the"
-	line "PHONE icon?"
+	line "Phone icon?"
 	done
 
 DontKnowTheInstructionsText:
@@ -276,7 +276,7 @@ DontKnowTheInstructionsText:
 
 	para "Turn the #gear"
 	line "on and select the"
-	cont "PHONE icon."
+	cont "Phone icon."
 	done
 
 InstructionsNextText:

@@ -148,8 +148,8 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "Kanto's POWER"
-	line "PLANT?"
+	text "Kanto's Power"
+	line "Plant?"
 
 	para "It's near the end"
 	line "of Route 9, the"
@@ -173,7 +173,7 @@ CeruleanCityCooltrainerMText2:
 	done
 
 CeruleanCitySuperNerdText:
-	text "The CAPE in the"
+	text "The Cape in the"
 	line "north is a good"
 
 	para "place for dates."
@@ -181,18 +181,18 @@ CeruleanCitySuperNerdText:
 	done
 
 CeruleanCitySlowbroText:
-	text "SLOWBRO: Yarah?"
+	text "Slowbro: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My SLOWBRO and I"
+	text "My Slowbro and I"
 	line "make an awesome"
 	cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, show me"
-	line "your CONFUSION!"
+	text "Slowbro, show me"
+	line "your Confusion!"
 	done
 
 CeruleanCityCooltrainerFText3:
@@ -201,14 +201,14 @@ CeruleanCityCooltrainerFText3:
 
 CeruleanCityFisherText:
 	text "I'm a huge fan of"
-	line "CERULEAN Gym's"
-	cont "MISTY."
+	line "Cerulean Gym's"
+	cont "Misty."
 	done
 
 CeruleanCityFisherRocketTipText:
 	text "I saw this shady"
 	line "guy go off toward"
-	cont "CERULEAN's CAPE."
+	cont "Cerulean's Cape."
 	done
 
 CeruleanCityYoungsterText1:
@@ -222,21 +222,21 @@ CeruleanCityYoungsterText1:
 CeruleanCityYoungsterText2:
 	text "Ayuh?"
 
-	para "My ITEMFINDER is"
+	para "My Itemfinder is"
 	line "responding…"
 	done
 
 CeruleanCitySignText:
-	text "CERULEAN CITY"
+	text "Cerulean City"
 
 	para "A Mysterious Blue"
 	line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "CERULEAN CITY"
+	text "Cerulean City"
 	line "#mon Gym"
-	cont "Leader: MISTY"
+	cont "Leader: Misty"
 
 	para "The Tomboyish"
 	line "Mermaid"
@@ -248,7 +248,7 @@ CeruleanBikeShopSignText:
 
 	para "The Bike Shop has"
 	line "moved to Goldenrod"
-	cont "CITY in Johto…"
+	cont "City in Johto…"
 	done
 
 CeruleanPoliceSignText:
@@ -261,11 +261,11 @@ CeruleanPoliceSignText:
 	para "a friendlier, more"
 	line "cheerful place!"
 
-	para "CERULEAN POLICE"
+	para "Cerulean Police"
 	done
 
 CeruleanCapeSignText:
-	text "CERULEAN CAPE"
+	text "Cerulean Cape"
 	line "Ahead"
 	done
 

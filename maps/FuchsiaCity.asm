@@ -55,11 +55,11 @@ FuchsiaCityYoungsterText:
 	line "Four used to be"
 
 	para "the Leader of"
-	line "FUCHSIA's Gym."
+	line "Fuchsia's Gym."
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGA's daughter"
+	text "Koga's daughter"
 	line "succeeded him as"
 
 	para "the Gym Leader"
@@ -68,25 +68,25 @@ FuchsiaCityPokefanMText:
 	done
 
 FuchsiaCityTeacherText:
-	text "The SAFARI ZONE is"
+	text "The Safari Zone is"
 	line "closed… It's sad,"
 
 	para "considering it's"
-	line "FUCHSIA's main"
+	line "Fuchsia's main"
 	cont "attraction."
 	done
 
 FuchsiaCitySignText:
-	text "FUCHSIA CITY"
+	text "Fuchsia City"
 
 	para "Behold! It's"
 	line "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
-	text "FUCHSIA CITY"
+	text "Fuchsia City"
 	line "#mon Gym"
-	cont "Leader: JANINE"
+	cont "Leader: Janine"
 
 	para "The Poisonous"
 	line "Ninja Master"
@@ -96,22 +96,22 @@ SafariZoneOfficeSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "SAFARI ZONE OFFICE"
+	para "Safari Zone Office"
 	line "is closed until"
 	cont "further notice."
 	done
 
 WardensHomeSignText:
-	text "SAFARI ZONE"
-	line "WARDEN'S HOME"
+	text "Safari Zone"
+	line "Warden's Home"
 	done
 
 SafariZoneClosedSignText:
-	text "The WARDEN is"
+	text "The Warden is"
 	line "traveling abroad."
 
 	para "Therefore, the"
-	line "SAFARI ZONE is"
+	line "Safari Zone is"
 	cont "closed."
 	done
 

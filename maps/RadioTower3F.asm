@@ -194,7 +194,7 @@ RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	line "boss has locked"
 	cont "himself in."
 
-	para "But the DIRECTOR"
+	para "But the Director"
 	line "can open it."
 
 	para "He's up on the"
@@ -204,7 +204,7 @@ RadioTower3FCooltrainerFPleaseSaveDirectorText:
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Is the DIRECTOR"
+	text "Is the Director"
 	line "safe?"
 	done
 
@@ -217,7 +217,7 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 	done
 
 RadioTower3FCooltrainerFItsSunnyDayText:
-	text "It's SUNNY DAY."
+	text "It's Sunny Day."
 	line "It powers up fire-"
 	cont "type moves for a"
 	cont "while."
@@ -308,22 +308,22 @@ ScientistMarcAfterBattleText:
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the CARD KEY"
+	text "It's the Card Key"
 	line "slot."
 	done
 
 InsertedTheCardKeyText:
 	text "<PLAYER> inserted"
-	line "the CARD KEY."
+	line "the Card Key."
 	done
 
 RadioTower3FPersonnelSignText:
-	text "3F PERSONNEL"
+	text "3F Personnel"
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#mon MUSIC with"
-	line "Host DJ BEN"
+	text "#mon Music with"
+	line "Host DJ Ben"
 	done
 
 RadioTower3F_MapEvents:

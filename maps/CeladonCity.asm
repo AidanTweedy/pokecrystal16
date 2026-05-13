@@ -76,7 +76,7 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
+	text "This Poliwrath is"
 	line "my partner."
 
 	para "I wonder if it'll"
@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "Poliwrath: Croak!"
 	done
 
 CeladonCityTeacher1Text:
@@ -100,13 +100,13 @@ CeladonCityTeacher1Text:
 	done
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
+	text "Grimer have been"
 	line "appearing lately."
 
 	para "See that pond out"
 	line "in front of the"
 
-	para "house? GRIMER live"
+	para "house? Grimer live"
 	line "there now."
 
 	para "Where did they"
@@ -126,7 +126,7 @@ CeladonCityYoungster1Text:
 	text "Want to know a"
 	line "secret?"
 
-	para "CELADON MANSION"
+	para "Celadon Mansion"
 	line "has a hidden back"
 	cont "door."
 	done
@@ -142,7 +142,7 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON Dept.Store"
+	text "Celadon Dept.Store"
 	line "has the biggest"
 
 	para "and best selection"
@@ -185,16 +185,16 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "CELADON CITY"
+	text "Celadon City"
 
 	para "The City of"
 	line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "CELADON CITY"
+	text "Celadon City"
 	line "#mon Gym"
-	cont "Leader: ERIKA"
+	cont "Leader: Erika"
 
 	para "The Nature-Loving"
 	line "Princess"
@@ -202,24 +202,24 @@ CeladonGymSignText:
 
 CeladonCityDeptStoreSignText:
 	text "Find What You"
-	line "Need at CELADON"
+	line "Need at Celadon"
 	cont "Dept.Store!"
 	done
 
 CeladonCityMansionSignText:
-	text "CELADON MANSION"
+	text "Celadon Mansion"
 	done
 
 CeladonCityGameCornerSignText:
 	text "The Playground for"
-	line "Everybody--CELADON"
+	line "Everybody--Celadon"
 	cont "Game Corner"
 	done
 
 CeladonCityTrainerTipsText:
 	text "Trainer Tips"
 
-	para "GUARD SPEC."
+	para "Guard Spec."
 	line "protects #mon"
 
 	para "against Special"
@@ -227,7 +227,7 @@ CeladonCityTrainerTipsText:
 	cont "fire and water."
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "Celadon Dept."
 	cont "Store!"
 	done
 

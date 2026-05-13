@@ -41,14 +41,14 @@ GoldenrodDeptStore4FCooltrainerMText:
 	text "Hey. I love strong"
 	line "#mon."
 
-	para "I feed them PRO-"
+	para "I feed them Pro-"
 	line "TEIN to crank up"
-	cont "their ATTACK."
+	cont "their Attack."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "IRON adds to your"
-	line "#mon's DEFENSE."
+	text "Iron adds to your"
+	line "#mon's Defense."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
@@ -59,10 +59,10 @@ GoldenrodDeptStore4FGameboyKidText:
 	line "Game Link cable."
 
 	para "I know of four:"
-	line "MACHOKE, KADABRA,"
+	line "Machoke, Kadabra,"
 
-	para "HAUNTER and, um,"
-	line "GRAVELER."
+	para "Haunter and, um,"
+	line "Graveler."
 
 	para "I heard there are"
 	line "others too."
@@ -76,7 +76,7 @@ GoldenrodDeptStore4FDirectoryText:
 	text "Let Us Pump Up"
 	line "Your #mon!"
 
-	para "4F MEDICINE Box"
+	para "4F Medicine Box"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

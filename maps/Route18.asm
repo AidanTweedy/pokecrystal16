@@ -51,9 +51,9 @@ BirdKeeperBorisAfterBattleText:
 	done
 
 BirdKeeperBobSeenText:
-	text "CYCLING ROAD is a"
+	text "Cycling Road is a"
 	line "quick shortcut to"
-	cont "CELADON."
+	cont "Celadon."
 	done
 
 BirdKeeperBobBeatenText:
@@ -71,8 +71,8 @@ BirdKeeperBobAfterBattleText:
 Route18SignText:
 	text "Route 18"
 
-	para "CELADON CITY -"
-	line "FUCHSIA CITY"
+	para "Celadon City -"
+	line "Fuchsia City"
 	done
 
 Route18_MapEvents:

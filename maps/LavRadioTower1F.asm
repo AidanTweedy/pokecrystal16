@@ -116,7 +116,7 @@ LavRadioTower1FGentlemanText:
 	para "We've been off the"
 	line "air ever since the"
 
-	para "POWER PLANT shut"
+	para "Power Plant shut"
 	line "down."
 
 	para "All my efforts to"
@@ -132,7 +132,7 @@ LavRadioTower1FGentlemanText_ReturnedMachinePart:
 	text "Ah! So you're the"
 	line "<PLAY_G> who solved"
 
-	para "the POWER PLANT's"
+	para "the Power Plant's"
 	line "problem?"
 
 	para "Thanks to you, I"
@@ -159,7 +159,7 @@ LavRadioTower1FSuperNerd2Text:
 	text "Hey there!"
 
 	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	line "Music Director!"
 
 	para "Huh? Your #gear"
 	line "can't tune into my"
@@ -167,8 +167,8 @@ LavRadioTower1FSuperNerd2Text:
 	para "music programs."
 	line "How unfortunate!"
 
-	para "If you get an EXPN"
-	line "CARD upgrade, you"
+	para "If you get an Expn"
+	line "Card upgrade, you"
 
 	para "can tune in. You'd"
 	line "better get one!"
@@ -178,7 +178,7 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	text "Hey there!"
 
 	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	line "Music Director!"
 
 	para "I'm responsible"
 	line "for the gorgeous"
@@ -192,22 +192,22 @@ LavRadioTower1FSuperNerd2Text_GotExpnCard:
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "1F Reception"
+	line "2F Sales"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "3F Personnel"
+	line "4F Production"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "5F Director's"
+	line "   Office"
 	done
 
 LavRadioTower1FPokeFluteSignText:
 	text "Perk Up #mon"
 	line "with Mellow Sounds"
 
-	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	para "of the # Flute"
+	line "on Channel 20"
 	done
 
 LavRadioTower1FReferenceLibraryText:

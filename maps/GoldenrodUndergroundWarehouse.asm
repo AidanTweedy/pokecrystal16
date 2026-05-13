@@ -112,7 +112,7 @@ GruntM24AfterBattleText:
 	text "Team Rocket will"
 	line "keep going, wait-"
 	cont "ing for the return"
-	cont "of GIOVANNI."
+	cont "of Giovanni."
 
 	para "We'll do whatever"
 	line "it takes."
@@ -135,7 +135,7 @@ GruntM14AfterBattleText:
 	text "I lost…"
 
 	para "Please forgive me,"
-	line "GIOVANNI!"
+	line "Giovanni!"
 	done
 
 GruntM15SeenText:
@@ -158,7 +158,7 @@ GruntM15AfterBattleText:
 	done
 
 DirectorIntroText:
-	text "DIRECTOR: Who?"
+	text "Director: Who?"
 	line "What? You came to"
 	cont "rescue me?"
 
@@ -173,11 +173,11 @@ DirectorIntroText:
 	line "Rocket?"
 
 	para "Here. Take this"
-	line "CARD KEY."
+	line "Card Key."
 	done
 
 DirectorCardKeyText:
-	text "DIRECTOR: Use that"
+	text "Director: Use that"
 	line "to open the shut-"
 	cont "ters on 3F."
 	done

@@ -63,12 +63,12 @@ CeladonDeptStore3FGameboyKid1Text:
 	line "#mon without"
 
 	para "removing the UP-"
-	line "GRADE from it."
+	line "Grade from it."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
 	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	line "getting a Porygon!"
 
 	para "I'm no good at the"
 	line "slots, so I could"
@@ -78,7 +78,7 @@ CeladonDeptStore3FGameboyKid2Text:
 
 	para "…Huh?"
 
-	para "The traded PORYGON"
+	para "The traded Porygon"
 	line "turned into a dif-"
 	cont "ferent #mon!"
 	done

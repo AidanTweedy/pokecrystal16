@@ -157,7 +157,7 @@ GoldenrodDeptStoreRoofBugCatcherText:
 	line "chips are down…"
 
 	para "So I came to buy"
-	line "some FULL HEAL."
+	line "some Full Heal."
 
 	para "I wonder if"
 	line "there's any left?"
@@ -188,8 +188,8 @@ Binoculars2Text:
 	done
 
 Binoculars3Text:
-	text "A FISHER caught a"
-	line "lot of MAGIKARP…"
+	text "A Fisher caught a"
+	line "lot of Magikarp…"
 
 	para "They're SPLASHing"
 	line "at the same time!"

@@ -98,7 +98,7 @@ FarmerMText_SickCow:
 	line "givin' me milk"
 	cont "n'more."
 
-	para "This here FARM's"
+	para "This here Farm's"
 	line "got famous milk."
 
 	para "Most everyone"
@@ -179,7 +179,7 @@ Text_ReceivedTM13: ; unreferenced
 
 FarmerFText_SnoreSpeech:
 	text "That there's"
-	line "SNORE."
+	line "Snore."
 
 	para "It's a rare move"
 	line "that only works"

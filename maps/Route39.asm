@@ -221,7 +221,7 @@ PokefanMDerekText_NotBragging:
 	text "I'm not listening"
 	line "to your bragging!"
 
-	para "We # FANS have"
+	para "We # Fans have"
 	line "a policy of not"
 
 	para "listening to other"
@@ -295,7 +295,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my MEOWTH at"
+	text "I met my Meowth at"
 	line "night, right here"
 	cont "on Route 39."
 
@@ -316,7 +316,7 @@ Route39SignText:
 	text "Route 39"
 
 	para "Olivine City -"
-	line "ECRUTEAK CITY"
+	line "Ecruteak City"
 	done
 
 MoomooFarmSignText:

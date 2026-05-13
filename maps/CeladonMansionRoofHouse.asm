@@ -94,7 +94,7 @@ CeladonMansionRoofHousePharmacistStoryText:
 
 	para "The boy had been"
 	line "riding uphill on"
-	cont "CYCLING ROAD!"
+	cont "Cycling Road!"
 
 	para "…"
 	line "Ba-dum ba-dum!"
@@ -105,7 +105,7 @@ CeladonMansionRoofHousePharmacistStoryText:
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
+	text "TM03 is Curse."
 
 	para "It's a terrifying"
 	line "move that slowly"

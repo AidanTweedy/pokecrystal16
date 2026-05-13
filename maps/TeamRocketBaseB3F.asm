@@ -317,7 +317,7 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: It takes"
+	text "Lance: It takes"
 	line "two passwords to"
 
 	para "get into the"
@@ -325,7 +325,7 @@ LanceGetPasswordText:
 
 	para "Those passwords"
 	line "are known only to"
-	cont "a few ROCKETS."
+	cont "a few Rockets."
 
 	para "That Rocket there"
 	line "very graciously"
@@ -388,7 +388,7 @@ ExecutiveM4BeforeText:
 	line "This is the office"
 
 	para "of our leader,"
-	line "GIOVANNI."
+	line "Giovanni."
 
 	para "Since disbanding"
 	line "Team Rocket three"
@@ -414,7 +414,7 @@ ExecutiveM4BeatenText:
 	text "I… I couldn't do a"
 	line "thing…"
 
-	para "GIOVANNI, please"
+	para "Giovanni, please"
 	line "forgive me…"
 	done
 
@@ -427,10 +427,10 @@ ExecutiveM4AfterText:
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
+	text "Murkrow: The"
 	line "password is…"
 
-	para "HAIL GIOVANNI."
+	para "Hail Giovanni."
 	done
 
 GruntF5SeenText:
@@ -452,7 +452,7 @@ GruntF5AfterBattleText:
 	text "The password to"
 	line "the boss's room is"
 
-	para "SLOWPOKETAIL."
+	para "Slowpoketail."
 
 	para "But it's useless"
 	line "unless you have"
@@ -489,12 +489,12 @@ GruntM28AfterBattleText:
 	line "the boss's room…"
 
 	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	line "Raticate Tail."
 	done
 
 ScientistRossSeenText:
 	text "I used to work for"
-	line "SILPH, but now I"
+	line "Silph, but now I"
 
 	para "run research for"
 	line "Team Rocket."

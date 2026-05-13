@@ -49,7 +49,7 @@ CherrygrovePokecenter1FGentlemanText:
 	done
 
 CherrygrovePokecenter1FTeacherText:
-	text "The COMMUNICATION"
+	text "The Communication"
 	line "Center upstairs"
 	cont "was just built."
 
@@ -58,7 +58,7 @@ CherrygrovePokecenter1FTeacherText:
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
-	text "The COMMUNICATION"
+	text "The Communication"
 	line "Center upstairs"
 	cont "was just built."
 

@@ -598,7 +598,7 @@ RocketBaseBossDontMeddleText:
 	para "As the interim"
 	line "boss in place of"
 
-	para "GIOVANNI, I'll"
+	para "Giovanni, I'll"
 	line "show you how wrong"
 
 	para "it is to meddle"
@@ -615,7 +615,7 @@ RocketBaseBossWinText:
 	line "join Team Rocket,"
 
 	para "you could become"
-	line "an EXECUTIVE."
+	line "an Executive."
 	done
 
 RocketBaseBossRetreatText:
@@ -647,10 +647,10 @@ RocketBaseBossRetreatText:
 	done
 
 RocketBaseLancePostBattleText:
-	text "LANCE: That did"
+	text "Lance: That did"
 	line "it. We defeated"
 
-	para "all the ROCKETS"
+	para "all the Rockets"
 	line "here."
 
 	para "But I'm concerned"
@@ -685,7 +685,7 @@ RockerBaseLanceElectrodeFaintText:
 	para "We have no choice."
 	line "We have to make"
 
-	para "all the ELECTRODE"
+	para "all the Electrode"
 	line "faint."
 
 	para "That should stop"
@@ -705,16 +705,16 @@ RockerBaseLanceElectrodeFaintText:
 	done
 
 RocketBaseLancesSideText:
-	text "LANCE: Leave this"
+	text "Lance: Leave this"
 	line "side to me."
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "LANCE: That odd"
+	text "Lance: That odd"
 	line "signal has finally"
 	cont "stopped."
 
-	para "The LAKE should be"
+	para "The Lake should be"
 	line "back to normal."
 
 	para "You're the hero!"
@@ -737,7 +737,7 @@ RocketBaseReceivedHM06Text: ; unreferenced
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "That's WHIRLPOOL."
+	text "That's Whirlpool."
 	line "Teach it to a"
 
 	para "#mon to get"
@@ -750,7 +750,7 @@ RocketBaseLanceWhirlpoolText:
 	line "out of battle only"
 
 	para "with the Badge"
-	line "from MAHOGANY Gym."
+	line "from Mahogany Gym."
 	done
 
 RocketBaseLanceMonMasterText:
@@ -784,7 +784,7 @@ RocketBaseLanceMonMasterText:
 	done
 
 LanceHealsText1:
-	text "LANCE: Are you all"
+	text "Lance: Are you all"
 	line "right?"
 
 	para "Your #mon are"
@@ -796,7 +796,7 @@ LanceHealsText1:
 	done
 
 LanceHealsText2:
-	text "LANCE: <PLAY_G>,"
+	text "Lance: <PLAY_G>,"
 	line "let's give it our"
 	cont "best for #mon."
 	done
@@ -818,7 +818,7 @@ GruntM17BeatenText:
 
 GruntM17AfterBattleText:
 	text "Heh, I'm just a"
-	line "GRUNT."
+	line "Grunt."
 
 	para "I don't know the"
 	line "password. Too bad"

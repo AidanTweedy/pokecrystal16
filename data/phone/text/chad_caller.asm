@@ -70,7 +70,7 @@ ChadHangUpText:
 	done
 
 ChadBlueGossipText:
-	text "Do you know BLUE?"
+	text "Do you know Blue?"
 
 	para "He's Prof.Oak's"
 	line "grandson and a"
@@ -85,7 +85,7 @@ ChadBlueGossipText:
 ChadDaisyGossipText:
 	text "Prof.Oak has a"
 	line "granddaughter"
-	cont "named DAISY."
+	cont "named Daisy."
 
 	para "When she's around,"
 	line "even the most"
@@ -150,7 +150,7 @@ ChadLeagueGossipText:
 
 ChadPokemonTalkGossipText:
 	text "Prof.Oak's #mon"
-	line "TALK is a popular"
+	line "Talk is a popular"
 	cont "radio show, right?"
 
 	para "Did you know that"
@@ -159,11 +159,11 @@ ChadPokemonTalkGossipText:
 	para "turn down the show"
 	line "at first?"
 
-	para "But MARY's energy"
+	para "But Mary's energy"
 	line "and persistence"
 	cont "wore him down."
 
-	para "So we have MARY to"
+	para "So we have Mary to"
 	line "thank for it!"
 	done
 
@@ -188,7 +188,7 @@ ChadProfOakTrainerGossipText:
 ChadDaisyTeaGossipText:
 	text "Prof.Oak has a"
 	line "granddaughter"
-	cont "named DAISY."
+	cont "named Daisy."
 
 	para "She has tea every"
 	line "day for an hour"

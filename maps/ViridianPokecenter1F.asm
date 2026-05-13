@@ -36,7 +36,7 @@ ViridianPokecenter1FBugCatcherScript:
 
 ViridianPokecenter1FCooltrainerMText:
 	text "Where in the world"
-	line "is VIRIDIAN's Gym"
+	line "is Viridian's Gym"
 
 	para "Leader? I wanted"
 	line "to challenge him."
@@ -45,7 +45,7 @@ ViridianPokecenter1FCooltrainerMText:
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
 	text "There are no Gym"
 	line "Trainers at the"
-	cont "VIRIDIAN Gym."
+	cont "Viridian Gym."
 
 	para "The Leader claims"
 	line "his policy is to"

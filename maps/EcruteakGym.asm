@@ -181,7 +181,7 @@ MortyIntroText:
 	text "Good of you to"
 	line "have come."
 
-	para "Here in ECRUTEAK,"
+	para "Here in Ecruteak,"
 	line "#mon have been"
 	cont "revered."
 
@@ -228,18 +228,18 @@ MortyWinLossText:
 
 Text_ReceivedFogBadge:
 	text "<PLAYER> received"
-	line "FOGBADGE."
+	line "Fog Badge."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
+	text "By having Fog-"
 	line "Badge, #mon up"
 
 	para "to L50 will obey"
 	line "you."
 
 	para "Also, #mon that"
-	line "know SURF will be"
+	line "know Surf will be"
 
 	para "able to use that"
 	line "move anytime."
@@ -249,11 +249,11 @@ MortyText_FogBadgeSpeech:
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW Ball."
+	text "It's Shadow Ball."
 	line "It causes damage"
 
 	para "and may reduce"
-	line "SPCL.DEF."
+	line "Sp.Def."
 
 	para "Use it if it"
 	line "appeals to you."
@@ -362,7 +362,7 @@ EcruteakGymGuideText:
 	line "may tell you some"
 
 	para "deep secrets about"
-	line "ECRUTEAK."
+	line "Ecruteak."
 	done
 
 EcruteakGymGuideWinText:
@@ -375,7 +375,7 @@ EcruteakGymGuideWinText:
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the Gym"
+	text "Morty, the Gym"
 	line "Leader, is absent."
 
 	para "Sorry, but you'll"

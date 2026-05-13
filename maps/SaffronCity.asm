@@ -120,12 +120,12 @@ SaffronCityLass1Text:
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
+	text "The Copycat girl"
 	line "looked unhappy."
 
 	para "She said she lost"
 	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	cont "Doll--Clefairy."
 	done
 
 SaffronCityPokefanMText:
@@ -162,7 +162,7 @@ SaffronCityCooltrainerMText:
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is SILPH CO.,"
+	text "This is Silph Co.,"
 	line "famous for #mon"
 	cont "merchandise."
 
@@ -178,7 +178,7 @@ SaffronCityFisherText:
 
 	para "I hear there's big"
 	line "trouble brewing at"
-	cont "the POWER PLANT."
+	cont "the Power Plant."
 
 	para "Chew… Chew…"
 	done
@@ -188,7 +188,7 @@ SaffronCityFisherText_ReturnedMachinePart:
 
 	para "I hear there was"
 	line "big trouble at the"
-	cont "POWER PLANT."
+	cont "Power Plant."
 
 	para "Chew… Chew…"
 	line "Haaah, I'm full!"
@@ -206,7 +206,7 @@ SaffronCityYoungster2Text:
 	text "There's a place"
 	line "called Trainer"
 
-	para "House in VIRIDIAN"
+	para "House in Viridian"
 	line "where trainers"
 
 	para "gather from all"
@@ -227,16 +227,16 @@ SaffronCityLass2Text:
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "Saffron City"
 
 	para "Shining, Golden"
 	line "Land of Commerce"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
+	text "Saffron City"
 	line "#mon Gym"
-	cont "Leader: SABRINA"
+	cont "Leader: Sabrina"
 
 	para "The Master of"
 	line "Psychic #mon!"
@@ -244,12 +244,12 @@ SaffronGymSignText:
 
 FightingDojoSignText:
 	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	line "Fighting Dojo"
 	done
 
 SilphCoSignText:
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "Silph Co."
+	line "Office Building"
 	done
 
 MrPsychicsHouseSignText:
@@ -258,7 +258,7 @@ MrPsychicsHouseSignText:
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
+	text "Saffron City"
 	line "Magnet Train"
 	cont "Station"
 	done

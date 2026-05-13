@@ -96,7 +96,7 @@ UnusedMissingDaughterText: ; unreferenced
 
 	para "No… She couldn't"
 	line "have gone to the"
-	cont "BURNED Tower."
+	cont "Burned Tower."
 
 	para "I told her not to"
 	line "go near it…"
@@ -109,7 +109,7 @@ UnusedMissingDaughterText: ; unreferenced
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
+	text "Ecruteak used to"
 	line "have two towers:"
 
 	para "one each in the"
@@ -121,10 +121,10 @@ EcruteakCityGramps2Text:
 	line "Have you learned"
 
 	para "to dance like the"
-	line "KIMONO GIRLS?"
+	line "Kimono Girls?"
 
 	para "If you go to their"
-	line "DANCE THEATER, an"
+	line "Dance Theater, an"
 
 	para "odd old man will"
 	line "give you something"
@@ -133,9 +133,9 @@ EcruteakCityGramps2Text:
 
 EcruteakCityLass1Text:
 	text "I'm going to prac-"
-	line "tice at the DANCE"
+	line "tice at the Dance"
 
-	para "THEATER. Care to"
+	para "Theater. Care to"
 	line "join me?"
 	done
 
@@ -205,7 +205,7 @@ EcruteakCityGramps3Text:
 	para "It's a legend that"
 	line "has been passed"
 
-	para "down by ECRUTEAK"
+	para "down by Ecruteak"
 	line "Gym Leaders."
 
 	para "Me?"
@@ -216,7 +216,7 @@ EcruteakCityGramps3Text:
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
+	text "Ecruteak City"
 	line "A Historical City"
 
 	para "Where the Past"
@@ -232,21 +232,21 @@ TinTowerSignText:
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
+	text "Ecruteak City"
 	line "#mon Gym"
-	cont "Leader: MORTY"
+	cont "Leader: Morty"
 
 	para "The Mystic Seer of"
 	line "the Future"
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
-	line "THEATER"
+	text "Ecruteak Dance"
+	line "Theater"
 	done
 
 BurnedTowerSignText:
-	text "BURNED Tower"
+	text "Burned Tower"
 
 	para "It was destroyed"
 	line "by a mysterious"

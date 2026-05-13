@@ -103,7 +103,7 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
+	text "Surge: Hey, you"
 	line "little tyke!"
 
 	para "I have to hand it"
@@ -126,20 +126,20 @@ LtSurgeIntroText:
 	done
 
 LtSurgeWinLossText:
-	text "SURGE: Arrrgh!"
+	text "Surge: Arrrgh!"
 	line "You are strong!"
 
 	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	line "Thunder Badge!"
 	done
 
 ReceivedThunderBadgeText:
 	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	line "Thunder Badge."
 	done
 
 LtSurgeThunderBadgeText:
-	text "SURGE: THUNDER-"
+	text "Surge: Thunder"
 	line "Badge increases"
 	cont "#mon's speed. "
 
@@ -151,7 +151,7 @@ LtSurgeThunderBadgeText:
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
+	text "Surge: Hey, kid!"
 	line "Still slugging and"
 	cont "chugging away?"
 
@@ -161,7 +161,7 @@ LtSurgeFightDoneText:
 
 GentlemanGregorySeenText:
 	text "You're here to"
-	line "defeat LT.SURGE?"
+	line "defeat Lt.Surge?"
 
 	para "Not if I can help"
 	line "it!"
@@ -169,7 +169,7 @@ GentlemanGregorySeenText:
 
 GentlemanGregoryBeatenText:
 	text "Sorry I failed"
-	line "you, LT.SURGE,"
+	line "you, Lt.Surge,"
 	cont "sir!"
 	done
 
@@ -177,12 +177,12 @@ GentlemanGregoryAfterBattleText:
 	text "When I was still"
 	line "in the army, LT."
 
-	para "SURGE saved my"
+	para "Surge saved my"
 	line "life."
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
+	text "Lt.Surge recog-"
 	line "nized my potential"
 
 	para "with electric"
@@ -220,7 +220,7 @@ JugglerHortonAfterBattleText:
 	line "fortable about"
 
 	para "beating me…"
-	line "LT.SURGE is tough."
+	line "Lt.Surge is tough."
 	done
 
 VermilionGymGuideText:
@@ -230,7 +230,7 @@ VermilionGymGuideText:
 	para "You lucked out"
 	line "this time."
 
-	para "LT.SURGE is very"
+	para "Lt.Surge is very"
 	line "cautious. He has"
 
 	para "traps set all over"
@@ -242,7 +242,7 @@ VermilionGymGuideText:
 
 	para "You'll have no"
 	line "problem getting to"
-	cont "LT.SURGE."
+	cont "Lt.Surge."
 	done
 
 VermilionGymGuideWinText:

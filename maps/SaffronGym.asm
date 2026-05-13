@@ -113,7 +113,7 @@ SaffronGymStatue:
 	jumpstd GymStatue2Script
 
 SabrinaIntroText:
-	text "SABRINA: I knew"
+	text "Sabrina: I knew"
 	line "you were coming…"
 
 	para "Three years ago I"
@@ -139,7 +139,7 @@ SabrinaIntroText:
 	done
 
 SabrinaWinLossText:
-	text "SABRINA: Your"
+	text "Sabrina: Your"
 	line "power…"
 
 	para "It far exceeds"
@@ -153,16 +153,16 @@ SabrinaWinLossText:
 
 	para "OK, you win. You"
 	line "earned yourself"
-	cont "MARSHBADGE."
+	cont "Marsh Badge."
 	done
 
 ReceivedMarshBadgeText:
 	text "<PLAYER> received"
-	line "MARSHBADGE."
+	line "Marsh Badge."
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: MARSH-"
+	text "Sabrina: Marsh-"
 	line "Badge draws out"
 
 	para "your subliminal"
@@ -180,7 +180,7 @@ SabrinaMarshBadgeText:
 	done
 
 SabrinaFightDoneText:
-	text "SABRINA: Your love"
+	text "Sabrina: Your love"
 	line "for your #mon"
 
 	para "overwhelmed my"
@@ -246,7 +246,7 @@ MediumDorisAfterBattleText:
 	done
 
 PsychicJaredSeenText:
-	text "The FIGHTING DOJO"
+	text "The Fighting Dojo"
 	line "next door was once"
 	cont "this city's Gym."
 	done
@@ -256,12 +256,12 @@ PsychicJaredBeatenText:
 	done
 
 PsychicJaredAfterBattleText:
-	text "KARATE KING, the"
+	text "Karate King, the"
 	line "master of the"
 
-	para "FIGHTING DOJO, was"
+	para "Fighting Dojo, was"
 	line "just destroyed by"
-	cont "SABRINA."
+	cont "Sabrina."
 	done
 
 SaffronGymGuideText:

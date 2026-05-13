@@ -148,7 +148,7 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "I am CLAIR."
+	text "I am Clair."
 
 	para "The world's best"
 	line "dragon master."
@@ -196,7 +196,7 @@ ClairText_GoToDragonsDen:
 
 	para "Behind this Gym is"
 	line "a place called"
-	cont "DRAGON'S DEN."
+	cont "Dragon's Den."
 
 	para "There is a small"
 	line "shrine at its"
@@ -236,7 +236,7 @@ BlackthornGymText_ReceivedTM24:
 
 BlackthornGymClairText_DescribeTM24:
 	text "That contains"
-	line "DRAGONBREATH."
+	line "DragonBreath."
 
 	para "No, it doesn't"
 	line "have anything to"
@@ -263,9 +263,9 @@ BlackthornGymClairText_League:
 	line "where it is?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "New Bark Town."
 
-	para "Then SURF east."
+	para "Then Surf east."
 	line "The route there is"
 	cont "very tough."
 
@@ -297,7 +297,7 @@ CooltrainermPaulBeatenText:
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "LANCE told you"
+	text "Lance told you"
 	line "that he'd like to"
 
 	para "see you again?"
@@ -356,7 +356,7 @@ BlackthornGymGuideText:
 	para "are almost done!"
 	line "Count on me!"
 
-	para "CLAIR uses the"
+	para "Clair uses the"
 	line "mythical and sac-"
 	cont "red dragon-type"
 	cont "#mon."
@@ -373,7 +373,7 @@ BlackthornGymGuideText:
 
 BlackthornGymGuideWinText:
 	text "You were great to"
-	line "beat CLAIR!"
+	line "beat Clair!"
 
 	para "All that's left is"
 	line "the #mon League"

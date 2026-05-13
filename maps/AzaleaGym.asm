@@ -148,7 +148,7 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
+	text "I'm Bugsy!"
 	line "I never lose when"
 
 	para "it comes to bug"
@@ -179,12 +179,12 @@ BugsyText_ResearchIncomplete:
 
 Text_ReceivedHiveBadge:
 	text "<PLAYER> received"
-	line "HIVEBADGE."
+	line "Hive Badge."
 	done
 
 BugsyText_HiveBadgeSpeech:
 	text "Do you know the"
-	line "benefits of HIVE-"
+	line "benefits of Hive-"
 	cont "Badge?"
 
 	para "If you have it,"
@@ -194,7 +194,7 @@ BugsyText_HiveBadgeSpeech:
 	line "even traded ones."
 
 	para "#mon that know"
-	line "CUT will be able"
+	line "Cut will be able"
 
 	para "to use it outside"
 	line "of battle too."
@@ -205,7 +205,7 @@ BugsyText_HiveBadgeSpeech:
 
 BugsyText_FuryCutterSpeech:
 	text "TM49 contains"
-	line "FURY CUTTER."
+	line "Fury Cutter."
 
 	para "If you don't miss,"
 	line "it gets stronger"
@@ -274,7 +274,7 @@ BugCatcherAlAfterBattleText:
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "SLOWPOKE? Whew,"
+	line "Slowpoke? Whew,"
 	cont "you're mighty!"
 
 	para "But my grown-up"
@@ -293,34 +293,34 @@ BugCatcherJoshAfterBattleText:
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
+	text "Amy: Hi! Are you"
 	line "challenging the"
 	cont "Leader? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
+	text "Amy & May: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
+	text "Amy: You're"
 	line "really strong!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
+	text "May: You want to"
 	line "see the Leader?"
 	cont "We come first!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
+	text "Amy & May: Oh,"
 	line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
+	text "May: Our bug #-"
 	line "mon lost! Oh, what"
 	cont "a shame."
 	done
@@ -328,7 +328,7 @@ TwinsAmyandmay2AfterBattleText:
 AzaleaGymGuideText:
 	text "Yo, challenger!"
 
-	para "BUGSY's young, but"
+	para "Bugsy's young, but"
 	line "his knowledge of"
 
 	para "bug #mon is for"

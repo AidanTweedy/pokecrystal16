@@ -103,7 +103,7 @@ Jasmine_SteelTypeIntro:
 	para "allow me to intro-"
 	line "duce myself."
 
-	para "I am JASMINE, a"
+	para "I am Jasmine, a"
 	line "Gym Leader. I use"
 	cont "the steel-type."
 
@@ -133,13 +133,13 @@ Jasmine_BetterTrainer:
 
 Text_ReceivedMineralBadge:
 	text "<PLAYER> received"
-	line "MINERALBADGE."
+	line "Mineral Badge."
 	done
 
 Jasmine_BadgeSpeech:
-	text "MINERALBADGE"
+	text "Mineral Badge"
 	line "raises #mon's"
-	cont "DEFENSE."
+	cont "Defense."
 
 	para "…Um… Please take"
 	line "this too…"
@@ -153,7 +153,7 @@ Text_ReceivedTM09: ; unreferenced
 Jasmine_IronTailSpeech:
 	text "…You could use"
 	line "that TM to teach"
-	cont "IRON TAIL."
+	cont "Iron Tail."
 	done
 
 Jasmine_GoodLuck:
@@ -163,7 +163,7 @@ Jasmine_GoodLuck:
 	done
 
 OlivineGymGuideText:
-	text "JASMINE uses the"
+	text "Jasmine uses the"
 	line "newly discovered"
 	cont "steel-type."
 
@@ -183,7 +183,7 @@ OlivineGymGuideWinText:
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, the Gym"
+	text "Jasmine, the Gym"
 	line "Leader, is at the"
 	cont "Lighthouse."
 

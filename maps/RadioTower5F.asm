@@ -210,7 +210,7 @@ FakeDirectorTextBefore2:
 
 	para "Do you want to"
 	line "know where we hid"
-	cont "the real DIRECTOR?"
+	cont "the real Director?"
 
 	para "Sure, I'll tell"
 	line "you. But only if"
@@ -224,14 +224,14 @@ FakeDirectorWinText:
 
 FakeDirectorTextAfter:
 	text "We stashed the"
-	line "real DIRECTOR in"
+	line "real Director in"
 
 	para "the Underground"
-	line "WAREHOUSE."
+	line "Warehouse."
 
 	para "It's at the far"
-	line "end of the UNDER-"
-	cont "GROUND."
+	line "end of the Under-"
+	cont "ground."
 
 	para "But I doubt you'll"
 	line "get that far."
@@ -239,7 +239,7 @@ FakeDirectorTextAfter:
 
 Executivef1SeenText:
 	text "Remember me from"
-	line "the HIDEOUT in"
+	line "the Hideout in"
 	cont "Mahogany Town?"
 
 	para "I lost then, but I"
@@ -283,7 +283,7 @@ RadioTower5FRocketBossBeforeText:
 	cont "back."
 
 	para "That should bring"
-	line "our boss GIOVANNI"
+	line "our boss Giovanni"
 
 	para "back from his solo"
 	line "training."
@@ -299,7 +299,7 @@ RadioTower5FRocketBossBeforeText:
 
 RadioTower5FRocketBossWinText:
 	text "No! Forgive me,"
-	line "GIOVANNI!"
+	line "Giovanni!"
 	done
 
 RadioTower5FRocketBossAfterText:
@@ -311,7 +311,7 @@ RadioTower5FRocketBossAfterText:
 	para "I wasn't up to the"
 	line "task after all."
 
-	para "Like GIOVANNI did"
+	para "Like Giovanni did"
 	line "before me, I will"
 
 	para "disband Team"
@@ -363,7 +363,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "connection to the"
 
 	para "Tin Tower in"
-	line "ECRUTEAK CITY…"
+	line "Ecruteak City…"
 
 	para "Ah!"
 
@@ -383,11 +383,11 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "into it."
 
 	para "OK, I better go to"
-	line "my OFFICE."
+	line "my Office."
 	done
 
 RadioTower5FDirectorText:
-	text "DIRECTOR: Hello,"
+	text "Director: Hello,"
 	line "<PLAY_G>!"
 
 	para "You know, I love"
@@ -405,17 +405,17 @@ RadioTower5FDirectorText:
 	done
 
 BenText:
-	text "BEN: Do you listen"
+	text "Ben: Do you listen"
 	line "to our music?"
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5F DIRECTOR'S"
-	line "   OFFICE"
+	text "5F Director's"
+	line "   Office"
 	done
 
 RadioTower5FStudio1SignText:
-	text "5F STUDIO 1"
+	text "5F Studio 1"
 	done
 
 RadioTower5F_MapEvents:

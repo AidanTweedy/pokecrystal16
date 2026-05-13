@@ -93,7 +93,7 @@ OakWelcomeKantoText:
 
 OakLabDexCheckText:
 	text "How is your #-"
-	line "DEX coming?"
+	line "Dex coming?"
 
 	para "Let's see…"
 	done
@@ -109,7 +109,7 @@ OakOpenMtSilverText:
 	line "excellent!"
 
 	para "You collected the"
-	line "Badges of GYMS in"
+	line "Badges of Gyms in"
 	cont "Kanto. Well done!"
 
 	para "I was right in my"
@@ -120,9 +120,9 @@ OakOpenMtSilverText:
 
 	para "arrangements so"
 	line "that you can go to"
-	cont "MT.SILVER."
+	cont "Mt.Silver."
 
-	para "MT.SILVER is a big"
+	para "Mt.Silver is a big"
 	line "mountain that is"
 
 	para "home to many wild"
@@ -138,10 +138,10 @@ OakOpenMtSilverText:
 	line "exception in your"
 	cont "case, <PLAY_G>."
 
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
+	para "Go up to Indigo"
+	line "Plateau. You can"
 
-	para "reach MT.SILVER"
+	para "reach Mt.Silver"
 	line "from there."
 	done
 
@@ -184,7 +184,7 @@ OakYesKantoBadgesText:
 
 OaksAssistant1Text:
 	text "The Prof's #mon"
-	line "TALK radio program"
+	line "Talk radio program"
 
 	para "isn't aired here"
 	line "in Kanto."
@@ -196,7 +196,7 @@ OaksAssistant1Text:
 OaksAssistant2Text:
 	text "Thanks to your"
 	line "work on the #-"
-	cont "DEX, the Prof's"
+	cont "Dex, the Prof's"
 
 	para "research is coming"
 	line "along great."
@@ -206,18 +206,18 @@ OaksAssistant3Text:
 	text "Don't tell anyone,"
 	line "but Prof.Oak's"
 
-	para "#mon TALK isn't"
+	para "#mon Talk isn't"
 	line "a live broadcast."
 	done
 
 OaksLabPoster1Text:
 	text "Press START to"
-	line "open the MENU."
+	line "open the Menu."
 	done
 
 OaksLabPoster2Text:
 	text "The Save option is"
-	line "on the MENU."
+	line "on the Menu."
 
 	para "Use it in a timely"
 	line "manner."
@@ -250,8 +250,8 @@ OaksLabPCText:
 	para "I'm delighted to"
 	line "hear that."
 
-	para "Elm in NEW BARK"
-	line "TOWN 8-)"
+	para "Elm in New Bark"
+	line "Town 8-)"
 	done
 
 OaksLab_MapEvents:

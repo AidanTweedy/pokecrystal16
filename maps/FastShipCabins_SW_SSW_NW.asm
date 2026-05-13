@@ -183,10 +183,10 @@ GuitaristClydeBeatenText:
 GuitaristClydeAfterBattleMobileText:
 	text "I was going to"
 	line "make my debut at"
-	cont "the Battle TOWER…"
+	cont "the Battle Tower…"
 
 	para "I should go back"
-	line "to VERMILION and"
+	line "to Vermilion and"
 	cont "redo my training…"
 	done
 
@@ -217,7 +217,7 @@ FastShipArrivedOlivineText:
 FastShipArrivedVermilionText:
 	text "Fast Ship S.S.Aqua"
 	line "has arrived in"
-	cont "VERMILION CITY."
+	cont "Vermilion City."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:
