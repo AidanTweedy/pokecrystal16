@@ -1,4 +1,4 @@
-	db "MUD FISH@" ; species name
+	db "Mud Fish@" ; species name
 	dw 104, 168 ; height, weight
 
 	db   "Its power can"

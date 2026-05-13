@@ -1,4 +1,4 @@
-	db "WOOD GECKO@" ; species name
+	db "Wood Gecko@" ; species name
 	dw 211, 476 ; height, weight
 
 	db   "It leaps from tree"

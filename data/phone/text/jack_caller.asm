@@ -99,7 +99,7 @@ JackGustTriviaText:
 	text "Did you know…?"
 
 	para "If your opponent"
-	line "is FLYing, your"
+	line "is Flying, your"
 
 	para "Gust becomes much"
 	line "more powerful."
@@ -109,7 +109,7 @@ JackTwisterTriviaText:
 	text "Did you know…?"
 
 	para "If your opponent"
-	line "is FLYing, your"
+	line "is Flying, your"
 
 	para "Twister becomes"
 	line "more powerful."
