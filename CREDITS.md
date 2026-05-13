@@ -24,6 +24,7 @@ The following keeps track of specific credits for assets and features.
 - [Pokemon Sour Crystal](https://github.com/SoupPotato/sourcrystal)
 - [Pokemon Redv2.0](https://github.com/KDLPro/Redv2.0/)
 - [Pokemon Prism](https://rainbowdevs.com/title/prism/)
+- [Pokemon Polished Crystal](https://github.com/rangi42/polishedcrystal)
 
 ---
 
