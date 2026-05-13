@@ -150,7 +150,7 @@ RageCandyBarMerchantTryOneText:
 	line "you should try a"
 
 	para "yummy Ragecandy-"
-	line "BAR!"
+	line "bar!"
 
 	para "Right now, it can"
 	line "be yours for just"

@@ -96,12 +96,12 @@ MagazineBookshelfText:
 	text "#mon magazines…"
 	line "#mon PAL,"
 
-	para "#mon HANDBOOK,"
-	line "#mon GRAPH…"
+	para "#mon Handbook,"
+	line "#mon Graph…"
 	done
 
 TeamRocketOathText:
-	text "Team Rocket OATH"
+	text "Team Rocket Oath"
 
 	para "Steal #mon for"
 	line "profit!"
@@ -298,8 +298,8 @@ CoinVendor_NotEnoughMoneyText:
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Whoops! Your COIN"
-	line "CASE is full."
+	text "Whoops! Your Coin"
+	line "Case is full."
 	done
 
 CoinVendor_CancelText:

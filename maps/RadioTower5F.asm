@@ -321,7 +321,7 @@ RadioTower5FRocketBossAfterText:
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "DIRECTOR: <PLAY_G>,"
+	text "Director: <PLAY_G>,"
 	line "thank you!"
 
 	para "Your courageous"

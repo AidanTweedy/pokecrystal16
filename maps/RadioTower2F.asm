@@ -669,7 +669,7 @@ RadioTower2FBuenaSadRejectedText:
 	done
 
 RadioTower2FBuenaYourPhoneIsFullText:
-	text "BUENA: <PLAY_G>,"
+	text "Buena: <PLAY_G>,"
 	line "your phone list"
 
 	para "has no room left"

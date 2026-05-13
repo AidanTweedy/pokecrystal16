@@ -191,7 +191,7 @@ Binoculars3Text:
 	text "A Fisher caught a"
 	line "lot of Magikarp…"
 
-	para "They're SPLASHing"
+	para "They're Splashing"
 	line "at the same time!"
 
 	para "Look at the water"

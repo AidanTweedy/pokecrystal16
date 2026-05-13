@@ -421,7 +421,7 @@ GoldenrodUndergroundHiddenAntidote:
 SupernerdEricSeenText:
 	text "I got booted out"
 	line "of the Game Cor-"
-	cont "NER."
+	cont "ner."
 
 	para "I was trying to"
 	line "cheat using my"

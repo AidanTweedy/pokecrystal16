@@ -42,7 +42,7 @@ GoldenrodDeptStore4FCooltrainerMText:
 	line "#mon."
 
 	para "I feed them Pro-"
-	line "TEIN to crank up"
+	line "tein to crank up"
 	cont "their Attack."
 	done
 

@@ -10,7 +10,7 @@ _EggPhotoText::
 
 _NameRaterHelloText::
 	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	line "the Name Rater."
 
 	para "I rate the names"
 	line "of #mon."
@@ -1010,7 +1010,7 @@ _ContestJudging_ThirdPlaceScoreText::
 
 _MagikarpGuruMeasureText::
 	text "Let me measure"
-	line "that MAGIKARP."
+	line "that Magikarp."
 
 	para "…Hm, it measures"
 	line "@"
@@ -1219,12 +1219,12 @@ _OakRating06::
 	line "#mon grow,"
 
 	para "others use the"
-	line "effects of STONES."
+	line "effects of Stones."
 	done
 
 _OakRating07::
 	text "Have you gotten a"
-	line "fishing ROD? You"
+	line "fishing Rod? You"
 
 	para "can catch #mon"
 	line "by fishing."

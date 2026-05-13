@@ -64,7 +64,7 @@ EventWildMons::
 ; LoadWildMon Dex Hints, max 18 chars per line
 FridayLapras_Str:
 	db 	 "Appears every"
-	next "FRIDAY, lonely in"
+	next "Friday, lonely in"
 	next "hidden sea cave.@"
 Trap_Electrode_Str:
 	db 	 "CAUTION:"
@@ -76,11 +76,11 @@ SudowoodoEvent_Str:
 	next "watered. LVL 20.@"
 ShinyGyarados_Str:
 	db 	 "Unique rampaging"
-	next "Red GYARADOS."
+	next "Red Gyarados."
 	next "LVL 30.@"
 SnorlaxEvent_Str:
 	db 	 "Guaranteed to be"
-	next "holding LEFTOVERS."
+	next "holding Leftovers."
 	next "LVL 40.@"
 SuicuneEvent_Str:
 	db 	 "Clear Bell is the"
@@ -88,11 +88,11 @@ SuicuneEvent_Str:
 	next "LVL 40.@"
 CelebiEvent_Str:
 	db 	 "GS Ball, deeply"
-	next "buried in RUINS."
-	next "Offer to SHRINE.@"
+	next "buried in Ruins."
+	next "Offer to Shrine.@"
 LugiaEvent_Str:
 	db 	 "SILVER WING, dull"
-	next "PEWTER sheen. Mis-"
+	next "Pewter sheen. Mis-"
 	next "placed as memento.@"
 HoOhEvent_Str:
 	db 	 "RAINBOW WING best-"

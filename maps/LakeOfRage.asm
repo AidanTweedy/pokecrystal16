@@ -328,7 +328,7 @@ LakeOfRageGrampsText:
 
 LakeOfRageGrampsText_ClearedRocketHideout:
 	text "Hahah! The Magi-"
-	line "KARP are biting!"
+	line "karp are biting!"
 	done
 
 LakeOfRageSuperNerdText:
