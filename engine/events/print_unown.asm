@@ -205,7 +205,7 @@ endc
 	ret
 
 AlphRuinsStampString:
-	db " ALPH RUINS STAMP@"
+	db " Alph Ruins Stamp@"
 
 UnownDexDoWhatString:
 	db "Do what?@"
@@ -218,7 +218,7 @@ UnownDexMenuString:
 	db   "@"
 
 UnownDexVacantString:
-	db "VACANT@"
+	db "Vacant@"
 
 UnownDexATile:
 INCBIN "gfx/printer/bold_a.1bpp"

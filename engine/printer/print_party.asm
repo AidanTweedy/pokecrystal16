@@ -100,9 +100,9 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next " CHECKING LINK...@"
-GBPrinterString_Transmitting: next "  TRANSMITTING...@"
-GBPrinterString_Printing: next "    PRINTING...@"
+GBPrinterString_CheckingLink: next " Checking Link...@"
+GBPrinterString_Transmitting: next "  Transmitting...@"
+GBPrinterString_Printing: next "    Printing...@"
 GBPrinterString_PrinterError1:
 	db   " Printer Error 1"
 	next ""

@@ -67,7 +67,7 @@ FridayLapras_Str:
 	next "Friday, lonely in"
 	next "hidden sea cave.@"
 Trap_Electrode_Str:
-	db 	 "CAUTION:"
+	db 	 "Caution:"
 	next "Can be disguised"
 	next "as an item.@"
 SudowoodoEvent_Str:
@@ -91,11 +91,11 @@ CelebiEvent_Str:
 	next "buried in Ruins."
 	next "Offer to Shrine.@"
 LugiaEvent_Str:
-	db 	 "SILVER WING, dull"
+	db 	 "Silver Wing, dull"
 	next "Pewter sheen. Mis-"
 	next "placed as memento.@"
 HoOhEvent_Str:
-	db 	 "RAINBOW WING best-"
+	db 	 "Rainbow Wing best-"
 	next "owed to Trainers"
 	next "after Four trials.@"
 ; ArticunoEvent_Str:
@@ -142,7 +142,7 @@ KenyaEvent_Str:
 	next "carrying mail"
 	next "for Route 31.@"
 ExtremespeedDratini_Str:
-	db 	 "EXTREMESPEED is"
+	db 	 "ExtremeSpeed is"
 	next "rewarded as a true"
 	next "virtue reflection.@"
 BillsEevee_Str:
@@ -150,7 +150,7 @@ BillsEevee_Str:
 	next "baby with un-"
 	next "limited potential.@"
 TyrogueEvent_Str:
-	db 	 "Gift from KIYO,"
+	db 	 "Gift from Kiyo,"
 	next "Karate Expert."
 	next "@"
 ; OldAmberEvent_Str:

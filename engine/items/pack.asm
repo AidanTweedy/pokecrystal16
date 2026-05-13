@@ -892,7 +892,7 @@ TMHMSubmenu:
 .UnusableMenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 1 ; items
-	db "QUIT@"
+	db "Quit@"
 
 .UnusableJumptable:
 	dw .Quit

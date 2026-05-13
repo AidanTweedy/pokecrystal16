@@ -144,7 +144,7 @@ NamingScreen:
 	ret
 
 .PlayerNameString:
-	db "YOUR NAME?@"
+	db "Your Name?@"
 
 .Rival:
 	ld de, RivalSpriteGFX
