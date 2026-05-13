@@ -48,7 +48,7 @@ LavRadioTower1FGentlemanScript:
 	end
 
 .expncardname
-	db "EXPN CARD@"
+	db "Expn Card@"
 
 LavRadioTower1FSuperNerd2Script:
 	faceplayer

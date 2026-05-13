@@ -119,7 +119,7 @@ AcademyBlackboard:
 	db "SLP@"
 	db "BRN@"
 	db "FRZ@"
-	db "QUIT@"
+	db "Quit@"
 
 AcademyNotebook:
 	opentext
