@@ -5,7 +5,7 @@
 	const OPT_BATTLE_STYLE  ; 2
 	const OPT_SOUND         ; 3
 	const OPT_PRINT         ; 4
-	const OPT_MENU_ACCOUNT  ; 5
+	const OPT_MENU_CLOCK    ; 5
 	const OPT_FRAME         ; 6
 	const OPT_CANCEL        ; 7
 DEF NUM_OPTIONS EQU const_value ; 8
@@ -75,21 +75,21 @@ _Option:
 	ret
 
 StringOptions:
-	db "TEXT SPEED<LF>"
+	db "Text Speed<LF>"
 	db "        :<LF>"
-	db "BATTLE SCENE<LF>"
+	db "Battle Scene<LF>"
 	db "        :<LF>"
-	db "BATTLE STYLE<LF>"
+	db "Battle Style<LF>"
 	db "        :<LF>"
-	db "SOUND<LF>"
+	db "Sound<LF>"
 	db "        :<LF>"
-	db "PRINT<LF>"
+	db "Print<LF>"
 	db "        :<LF>"
-	db "MENU ACCOUNT<LF>"
+	db "Menu Clock<LF>"
 	db "        :<LF>"
-	db "FRAME<LF>"
-	db "        :TYPE<LF>"
-	db "CANCEL@"
+	db "Frame<LF>"
+	db "        :Type<LF>"
+	db "Cancel@"
 
 GetOptionPointer:
 	jumptable .Pointers, wJumptableIndex
@@ -101,7 +101,7 @@ GetOptionPointer:
 	dw Options_BattleStyle
 	dw Options_Sound
 	dw Options_Print
-	dw Options_MenuAccount
+	dw Options_MenuClock
 	dw Options_Frame
 	dw Options_Cancel
 
@@ -165,10 +165,10 @@ Options_TextSpeed:
 	dw .Slow
 	dw .None
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
-.None: db "MAX @"
+.Fast: db "Fast@"
+.Mid:  db "Mid @"
+.Slow: db "Slow@"
+.None: db "Max @"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -237,8 +237,8 @@ Options_BattleScene:
 	and a
 	ret
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "On @"
+.Off: db "Off@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -275,8 +275,8 @@ Options_BattleStyle:
 	and a
 	ret
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "Shift@"
+.Set:   db "Set  @"
 
 Options_Sound:
 	ld hl, wOptions
@@ -320,8 +320,8 @@ Options_Sound:
 	and a
 	ret
 
-.Mono:   db "MONO  @"
-.Stereo: db "STEREO@"
+.Mono:   db "Mono  @"
+.Stereo: db "Stereo@"
 
 	const_def
 	const OPT_PRINT_LIGHTEST ; 0
@@ -382,11 +382,11 @@ Options_Print:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
-.Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Lightest: db "Lightest@"
+.Lighter:  db "Lighter @"
+.Normal:   db "Normal  @"
+.Darker:   db "Darker  @"
+.Darkest:  db "Darkest @"
 
 GetPrinterSetting:
 ; converts GBPRINTER_* value in a to OPT_PRINT_* value in c,
@@ -425,33 +425,33 @@ GetPrinterSetting:
 	lb de, GBPRINTER_DARKER, GBPRINTER_LIGHTEST
 	ret
 
-Options_MenuAccount:
+Options_MenuClock:
 	ld hl, wOptions2
 	ldh a, [hJoyPressed]
 	bit D_LEFT_F, a
 	jr nz, .LeftPressed
 	bit D_RIGHT_F, a
 	jr z, .NonePressed
-	bit MENU_ACCOUNT, [hl]
+	bit MENU_CLOCK, [hl]
 	jr nz, .ToggleOff
 	jr .ToggleOn
 
 .LeftPressed:
-	bit MENU_ACCOUNT, [hl]
+	bit MENU_CLOCK, [hl]
 	jr z, .ToggleOn
 	jr .ToggleOff
 
 .NonePressed:
-	bit MENU_ACCOUNT, [hl]
+	bit MENU_CLOCK, [hl]
 	jr nz, .ToggleOn
 
 .ToggleOff:
-	res MENU_ACCOUNT, [hl]
+	res MENU_CLOCK, [hl]
 	ld de, .Off
 	jr .Display
 
 .ToggleOn:
-	set MENU_ACCOUNT, [hl]
+	set MENU_CLOCK, [hl]
 	ld de, .On
 
 .Display:
@@ -460,8 +460,8 @@ Options_MenuAccount:
 	and a
 	ret
 
-.Off: db "OFF@"
-.On:  db "ON @"
+.Off: db "Off@"
+.On:  db "On @"
 
 Options_Frame:
 	ld hl, wTextboxFrame
@@ -518,15 +518,15 @@ OptionsControl:
 .DownPressed:
 	ld a, [hl]
 	cp OPT_CANCEL ; maximum option index
-	jr nz, .CheckMenuAccount
+	jr nz, .CheckMenuClock
 	ld [hl], OPT_TEXT_SPEED ; first option
 	scf
 	ret
 
-.CheckMenuAccount: ; I have no idea why this exists...
-	cp OPT_MENU_ACCOUNT
+.CheckMenuClock: ; I have no idea why this exists...
+	cp OPT_MENU_CLOCK
 	jr nz, .Increase
-	ld [hl], OPT_MENU_ACCOUNT
+	ld [hl], OPT_MENU_CLOCK
 
 .Increase:
 	inc [hl]
@@ -539,7 +539,7 @@ OptionsControl:
 ; Another thing where I'm not sure why it exists
 	cp OPT_FRAME
 	jr nz, .NotFrame
-	ld [hl], OPT_MENU_ACCOUNT
+	ld [hl], OPT_MENU_CLOCK
 	scf
 	ret
 

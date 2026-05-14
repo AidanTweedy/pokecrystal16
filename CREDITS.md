@@ -24,6 +24,7 @@ The following keeps track of specific credits for assets and features.
 - [Pokemon Sour Crystal](https://github.com/SoupPotato/sourcrystal)
 - [Pokemon Redv2.0](https://github.com/KDLPro/Redv2.0/)
 - [Pokemon Prism](https://rainbowdevs.com/title/prism/)
+- [Pokemon Polished Crystal](https://github.com/rangi42/polishedcrystal)
 
 ---
 
@@ -49,3 +50,4 @@ The following keeps track of specific credits for assets and features.
 - [Allow using a field move if the Pokemon can learn it](https://github.com/pret/pokecrystal/wiki/Allow-Using-a-Field-Move-if-the-Pokemon-Can-Learn-It#1-adding-the-new-canpartylearnmove-function-well-be-using)
 - [Automatic battle weather on certain maps](http://github.com/pret/pokecrystal/wiki/Automatic-battle-weather-on-certain-maps)
 - [Add a new Pokemon](https://github.com/pret/pokecrystal/wiki/Add-a-new-Pok%C3%A9mon) 
+- [Replace Menu Account with a small clock in the corner of the screen](https://github.com/pret/pokecrystal/wiki/Replace-Menu-Account-with-a-small-clock-in-the-corner-of-the-screen)

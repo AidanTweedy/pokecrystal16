@@ -102,7 +102,7 @@ CheckForLuckyNumberWinners:
 	text_end
 
 .MatchInStorage:
-	; Congratulations! We have a match with the ID number of @  in your PC BOX.
+	; Congratulations! We have a match with the ID number of @  in your PC Box.
 	text_far _LuckyNumberMatchPCText
 	text_end
 

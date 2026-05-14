@@ -64,10 +64,10 @@ EventWildMons::
 ; LoadWildMon Dex Hints, max 18 chars per line
 FridayLapras_Str:
 	db 	 "Appears every"
-	next "FRIDAY, lonely in"
+	next "Friday, lonely in"
 	next "hidden sea cave.@"
 Trap_Electrode_Str:
-	db 	 "CAUTION:"
+	db 	 "Caution:"
 	next "Can be disguised"
 	next "as an item.@"
 SudowoodoEvent_Str:
@@ -76,28 +76,28 @@ SudowoodoEvent_Str:
 	next "watered. LVL 20.@"
 ShinyGyarados_Str:
 	db 	 "Unique rampaging"
-	next "Red GYARADOS."
+	next "Red Gyarados."
 	next "LVL 30.@"
 SnorlaxEvent_Str:
 	db 	 "Guaranteed to be"
-	next "holding LEFTOVERS."
+	next "holding Leftovers."
 	next "LVL 40.@"
 SuicuneEvent_Str:
-	db 	 "CLEAR BELL is the"
+	db 	 "Clear Bell is the"
 	next "key to the hunt."
 	next "LVL 40.@"
 CelebiEvent_Str:
-	db 	 "GS BALL, deeply"
-	next "buried in RUINS."
-	next "Offer to SHRINE.@"
+	db 	 "GS Ball, deeply"
+	next "buried in Ruins."
+	next "Offer to Shrine.@"
 LugiaEvent_Str:
-	db 	 "SILVER WING, dull"
-	next "PEWTER sheen. Mis-"
+	db 	 "Silver Wing, dull"
+	next "Pewter sheen. Mis-"
 	next "placed as memento.@"
 HoOhEvent_Str:
-	db 	 "RAINBOW WING best-"
+	db 	 "Rainbow Wing best-"
 	next "owed to Trainers"
-	next "after FOUR trials.@"
+	next "after Four trials.@"
 ; ArticunoEvent_Str:
 ; 	db 	 "Waiting surrounded"
 ; 	next "by waves."
@@ -139,10 +139,10 @@ ShuckieEvent_Str:
 	next "of heart, forever.@"
 KenyaEvent_Str:
 	db 	 "Scrappy birb"
-	next "carrying mail"
-	next "for ROUTE 31.@"
+	next "carrying Mail"
+	next "for Route 31.@"
 ExtremespeedDratini_Str:
-	db 	 "EXTREMESPEED is"
+	db 	 "ExtremeSpeed is"
 	next "rewarded as a true"
 	next "virtue reflection.@"
 BillsEevee_Str:
@@ -150,7 +150,7 @@ BillsEevee_Str:
 	next "baby with un-"
 	next "limited potential.@"
 TyrogueEvent_Str:
-	db 	 "Gift from KIYO,"
+	db 	 "Gift from Kiyo,"
 	next "Karate Expert."
 	next "@"
 ; OldAmberEvent_Str:

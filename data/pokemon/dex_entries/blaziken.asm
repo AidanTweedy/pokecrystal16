@@ -1,4 +1,4 @@
-	db "BLAZE@" ; species name
+	db "Blaze@" ; species name
 	dw 603, 1146 ; height, weight
 
 	db   "It can clear a"

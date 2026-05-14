@@ -261,7 +261,7 @@ DisplayDexEntry:
 	ret
 
 String_pokemon:
-	db " #MON @"
+	db " #mon @"
 
 GetDexEntryPointer:
 ; return dex entry pointer b:de

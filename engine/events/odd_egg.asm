@@ -125,6 +125,6 @@ _GiveOddEgg:
 	ret
 
 .Odd:
-	db "ODD@@@@@@@@@"
+	db "Odd@@@@@@@@@"
 
 INCLUDE "data/events/odd_eggs.asm"

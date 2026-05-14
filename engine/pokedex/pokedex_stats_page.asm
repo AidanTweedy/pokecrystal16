@@ -6,9 +6,9 @@ ENDC
 EXPORT POKEDEX_STATSPAGE_MAX_PAGE_NUM
 
 String_BASE_text:
-	db "BASE       @" ; @ 8, 6
+	db "Base       @" ; @ 8, 6
 String_STATS_text:
-	db " STATS     @" ; @ 8, 7
+	db " Stats     @" ; @ 8, 7
 DisplayDexMonStats::
 	ld a, [wTempSpecies]
 	ld [wCurSpecies], a
@@ -70,7 +70,7 @@ ENDC ; done handling EVs/StatExp differences
 	ret	
 
 .Base_stats_text:
-	db "BASE STATS@"
+	db "Base Stats@"
 
 Pokedex_GBS_Stats:
 	hlcoord 1, 9

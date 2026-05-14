@@ -1,4 +1,4 @@
-	db "FOREST@" ; species name
+	db "Forest@" ; species name
 	dw 507, 1151 ; height, weight
 
 	db   "It agilely leaps"

@@ -284,7 +284,7 @@ DisplayDexMonEvos:
 .cont_page_text:
 	db $63, $64, $65, $66, "@"
 .doesnt_evo_text:
-	db "DOES NOT EVOLVE@"
+	db "Does Not Evolve@"
 .exit_early_print_cont
 	pop af
 .exit_early_print_cont2
@@ -420,16 +420,16 @@ EVO_happiness:
 	call EVO_inchlcoord
 	ret
 .happiness_text:
-	db $6e, "@"; "HAPPINESS@"
+	db $6e, "@"; "Happiness@"
 .anytime_text:
 	db $6e, "@"
-	; db "ANYTIME@"
+	; db "Anytime@"
 .sunup_text:
 	db $6e, $71, $72, "@"
-	; db "MORN/DAY@"
+	; db "Morn/Day@"
 .nite_text:
 	db $6e, $73, "@"
-	; db "NITE@"
+	; db "NIGHT@"
 
 EVO_stats:
 	push hl ; level Needed byte

@@ -50,8 +50,9 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Enhanced player selection screen
 - [ ] Enhanced textures
 - [ ] Gen III+ Berry Names
-- [ ] Lowercase text
+- [x] Lowercase text
 - [ ] New fonts
+- [ ] Game credits
 
 ## Stretch Goals
 

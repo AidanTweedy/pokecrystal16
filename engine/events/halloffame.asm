@@ -414,7 +414,7 @@ _HallOfFamePC:
 	db "@"
 
 .HOFMaster:
-	db "    HOF Master!@"
+	db "    Hof Master!@"
 
 .TimeFamer:
 	db "    -Time Famer@"
