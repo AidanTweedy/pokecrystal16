@@ -641,7 +641,7 @@ Dungeons_Map_Name20: ; map_const RADIO_TOWER_4F ; 20
 Dungeons_Map_Name21: ; map_const RADIO_TOWER_5F ; 21
 	db "Radio Tower 5F@"
 Dungeons_Map_Name22: ; map_const RUINS_OF_ALPH_OUTSIDE, ; 22
-	db "Ruins Of Alph@"
+	db "Ruins of Alph@"
 Dungeons_Map_Name23: ; map_const RUINS_OF_ALPH_HO_OH_CHAMBER ; 23
 	db "Ho-Oh Chamber@"
 Dungeons_Map_Name24: ; map_const RUINS_OF_ALPH_KABUTO_CHAMBER ; 24

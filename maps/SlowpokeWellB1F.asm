@@ -274,7 +274,7 @@ GruntM2AfterBattleText:
 	done
 
 GruntF1SeenText:
-	text "Stop taking Tails?"
+	text "Stop taking tails?"
 
 	para "Yeah, just try to"
 	line "defeat all of us!"
@@ -285,7 +285,7 @@ GruntF1BeatenText:
 	done
 
 GruntF1AfterBattleText:
-	text "Slowpoketails"
+	text "SlowpokeTails"
 	line "grow back fast!"
 
 	para "What's wrong with"
@@ -294,7 +294,7 @@ GruntF1AfterBattleText:
 
 SlowpokeWellB1FSlowpokeWithMailText:
 	text "A Slowpoke with"
-	line "its Tail cut off…"
+	line "its tail cut off…"
 
 	para "Huh? It has Mail."
 	line "Read it?"
@@ -315,7 +315,7 @@ SlowpokeWellB1FSlowpokeMailText:
 
 SlowpokeWellB1FTaillessSlowpokeText:
 	text "A Slowpoke with"
-	line "its Tail cut off…"
+	line "its tail cut off…"
 	done
 
 SlowpokeWellB1F_MapEvents:

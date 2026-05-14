@@ -509,7 +509,7 @@ SecretPotionDesc:
 
 SSTicketDesc:
 	db   "A ticket for the"
-	next "S.S.Aqua.@"
+	next "S.S. Aqua.@"
 
 MysteryEggDesc:
 	db   "An Egg obtained"
@@ -739,7 +739,7 @@ EggTicketDesc:
 	next "rod trade corner.@"
 
 LostItemDesc:
-	db   "The # doll lost"
+	db   "The # Doll lost"
 	next "by the Copycat.@"
 
 StardustDesc:

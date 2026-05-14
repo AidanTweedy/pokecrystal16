@@ -1345,7 +1345,7 @@ _JustSawSomeRareMonText::
 
 _SavingRecordText::
 	text "SAVING RECORD…"
-	line "Don't Turn Off!"
+	line "DON'T TURN OFF!"
 	done
 
 _ReceiveItemText::

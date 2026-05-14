@@ -317,7 +317,7 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "Slowpoketail? I"
+	line "SlowpokeTail? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"
@@ -330,7 +330,7 @@ AzaleaTownGrampsTextBefore:
 	cont "town…"
 
 	para "I heard their"
-	line "Tails are being"
+	line "tails are being"
 	cont "sold somewhere."
 	done
 

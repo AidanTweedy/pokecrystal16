@@ -607,7 +607,7 @@ Text_MillionDollarSlowpokeTail:
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "Slowpoketail?"
+	line "SlowpokeTail?"
 
 	para "For you right now,"
 	line "just ¥1,000,000!"
@@ -851,7 +851,7 @@ Text_RoarOutro:
 	text "WROOOAR!"
 	line "IT'S ROAR!"
 
-	para "EVEN #mon RUN"
+	para "EVEN #MON RUN"
 	line "FROM A GOOD ROAR!"
 	done
 

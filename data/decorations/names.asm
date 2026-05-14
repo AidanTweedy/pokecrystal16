@@ -22,7 +22,7 @@ DecorationNames:
 	li "Feathery"
 	li "Pikachu"
 	li "Pink"
-	li "PolkaDot"
+	li "Polkadot"
 	li "Red"
 	li "Blue"
 	li "Yellow"

@@ -176,7 +176,7 @@ RageCandyBarMerchantNoRoomText:
 	done
 
 RageCandyBarMerchantSoldOutText:
-	text "Ragecandybar's"
+	text "RageCandyBar's"
 	line "sold out."
 
 	para "I'm packing up."
@@ -232,7 +232,7 @@ MahoganyTownSignText:
 MahoganyTownRagecandybarSignText:
 	text "While visiting"
 	line "Mahogany Town, try"
-	cont "a Ragecandybar!"
+	cont "a RageCandyBar!"
 	done
 
 MahoganyGymSignText:

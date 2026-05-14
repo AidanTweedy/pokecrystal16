@@ -477,7 +477,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	para "Anyway, they're at"
 	line "the Well, cutting"
 
-	para "off Slowpoketails"
+	para "off SlowpokeTails"
 	line "for sale!"
 
 	para "So I'm going to"
@@ -622,7 +622,7 @@ KurtsGranddaughterSlowpokeBackText:
 	text "The Slowpoke my"
 	line "dad gave me came"
 
-	para "back! Its Tail is"
+	para "back! Its tail is"
 	line "growing back too!"
 	done
 

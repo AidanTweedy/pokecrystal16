@@ -52,6 +52,7 @@ This document is a living checklist outlining the items needed to be complete pr
 - [ ] Gen III+ Berry Names
 - [x] Lowercase text
 - [ ] New fonts
+- [ ] Game credits
 
 ## Stretch Goals
 

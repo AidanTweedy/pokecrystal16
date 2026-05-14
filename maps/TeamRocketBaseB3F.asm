@@ -452,7 +452,7 @@ GruntF5AfterBattleText:
 	text "The password to"
 	line "the boss's room is"
 
-	para "Slowpoketail."
+	para "SlowpokeTail."
 
 	para "But it's useless"
 	line "unless you have"
