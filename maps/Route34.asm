@@ -754,8 +754,8 @@ Route34TrainerTipsText:
 DayCareSignText:
 	text "Day-Care"
 
-	para "Let Us Raise Your"
-	line "#mon for You!"
+	para "Let us raise your"
+	line "#mon for you!"
 	done
 
 Route34_MapEvents:

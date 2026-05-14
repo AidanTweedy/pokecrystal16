@@ -139,7 +139,7 @@ ShuckieEvent_Str:
 	next "of heart, forever.@"
 KenyaEvent_Str:
 	db 	 "Scrappy birb"
-	next "carrying mail"
+	next "carrying Mail"
 	next "for Route 31.@"
 ExtremespeedDratini_Str:
 	db 	 "ExtremeSpeed is"

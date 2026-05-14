@@ -198,7 +198,7 @@ MrPokemonIntroText3:
 	line "Egg."
 
 	para "I was intrigued,"
-	line "so I sent mail to"
+	line "so I sent Mail to"
 	cont "Prof.Elm."
 
 	para "For #mon evolu-"

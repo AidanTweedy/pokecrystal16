@@ -50,7 +50,7 @@ TrainerClassNames::
 	li "Burglar"
 	li "Firebreather"
 	li "Juggler"
-	li "Blackbelt"
+	li "BlackBelt"
 	li "Rocket"
 	li "Psychic"
 	li "Picnicker"

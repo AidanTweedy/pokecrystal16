@@ -458,7 +458,7 @@ WesleyGivesGiftText:
 	done
 
 WesleyGaveGiftText:
-	text "Wesley: Blackbelt"
+	text "Wesley: BlackBelt"
 	line "beefs up the power"
 	cont "of fighting moves."
 	done
