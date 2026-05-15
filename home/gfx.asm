@@ -112,6 +112,10 @@ LoadFontsBattleExtra::
 	farcall _LoadFontsBattleExtra
 	ret
 
+LoadFontsGender::
+	farcall _LoadFontsGender
+	ret
+
 LoadFontsExtra::
 	farcall _LoadFontsExtra1
 	farcall _LoadFontsExtra2

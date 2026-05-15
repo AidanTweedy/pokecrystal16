@@ -64,14 +64,6 @@
 	charmap "ぇ",         $77 ; hiragana small e, unused
 	charmap "ぉ",         $78 ; hiragana small o, unused
 
-	charmap "┌",         $79
-	charmap "─",         $7a
-	charmap "┐",         $7b
-	charmap "│",         $7c
-	charmap "└",         $7d
-	charmap "┘",         $7e
-	charmap " ",         $7f
-
 ; Actual characters (from gfx/font/font_battle_extra.png)
 
 	charmap "<LV>",      $6e
@@ -104,8 +96,11 @@
 	charmap ">",		 $bb
 	charmap "<",		 $bc
 	charmap "=",		 $bd
+	; TODO: + and % may cause conflicts eventually. Might need to move to $e4 and $e5
 	charmap "+",		 $be
 	charmap "<%>",		 $bf
+
+	charmap " ",         $7f
 
 ; Actual characters (from gfx/font/font.png)
 
@@ -169,6 +164,13 @@
 	charmap "x",         $b7
 	charmap "y",         $b8
 	charmap "z",         $b9
+
+	charmap "┌",         $ba
+	charmap "─",         $bb
+	charmap "┐",         $bc
+	charmap "│",         $bd
+	charmap "└",         $be
+	charmap "┘",         $bf
 
 	charmap "<PSN1>",    $c1
 	charmap "<PSN2>",    $c2

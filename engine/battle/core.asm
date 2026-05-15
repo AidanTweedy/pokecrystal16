@@ -4818,12 +4818,15 @@ PrintPlayerHUD:
 	callfar GetGender
 	ld a, " "
 	jr c, .got_gender_char
-	ld a, "♂"
+	ld a, $79
 	jr nz, .got_gender_char
-	ld a, "♀"
+	ld a, $7a
 
 .got_gender_char
 	hlcoord 17, 8
+	ld [hl], a
+	hlcoord 17, 8, wAttrmap
+	ld a, PAL_BATTLE_BG_GENDER ; gender palette
 	ld [hl], a
 	push af ; back up gender
 	push hl
@@ -4904,12 +4907,16 @@ DrawEnemyHUD:
 	farcall GetGender
 	ld a, " "
 	jr c, .got_gender
-	ld a, "♂"
+	ld a, $79
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, $7a
 
 .got_gender
 	hlcoord 9, 1
+	ld [hl], a
+
+	hlcoord 9, 1, wAttrmap
+	ld a, PAL_BATTLE_BG_GENDER ; gender palette
 	ld [hl], a
 
 	push af
@@ -9176,6 +9183,7 @@ InitBattleDisplay:
 	lb bc, 3, 7
 	call ClearBox
 	call LoadStandardFont
+	call LoadFontsGender
 	call _LoadBattleFontsHPBar
 	call .BlankBGMap
 	xor a
