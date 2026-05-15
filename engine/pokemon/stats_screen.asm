@@ -462,9 +462,9 @@ StatsScreen_InitUpperHalf:
 	farcall GetGender
 	pop hl
 	ret c
-	ld a, "♂"
+	ld a, "<MALE>"
 	jr nz, .got_gender
-	ld a, "♀"
+	ld a, "<FEMALE>"
 .got_gender
 	ld [hl], a
 	ret
@@ -797,9 +797,9 @@ LoadBluePage:
 	cp $7f
 	jr z, .done
 	and CAUGHT_GENDER_MASK
-	ld a, "♂"
+	ld a, "<MALE>"
 	jr z, .got_gender
-	ld a, "♀"
+	ld a, "<FEMALE>"
 .got_gender
 	hlcoord 9, 13
 	ld [hl], a

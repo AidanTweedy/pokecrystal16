@@ -307,6 +307,11 @@ _CGB_StatsScreenHPPals:
 	ld bc, 4 palettes ; pink, green, blue, and orange page palettes
 	ld a, BANK(wBGPals1)
 	call FarCopyWRAM
+
+	ld hl, GenderPalette
+	ld de, wBGPals1 palette 7
+	call LoadPalette_White_Col1_Col2_Black ; gender palette	
+
 	call WipeAttrmap
 
 	hlcoord 0, 0, wAttrmap
@@ -343,6 +348,18 @@ _CGB_StatsScreenHPPals:
 	hlcoord 1, 15, wAttrmap
 	ld bc, 1
 	ld a, $2 ; exp palette
+	call ByteFill
+
+	; Trainer Gender
+	hlcoord 9, 13, wAttrmap
+	ld bc, 1
+	ld a, $2 ; exp palette
+	call ByteFill
+
+	; Pokemon Gender
+	hlcoord 18, 0, wAttrmap
+	ld bc, 1
+	ld a, $7 ; gender palette
 	call ByteFill
 
 	call ApplyAttrmap

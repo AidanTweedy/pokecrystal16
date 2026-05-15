@@ -1284,6 +1284,9 @@ INCLUDE "gfx/battle/hp_bar.pal"
 ExpBarPalette:
 INCLUDE "gfx/battle/exp_bar.pal"
 
+GenderPalette:
+INCLUDE "gfx/battle/gender.pal"
+
 INCLUDE "data/pokemon/palettes.asm"
 
 INCLUDE "data/trainers/palettes.asm"

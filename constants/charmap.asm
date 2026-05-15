@@ -278,8 +278,8 @@
 	charmap "ぞ", $2f
 	charmap "だ", $30
 	charmap "ぢ", $31
-	charmap "づ", $32
-	charmap "で", $33
+	charmap "<MALE>", $32 ; colored Male
+	charmap "<FEMALE>", $33 ; colored Female
 	charmap "♥",  $34
 
 	charmap "ば", $3a
