@@ -184,14 +184,9 @@ SGB_ApplyCreditsPals: ; unreferenced
 InitPartyMenuPalettes:
 	ld hl, PalPacket_PartyMenu + 1
 	call CopyFourPalettes
-	call LoadPartyMenuGenderPalette
 	call InitPartyMenuOBPals
 	call WipeAttrmap
 	ret
-
-LoadPartyMenuGenderPalette:
-	ld de, wBGPals1 palette PARTY_MENU_GENDER_PAL
-	jp LoadGenderIconPalette
 
 ; SGB layout for SCGB_PARTY_MENU_HP_BARS
 SGB_ApplyPartyMenuHPPals:
