@@ -1,4 +1,5 @@
 DEF NAMINGSCREEN_CURSOR     EQU $7e
+DEF NAMINGSCREEN_GENDER_PAL EQU $7
 
 DEF NAMINGSCREEN_BORDER     EQU "■" ; $60
 DEF NAMINGSCREEN_MIDDLELINE EQU "→" ; $eb
@@ -53,7 +54,7 @@ NamingScreen:
 	ld a, LCDC_DEFAULT
 	ldh [rLCDC], a
 	call .GetNamingScreenSetup
-	call WaitBGMap
+	call WaitBGMap2
 	call WaitTop
 	call SetDefaultBGPAndOBP
 	call NamingScreen_InitNameEntry
@@ -106,6 +107,8 @@ NamingScreen:
 	ld a, BANK(LoadMenuMonIcon)
 	ld e, MONICON_NAMINGSCREEN
 	rst FarCall
+	ld de, wBGPals1 palette NAMINGSCREEN_GENDER_PAL
+	farcall LoadGenderIconPalette
 	ld a, [wCurPartySpecies]
 	ld [wNamedObjectIndex], a
 	call GetPokemonName
@@ -120,11 +123,14 @@ NamingScreen:
 	call PlaceString
 	farcall GetGender
 	jr c, .genderless
-	ld a, "♂"
+	ld a, $79
 	jr nz, .place_gender
-	ld a, "♀"
+	ld a, $7a
 .place_gender
 	hlcoord 1, 2
+	ld [hl], a
+	hlcoord 1, 2, wAttrmap
+	ld a, NAMINGSCREEN_GENDER_PAL
 	ld [hl], a
 .genderless
 	call .StoreMonIconParams
@@ -851,6 +857,7 @@ LoadNamingScreenGFX:
 	callfar ClearSpriteAnims
 	call LoadStandardFont
 	call LoadFontsExtra
+	call LoadFontsGender
 
 	ld de, NamingScreenGFX_MiddleLine
 	ld hl, vTiles0 tile NAMINGSCREEN_MIDDLELINE
