@@ -36,6 +36,7 @@ InitPartyMenuLayout:
 
 LoadPartyMenuGFX:
 	call LoadFontsBattleExtra
+	call LoadFontsGender
 	callfar InitPartyMenuPalettes
 	callfar ClearSpriteAnims2
 	ret
@@ -448,10 +449,10 @@ PlacePartyMonGenderStats:
 	jr PlacePartyMonShiny
 
 .male
-	db "♂@"
+	db $79, "@"
 
 .female
-	db "♀@"
+	db $7a, "@"
 
 .unknown
 	db "@"
