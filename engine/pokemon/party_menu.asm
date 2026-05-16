@@ -399,6 +399,23 @@ PlacePartyMonEvoStoneCompatibility:
 .string_not_able
 	db "Not Able@"
 
+SetPartyMenuGenderAttr:
+	ld a, PAL_PARTY_MENU_GENDER
+	jr SetPartyMenuAttr
+
+ClearPartyMenuGenderAttr:
+	xor a
+
+SetPartyMenuAttr:
+	push hl
+	push de
+	ld de, wAttrmap - wTilemap
+	add hl, de
+	ld [hl], a
+	pop de
+	pop hl
+	ret
+
 PlacePartyMonGenderStats:
 	ld a, [wCurPartyMon]
 	push af
@@ -427,13 +444,21 @@ PlacePartyMonGenderStats:
 	ld de, .unknown
 	jr c, .got_gender
 	ld de, .male
-	jr nz, .got_gender
+	jr nz, .got_gender_icon
 	ld de, .female
+
+.got_gender_icon
+	pop hl
+	call SetPartyMenuGenderAttr
+	jr .place_gender
 
 .got_gender
 	pop hl
+	call ClearPartyMenuGenderAttr
+
+.place_gender
 	call PlaceString
-	
+
 .next
 	pop hl
 	ld de, 2 * SCREEN_WIDTH
@@ -442,7 +467,7 @@ PlacePartyMonGenderStats:
 	inc b
 	dec c
 	jr nz, .loop
-	
+
 .finish
 	pop af
 	ld [wCurPartyMon], a
@@ -456,7 +481,7 @@ PlacePartyMonGenderStats:
 
 .unknown
 	db "@"
-	
+
 PlacePartyMonShiny:
 	ld a, [wPartyCount]
 	and a
@@ -517,11 +542,19 @@ PlacePartyMonGender:
 	ld de, .unknown
 	jr c, .got_gender
 	ld de, .male
-	jr nz, .got_gender
+	jr nz, .got_gender_icon
 	ld de, .female
+
+.got_gender_icon
+	pop hl
+	call SetPartyMenuGenderAttr
+	jr .place_gender
 
 .got_gender
 	pop hl
+	call ClearPartyMenuGenderAttr
+
+.place_gender
 	call PlaceString
 
 .next
@@ -535,10 +568,10 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…Male@"
+	db $79, "…Male@"
 
 .female
-	db "♀…Female@"
+	db $7a, "…Female@"
 
 .unknown
 	db "…Unknown@"
@@ -801,6 +834,10 @@ PlacePartyMenuText:
 	call PlaceString
 	pop af
 	ld [wOptions], a
+	ldh a, [hCGB]
+	and a
+	ret z
+	callfar ApplyAttrmap
 	ret
 
 PartyMenuStrings:

@@ -1020,6 +1020,8 @@ _CGB_PartyMenu:
 	ld hl, PalPacket_PartyMenu + 1
 	call CopyFourPalettes
 	call InitPartyMenuBGPal0
+	ld de, wBGPals1 palette PAL_PARTY_MENU_GENDER
+	call LoadGenderIconPalette
 	call InitPartyMenuBGPal7
 	call InitPartyMenuOBPals
 	call ApplyAttrmap
