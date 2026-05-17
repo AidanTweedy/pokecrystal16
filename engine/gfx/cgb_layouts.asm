@@ -171,8 +171,7 @@ SetBattlePal_Exp:
 	jp LoadPalette_White_Col1_Col2_Black
 
 SetBattlePal_Gender:
-	ld hl, GenderPalette
-	jp LoadPalette_White_Col1_Col2_Black
+	jp LoadGenderIconPalette
 
 SetBattlePal_Text:
 	; Mobile Adapter connectivity changes bg pal 7.
@@ -327,9 +326,8 @@ _CGB_StatsScreenHPPals:
 	ld a, BANK(wBGPals1)
 	call FarCopyWRAM
 
-	ld hl, GenderPalette
 	ld de, wBGPals1 palette 7
-	call LoadPalette_White_Col1_Col2_Black ; gender palette	
+	call LoadGenderIconPalette
 
 	call WipeAttrmap
 
@@ -1020,8 +1018,7 @@ _CGB_PartyMenu:
 	ld hl, PalPacket_PartyMenu + 1
 	call CopyFourPalettes
 	call InitPartyMenuBGPal0
-	ld de, wBGPals1 palette PAL_PARTY_MENU_GENDER
-	call LoadGenderIconPalette
+	call LoadPartyMenuGenderPalette
 	call InitPartyMenuBGPal7
 	call InitPartyMenuOBPals
 	call ApplyAttrmap

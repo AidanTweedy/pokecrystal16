@@ -64,6 +64,9 @@
 	charmap "ぇ",         $77 ; hiragana small e, unused
 	charmap "ぉ",         $78 ; hiragana small o, unused
 
+DEF GENDER_ICON_MALE_TILE   EQU $79
+DEF GENDER_ICON_FEMALE_TILE EQU $7a
+
 ; Actual characters (from gfx/font/font_battle_extra.png)
 
 	charmap "<LV>",      $6e
@@ -93,10 +96,11 @@
 
 	charmap "<DEX_⁂>",   $64 ; gfx/stats/stats_tiles.png, tile 14, VRAM0
 
+	; TODO: these chars technically conflict with the new text border positions,
+	; but it should be fine as long as they arent used at the same time	
 	charmap ">",		 $bb
 	charmap "<",		 $bc
 	charmap "=",		 $bd
-	; TODO: + and % may cause conflicts eventually. Might need to move to $e4 and $e5
 	charmap "+",		 $be
 	charmap "<%>",		 $bf
 

@@ -1,5 +1,5 @@
 DEF NAMINGSCREEN_CURSOR     EQU $7e
-DEF NAMINGSCREEN_GENDER_PAL EQU $7
+DEF NAMINGSCREEN_GENDER_PAL EQU 7
 
 DEF NAMINGSCREEN_BORDER     EQU "■" ; $60
 DEF NAMINGSCREEN_MIDDLELINE EQU "→" ; $eb
@@ -123,9 +123,9 @@ NamingScreen:
 	call PlaceString
 	farcall GetGender
 	jr c, .genderless
-	ld a, $79
+	ld a, GENDER_ICON_MALE_TILE
 	jr nz, .place_gender
-	ld a, $7a
+	ld a, GENDER_ICON_FEMALE_TILE
 .place_gender
 	hlcoord 1, 2
 	ld [hl], a

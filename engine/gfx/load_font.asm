@@ -74,7 +74,7 @@ _LoadFontsBattleExtra::
 _LoadFontsGender::
 	; Load male/female from stats_tiles.2bpp tiles 1 and 2
 	ld de, StatsScreenPageTilesGFX + LEN_2BPP_TILE
-	ld hl, vTiles2 tile $79
+	ld hl, vTiles2 tile GENDER_ICON_MALE_TILE
 	lb bc, BANK(StatsScreenPageTilesGFX), 2
 	call Get2bppViaHDMA
 	ret

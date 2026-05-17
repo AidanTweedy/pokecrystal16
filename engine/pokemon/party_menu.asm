@@ -416,6 +416,13 @@ SetPartyMenuAttr:
 	pop hl
 	ret
 
+ApplyPartyMenuAttrmap:
+	ldh a, [hCGB]
+	and a
+	ret z
+	callfar ApplyAttrmap
+	ret
+
 PlacePartyMonGenderStats:
 	ld a, [wCurPartyMon]
 	push af
@@ -471,13 +478,14 @@ PlacePartyMonGenderStats:
 .finish
 	pop af
 	ld [wCurPartyMon], a
+	call ApplyPartyMenuAttrmap
 	jr PlacePartyMonShiny
 
 .male
-	db $79, "@"
+	db GENDER_ICON_MALE_TILE, "@"
 
 .female
-	db $7a, "@"
+	db GENDER_ICON_FEMALE_TILE, "@"
 
 .unknown
 	db "@"
@@ -568,10 +576,10 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db $79, "…Male@"
+	db GENDER_ICON_MALE_TILE, "…Male@"
 
 .female
-	db $7a, "…Female@"
+	db GENDER_ICON_FEMALE_TILE, "…Female@"
 
 .unknown
 	db "…Unknown@"
@@ -834,10 +842,6 @@ PlacePartyMenuText:
 	call PlaceString
 	pop af
 	ld [wOptions], a
-	ldh a, [hCGB]
-	and a
-	ret z
-	callfar ApplyAttrmap
 	ret
 
 PartyMenuStrings:

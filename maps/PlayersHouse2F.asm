@@ -136,13 +136,6 @@ if DEF(_DEBUG)
 	giveitem TM_ROCK_SMASH
 	giveitem TM_HEADBUTT
 	giveitem HM_WATERFALL
-
-	;tms
-	giveitem TM_SOLARBEAM
-	giveitem TM_FIRE_PUNCH
-	giveitem TM_THUNDERPUNCH
-	giveitem TM_ICE_PUNCH
-
 	; key items
 	giveitem BICYCLE
 	;giveitem CLEAR_BELL

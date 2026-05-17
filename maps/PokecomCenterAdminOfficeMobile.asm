@@ -97,8 +97,8 @@ PokecomCenterAdminOfficeMobileComputer2:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "aa" ; Use phone
-	db "bb" ; Don't use phone
+	db "でんわ<WO>つかうとき@" ; Use phone
+	db "でんわ<GA>つながらないとき@" ; Don't use phone
 	db "やめる@" ; QUIT
 
 PokecomCenterAdminOfficeMobileComputer3:

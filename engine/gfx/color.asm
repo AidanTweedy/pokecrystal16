@@ -184,9 +184,7 @@ SGB_ApplyCreditsPals: ; unreferenced
 InitPartyMenuPalettes:
 	ld hl, PalPacket_PartyMenu + 1
 	call CopyFourPalettes
-
-	ld de, wBGPals1 palette PAL_PARTY_MENU_GENDER ; gender pal
-	call LoadGenderIconPalette
+	call LoadPartyMenuGenderPalette
 
 	call InitPartyMenuOBPals
 	call WipeAttrmap
@@ -1291,9 +1289,13 @@ INCLUDE "gfx/battle/exp_bar.pal"
 GenderPalette:
 INCLUDE "gfx/battle/gender.pal"
 
-LoadGenderIconPalette:
+LoadGenderIconPalette::
 	ld hl, GenderPalette
 	jp LoadPalette_White_Col1_Col2_Black
+
+LoadPartyMenuGenderPalette::
+	ld de, wBGPals1 palette PAL_PARTY_MENU_GENDER
+	jp LoadGenderIconPalette
 
 INCLUDE "data/pokemon/palettes.asm"
 

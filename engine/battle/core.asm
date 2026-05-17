@@ -4818,9 +4818,9 @@ PrintPlayerHUD:
 	callfar GetGender
 	ld a, " "
 	jr c, .got_gender_char
-	ld a, $79
+	ld a, GENDER_ICON_MALE_TILE
 	jr nz, .got_gender_char
-	ld a, $7a
+	ld a, GENDER_ICON_FEMALE_TILE
 
 .got_gender_char
 	hlcoord 17, 8
@@ -4907,9 +4907,9 @@ DrawEnemyHUD:
 	farcall GetGender
 	ld a, " "
 	jr c, .got_gender
-	ld a, $79
+	ld a, GENDER_ICON_MALE_TILE
 	jr nz, .got_gender
-	ld a, $7a
+	ld a, GENDER_ICON_FEMALE_TILE
 
 .got_gender
 	hlcoord 9, 1
