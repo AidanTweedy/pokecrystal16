@@ -103,8 +103,8 @@ SetDefaultBattlePalette:
 	jr z, SetBattlePal_PlayerHP
 	dec a ; PAL_BATTLE_BG_EXP
 	jr z, SetBattlePal_Exp
-	dec a ; PAL_BATTLE_BG_5 (unused)
-	jr z, SetBattlePal_Player
+	dec a ; PAL_BATTLE_BG_GENDER
+	jr z, SetBattlePal_Gender
 	dec a ; PAL_BATTLE_BG_6 (unused)
 	jr z, SetBattlePal_Player
 	dec a ; PAL_BATTLE_BG_TEXT
@@ -170,6 +170,9 @@ SetBattlePal_Exp:
 	ld hl, ExpBarPalette
 	jp LoadPalette_White_Col1_Col2_Black
 
+SetBattlePal_Gender:
+	jp LoadGenderIconPalette
+
 SetBattlePal_Text:
 	; Mobile Adapter connectivity changes bg pal 7.
 	farcall Function100dc0 ; is a mobile adapter session active?
@@ -188,6 +191,10 @@ _CGB_BattleColors:
 	call SetBattlePal_EnemyHP
 	call SetBattlePal_PlayerHP
 	call SetBattlePal_Exp
+
+	ld de, wBGPals1 palette PAL_BATTLE_BG_GENDER
+	call SetBattlePal_Gender
+
 	ld de, wOBPals1
 	call SetBattlePal_Enemy
 	call SetBattlePal_Player
@@ -230,6 +237,17 @@ _CGB_FinishBattleScreenLayout:
 	ld bc, 6 palettes
 	ld a, BANK(wOBPals1)
 	call FarCopyWRAM
+
+	; Enemy gender icon
+	hlcoord 9, 1, wAttrmap
+	ld a, PAL_BATTLE_BG_GENDER
+	ld [hl], a
+
+	; Player gender icon
+	hlcoord 17, 8, wAttrmap
+	ld a, PAL_BATTLE_BG_GENDER
+	ld [hl], a
+
 	call ApplyAttrmap
 	ret
 
@@ -307,6 +325,10 @@ _CGB_StatsScreenHPPals:
 	ld bc, 4 palettes ; pink, green, blue, and orange page palettes
 	ld a, BANK(wBGPals1)
 	call FarCopyWRAM
+
+	ld de, wBGPals1 palette 7
+	call LoadGenderIconPalette
+
 	call WipeAttrmap
 
 	hlcoord 0, 0, wAttrmap
@@ -343,6 +365,18 @@ _CGB_StatsScreenHPPals:
 	hlcoord 1, 15, wAttrmap
 	ld bc, 1
 	ld a, $2 ; exp palette
+	call ByteFill
+
+	; Trainer Gender
+	hlcoord 9, 13, wAttrmap
+	ld bc, 1
+	ld a, $2 ; exp palette
+	call ByteFill
+
+	; Pokemon Gender
+	hlcoord 18, 0, wAttrmap
+	ld bc, 1
+	ld a, $7 ; gender palette
 	call ByteFill
 
 	call ApplyAttrmap
@@ -984,6 +1018,7 @@ _CGB_PartyMenu:
 	ld hl, PalPacket_PartyMenu + 1
 	call CopyFourPalettes
 	call InitPartyMenuBGPal0
+	call LoadPartyMenuGenderPalette
 	call InitPartyMenuBGPal7
 	call InitPartyMenuOBPals
 	call ApplyAttrmap

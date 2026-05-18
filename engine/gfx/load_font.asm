@@ -29,11 +29,11 @@ _LoadStandardFont::
 	call Get1bppViaHDMA
 	ld de, Font + 32 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $20
-	lb bc, BANK(Font), 32 ; "a" to $bf
+	lb bc, BANK(Font), 26 ; "a" to "z" (skip "┌" to "┘")
 	call Get1bppViaHDMA
 	ld de, Font + 64 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $40
-	lb bc, BANK(Font), 32 ; "Ä" to "←"
+	lb bc, BANK(Font), 32 ; "$c0" to "←"
 	call Get1bppViaHDMA
 	ld de, Font + 96 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $60
@@ -71,6 +71,14 @@ _LoadFontsBattleExtra::
 	call Get2bppViaHDMA
 	jr LoadFrame
 
+_LoadFontsGender::
+	; Load male/female from stats_tiles.2bpp tiles 1 and 2
+	ld de, StatsScreenPageTilesGFX + LEN_2BPP_TILE
+	ld hl, vTiles2 tile GENDER_ICON_MALE_TILE
+	lb bc, BANK(StatsScreenPageTilesGFX), 2
+	call Get2bppViaHDMA
+	ret
+
 LoadFrame:
 	ld a, [wTextboxFrame]
 	maskbits NUM_FRAMES
@@ -79,7 +87,7 @@ LoadFrame:
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles2 tile "┌" ; $79
+	ld hl, vTiles0 tile "┌" ; $ba
 	lb bc, BANK(Frames), TEXTBOX_FRAME_TILES ; "┌" to "┘"
 	call Get1bppViaHDMA
 	ld hl, vTiles2 tile " " ; $7f

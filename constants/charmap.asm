@@ -64,13 +64,8 @@
 	charmap "ぇ",         $77 ; hiragana small e, unused
 	charmap "ぉ",         $78 ; hiragana small o, unused
 
-	charmap "┌",         $79
-	charmap "─",         $7a
-	charmap "┐",         $7b
-	charmap "│",         $7c
-	charmap "└",         $7d
-	charmap "┘",         $7e
-	charmap " ",         $7f
+DEF GENDER_ICON_MALE_TILE   EQU $79
+DEF GENDER_ICON_FEMALE_TILE EQU $7a
 
 ; Actual characters (from gfx/font/font_battle_extra.png)
 
@@ -101,11 +96,15 @@
 
 	charmap "<DEX_⁂>",   $64 ; gfx/stats/stats_tiles.png, tile 14, VRAM0
 
+	; TODO: these chars technically conflict with the new text border positions,
+	; but it should be fine as long as they arent used at the same time	
 	charmap ">",		 $bb
 	charmap "<",		 $bc
 	charmap "=",		 $bd
 	charmap "+",		 $be
 	charmap "<%>",		 $bf
+
+	charmap " ",         $7f
 
 ; Actual characters (from gfx/font/font.png)
 
@@ -169,6 +168,13 @@
 	charmap "x",         $b7
 	charmap "y",         $b8
 	charmap "z",         $b9
+
+	charmap "┌",         $ba
+	charmap "─",         $bb
+	charmap "┐",         $bc
+	charmap "│",         $bd
+	charmap "└",         $be
+	charmap "┘",         $bf
 
 	charmap "<PSN1>",    $c1
 	charmap "<PSN2>",    $c2
@@ -278,8 +284,8 @@
 	charmap "ぞ", $2f
 	charmap "だ", $30
 	charmap "ぢ", $31
-	charmap "づ", $32
-	charmap "で", $33
+	charmap "<MALE>", $32 ; colored Male
+	charmap "<FEMALE>", $33 ; colored Female
 	charmap "♥",  $34
 
 	charmap "ば", $3a

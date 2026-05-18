@@ -91,6 +91,8 @@ DEF HMENURETURN_SCRIPT EQU %10000000
 DEF HMENURETURN_ASM    EQU %11111111
 
 ; PartyMenuQualityPointers indexes (see data/party_menu_qualities.asm)
+DEF PAL_PARTY_MENU_GENDER EQU 6 ; palette 7 is reserved for text boxes
+
 	const_def
 	const PARTYMENUACTION_CHOOSE_POKEMON
 	const PARTYMENUACTION_HEALING_ITEM
